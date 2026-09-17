@@ -13,6 +13,9 @@ models/
 *.pth
 *.safetensors
 *.ckpt
+# Data
+data/
+*.json
 
 # Python
 __pycache__/
