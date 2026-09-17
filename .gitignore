@@ -1,0 +1,24 @@
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Models / weights
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
