@@ -1,0 +1,11 @@
+transformers
+torch
+requests
+llama-cpp-python
+huggingface-hub
+networkx
+matplotlib
+
+# Models required:
+# - Zual/MPropositioneur-V2
+# - Qwen3 GGUF
