@@ -1,0 +1,23 @@
+[
+  {
+    "pair_id": "en:demo:1:s0:ap:0::es:demo:1:s0:ap:0",
+    "section_pair_id": "en:demo:1:s0::es:demo:1:s0",
+    "proposition_a": {
+      "proposition_id": "en:demo:1:s0:ap:0",
+      "section_id": "en:demo:1:s0",
+      "article_id": "en:demo",
+      "language": "en",
+      "text": "Argentina is in South America.",
+      "source_text": "Argentina is in South America."
+    },
+    "proposition_b": {
+      "proposition_id": "es:demo:1:s0:ap:0",
+      "section_id": "es:demo:1:s0",
+      "article_id": "es:demo",
+      "language": "es",
+      "text": "Argentina está en América del Sur.",
+      "source_text": "Argentina está en América del Sur."
+    },
+    "match_reason": "compatible subject/object QIDs; synthetic example"
+  }
+]

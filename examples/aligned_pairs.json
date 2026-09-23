@@ -1,0 +1,53 @@
+[
+  {
+    "section_pair_id": "en:demo:1:s0::es:demo:1:s0",
+    "event_qid": null,
+    "section_a": {
+      "section_id": "en:demo:1:s0",
+      "article_id": "en:demo",
+      "language": "en",
+      "revision_id": 1,
+      "title": "Geography",
+      "text": "Argentina is in South America.",
+      "wikilinks": [],
+      "entities": [
+        {
+          "mention": "Argentina",
+          "qid": "Q414",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "mention": "South America",
+          "qid": "Q18",
+          "start": 16,
+          "end": 29
+        }
+      ]
+    },
+    "section_b": {
+      "section_id": "es:demo:1:s0",
+      "article_id": "es:demo",
+      "language": "es",
+      "revision_id": 1,
+      "title": "Geografía",
+      "text": "Argentina está en América del Sur.",
+      "wikilinks": [],
+      "entities": [
+        {
+          "mention": "Argentina",
+          "qid": "Q414",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "mention": "América del Sur",
+          "qid": "Q18",
+          "start": 18,
+          "end": 33
+        }
+      ]
+    },
+    "alignment_score": 0.9
+  }
+]

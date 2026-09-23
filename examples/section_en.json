@@ -1,0 +1,123 @@
+{
+  "section_id": "en:7550182:1375355019:s0",
+  "article_id": "en:7550182",
+  "language": "en",
+  "revision_id": 1375355019,
+  "title": "",
+  "text": "TThe Falkland Islands (Q9648) (/ˈfɔː(l)klənd, ˈfɒlk-/; Spanish: Islas Malvinas (Q9648) [ˈislas malˈβinas]), commonly referred to as the Falklands (Q9648), is an archipelago in the South Atlantic Ocean (Q1482804) on the Patagonian Shelf (Q5503766). The principal islands are about 300 mi (500 km) east of South America (Q18)'s southern Patagonian coast and 752 mi (1,210 km) from Cape Dubouzet (Q983011) at the northern tip of the Antarctic Peninsula (Q185605), at a latitude of about 52°S. The archipelago, with an area of 4,700 sq mi (12,000 km2), comprises East Falkland (Q642226), West Falkland (Q733338), and 776 smaller islands. As a British Overseas Territory (Q46395), the Falklands (Q9648) have internal self-governance, while the United Kingdom (Q145) takes responsibility for their defence and foreign affairs. The capital and largest settlement is Stanley (Q12245) on East Falkland (Q642226).",
+  "wikilinks": [
+    {
+      "label": "archipelago",
+      "title": "Archipelago",
+      "qid": "Q33837"
+    },
+    {
+      "label": "South Atlantic Ocean",
+      "title": "South Atlantic Ocean",
+      "qid": "Q1482804"
+    },
+    {
+      "label": "Patagonian Shelf",
+      "title": "Patagonian Shelf",
+      "qid": "Q5503766"
+    },
+    {
+      "label": "Patagonian",
+      "title": "Patagonia",
+      "qid": "Q1507"
+    },
+    {
+      "label": "Cape Dubouzet",
+      "title": "Cape Dubouzet",
+      "qid": "Q983011"
+    },
+    {
+      "label": "Antarctic Peninsula",
+      "title": "Antarctic Peninsula",
+      "qid": "Q185605"
+    },
+    {
+      "label": "East Falkland",
+      "title": "East Falkland",
+      "qid": "Q642226"
+    },
+    {
+      "label": "West Falkland",
+      "title": "West Falkland",
+      "qid": "Q733338"
+    },
+    {
+      "label": "British Overseas Territory",
+      "title": "British Overseas Territories",
+      "qid": "Q46395"
+    },
+    {
+      "label": "self-governance",
+      "title": "Self-governance",
+      "qid": "Q417633"
+    },
+    {
+      "label": "Stanley",
+      "title": "Stanley, Falkland Islands",
+      "qid": "Q12245"
+    }
+  ],
+  "entities": [
+    {
+      "label": "Falkland Islands",
+      "qid": "Q9648"
+    },
+    {
+      "label": "Archipelago",
+      "qid": "Q33837"
+    },
+    {
+      "label": "South Atlantic Ocean",
+      "qid": "Q1482804"
+    },
+    {
+      "label": "Patagonian Shelf",
+      "qid": "Q5503766"
+    },
+    {
+      "label": "South America",
+      "qid": "Q18"
+    },
+    {
+      "label": "Patagonia",
+      "qid": "Q1507"
+    },
+    {
+      "label": "Cape Dubouzet",
+      "qid": "Q983011"
+    },
+    {
+      "label": "Antarctic Peninsula",
+      "qid": "Q185605"
+    },
+    {
+      "label": "East Falkland",
+      "qid": "Q642226"
+    },
+    {
+      "label": "West Falkland",
+      "qid": "Q733338"
+    },
+    {
+      "label": "British Overseas Territories",
+      "qid": "Q46395"
+    },
+    {
+      "label": "Self-governance",
+      "qid": "Q417633"
+    },
+    {
+      "label": "United Kingdom",
+      "qid": "Q145"
+    },
+    {
+      "label": "Stanley",
+      "qid": "Q12245"
+    }
+  ]
+}

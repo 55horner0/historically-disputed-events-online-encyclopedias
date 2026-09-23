@@ -1,0 +1,32 @@
+[
+  {
+    "triplet_id": "en:demo:1:s0:ap:0:t:0",
+    "proposition_id": "en:demo:1:s0:ap:0",
+    "subject": {
+      "label": "Argentina",
+      "qid": "Q414",
+      "kind": "entity"
+    },
+    "relation": "located_in",
+    "object": {
+      "label": "South America",
+      "qid": "Q18",
+      "kind": "entity"
+    }
+  },
+  {
+    "triplet_id": "es:demo:1:s0:ap:0:t:0",
+    "proposition_id": "es:demo:1:s0:ap:0",
+    "subject": {
+      "label": "Argentina",
+      "qid": "Q414",
+      "kind": "entity"
+    },
+    "relation": "located_in",
+    "object": {
+      "label": "América del Sur",
+      "qid": "Q18",
+      "kind": "entity"
+    }
+  }
+]
