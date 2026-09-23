@@ -10,35 +10,52 @@ import matplotlib.pyplot as plt
 
 
 from .schemas import Entity, Proposition, Triplet 
+from typing import Literal
 
 
-def prompt_LLM_for_triplets(proposition):
+def prompt_LLM_for_triplets(proposition,lenguage: Literal["en", "es"]):
+
+    all_valid_qids = re.findall(r"\((Q\d+)\)", proposition)
 
     schema = {
         "type": "object",
         "properties": {
             "triplets": {
                 "type": "array",
+                "maxItems": 10,
                 "items": {
                     "type": "object",
                     "properties": {
                         "subject": {
                             "type": "object",
                             "properties": {
-                                "label": {"type": "string"},
-                                "qid": {"type": "string"}
+                                "label": {
+                                    "type": "string",
+                                    "maxLength": 150
+                                },
+                                "qid": {
+                                    "type": "string",
+                                    "enum": all_valid_qids
+                                }
                             },
                             "required": ["label", "qid"],
                             "additionalProperties": False
                         },
                         "relation": {
-                            "type": "string"
+                            "type": "string",
+                            "maxLength": 80
                         },
                         "object": {
                             "type": "object",
                             "properties": {
-                                "label": {"type": "string"},
-                                "qid": {"type": "string"}
+                                "label": {
+                                    "type": "string",
+                                    "maxLength": 150
+                                },
+                                "qid": {
+                                    "type": "string",
+                                    "enum": all_valid_qids
+                                }
                             },
                             "required": ["label", "qid"],
                             "additionalProperties": False
@@ -57,23 +74,25 @@ def prompt_LLM_for_triplets(proposition):
         "additionalProperties": False
     }
 
-    messages = [
+
+    messages_en = [
         {
             "role": "system",
             "content": (
+                "/no_think\n"
                 "You are a knowledge graph extraction system. "
                 "Extract only explicitly stated factual information. "
                 "Remove determiners/articles from subject and object labels "
                 "(e.g. the, a, an). "
 
-                "Entities in the input may be annotated with Wikidata QIDs "
+                "Entities in the input have be annotated with Wikidata QIDs "
                 "using the format 'Entity name (Q123)'. "
 
                 "For every subject and object, preserve and copy the Wikidata QID "
                 "exactly as it appears in the input. "
                 "Do not remove QIDs. "
                 "Do not modify QIDs. "
-                "Do not infer or invent QIDs. "
+                "Do not infer or invent QIDs. The allowed QIDs are: " + ", ".join(all_valid_qids) + ". "
 
                 "The subject and object must each contain two fields: "
                 "'label' and 'qid'. "
@@ -84,23 +103,75 @@ def prompt_LLM_for_triplets(proposition):
         {
             "role": "user",
             "content": f"""
-    Extract all factual knowledge graph triples from the following proposition.
+                Extract all factual knowledge graph triples from the following proposition.
 
-    IMPORTANT:
-    - Copy entity QIDs exactly from the proposition.
-    - Never generate a QID that is not explicitly present in the proposition.
-    - Preserve the association between each entity and its QID.
+                IMPORTANT:
+                - Copy entity QIDs exactly from the proposition.
+                - Never generate a QID that is not explicitly present in the proposition.
+                - Preserve the association between each entity and its QID.
+                - All subjects and objects must have a QID. If either the subject or object does not have a QID, skip that triplet.
+                - If the subject and object have the same QID, skip that triplet.
 
-    Proposition:
-    {proposition}
-    """
+                Proposition:
+                {proposition}
+                """
+                    }
+                ]
+
+
+    messages_es = [
+        {
+            "role": "system",
+            "content": (
+                "/no_think\n"
+                "Eres un sistema de extracción de grafos de conocimiento. "
+                "Extrae únicamente información factual explícitamente indicada. "
+                "Elimina los determinantes/artículos de las etiquetas del sujeto y del objeto "
+                "(por ejemplo, el, la, los, las, un, una). "
+
+                "Las entidades de la entrada han sido anotadas con QIDs de Wikidata "
+                "utilizando el formato 'Nombre de la entidad (Q123)'. "
+
+                "Para cada sujeto y objeto, conserva y copia el QID de Wikidata "
+                "exactamente como aparece en la entrada. "
+                "No elimines QIDs. "
+                "No modifiques QIDs. "
+                "No infieras ni inventes QIDs. Los QIDs permitidos son: " + ", ".join(all_valid_qids) + ". "
+
+                "El sujeto y el objeto deben contener cada uno dos campos: "
+                "'label' y 'qid'. "
+                "El campo 'label' NO debe contener el propio QID; coloca el QID únicamente "
+                "en el campo 'qid'."
+            )
+        },
+        {
+            "role": "user",
+            "content": f"""
+                Extrae todos los tripletes factuales del grafo de conocimiento de la siguiente proposición.
+
+                IMPORTANTE:
+                - Copia los QIDs de las entidades exactamente como aparecen en la proposición.
+                - Nunca generes un QID que no esté explícitamente presente en la proposición.
+                - Conserva la asociación entre cada entidad y su QID.
+                - Todos los sujetos y objetos deben tener un QID. Si el sujeto o el objeto no tiene un QID, omite ese triplete.
+                - Si el sujeto y el objeto tienen el mismo QID, omite ese triplete.
+
+                Proposición:
+                {proposition}
+                """
         }
     ]
 
-    return messages, schema
+
+    if lenguage == "es":
+        return messages_es, schema
+
+    if lenguage == "en":
+        return messages_en, schema
 
 
-def extract_triplets(propositions: list[Proposition], model: Any) -> list[Triplet]:
+
+def extract_triplets(propositions: list[Proposition], model: Any, lenguage: Literal["es", "en"]) -> list[Triplet]:
 
     """Extract semantic relations from the text of each proposition.
 
@@ -123,12 +194,12 @@ def extract_triplets(propositions: list[Proposition], model: Any) -> list[Triple
         # Use the proposition text 
         text = proposition["text"]
         # Use the model to extract triplets
-        messages, schema=prompt_LLM_for_triplets(text)
+        messages, schema=prompt_LLM_for_triplets(text, lenguage=lenguage)
 
         response = model.create_chat_completion(
                 messages=messages,
                 temperature=0,
-                max_tokens=256,
+                max_tokens=4096,
                 response_format={
                     "type": "json_object",
                     "schema": schema
@@ -143,6 +214,13 @@ def extract_triplets(propositions: list[Proposition], model: Any) -> list[Triple
 
             _subject: Entity = {"label": triplet["subject"]["label"], "qid": triplet["subject"]["qid"]}
             _object: Entity = {"label": triplet["object"]["label"], "qid": triplet["object"]["qid"]}
+
+            if not _object["qid"] or not _subject["qid"]:
+                # If either the subject or object does not have a QID, skip this triplet
+                continue
+            if _subject["qid"] == _object["qid"]:
+                # If the subject and object have the same QID, skip this triplet
+                continue
 
             triplet_id = f"{proposition['proposition_id']}:triplet:{index}"
 
@@ -270,13 +348,13 @@ if __name__ == "__main__":
     import pathlib as Path
     directory = Path.Path.cwd()
     # read the propositions from the JSON file
-    with open(f"{directory}/examples/propositions_s0.json", "r", encoding="utf-8") as f:
+    with open(f"{directory}/examples/propositions_s0_es.json", "r", encoding="utf-8") as f:
         propositions = json.load(f)
     
     model = load_Qwen3_8B_via_llama_cpp() 
-    triplets = extract_triplets(propositions, model)
+    triplets = extract_triplets(propositions, model, lenguage="es")
 
-    with open(f"{directory}/examples/triplets_s0.json", "w", encoding="utf-8") as f:
+    with open(f"{directory}/examples/triplets_s0_es.json", "w", encoding="utf-8") as f:
         json.dump(triplets, f, indent=4, ensure_ascii=False)
 
     build_graph(triplets)

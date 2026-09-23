@@ -4,8 +4,6 @@
 
 from pathlib import Path
 from typing import Any
-
-from transformers import AutoModelForCausalLM, AutoTokenizer, data
 import torch
 import json
 
@@ -50,12 +48,13 @@ def extract_propositions(section: Section, model: Any, tokenizer: Any) -> list[P
 
         proposition_id = f"{section['section_id']}:ap:{index}"
 
+
         proposition_record: Proposition = {
             "proposition_id": proposition_id,
             "section_id": section["section_id"],
             "article_id": section["article_id"],
             "language": section["language"],
-            "text": prop_text,
+            "text": next(iter(prop_text.values())),
             "source_text": text
         }
 
@@ -72,12 +71,12 @@ if __name__ =='__main__':
     directory = Path.Path.cwd()
 
     # read the propositions from the JSON file
-    with open(f"{directory}/examples/section.json", "r", encoding="utf-8") as f:
+    with open(f"{directory}/examples/section_es.json", "r", encoding="utf-8") as f:
         example_section = json.load(f)
 
     model, tokenizer = load_MPropositioneur_V2()
 
     propositions = extract_propositions(example_section, model, tokenizer)
 
-    with open(f"{directory}/examples/propositions_s0.json", "w", encoding="utf-8") as f:
+    with open(f"{directory}/examples/propositions_s0_es.json", "w", encoding="utf-8") as f:
         json.dump(propositions, f, indent=4, ensure_ascii=False)

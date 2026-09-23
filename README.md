@@ -27,13 +27,11 @@ study omission, contradiction and framing, keeping these measures separate.
 |---|---|
 | `main.py` | Project entry point; future orchestration and skeleton. |
 | `utilities/` | Functions separated by responsibility |
-|`data/`| CSV with the urls by article and lenguage|
 | `models/` | Local weights
 | `prompts/` | Versioned prompt drafts. |
 | `results/` | Metrics, manifests, correlations and figures by experiment. |
-| `notebooks/` | Six initial notebooks for exploration by stage. |
+| `notebooks/` | Initial notebooks |
 | `examples/` | Small synthetic datasets illustrating the contracts. |
-| `docs/` | Interfaces, formats, methodology and annotation guidelines. |
 | `requirements.txt` | Base dependencies and commented-out candidates. |
 | `.gitignore` | Excludes weights, caches and generated results. |
 
