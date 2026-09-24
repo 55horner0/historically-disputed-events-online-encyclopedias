@@ -15,7 +15,6 @@ models/
 *.ckpt
 # Data
 data/
-*.json
 
 # Python
 __pycache__/

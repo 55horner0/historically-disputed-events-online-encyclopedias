@@ -1,0 +1,230 @@
+{
+  "section_id": "es:8667:175312716:s0",
+  "article_id": "es:8667",
+  "language": "es",
+  "revision_id": 175312716,
+  "title": "",
+  "text": "Las islas Malvinas (Q9648) o islas Falkland (Q9648) (en inglés (Q1860): Falkland Islands (Q9648), AFI (Q21204): [ˈfɔːlklənd ˈaɪləndz]) son un archipiélago (Q33837) de América del Sur (Q18) situado en el mar Argentino (Q970130), que es un mar epicontinental (Q2578218) del océano Atlántico (Q97) Sur (Q667) adyacente a dicho país, a unos 500 km de la costa. El archipiélago (Q33837) corresponde a tierras emergidas de una prolongación natural y geológica de la plataforma continental patagónica (Q5503766).\n\nA diferencia de otras islas más cercanas al continente, las Islas Malvinas (Q9648) no tienen población humana autóctona, originaria o indígena (Q9064330). Los primeros visitantes fueron europeos que llegaron durante la conquista europea de América (Q2750609) entre los siglos XVI y XVII. Distintos países —Francia (Q142), el Reino Unido (Q145), España (Q29) y, desde el siglo XIX, el Río de la Plata (Q738144)— llevaron adelante planes de asentamiento permanente basados en sus intereses expansionistas.\n\nSegún la Organización de las Naciones Unidas (Q1065), es un territorio no autónomo (Q900119) cuya potencia administradora es el Reino Unido (Q145) y cuya soberanía (Q42008) es reclamada por Argentina (Q414). Es uno de los 17 territorios en la lista de territorios no autónomos (Q900119) bajo supervisión del Comité Especial de Descolonización (Q530843) de las Naciones Unidas (Q1065), con el fin de examinar la situación con respecto a la aplicación de la Resolución 1514 de la Asamblea General de las Naciones Unidas (Q2629473), por lo que la situación del archipiélago (Q33837) es examinada anualmente por el Comité de Descolonización (Q530843) desde 1965 debido a la Resolución 2065 de la Asamblea General de las Naciones Unidas (Q16269944). Jurídicamente, la Organización de las Naciones Unidas (Q1065) lo considera un territorio de soberanía todavía pendiente por definición (Q913234), entre el Reino Unido (Q145) —que lo administra desde 1982 y previamente desde 1833— y Argentina (Q414), que reclama su devolución.",
+
+  "wikilinks": [
+    {
+      "label": "inglés",
+      "title": "Idioma inglés",
+      "qid": "Q1860"
+    },
+    {
+      "label": "Alfabeto Fonético Internacional",
+      "title": "Alfabeto Fonético Internacional",
+      "qid": "Q21204"
+    },
+    {
+      "label": "archipiélago",
+      "title": "Archipiélago",
+      "qid": "Q33837"
+    },
+    {
+      "label": "América del Sur",
+      "title": "América del Sur",
+      "qid": "Q18"
+    },
+    {
+      "label": "mar Argentino",
+      "title": "Mar Argentino",
+      "qid": "Q970130"
+    },
+    {
+      "label": "mar epicontinental",
+      "title": "Mar epicontinental",
+      "qid": "Q2578218"
+    },
+    {
+      "label": "océano Atlántico",
+      "title": "Océano Atlántico",
+      "qid": "Q97"
+    },
+    {
+      "label": "Sur",
+      "title": "Sur",
+      "qid": "Q667"
+    },
+    {
+      "label": "plataforma continental patagónica",
+      "title": "Plataforma continental patagónica",
+      "qid": "Q5503766"
+    },
+    {
+      "label": "población humana autóctona, originaria o indígena",
+      "title": "Pueblos originarios",
+      "qid": "Q9064330"
+    },
+    {
+      "label": "conquista europea de América",
+      "title": "Conquista de América",
+      "qid": "Q2750609"
+    },
+    {
+      "label": "Francia",
+      "title": "Francia",
+      "qid": "Q142"
+    },
+    {
+      "label": "Reino Unido",
+      "title": "Reino Unido",
+      "qid": "Q145"
+    },
+    {
+      "label": "España",
+      "title": "España",
+      "qid": "Q29"
+    },
+    {
+      "label": "Río de la Plata",
+      "title": "Provincias Unidas del Río de la Plata",
+      "qid": "Q738144"
+    },
+    {
+      "label": "Organización de las Naciones Unidas",
+      "title": "Organización de las Naciones Unidas",
+      "qid": "Q1065"
+    },
+    {
+      "label": "territorio no autónomo",
+      "title": "Territorio no autónomo",
+      "qid": "Q900119"
+    },
+    {
+      "label": "soberanía",
+      "title": "Soberanía",
+      "qid": "Q42008"
+    },
+    {
+      "label": "Argentina",
+      "title": "Argentina",
+      "qid": "Q414"
+    },
+    {
+      "label": "Comité Especial de Descolonización",
+      "title": "Comité Especial de Descolonización",
+      "qid": "Q530843"
+    },
+    {
+      "label": "Resolución 1514 de la Asamblea General de las Naciones Unidas",
+      "title": "Resolución 1514 de la Asamblea General de las Naciones Unidas",
+      "qid": "Q2629473"
+    },
+    {
+      "label": "Comité de Descolonización",
+      "title": "Comité Especial de Descolonización",
+      "qid": "Q530843"
+    },
+    {
+      "label": "Resolución 2065 de la Asamblea General de las Naciones Unidas",
+      "title": "Resolución 2065 de la Asamblea General de las Naciones Unidas",
+      "qid": "Q16269944"
+    },
+    {
+      "label": "pendiente por definición",
+      "title": "Anexo:Territorios disputados",
+      "qid": "Q913234"
+    }
+  ],
+
+  "entities": [
+    {
+      "label": "Islas Malvinas",
+      "qid": "Q9648"
+    },
+    {
+      "label": "Idioma inglés",
+      "qid": "Q1860"
+    },
+    {
+      "label": "Alfabeto Fonético Internacional",
+      "qid": "Q21204"
+    },
+    {
+      "label": "Archipiélago",
+      "qid": "Q33837"
+    },
+    {
+      "label": "América del Sur",
+      "qid": "Q18"
+    },
+    {
+      "label": "Mar Argentino",
+      "qid": "Q970130"
+    },
+    {
+      "label": "Mar epicontinental",
+      "qid": "Q2578218"
+    },
+    {
+      "label": "Océano Atlántico",
+      "qid": "Q97"
+    },
+    {
+      "label": "Sur",
+      "qid": "Q667"
+    },
+    {
+      "label": "Plataforma continental patagónica",
+      "qid": "Q5503766"
+    },
+    {
+      "label": "Pueblos originarios",
+      "qid": "Q9064330"
+    },
+    {
+      "label": "Conquista de América",
+      "qid": "Q2750609"
+    },
+    {
+      "label": "Francia",
+      "qid": "Q142"
+    },
+    {
+      "label": "Reino Unido",
+      "qid": "Q145"
+    },
+    {
+      "label": "España",
+      "qid": "Q29"
+    },
+    {
+      "label": "Provincias Unidas del Río de la Plata",
+      "qid": "Q738144"
+    },
+    {
+      "label": "Organización de las Naciones Unidas",
+      "qid": "Q1065"
+    },
+    {
+      "label": "Territorio no autónomo",
+      "qid": "Q900119"
+    },
+    {
+      "label": "Soberanía",
+      "qid": "Q42008"
+    },
+    {
+      "label": "Argentina",
+      "qid": "Q414"
+    },
+    {
+      "label": "Comité Especial de Descolonización",
+      "qid": "Q530843"
+    },
+    {
+      "label": "Resolución 1514 de la Asamblea General de las Naciones Unidas",
+      "qid": "Q2629473"
+    },
+    {
+      "label": "Resolución 2065 de la Asamblea General de las Naciones Unidas",
+      "qid": "Q16269944"
+    },
+    {
+      "label": "Territorios disputados",
+      "qid": "Q913234"
+    }
+  ]
+}

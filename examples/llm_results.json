@@ -1,0 +1,24 @@
+[
+  {
+    "type": "contradiction",
+    "pair_id": "en:demo:1:s0:ap:0::es:demo:1:s0:ap:0",
+    "section_pair_id": "en:demo:1:s0::es:demo:1:s0",
+    "model_id": "synthetic-example",
+    "label": 0,
+    "explanation": "Manual example, not model inference.",
+    "status": "ok",
+    "raw_response": null
+  },
+  {
+    "type": "framing",
+    "pair_id": "en:demo:1:s0:ap:0::es:demo:1:s0:ap:0",
+    "section_pair_id": "en:demo:1:s0::es:demo:1:s0",
+    "model_id": "synthetic-example",
+    "agency": 0,
+    "causality": 0,
+    "language": 0,
+    "explanation": "Manual example, not model inference.",
+    "status": "ok",
+    "raw_response": null
+  }
+]

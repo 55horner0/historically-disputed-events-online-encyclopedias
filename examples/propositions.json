@@ -1,0 +1,82 @@
+[
+    {
+        "proposition_id": "en:demo:1:s0:ap:0",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "Argentina is in South America.",
+        "source_text": "Argentina is in South America."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:1",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean.",
+        "source_text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:2",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands are located on the Patagonian Shelf.",
+        "source_text": "The Falkland Islands are located on the Patagonian Shelf."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:3",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands are commonly referred to as the Falklands.",
+        "source_text": "The Falkland Islands are commonly referred to as the Falklands."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:4",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands are also known as the Islas Malvinas.",
+        "source_text": "The Falkland Islands are also known as the Islas Malvinas."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:5",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands are a British Overseas Territory.",
+        "source_text": "The Falkland Islands are a British Overseas Territory."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:6",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The Falkland Islands have internal self-governance as a British Overseas Territory.",
+        "source_text": "The Falkland Islands have internal self-governance as a British Overseas Territory."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:7",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The United Kingdom takes responsibility for the Falkland Islands' defence and foreign affairs.",
+        "source_text": "The United Kingdom takes responsibility for the Falkland Islands' defence and foreign affairs."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:8",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The capital of the Falkland Islands is Stanley on East Falkland.",
+        "source_text": "The capital of the Falkland Islands is Stanley on East Falkland."
+    },
+    {
+        "proposition_id": "en:demo:1:s0:ap:9",
+        "section_id": "en:demo:1:s0",
+        "article_id": "en:demo",
+        "language": "en",
+        "text": "The largest settlement in the Falkland Islands is Stanley on East Falkland.",
+        "source_text": "The largest settlement in the Falkland Islands is Stanley on East Falkland."
+    }
+]

@@ -1,0 +1,639 @@
+[
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:0:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:0",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "situado en",
+        "object": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:0:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:0",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "es un archipiélago de",
+        "object": {
+            "label": "América del Sur",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:1:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:1",
+        "subject": {
+            "label": "islas Falkland",
+            "qid": "Q9648"
+        },
+        "relation": "situado en",
+        "object": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:1:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:1",
+        "subject": {
+            "label": "islas Falkland",
+            "qid": "Q9648"
+        },
+        "relation": "es un archipiélago de",
+        "object": {
+            "label": "América del Sur",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:6:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:6",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "situado en",
+        "object": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:6:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:6",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "es un archipiélago de",
+        "object": {
+            "label": "América del Sur",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:7:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:7",
+        "subject": {
+            "label": "islas Falkland",
+            "qid": "Q9648"
+        },
+        "relation": "situado en",
+        "object": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:7:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:7",
+        "subject": {
+            "label": "islas Falkland",
+            "qid": "Q9648"
+        },
+        "relation": "es un archipiélago de",
+        "object": {
+            "label": "América del Sur",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:8:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:8",
+        "subject": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        },
+        "relation": "es un",
+        "object": {
+            "label": "mar epicontinental",
+            "qid": "Q2578218"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:8:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:8",
+        "subject": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        },
+        "relation": "es un",
+        "object": {
+            "label": "océano Atlántico Sur",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:8:triplet:2",
+        "proposition_id": "es:8667:175312716:s0:ap:8",
+        "subject": {
+            "label": "mar Argentino",
+            "qid": "Q970130"
+        },
+        "relation": "es un",
+        "object": {
+            "label": "océano Atlántico Sur",
+            "qid": "Q667"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:9:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:9",
+        "subject": {
+            "label": "archipiélago",
+            "qid": "Q33837"
+        },
+        "relation": "corresponde a",
+        "object": {
+            "label": "tierras emergidas de una prolongación natural y geológica de la plataforma continental patagónica",
+            "qid": "Q5503766"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:9:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:9",
+        "subject": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "corresponde a",
+        "object": {
+            "label": "tierras emergidas de una prolongación natural y geológica de la plataforma continental patagónica",
+            "qid": "Q5503766"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:10:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:10",
+        "subject": {
+            "label": "Las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "no tienen población humana autóctona, originaria o indígena",
+        "object": {
+            "label": "población humana autóctona, originaria o indígena",
+            "qid": "Q9064330"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:11:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:11",
+        "subject": {
+            "label": "Las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "no tienen",
+        "object": {
+            "label": "población humana autóctona, originaria o indígena",
+            "qid": "Q9064330"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:12:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:12",
+        "subject": {
+            "label": "Los primeros visitantes a las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "fueron",
+        "object": {
+            "label": "europeos que llegaron durante la conquista europea de América",
+            "qid": "Q2750609"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:12:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:12",
+        "subject": {
+            "label": "Los primeros visitantes a las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "llegaron durante",
+        "object": {
+            "label": "la conquista europea de América",
+            "qid": "Q2750609"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:13:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:13",
+        "subject": {
+            "label": "Francia",
+            "qid": "Q142"
+        },
+        "relation": "llevó adelante",
+        "object": {
+            "label": "plan de asentamiento permanente",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:13:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:13",
+        "subject": {
+            "label": "Francia",
+            "qid": "Q142"
+        },
+        "relation": "basado en",
+        "object": {
+            "label": "intereses expansionistas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:14:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:14",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "llevó adelante",
+        "object": {
+            "label": "plan de asentamiento permanente a las islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:15:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:15",
+        "subject": {
+            "label": "España",
+            "qid": "Q29"
+        },
+        "relation": "llevó adelante",
+        "object": {
+            "label": "plan de asentamiento permanente",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:15:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:15",
+        "subject": {
+            "label": "España",
+            "qid": "Q29"
+        },
+        "relation": "basado en",
+        "object": {
+            "label": "intereses expansionistas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:16:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:16",
+        "subject": {
+            "label": "Río de la Plata",
+            "qid": "Q738144"
+        },
+        "relation": "llevó adelante",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:17:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:17",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "dice que",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:17:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:17",
+        "subject": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "es un",
+        "object": {
+            "label": "territorio no autónomo",
+            "qid": "Q900119"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:18:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:18",
+        "subject": {
+            "label": "potencia administradora de las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "es",
+        "object": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:19:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:19",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "según",
+        "object": {
+            "label": "soberanía de las islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:19:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:19",
+        "subject": {
+            "label": "soberanía de las islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "es reclamada por",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:20:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:20",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "es",
+        "object": {
+            "label": "lista de territorios no autónomos",
+            "qid": "Q900119"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:20:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:20",
+        "subject": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        },
+        "relation": "son uno de los 17 territorios en",
+        "object": {
+            "label": "territorios no autónomos",
+            "qid": "Q900119"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:20:triplet:2",
+        "proposition_id": "es:8667:175312716:s0:ap:20",
+        "subject": {
+            "label": "Comité Especial de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "bajo supervisión de",
+        "object": {
+            "label": "Naciones Unidas",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:21:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:21",
+        "subject": {
+            "label": "Comité Especial de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:21:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:21",
+        "subject": {
+            "label": "Comité Especial de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "Resolución 1514 de la Asamblea General de las Naciones Unidas",
+            "qid": "Q2629473"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:2",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:3",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:4",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:5",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:6",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:7",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:8",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:22:triplet:9",
+        "proposition_id": "es:8667:175312716:s0:ap:22",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina anualmente",
+        "object": {
+            "label": "situación de las islas Malvinas",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:23:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:23",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "considera",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:23:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:23",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "considera",
+        "object": {
+            "label": "territorio de soberanía todavía pendiente por definición",
+            "qid": "Q913234"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:24:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:24",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "administra a",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:25:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:25",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "administra a",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:26:triplet:0",
+        "proposition_id": "es:8667:175312716:s0:ap:26",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "reclama la devolución de",
+        "object": {
+            "label": "las islas Malvinas",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "es:8667:175312716:s0:ap:26:triplet:1",
+        "proposition_id": "es:8667:175312716:s0:ap:26",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "reclama la devolución de",
+        "object": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        }
+    }
+]

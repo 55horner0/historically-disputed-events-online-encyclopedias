@@ -1,0 +1,210 @@
+[
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:0:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "is located in",
+        "object": {
+            "label": "South Atlantic Ocean",
+            "qid": "Q1482804"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:1:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located on",
+        "object": {
+            "label": "Patagonian Shelf",
+            "qid": "Q5503766"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:2:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:2",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "are about",
+        "object": {
+            "label": "South America",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:3:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:3",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "are about",
+        "object": {
+            "label": "Cape Dubouzet",
+            "qid": "Q983011"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:3:triplet:1",
+        "proposition_id": "en:7550182:1375355019:s0:ap:3",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "are about",
+        "object": {
+            "label": "Antarctic Peninsula",
+            "qid": "Q185605"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:3:triplet:2",
+        "proposition_id": "en:7550182:1375355019:s0:ap:3",
+        "subject": {
+            "label": "Cape Dubouzet",
+            "qid": "Q983011"
+        },
+        "relation": "at the northern tip of",
+        "object": {
+            "label": "Antarctic Peninsula",
+            "qid": "Q185605"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:6:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:6",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "comprise",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:7:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:7",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "comprise",
+        "object": {
+            "label": "West Falkland",
+            "qid": "Q733338"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:9:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:9",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "is a",
+        "object": {
+            "label": "British Overseas Territory",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:10:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:10",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "have internal self-governance as",
+        "object": {
+            "label": "British Overseas Territory",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:11:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:11",
+        "subject": {
+            "label": "United Kingdom",
+            "qid": "Q145"
+        },
+        "relation": "takes responsibility for",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:12:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:12",
+        "subject": {
+            "label": "United Kingdom",
+            "qid": "Q145"
+        },
+        "relation": "takes responsibility for",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:13:triplet:0",
+        "proposition_id": "en:7550182:1375355019:s0:ap:13",
+        "subject": {
+            "label": "capital",
+            "qid": "Q9648"
+        },
+        "relation": "is the capital of",
+        "object": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:13:triplet:1",
+        "proposition_id": "en:7550182:1375355019:s0:ap:13",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "is the capital of",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:14:triplet:1",
+        "proposition_id": "en:7550182:1375355019:s0:ap:14",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "is located on",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:7550182:1375355019:s0:ap:14:triplet:2",
+        "proposition_id": "en:7550182:1375355019:s0:ap:14",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "is largest settlement of",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    }
+]
