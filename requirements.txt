@@ -5,6 +5,9 @@ llama-cpp-python
 huggingface-hub
 networkx
 matplotlib
+numpy
+bert-score
+scipy
 
 # Models required:
 # - Zual/MPropositioneur-V2
