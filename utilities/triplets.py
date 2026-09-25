@@ -280,6 +280,7 @@ def extract_triplets(
     triplets_records: list[Triplet] = []
 
     length_propositions = len(propositions)
+    counter = 0
 
     for proposition in propositions:
 
@@ -319,13 +320,14 @@ def extract_triplets(
         # Multiple occurrences of the same QID also result
         # in len(unique_qids) == 1.
 
+        counter += 1
         if len(unique_qids) < 2:
             continue
-
+        
         print(
             f"Extracting triplets from proposition "
             f"{proposition['proposition_id']} "
-            f"of {length_propositions}"
+            f"{counter} of {length_propositions}"
         )
 
         print(
@@ -731,7 +733,7 @@ if __name__ == "__main__":
     # ---------------------------------------------------------
     # BUILD / DISPLAY GRAPH
     # ---------------------------------------------------------
-'''
+
     build_graph(
         triplets
-    )'''
+    )
