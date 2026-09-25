@@ -1,12 +1,14 @@
-from extract_qids import extract_qids
-from alignment import (
+from utilities.extract_qids import extract_qids
+from utilities.alignment import (
     align_sections,
     display_alignment,
     display_score_matrix,
     save_alignment_results,
 )
-
-
+# download the model propositioner
+model, tokenizer = (
+        load_MPropositioneur_V2()
+    )
 
 # Extract the two articles
 
@@ -15,7 +17,8 @@ data_en = extract_qids(
     "en",
     "Falkland_Islands",
     verbose=False,
-)
+) 
+# data_en and data_es are lists of dictionaries
 
 data_es = extract_qids(
     "es",
@@ -54,3 +57,4 @@ save_alignment_results(
     alignment_output_path="falkland_malvinas_alignment.json",
     matrix_output_path="falkland_malvinas_alignment_matrix.json",
 )
+
