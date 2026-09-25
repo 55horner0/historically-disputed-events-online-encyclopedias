@@ -1,309 +1,249 @@
-
 """
-Cross-lingual Wikipedia section alignment.
+Cross-lingual Wikipedia section alignment using BERTScore.
 
-Uses:
-    - Existing Wikipedia-native QID annotator
-    - Actual Wikipedia page IDs and revision IDs
-    - Multilingual BERTScore F1
-    - Optimal one-to-one section assignment
-    - The supplied Article, Section, SectionPair and Entity schemas
+This module consumes the dictionaries returned by extract_qids.py.
 
-The resulting Section objects contain only the fields defined by
-the supplied Section TypedDict.
+It does NOT:
+    - fetch Wikipedia articles
+    - extract sections
+    - resolve QIDs
+    - build aliases
+    - annotate QIDs
+    - redefine schemas
+    - load input JSON files
 
-Expected existing annotator module:
-    qid_annotator.py
+It ONLY:
+    1. Takes two extract_qids() results.
+    2. Reads their extracted sections.
+    3. Computes multilingual BERTScore F1 for EVERY possible section pair.
+    4. Finds the optimal one-to-one section alignment.
+    5. Returns the aligned section pairs.
+    6. Returns the complete BERTScore matrix.
+
+Typical usage from main.py:
+
+    from extract_qids import extract_qids
+    from alignment import align_sections
+
+    data_en = extract_qids(
+        "en",
+        "Falkland_Islands",
+        verbose=False,
+    )
+
+    data_es = extract_qids(
+        "es",
+        "Islas_Malvinas_(territorio_británico_de_ultramar)",
+        verbose=False,
+    )
+
+    section_pairs, score_matrix = align_sections(
+        data_en,
+        data_es,
+        threshold=0.80,
+    )
+
+The aligned result has this form:
+
+    [
+        {
+            "section_pair_id": "Q123:1::Q456:2",
+            "section_id_a": "Q123:1",
+            "section_id_b": "Q456:2",
+            "alignment_score": 0.8734
+        },
+        ...
+    ]
+
+The complete score matrix has this form:
+
+    {
+        "section_ids_a": [
+            "Q123:0",
+            "Q123:1",
+            ...
+        ],
+        "section_ids_b": [
+            "Q456:0",
+            "Q456:1",
+            ...
+        ],
+        "scores": [
+            [0.82, 0.41, ...],
+            [0.37, 0.91, ...],
+            ...
+        ]
+    }
+
+`scores[i][j]` is the BERTScore F1 between:
+
+    section_ids_a[i]
+
+and:
+
+    section_ids_b[j]
 """
 
 from __future__ import annotations
 
-import argparse
-import json
 import re
-from collections import defaultdict
-from datetime import datetime, timezone
 from itertools import product
-from typing import Any, TypedDict
+from typing import Any
 
-import requests
+import numpy as np
 from bert_score import score as bert_score
 from scipy.optimize import linear_sum_assignment
 
-import extract_qids_alias as qid
 
-# Schema definitions
-class Entity(TypedDict):
-    label: str
-    qid: str | None
-
-
-class Section(TypedDict):
-    section_id: str
-    article_id: str
-    language: str
-    revision_id: int
-    title: str
-    text: str
-    wikilinks: list[dict[str, Any]]
-    entities: list[Entity]
-
-
-class Article(TypedDict):
-    article_id: str
-    event_qid: str | None
-    language: str
-    title: str
-    url: str
-    revision_id: int
-    retrieved_at: str
-    content: str
-
-class SectionPair(TypedDict):
-    section_pair_id: str
-    event_qid: str | None
-    section_a: Section
-    section_b: Section
-    alignment_score: float
-
-# Wikipedia metadata
-
-def fetch_article_metadata(
-    language: str,
-    title: str,
-) -> dict[str, Any]:
-    """
-    Resolve a title and retrieve its canonical title, page ID,
-    revision ID and Wikidata QID.
-
-    Wikipedia's redirects=1 resolves redirects to the canonical page.
-    """
-
-    api_url = f"https://{language}.wikipedia.org/w/api.php"
-
-    response = requests.get(
-        api_url,
-        params={
-            "action": "query",
-            "prop": "info|revisions|pageprops",
-            "titles": title,
-            "redirects": "1",
-            "rvprop": "ids",
-            "rvlimit": "1",
-            "format": "json",
-            "formatversion": "2",
-        },
-        headers=qid.HEADERS,
-        timeout=30,
-    )
-    response.raise_for_status()
-
-    data = response.json()
-    pages = data.get("query", {}).get("pages", [])
-
-    if not pages:
-        raise ValueError(f"No Wikipedia page found for {title!r}")
-
-    page = pages[0]
-
-    if page.get("missing"):
-        raise ValueError(
-            f"Wikipedia page does not exist: {language}:{title}"
-        )
-
-    revisions = page.get("revisions", [])
-
-    if not revisions:
-        raise ValueError(
-            f"No revision metadata returned for {language}:{title}"
-        )
-
-    return {
-        "page_id": int(page["pageid"]),
-        "revision_id": int(revisions[0]["revid"]),
-        "canonical_title": page["title"],
-        "article_qid": page.get("pageprops", {}).get("wikibase_item"),
-    }
-
-# Article retrieval and annotation
-
-def fetch_and_annotate_article(
-    language: str,
-    requested_title: str,
-) -> tuple[Article, list[Section]]:
-    """
-    Retrieve and annotate an article.
-
-    Returns:
-        Article metadata conforming to Article
-        Sections conforming to Section
-    """
-
-    metadata = fetch_article_metadata(language, requested_title)
-
-    canonical_title = metadata["canonical_title"]
-    page_id = metadata["page_id"]
-    revision_id = metadata["revision_id"]
-    article_qid = metadata["article_qid"]
-
-    # Configure the existing annotator for this language and page.
-    qid.LANG = language
-    qid.ARTICLE_TITLE = canonical_title.replace(" ", "_")
-    qid.WIKI_API = f"https://{language}.wikipedia.org/w/api.php"
-
-    html_data = qid.api_get(qid.WIKI_API, {
-    "action": "parse",
-    "oldid": revision_id,
-    "prop": "text",
-    "format": "json",
-    "formatversion": "2",
-    })
-
-    html = html_data["parse"]["text"]
-
-    raw_sections, links = qid.extract_sections_and_links(html)
-
-    all_titles = (
-        [link["title"] for link in links]
-        + [qid.normalize_title(canonical_title)]
-    )
-
-    title_to_qid, original_to_resolved = qid.titles_to_qids(
-        all_titles
-    )
-
-    for link in links:
-        resolved = qid.resolve_chain(
-            link["title"],
-            original_to_resolved,
-        )
-
-        link["resolved_title"] = resolved
-        link["qid"] = title_to_qid.get(
-            qid.normalize_title(resolved)
-        )
-
-    # Use the metadata QID as the authoritative article QID.
-    if article_qid:
-        title_to_qid[qid.normalize_title(canonical_title)] = article_qid
-
-    linked_titles = [
-        link["title"]
-        for link in links
-        if link.get("qid")
-    ]
-    linked_titles.append(qid.normalize_title(canonical_title))
-
-    title_to_redirects = qid.fetch_redirects(linked_titles)
-
-    qid_to_aliases = qid.build_alias_table(
-        links,
-        title_to_redirects,
-        title_to_qid,
-        original_to_resolved,
-        canonical_title,
-        article_qid,
-    )
-
-    annotated_sections = qid.annotate_sections(
-        raw_sections,
-        links,
-        qid_to_aliases,
-    )
-
-    article_id = f"{language}:{page_id}"
-
-    # The Article.content is the concatenation of extracted section text.
-    article_content = "\n\n".join(
-        section["text"] for section in annotated_sections
-    )
-
-    article: Article = {
-        "article_id": article_id,
-        "event_qid": None,
-        "language": language,
-        "title": canonical_title,
-        "url": (
-            f"https://{language}.wikipedia.org/wiki/"
-            f"{canonical_title.replace(' ', '_')}"
-        ),
-        "revision_id": revision_id,
-        "retrieved_at": datetime.now(timezone.utc).isoformat(),
-        "content": article_content,
-    }
-
-    sections: list[Section] = []
-
-    for index, annotated in enumerate(annotated_sections):
-        # Each section has its own revision-aware stable identifier.
-        section_id = f"{article_id}:{revision_id}:{index}"
-
-        # Preserve all annotated mention spans as wikilink-style
-        # records. This stores QIDs without adding a non-schema field.
-        wikilinks: list[dict[str, Any]] = []
-        entities_by_key: dict[tuple[str, str | None], Entity] = {}
-
-        for span in annotated.get("spans", []):
-            surface = span["surface"]
-            span_qid = span.get("qid")
-
-            wikilinks.append({
-                "surface": surface,
-                "qid": span_qid,
-                "start": span["start"],
-                "end": span["end"],
-                "source": span["source"],
-            })
-
-            key = (surface, span_qid)
-            entities_by_key[key] = {
-                "label": surface,
-                "qid": span_qid,
-            }
-
-        section: Section = {
-            "section_id": section_id,
-            "article_id": article_id,
-            "language": language,
-            "revision_id": revision_id,
-            "title": annotated["heading"],
-            "text": annotated["text"],
-            "wikilinks": wikilinks,
-            "entities": list(entities_by_key.values()),
-        }
-
-        sections.append(section)
-
-    return article, sections
-
-# BERTScore
+# ---------------------------------------------------------------------------
+# Text normalization
+# ---------------------------------------------------------------------------
 
 def normalize_text(text: str) -> str:
-    """Collapse whitespace for consistent scoring."""
-    return re.sub(r"\s+", " ", text).strip()
+    """
+    Normalize whitespace before sending text to BERTScore.
+
+    This does not change the semantic content of the section.
+    """
+
+    return re.sub(
+        r"\s+",
+        " ",
+        text or "",
+    ).strip()
+
+
+# ---------------------------------------------------------------------------
+# Section validation / extraction
+# ---------------------------------------------------------------------------
+
+def get_sections(
+    article_data: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """
+    Return the sections from an extract_qids() result.
+
+    The section dictionaries are returned unchanged.
+
+    Expected extract_qids section structure:
+
+        {
+            "article_id": ...,
+            "section_id": ...,
+            "section_idx": ...,
+            "language": ...,
+            "heading": ...,
+            "level": ...,
+            "text": ...,
+            "text_with_qids": ...,
+            "spans": ...
+        }
+    """
+
+    if not isinstance(article_data, dict):
+        raise TypeError(
+            "article_data must be the dictionary returned by "
+            "extract_qids()."
+        )
+
+    if "sections" not in article_data:
+        raise ValueError(
+            "The extract_qids() result does not contain a "
+            "'sections' field."
+        )
+
+    sections = article_data["sections"]
+
+    if not isinstance(sections, list):
+        raise ValueError(
+            "The 'sections' field must be a list."
+        )
+
+    for index, section in enumerate(sections):
+        if not isinstance(section, dict):
+            raise ValueError(
+                f"Section {index} is not a dictionary."
+            )
+
+        if "section_id" not in section:
+            raise ValueError(
+                f"Section {index} does not contain 'section_id'."
+            )
+
+        if "text" not in section:
+            raise ValueError(
+                f"Section {index} does not contain 'text'."
+            )
+
+    return sections
+
+
+# ---------------------------------------------------------------------------
+# BERTScore
+# ---------------------------------------------------------------------------
 
 def calculate_similarity_matrix(
-    sections_a: list[Section],
-    sections_b: list[Section],
-    model_type: str,
-    batch_size: int,
+    sections_a: list[dict[str, Any]],
+    sections_b: list[dict[str, Any]],
+    model_type: str = "bert-base-multilingual-cased",
+    batch_size: int = 16,
 ) -> list[list[float]]:
     """
-    Compute multilingual BERTScore F1 for all A/B section pairs.
+    Compute multilingual BERTScore F1 for EVERY possible section pair.
 
-    The same multilingual model is used for both languages.
+    If article A has N sections and article B has M sections, the result
+    is an N x M matrix.
+
+        matrix[i][j]
+
+    is the BERTScore F1 between:
+
+        sections_a[i]["text"]
+
+    and:
+
+        sections_b[j]["text"]
+
+    Importantly, this scores every possible pair.
+
+    Section IDs, headings, QIDs, spans, and other metadata are NOT used
+    to calculate the BERTScore. Only the section text is compared.
     """
 
-    if not sections_a or not sections_b:
+    n_a = len(sections_a)
+    n_b = len(sections_b)
+
+    # No sections on either side.
+    if n_a == 0 or n_b == 0:
         return [
-            [0.0] * len(sections_b)
+            [0.0 for _ in sections_b]
             for _ in sections_a
         ]
 
-    pairs = list(product(sections_a, sections_b))
+    # ------------------------------------------------------------------
+    # Create every possible A/B combination.
+    #
+    # Example:
+    #
+    # A = [A0, A1]
+    # B = [B0, B1, B2]
+    #
+    # pairs =
+    #   A0-B0
+    #   A0-B1
+    #   A0-B2
+    #   A1-B0
+    #   A1-B1
+    #   A1-B2
+    # ------------------------------------------------------------------
 
-    # BERTScore calls these candidates and references. We consistently
-    # use A as candidate and B as reference throughout the experiment.
+    pairs = list(
+        product(
+            sections_a,
+            sections_b,
+        )
+    )
+
     candidates = [
         normalize_text(section_a["text"])
         for section_a, _ in pairs
@@ -314,10 +254,16 @@ def calculate_similarity_matrix(
         for _, section_b in pairs
     ]
 
-    # Empty sections cannot provide meaningful similarity evidence.
-    # Keep their scores at zero and score only non-empty pairs.
+    # ------------------------------------------------------------------
+    # Empty sections
+    #
+    # BERTScore cannot provide useful evidence for an empty section.
+    # Keep those pairs at 0.0.
+    # ------------------------------------------------------------------
+
     valid_indices = [
-        i for i, (candidate, reference) in enumerate(
+        index
+        for index, (candidate, reference) in enumerate(
             zip(candidates, references)
         )
         if candidate and reference
@@ -326,8 +272,30 @@ def calculate_similarity_matrix(
     scores = [0.0] * len(pairs)
 
     if valid_indices:
-        valid_candidates = [candidates[i] for i in valid_indices]
-        valid_references = [references[i] for i in valid_indices]
+        valid_candidates = [
+            candidates[index]
+            for index in valid_indices
+        ]
+
+        valid_references = [
+            references[index]
+            for index in valid_indices
+        ]
+
+        print(
+            f"Calculating BERTScore for "
+            f"{len(valid_indices)} section pairs..."
+        )
+
+        # ------------------------------------------------------------------
+        # BERTScore F1
+        #
+        # P = precision
+        # R = recall
+        # F1 = harmonic mean of P and R
+        #
+        # We use F1 as the alignment score.
+        # ------------------------------------------------------------------
 
         _, _, f1 = bert_score(
             cands=valid_candidates,
@@ -338,316 +306,588 @@ def calculate_similarity_matrix(
             rescale_with_baseline=False,
         )
 
-        for index, score in zip(valid_indices, f1.tolist()):
+        for index, score in zip(
+            valid_indices,
+            f1.tolist(),
+        ):
             scores[index] = float(score)
 
+    # ------------------------------------------------------------------
+    # Convert the flattened pair scores back into an N x M matrix.
+    # ------------------------------------------------------------------
+
     matrix = [
-        [0.0] * len(sections_b)
+        [0.0 for _ in sections_b]
         for _ in sections_a
     ]
 
     for index, score in enumerate(scores):
-        i = index // len(sections_b)
-        j = index % len(sections_b)
+        i = index // n_b
+        j = index % n_b
+
         matrix[i][j] = score
 
     return matrix
 
-# Optimal assignment
+
+# ---------------------------------------------------------------------------
+# One-to-one alignment
+# ---------------------------------------------------------------------------
 
 def optimal_one_to_one_alignment(
     similarity_matrix: list[list[float]],
-    threshold: float,
+    threshold: float = 0.80,
 ) -> list[tuple[int, int, float]]:
     """
-    Find a maximum-weight one-to-one matching.
+    Find the optimal one-to-one section alignment.
 
-    The Hungarian algorithm maximizes the total score among accepted
-    matches. Scores below threshold are not allowed to become matches.
+    The Hungarian algorithm is used to maximize the total BERTScore.
 
-    Unmatched sections are permitted because the result can contain
-    fewer pairs than either input article.
+    A pair is only considered a valid match if:
+
+        BERTScore F1 >= threshold
+
+    This means that sections below the threshold are allowed to remain
+    unmatched.
+
+    Returns:
+
+        [
+            (index_a, index_b, score),
+            ...
+        ]
+
+    where index_a and index_b refer to the positions of the sections
+    in the original article section lists.
     """
 
-    if not similarity_matrix or not similarity_matrix[0]:
+    if not similarity_matrix:
         return []
 
-    import numpy as np
+    if not similarity_matrix[0]:
+        return []
 
-    matrix = np.asarray(similarity_matrix, dtype=float)
+    matrix = np.asarray(
+        similarity_matrix,
+        dtype=float,
+    )
 
     n_a, n_b = matrix.shape
 
-    # Add dummy columns and rows so either side may remain unmatched.
-    # A dummy match has weight zero.
-    padded = np.zeros((n_a + n_b, n_a + n_b), dtype=float)
+    # ------------------------------------------------------------------
+    # We need to allow sections to remain unmatched.
+    #
+    # The original score matrix is therefore padded with dummy
+    # rows/columns representing "no match".
+    #
+    # Valid matches retain their BERTScore.
+    # Invalid matches receive a very large negative value so that
+    # the Hungarian algorithm will prefer leaving them unmatched.
+    # ------------------------------------------------------------------
 
-    # Scores below threshold are worse than a dummy assignment.
+    padded_size = n_a + n_b
+
+    padded = np.zeros(
+        (padded_size, padded_size),
+        dtype=float,
+    )
+
     padded[:n_a, :n_b] = np.where(
         matrix >= threshold,
         matrix,
         -1e6,
     )
 
-    row_indices, col_indices = linear_sum_assignment(-padded)
+    # linear_sum_assignment minimizes a cost matrix.
+    #
+    # Therefore we negate the similarity scores so that maximizing
+    # BERTScore becomes minimizing negative BERTScore.
+    row_indices, col_indices = linear_sum_assignment(
+        -padded
+    )
 
     aligned: list[tuple[int, int, float]] = []
 
-    for i, j in zip(row_indices, col_indices):
-        if i >= n_a or j >= n_b:
+    for row, col in zip(
+        row_indices,
+        col_indices,
+    ):
+        # Ignore dummy rows and columns.
+        if row >= n_a or col >= n_b:
             continue
 
-        score = float(matrix[i, j])
+        score = float(
+            matrix[row, col]
+        )
 
+        # Only keep matches that satisfy the threshold.
         if score >= threshold:
-            aligned.append((int(i), int(j), score))
+            aligned.append(
+                (
+                    int(row),
+                    int(col),
+                    score,
+                )
+            )
 
-    aligned.sort(key=lambda item: item[0])
+    # Keep pairs in article A section order.
+    aligned.sort(
+        key=lambda item: item[0]
+    )
 
     return aligned
 
-# Section pairs and output
 
-def create_section_pair(
-    article_a: Article,
-    article_b: Article,
-    section_a: Section,
-    section_b: Section,
-    score: float,
-) -> SectionPair:
-    """Create a record conforming to SectionPair."""
+# ---------------------------------------------------------------------------
+# Build aligned section output
+# ---------------------------------------------------------------------------
 
-    return {
-        "section_pair_id": (
-            f"{section_a['section_id']}::{section_b['section_id']}"
-        ),
-        "event_qid": (
-            article_a["event_qid"]
-            if article_a["event_qid"] is not None
-            else article_b["event_qid"]
-        ),
-        "section_a": section_a,
-        "section_b": section_b,
-        "alignment_score": score,
-    }
-
-
-def build_output(
-    article_a: Article,
-    article_b: Article,
-    sections_a: list[Section],
-    sections_b: list[Section],
-    matrix: list[list[float]],
+def build_section_pairs(
+    sections_a: list[dict[str, Any]],
+    sections_b: list[dict[str, Any]],
     aligned: list[tuple[int, int, float]],
-) -> dict[str, Any]:
-    """Build the final result without adding fields to SectionPair."""
+) -> list[dict[str, Any]]:
+    """
+    Convert the numerical alignment into the requested output format.
 
-    section_pairs = [
-        create_section_pair(
-            article_a,
-            article_b,
-            sections_a[i],
-            sections_b[j],
-            score,
+    Output:
+
+        [
+            {
+                "section_pair_id": "section_id_a::section_id_b",
+                "section_id_a": "...",
+                "section_id_b": "...",
+                "alignment_score": 0.8734
+            },
+            ...
+        ]
+
+    Only the IDs and BERTScore are included.
+
+    The original extract_qids section objects are NOT copied into the
+    alignment output because they already exist in the input data.
+    """
+
+    section_pairs: list[dict[str, Any]] = []
+
+    for index_a, index_b, score in aligned:
+        section_a = sections_a[index_a]
+        section_b = sections_b[index_b]
+
+        section_id_a = section_a["section_id"]
+        section_id_b = section_b["section_id"]
+
+        section_pairs.append(
+            {
+                "section_pair_id": (
+                    f"{section_id_a}::{section_id_b}"
+                ),
+                "section_id_a": section_id_a,
+                "section_id_b": section_id_b,
+                "alignment_score": float(score),
+            }
         )
-        for i, j, score in aligned
-    ]
 
-    matched_a = {i for i, _, _ in aligned}
-    matched_b = {j for _, j, _ in aligned}
+    return section_pairs
+
+
+# ---------------------------------------------------------------------------
+# Build complete score matrix output
+# ---------------------------------------------------------------------------
+
+def build_score_matrix_output(
+    sections_a: list[dict[str, Any]],
+    sections_b: list[dict[str, Any]],
+    similarity_matrix: list[list[float]],
+) -> dict[str, Any]:
+    """
+    Build a labelled representation of the complete BERTScore matrix.
+
+    The matrix contains EVERY possible section pair, not only accepted
+    alignments.
+
+    Example:
+
+        {
+            "section_ids_a": ["A:0", "A:1"],
+            "section_ids_b": ["B:0", "B:1", "B:2"],
+            "scores": [
+                [0.91, 0.42, 0.35],
+                [0.31, 0.88, 0.47]
+            ]
+        }
+
+    Therefore:
+
+        scores[0][1]
+
+    means:
+
+        BERTScore(
+            section A "A:0",
+            section B "B:1"
+        )
+    """
 
     return {
-        "article_a": article_a,
-        "article_b": article_b,
-        "section_pairs": section_pairs,
-        "unmatched_sections_a": [
-            section
-            for i, section in enumerate(sections_a)
-            if i not in matched_a
+        "section_ids_a": [
+            section["section_id"]
+            for section in sections_a
         ],
-        "unmatched_sections_b": [
-            section
-            for j, section in enumerate(sections_b)
-            if j not in matched_b
+        "section_ids_b": [
+            section["section_id"]
+            for section in sections_b
         ],
-        "similarity_matrix": matrix,
+        "scores": similarity_matrix,
     }
 
-# Display
 
-def render_section_with_qids(section: Section) -> str:
+# ---------------------------------------------------------------------------
+# Main alignment function
+# ---------------------------------------------------------------------------
+
+def align_sections(
+    article_a: dict[str, Any],
+    article_b: dict[str, Any],
+    model_type: str = "bert-base-multilingual-cased",
+    threshold: float = 0.80,
+    batch_size: int = 16,
+) -> tuple[
+    list[dict[str, Any]],
+    dict[str, Any],
+]:
     """
-    Return the section text with each annotated mention followed
-    by its QID in parentheses, without changing the stored text.
+    Align two articles produced by extract_qids().
+
+    Parameters
+    ----------
+    article_a:
+        Dictionary returned by extract_qids().
+
+    article_b:
+        Dictionary returned by extract_qids().
+
+    model_type:
+        Hugging Face model used by BERTScore.
+
+        Default:
+            bert-base-multilingual-cased
+
+    threshold:
+        Minimum BERTScore F1 required for an accepted alignment.
+
+        Default:
+            0.80
+
+    batch_size:
+        Batch size passed to BERTScore.
+
+    Returns
+    -------
+    section_pairs:
+        List of accepted one-to-one section alignments.
+
+    score_matrix:
+        Complete matrix containing the BERTScore for every possible
+        section pair.
     """
 
-    text = section["text"]
-    spans = sorted(
-        section["wikilinks"],
-        key=lambda item: (item["start"], item["end"]),
-    )
-
-    output = []
-    last = 0
-
-    for span in spans:
-        start = span["start"]
-        end = span["end"]
-
-        if start < last:
-            continue
-
-        output.append(text[last:start])
-
-        surface = span["surface"]
-        entity_qid = span["qid"]
-
-        if entity_qid:
-            output.append(f"{surface} ({entity_qid})")
-        else:
-            output.append(surface)
-
-        last = end
-
-    output.append(text[last:])
-
-    return "".join(output)
-
-def display_pairs(section_pairs: list[SectionPair]) -> None:
-    """Print aligned sections and their QID annotations."""
-
-    for pair in section_pairs:
-        section_a = pair["section_a"]
-        section_b = pair["section_b"]
-
-        print("\n" + "=" * 80)
-        print(f"Pair ID: {pair['section_pair_id']}")
-        print(f"BERTScore F1: {pair['alignment_score']:.4f}")
-
-        print(
-            f"\nA [{section_a['language']}] "
-            f"{section_a['title']}"
-        )
-        print(render_section_with_qids(section_a))
-
-        print(
-            f"\nB [{section_b['language']}] "
-            f"{section_b['title']}"
-        )
-        print(render_section_with_qids(section_b))
-
-# Main
-
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description=(
-            "Align sections from two different-language Wikipedia "
-            "articles using multilingual BERTScore."
-        )
-    )
-
-    parser.add_argument("--lang-a", required=True)
-    parser.add_argument("--title-a", required=True)
-
-    parser.add_argument("--lang-b", required=True)
-    parser.add_argument("--title-b", required=True)
-
-    parser.add_argument(
-        "--model",
-        default="bert-base-multilingual-cased",
-        help="Multilingual Hugging Face model used by BERTScore.",
-    )
-
-    parser.add_argument(
-        "--threshold",
-        type=float,
-        default=0.80,
-        help="Minimum F1 score for a section match.",
-    )
-
-    parser.add_argument(
-        "--batch-size",
-        type=int,
-        default=16,
-    )
-
-    parser.add_argument(
-        "--output",
-        default="aligned_sections.json",
-    )
-
-    args = parser.parse_args()
-
-    if args.lang_a == args.lang_b:
-        parser.error(
-            "This research pipeline requires two different languages."
+    if not 0.0 <= threshold <= 1.0:
+        raise ValueError(
+            "threshold must be between 0.0 and 1.0."
         )
 
-    if not 0.0 <= args.threshold <= 1.0:
-        parser.error("--threshold must be between 0 and 1.")
+    # ------------------------------------------------------------------
+    # Get sections directly from extract_qids() output.
+    # ------------------------------------------------------------------
 
-    print("Fetching and annotating article A...")
-    article_a, sections_a = fetch_and_annotate_article(
-        args.lang_a,
-        args.title_a,
+    sections_a = get_sections(
+        article_a
     )
 
-    print("Fetching and annotating article B...")
-    article_b, sections_b = fetch_and_annotate_article(
-        args.lang_b,
-        args.title_b,
+    sections_b = get_sections(
+        article_b
+    )
+
+    language_a = article_a.get(
+        "language",
+        "unknown",
+    )
+
+    language_b = article_b.get(
+        "language",
+        "unknown",
+    )
+
+    title_a = article_a.get(
+        "title",
+        "unknown",
+    )
+
+    title_b = article_b.get(
+        "title",
+        "unknown",
+    )
+
+    # ------------------------------------------------------------------
+    # Sanity check.
+    # ------------------------------------------------------------------
+
+    if language_a == language_b:
+        raise ValueError(
+            "The two articles must be in different languages. "
+            f"Both inputs have language={language_a!r}."
+        )
+
+    print(
+        f"\nArticle A: "
+        f"{language_a}:{title_a}"
     )
 
     print(
-        f"Article A: {article_a['article_id']} "
-        f"({len(sections_a)} sections)"
+        f"Sections A: {len(sections_a)}"
     )
+
     print(
-        f"Article B: {article_b['article_id']} "
-        f"({len(sections_b)} sections)"
+        f"Article B: "
+        f"{language_b}:{title_b}"
     )
 
-    print(f"Scoring with multilingual model: {args.model}")
+    print(
+        f"Sections B: {len(sections_b)}"
+    )
 
-    matrix = calculate_similarity_matrix(
-        sections_a,
-        sections_b,
-        model_type=args.model,
-        batch_size=args.batch_size,
+    print(
+        f"\nBERTScore model: {model_type}"
+    )
+
+    print(
+        "Scoring every possible section pair..."
+    )
+
+    # ------------------------------------------------------------------
+    # Calculate ALL pairwise BERTScores.
+    # ------------------------------------------------------------------
+
+    similarity_matrix = calculate_similarity_matrix(
+        sections_a=sections_a,
+        sections_b=sections_b,
+        model_type=model_type,
+        batch_size=batch_size,
+    )
+
+    # ------------------------------------------------------------------
+    # Find optimal one-to-one alignment.
+    # ------------------------------------------------------------------
+
+    print(
+        f"\nFinding one-to-one alignment "
+        f"(threshold={threshold:.2f})..."
     )
 
     aligned = optimal_one_to_one_alignment(
-        matrix,
-        threshold=args.threshold,
+        similarity_matrix=similarity_matrix,
+        threshold=threshold,
     )
 
-    output = build_output(
-        article_a,
-        article_b,
-        sections_a,
-        sections_b,
-        matrix,
-        aligned,
+    # ------------------------------------------------------------------
+    # Convert numerical indices to section IDs.
+    # ------------------------------------------------------------------
+
+    section_pairs = build_section_pairs(
+        sections_a=sections_a,
+        sections_b=sections_b,
+        aligned=aligned,
     )
 
-    with open(args.output, "w", encoding="utf-8") as file:
+    # ------------------------------------------------------------------
+    # Build the complete labelled matrix.
+    # ------------------------------------------------------------------
+
+    score_matrix = build_score_matrix_output(
+        sections_a=sections_a,
+        sections_b=sections_b,
+        similarity_matrix=similarity_matrix,
+    )
+
+    # ------------------------------------------------------------------
+    # Summary.
+    # ------------------------------------------------------------------
+
+    print(
+        f"\nAligned pairs: {len(section_pairs)}"
+    )
+
+    print(
+        f"Total possible pairs: "
+        f"{len(sections_a) * len(sections_b)}"
+    )
+
+    print(
+        f"Unmatched A sections: "
+        f"{len(sections_a) - len(section_pairs)}"
+    )
+
+    print(
+        f"Unmatched B sections: "
+        f"{len(sections_b) - len(section_pairs)}"
+    )
+
+    return (
+        section_pairs,
+        score_matrix,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Optional display helper
+# ---------------------------------------------------------------------------
+
+def display_alignment(
+    section_pairs: list[dict[str, Any]],
+) -> None:
+    """
+    Print the accepted section alignments.
+    """
+
+    if not section_pairs:
+        print("\nNo section pairs passed the threshold.")
+        return
+
+    print("\n" + "=" * 80)
+    print("SECTION ALIGNMENTS")
+    print("=" * 80)
+
+    for pair in section_pairs:
+        print(
+            f"\n{pair['section_id_a']}"
+            f"  <->  "
+            f"{pair['section_id_b']}"
+        )
+
+        print(
+            f"BERTScore F1: "
+            f"{pair['alignment_score']:.4f}"
+        )
+
+
+# ---------------------------------------------------------------------------
+# Optional matrix display helper
+# ---------------------------------------------------------------------------
+
+def display_score_matrix(
+    score_matrix: dict[str, Any],
+) -> None:
+    """
+    Print the complete BERTScore matrix.
+
+    This is useful for inspecting why particular sections were or were
+    not aligned.
+    """
+
+    section_ids_a = score_matrix["section_ids_a"]
+    section_ids_b = score_matrix["section_ids_b"]
+    scores = score_matrix["scores"]
+
+    print("\n" + "=" * 80)
+    print("COMPLETE BERTSCORE MATRIX")
+    print("=" * 80)
+
+    if not section_ids_a or not section_ids_b:
+        print("Matrix is empty.")
+        return
+
+    # Header.
+    print(
+        f"{'A section':<30}",
+        end="",
+    )
+
+    for section_id_b in section_ids_b:
+        print(
+            f"{section_id_b:<15}",
+            end="",
+        )
+
+    print()
+
+    print("-" * (
+        30 + (15 * len(section_ids_b))
+    ))
+
+    # Rows.
+    for section_id_a, row in zip(
+        section_ids_a,
+        scores,
+    ):
+        print(
+            f"{section_id_a:<30}",
+            end="",
+        )
+
+        for score in row:
+            print(
+                f"{score:<15.4f}",
+                end="",
+            )
+
+        print()
+
+
+# ---------------------------------------------------------------------------
+# Optional save helper
+# ---------------------------------------------------------------------------
+
+def save_alignment_results(
+    section_pairs: list[dict[str, Any]],
+    score_matrix: dict[str, Any],
+    alignment_output_path: str = "section_alignment.json",
+    matrix_output_path: str = "section_alignment_matrix.json",
+) -> None:
+    """
+    Optionally save the two outputs to separate JSON files.
+
+    alignment_output_path:
+        Contains ONLY the accepted section-pair dictionaries.
+
+    matrix_output_path:
+        Contains the complete BERTScore matrix.
+    """
+
+    with open(
+        alignment_output_path,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        import json
+
         json.dump(
-            output,
+            section_pairs,
             file,
             ensure_ascii=False,
             indent=2,
         )
 
-    print(f"\nAligned pairs: {len(aligned)}")
-    print(f"Unmatched A sections: {len(output['unmatched_sections_a'])}")
-    print(f"Unmatched B sections: {len(output['unmatched_sections_b'])}")
-    print(f"Saved to: {args.output}")
+    with open(
+        matrix_output_path,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        import json
 
-    display_pairs(output["section_pairs"])
+        json.dump(
+            score_matrix,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
 
+    print(
+        f"\nSaved alignments to: "
+        f"{alignment_output_path}"
+    )
 
-if __name__ == "__main__":
-    main()
-
-# tested by running this in the terminal:
-# python alignment.py  --lang-a es  --title-a Islas_Malvinas  --lang-b en  --title-b Falkland_Islands  --model bert-base-multilingual-cased  --threshold 0.80  --output aligned_sections.json
+    print(
+        f"Saved complete BERTScore matrix to: "
+        f"{matrix_output_path}"
+    )
