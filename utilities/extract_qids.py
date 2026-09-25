@@ -1,18 +1,10 @@
 """
-Wikipedia QID annotator — Wikipedia-native version, with:
-  - redirect-chain resolution for link QIDs
-  - article-title normalization for redirect lookup
-  - neighbor suppression for single-token capitalized aliases
-  - Unicode NFC normalization + URL decoding at the API boundary
-  - apostrophe-variant handling in neighbor detection
+Wikipedia QID annotator — importable module.
 
-Only QIDs already anchored in the article are considered:
-  * QIDs from explicit wikilinks (source "link")
-  * The article's own QID
-
-Additional mentions come from surfaces that Wikipedia itself attaches to
-those QIDs (anchor texts, target page titles, redirects, article title and
-its redirects). No Wikidata labels or aliases.
+Public API:
+    from extract_qids_alias import extract_qids
+    data = extract_qids("en", "Falkland_Islands")
+    data = extract_qids("es", "Islas_Malvinas", output_path="out.json")
 """
 
 import re
@@ -60,18 +52,20 @@ except Exception:
     pass
 
 
-# ── Configuration ────────────────────────────────────────────────────────
-LANG = "es"
-ARTICLE_TITLE = "Islas_Malvinas"
-WIKI_API = f"https://{LANG}.wikipedia.org/w/api.php"
+# ── HTTP headers (module-level; not article-specific) ───────────────────
 HEADERS = {
     "User-Agent": (
         "QID-Annotator/1.0 "
-        "(https://github.com/55horner0; marina.hornero-merino@universite-paris-saclay.fr) "
+        "(https://github.com/55horner0; "
+        "marina.hornero-merino@universite-paris-saclay.fr) "
         "python-requests"
     ),
     "Accept": "application/json",
 }
+
+
+def wiki_api_url(lang):
+    return f"https://{lang}.wikipedia.org/w/api.php"
 
 
 # ── HTTP helper ──────────────────────────────────────────────────────────
@@ -115,16 +109,8 @@ def api_get(url, params, max_retries=6):
     raise RuntimeError(f"api_get failed after {max_retries} retries: {url}")
 
 
-# ── Title normalization (URL decode + underscore + NFC) ──────────────────
+# ── Title normalization ─────────────────────────────────────────────────
 def normalize_title(title):
-    """
-    Canonical form used everywhere a title is used as a key.
-
-      1. URL-decode (handles %C3%A1 -> á in hrefs from Wikipedia HTML)
-      2. Replace underscores with spaces
-      3. Strip surrounding whitespace
-      4. Unicode NFC (so 'a' + '̃' and 'ã' compare equal)
-    """
     if title is None:
         return ""
     title = unquote(title)
@@ -134,8 +120,8 @@ def normalize_title(title):
 
 
 # ── Step 1: Fetch article HTML ───────────────────────────────────────────
-def fetch_article_html(title):
-    data = api_get(WIKI_API, {
+def fetch_article_html(wiki_api, title):
+    data = api_get(wiki_api, {
         "action": "parse",
         "page": title,
         "prop": "text",
@@ -145,50 +131,76 @@ def fetch_article_html(title):
     return data["parse"]["text"]
 
 
-# ── Step 2: Sections and explicit wikilinks ──────────────────────────────
+# ── Step 2: Sections and explicit wikilinks ─────────────────────────────
 def extract_sections_and_links(html):
+    """
+    Treat only <h2> as a top-level section boundary. Subsection content
+    (<h3>..<h6>) is absorbed into the current <h2> section. The Lead is
+    the prose before the first <h2>.
+    """
     soup = BeautifulSoup(html, "html.parser")
+
     for tag in soup.select(
         "sup.reference, .mw-editsection, .infobox, .navbox, .metadata, "
-        ".hatnote, .thumb, table, style, script"
+        ".hatnote, .thumb, table, style, script, "
+        ".sidebar, .quotebox, .gallery, .gallerytext, .reflist, "
+        ".navbox-styles, .mw-empty-elt, .shortdescription"
     ):
         tag.decompose()
+
+    for sec in soup.find_all("section"):
+        try:
+            sec.unwrap()
+        except Exception:
+            pass
 
     sections = []
     links = []
     current_heading = "Lead"
     current_level = 0
 
+    def ensure_section():
+        if not sections:
+            sections.append({
+                "heading": "Lead", "level": 0, "text": "",
+            })
+
     content = soup.find("div", {"class": "mw-parser-output"}) or soup
 
-    for element in content.children:
-        if element.name in ("h2", "h3", "h4", "h5", "h6"):
-            level = int(element.name[1])
+    for element in content.find_all(
+        ["h2", "h3", "h4", "h5", "h6", "p"],
+        recursive=True,
+    ):
+        if element.name == "h2":
             heading = element.get_text(" ", strip=True)
             heading = re.sub(r"\[.*?\]", "", heading).strip()
             if heading:
                 current_heading = heading
-                current_level = level
+                current_level = 2
                 sections.append({
-                    "heading": heading, "level": level, "text": "",
+                    "heading": heading, "level": 2, "text": "",
                 })
-        elif element.name == "p":
+            continue
+
+        if element.name in ("h3", "h4", "h5", "h6"):
+            sub = element.get_text(" ", strip=True)
+            sub = re.sub(r"\[.*?\]", "", sub).strip()
+            if sub:
+                ensure_section()
+                sections[-1]["text"] += sub + ". "
+            continue
+
+        if element.name == "p":
             text = element.get_text(" ", strip=True)
             if not text:
                 continue
-            if sections:
-                sections[-1]["text"] += text + " "
-            else:
-                sections.append({
-                    "heading": "Lead", "level": 0, "text": text + " ",
-                })
+            ensure_section()
+            sections[-1]["text"] += text + " "
 
             for a in element.find_all("a", href=True):
                 href = a["href"]
                 if not href.startswith("/wiki/") or ":" in href:
                     continue
-                # Split off any fragment BEFORE URL-decoding, so an
-                # encoded '#' in the path does not confuse the split.
                 raw_title = href.replace("/wiki/", "").split("#")[0]
                 title = normalize_title(raw_title)
                 surface = a.get_text(" ", strip=True)
@@ -203,14 +215,8 @@ def extract_sections_and_links(html):
     return sections, links
 
 
-# ── Step 3: Resolve Wikipedia titles to QIDs (with redirect chain) ───────
-def titles_to_qids(titles, batch_size=25):
-    """
-    Returns:
-      title_to_qid:         {canonical_title: qid}
-      original_to_resolved: {original_title: canonical_title}  (one hop)
-    Keys and values are NFC-normalized and URL-decoded.
-    """
+# ── Step 3: Resolve titles to QIDs (with redirect chain) ────────────────
+def titles_to_qids(wiki_api, titles, batch_size=25):
     title_to_qid = {}
     original_to_resolved = {}
     unique_titles = list(set(t for t in titles if t))
@@ -219,7 +225,7 @@ def titles_to_qids(titles, batch_size=25):
         batch = unique_titles[i:i + batch_size]
         print(f"   batch {i // batch_size + 1}/{n_batches} "
               f"({len(batch)} titles)")
-        data = api_get(WIKI_API, {
+        data = api_get(wiki_api, {
             "action": "query",
             "prop": "pageprops",
             "titles": "|".join(batch),
@@ -249,7 +255,6 @@ def titles_to_qids(titles, batch_size=25):
 
 
 def resolve_chain(title, original_to_resolved, max_hops=5):
-    """Follow the normalization + redirect chain to a canonical title."""
     seen = set()
     current = normalize_title(title)
     for _ in range(max_hops):
@@ -263,8 +268,8 @@ def resolve_chain(title, original_to_resolved, max_hops=5):
     return current
 
 
-# ── Step 4: Wikipedia redirects to linked pages ──────────────────────────
-def fetch_redirects(titles, batch_size=25):
+# ── Step 4: Redirects to linked pages ───────────────────────────────────
+def fetch_redirects(wiki_api, titles, batch_size=25):
     result = defaultdict(set)
     unique_titles = list(set(normalize_title(t) for t in titles if t))
     n_batches = (len(unique_titles) + batch_size - 1) // batch_size
@@ -272,7 +277,7 @@ def fetch_redirects(titles, batch_size=25):
         batch = unique_titles[i:i + batch_size]
         print(f"   batch {i // batch_size + 1}/{n_batches} "
               f"({len(batch)} titles)")
-        data = api_get(WIKI_API, {
+        data = api_get(wiki_api, {
             "action": "query",
             "prop": "redirects",
             "titles": "|".join(batch),
@@ -292,7 +297,7 @@ def fetch_redirects(titles, batch_size=25):
     return dict(result)
 
 
-# ── Filters ──────────────────────────────────────────────────────────────
+# ── Filters ─────────────────────────────────────────────────────────────
 _PHRASE_CACHE = {}
 
 def is_phrase_link(surface):
@@ -332,11 +337,7 @@ def is_numeric(surface):
     return bool(re.fullmatch(r"[\d\s,.\-–]+", surface.strip()))
 
 
-# ── Neighbor suppression for single-token capitalized aliases ────────────
-# Accept both the ASCII apostrophe (U+0027) and the typographic one
-# (U+2019) that Wikipedia's HTML uses.
 _APOSTROPHES = "['\u2019\u02BC]"
-
 
 def _has_capitalized_neighbor_before(text, start):
     window = text[max(0, start - 30):start]
@@ -348,9 +349,6 @@ def _has_capitalized_neighbor_before(text, start):
 
 def _has_capitalized_neighbor_after(text, end):
     window = text[end:end + 30]
-    # Match:   "'s Word"    (possessive)
-    #     or:  " Word"      (plain whitespace)
-    # with either apostrophe variant.
     pattern = r"^(?:" + _APOSTROPHES + r"s\s+|\s+)([A-Z][a-z]+)"
     m = re.search(pattern, window)
     if not m:
@@ -359,11 +357,6 @@ def _has_capitalized_neighbor_after(text, end):
 
 
 def should_suppress_single_token(text, start, end, alias):
-    """
-    True if a single-token capitalized alias looks like part of a longer
-    proper noun in this context (e.g. 'Falkland' in 'East Falkland',
-    "Falkland's Islands", 'Viscount Falkland').
-    """
     if len(alias.split()) != 1:
         return False
     if not alias[:1].isupper():
@@ -375,7 +368,7 @@ def should_suppress_single_token(text, start, end, alias):
     return False
 
 
-# ── Alias table ──────────────────────────────────────────────────────────
+# ── Alias table ─────────────────────────────────────────────────────────
 def build_alias_table(
     links,
     title_to_redirects,
@@ -387,7 +380,6 @@ def build_alias_table(
     qid_to_surfaces = defaultdict(set)
     qid_target_titles = defaultdict(set)
 
-    # 1. From each explicit wikilink
     for link in links:
         qid = link.get("qid")
         if not qid:
@@ -397,7 +389,6 @@ def build_alias_table(
         qid_to_surfaces[qid].add(resolved)
         qid_target_titles[qid].add(resolved)
 
-    # 2. Redirects to any canonical title that has a QID
     for canonical_title, redirects in title_to_redirects.items():
         qid = title_to_qid.get(canonical_title)
         if not qid:
@@ -408,7 +399,6 @@ def build_alias_table(
         for r in redirects:
             qid_to_surfaces[qid].add(r)
 
-    # 3. Article's own QID: canonical title + its redirects
     if article_qid:
         article_canonical = normalize_title(article_title)
         qid_to_surfaces[article_qid].add(article_canonical)
@@ -416,7 +406,6 @@ def build_alias_table(
         for r in title_to_redirects.get(article_canonical, []):
             qid_to_surfaces[article_qid].add(r)
 
-    # ── Basic filters ────────────────────────────────────────────────────
     for qid in list(qid_to_surfaces.keys()):
         cleaned = set()
         for s in qid_to_surfaces[qid]:
@@ -434,7 +423,6 @@ def build_alias_table(
             cleaned.add(s)
         qid_to_surfaces[qid] = cleaned
 
-    # ── Ambiguity filter ─────────────────────────────────────────────────
     surface_to_qids = defaultdict(set)
     for qid, surfaces in qid_to_surfaces.items():
         for s in surfaces:
@@ -542,73 +530,108 @@ def annotate_sections(sections, links, qid_to_aliases):
     return annotated
 
 
-# ── Display helper ──────────────────────────────────────────────────────
-def display_annotated(annotated_sections, max_sections=None):
-    for i, sec in enumerate(annotated_sections):
-        if max_sections and i >= max_sections:
-            break
-        print(f"\n{'='*60}\n[{sec['heading']}]\n{'='*60}")
-        text = sec["text"]
-        spans = sorted(sec["spans"], key=lambda s: s["start"])
-        out, last = [], 0
-        for sp in spans:
-            out.append(text[last:sp["start"]])
-            out.append(f"{sp['surface']} ({sp['qid']})")
-            last = sp["end"]
-        out.append(text[last:])
-        print("".join(out))
+# ── Render annotated text ───────────────────────────────────────────────
+def render_text_with_qids(text, spans):
+    if not spans:
+        return text
+    ordered = sorted(spans, key=lambda s: s["start"])
+    out = []
+    last = 0
+    for sp in ordered:
+        s, e, qid = sp["start"], sp["end"], sp.get("qid")
+        if s < last or qid is None:
+            continue
+        out.append(text[last:s])
+        out.append(f"{sp['surface']} ({qid})")
+        last = e
+    out.append(text[last:])
+    return "".join(out)
 
 
-# ── Main ────────────────────────────────────────────────────────────────
-def main():
-    print(f"Stopwords loaded: {len(STOPWORDS)}")
-    print(f"Brown corpus: {len(_BROWN_FREQ)} unique words, "
-          f"threshold={_BROWN_THRESHOLD:.0f}")
+# ════════════════════════════════════════════════════════════════════════
+# Public entry point
+# ════════════════════════════════════════════════════════════════════════
+def extract_qids(lang, title, output_path=None, verbose=True):
+    """
+    Annotate a Wikipedia article with QIDs per top-level section.
 
-    print("\n1. Fetching article HTML …")
-    html = fetch_article_html(ARTICLE_TITLE)
+    Parameters
+    ----------
+    lang : str
+        Wikipedia language code, e.g. "en", "es".
+    title : str
+        Article title with underscores, without the "/wiki/" prefix,
+        e.g. "Falkland_Islands".
+    output_path : str or None
+        If given, the JSON result is written to this path.
+        If None, only returned in memory.
+    verbose : bool
+        If True, prints progress to stdout.
 
-    print("2. Extracting sections and explicit wikilinks …")
+    Returns
+    -------
+    dict with keys:
+        title, language, article_qid, article_id, sections, qid_to_aliases
+    """
+    def log(msg):
+        if verbose:
+            print(msg)
+
+    wiki_api = wiki_api_url(lang)
+
+    log(f"Stopwords loaded: {len(STOPWORDS)}")
+    log(f"Brown corpus: {len(_BROWN_FREQ)} unique words, "
+        f"threshold={_BROWN_THRESHOLD:.0f}")
+
+    log(f"\n[{lang}] {title} — fetching article HTML …")
+    html = fetch_article_html(wiki_api, title)
+
+    log("Extracting sections and explicit wikilinks …")
     sections, links = extract_sections_and_links(html)
-    print(f"   → {len(sections)} sections, {len(links)} explicit links")
+    log(f"   → {len(sections)} sections, {len(links)} explicit links")
+    for s in sections[:8]:
+        log(f"      [{s['level']}] {s['heading']!r} "
+            f"({len(s['text'])} chars)")
 
-    print("3. Resolving Wikipedia titles to QIDs …")
-    all_titles = [l["title"] for l in links] + [normalize_title(ARTICLE_TITLE)]
-    title_to_qid, original_to_resolved = titles_to_qids(all_titles)
+    log("Resolving Wikipedia titles to QIDs …")
+    all_titles = [l["title"] for l in links] + [normalize_title(title)]
+    title_to_qid, original_to_resolved = titles_to_qids(
+        wiki_api, all_titles
+    )
 
     for link in links:
         resolved = resolve_chain(link["title"], original_to_resolved)
         link["resolved_title"] = resolved
         link["qid"] = title_to_qid.get(normalize_title(resolved))
 
-    article_qid = title_to_qid.get(normalize_title(ARTICLE_TITLE))
+    article_qid = title_to_qid.get(normalize_title(title))
     resolved_links = sum(1 for l in links if l.get("qid"))
-    print(f"   → resolved {len(title_to_qid)} titles to QIDs")
-    print(f"   → {resolved_links}/{len(links)} links got a QID")
-    print(f"   → article QID = {article_qid}")
+    log(f"   → resolved {len(title_to_qid)} titles to QIDs")
+    log(f"   → {resolved_links}/{len(links)} links got a QID")
+    log(f"   → article QID = {article_qid}")
 
-    print("4. Fetching Wikipedia redirects …")
+    log("Fetching Wikipedia redirects …")
     linked_titles = [l["title"] for l in links if l.get("qid")]
-    linked_titles.append(normalize_title(ARTICLE_TITLE))
-    title_to_redirects = fetch_redirects(linked_titles)
-    print(f"   → fetched redirects for {len(title_to_redirects)} titles")
+    linked_titles.append(normalize_title(title))
+    title_to_redirects = fetch_redirects(wiki_api, linked_titles)
+    log(f"   → fetched redirects for {len(title_to_redirects)} titles")
 
-    print("5. Building alias table …")
+    log("Building alias table …")
     qid_to_aliases = build_alias_table(
         links,
         title_to_redirects,
         title_to_qid,
         original_to_resolved,
-        ARTICLE_TITLE,
+        title,
         article_qid,
     )
     total = sum(len(v) for v in qid_to_aliases.values())
-    print(f"   → {total} surfaces across {len(qid_to_aliases)} QIDs")
+    log(f"   → {total} surfaces across {len(qid_to_aliases)} QIDs")
     if article_qid:
         sample = sorted(qid_to_aliases.get(article_qid, []))
-        print(f"   → article aliases ({len(sample)}): {sample[:12]}")
+        log(f"   → article aliases ({len(sample)}): {sample[:12]}")
 
-    print("6. Annotating sections …")
+    log("Annotating sections …")
     annotated = annotate_sections(sections, links, qid_to_aliases)
     total_spans = sum(len(s["spans"]) for s in annotated)
     link_spans = sum(1 for s in annotated for sp in s["spans"]
@@ -616,30 +639,49 @@ def main():
     alias_spans = total_spans - link_spans
     null_spans = sum(1 for s in annotated for sp in s["spans"]
                      if sp.get("qid") is None)
-    print(f"   → {total_spans} spans "
-          f"({link_spans} links, {alias_spans} aliases, "
-          f"{null_spans} null QIDs)")
+    log(f"   → {total_spans} spans "
+        f"({link_spans} links, {alias_spans} aliases, "
+        f"{null_spans} null QIDs)")
 
-    print("\n" + "=" * 60)
-    print("ANNOTATED OUTPUT (first 2 sections)")
-    print("=" * 60)
-    display_annotated(annotated, max_sections=2)
+    article_id = f"{lang}:{article_qid}" if article_qid else f"{lang}:UNKNOWN"
+    enriched = []
+    for idx, sec in enumerate(annotated):
+        section_id = f"{article_id}:{idx}"
+        text_with_qids = render_text_with_qids(sec["text"], sec["spans"])
+        enriched.append({
+            "article_id": article_id,
+            "section_id": section_id,
+            "section_idx": idx,
+            "language": lang,
+            "heading": sec["heading"],
+            "level": sec["level"],
+            "text": sec["text"],
+            "text_with_qids": text_with_qids,
+            "spans": sec["spans"],
+        })
 
     output = {
-        "title": ARTICLE_TITLE,
+        "title": title,
+        "language": lang,
         "article_qid": article_qid,
-        "sections": [
-            {"heading": s["heading"], "level": s["level"],
-             "text": s["text"], "spans": s["spans"]}
-            for s in annotated
-        ],
+        "article_id": article_id,
+        "sections": enriched,
         "qid_to_aliases": {q: sorted(a) for q, a in qid_to_aliases.items()},
     }
-    out_path = "falkland_annotated.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n→ Saved to {out_path}")
+
+    if output_path:
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+        log(f"\n→ Saved to {output_path}")
+
+    return output
 
 
+# ── Standalone usage ────────────────────────────────────────────────────
 if __name__ == "__main__":
-    main()
+    # Default test: English Falkland Islands
+    extract_qids(
+        lang="en",
+        title="Falkland_Islands",
+        output_path="falkland_annotated.json",
+    )
