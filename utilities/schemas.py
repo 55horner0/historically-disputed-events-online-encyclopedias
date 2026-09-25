@@ -26,7 +26,6 @@ class Section(TypedDict):
     section_id: str
     article_id: str
     language: str
-    revision_id: int
     title: str
     text: str
     wikilinks: list[dict[str, Any]]
