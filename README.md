@@ -7,6 +7,8 @@ We will update this repository as we continue upgrading our project.
 
 How to use 
 
+```python
+
 from extract_qids import extract_qids
 
 # English, in memory only
@@ -24,3 +26,5 @@ articles = [
 ]
 for lang, title in articles:
     extract_qids(lang, title, output_path=f"{title.lower()}_annotated.json")
+
+```
