@@ -1,0 +1,1614 @@
+[
+    {
+        "triplet_id": "es:Q9648:0:ap:0:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:0",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "es_un",
+        "object": {
+            "label": "territorio dependiente",
+            "qid": "Q161243"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:0:triplet:1",
+        "proposition_id": "es:Q9648:0:ap:0",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "es_un",
+        "object": {
+            "label": "territorio dependiente",
+            "qid": "Q161243"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:1:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:1",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "es_un",
+        "object": {
+            "label": "territorio no autónomo",
+            "qid": "Q900119"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:2:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:2",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "está_bajo_administración_de",
+        "object": {
+            "label": "reino unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:3:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:3",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "abarca",
+        "object": {
+            "label": "totalidad del archipiélago de las Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:4:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:4",
+        "subject": {
+            "label": "archipiélago de las Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "está_situado_en",
+        "object": {
+            "label": "océano Atlántico sudoccidental",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:16:triplet:1",
+        "proposition_id": "es:Q9648:0:ap:16",
+        "subject": {
+            "label": "Consejo Ejecutivo",
+            "qid": "Q5419832"
+        },
+        "relation": "es_elegido_por",
+        "object": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:18:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:18",
+        "subject": {
+            "label": "territorios no autónomos",
+            "qid": "Q1065"
+        },
+        "relation": "están_bajo_supervisión_de",
+        "object": {
+            "label": "comité de descolonización",
+            "qid": "Q530843"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:19:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:19",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "tiene_objetivo",
+        "object": {
+            "label": "examinar la situación con respecto a la aplicación de la Declaración sobre la concesión de la independencia a los países y pueblos coloniales",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:20:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:20",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina_situación",
+        "object": {
+            "label": "archipiélago",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:21:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:21",
+        "subject": {
+            "label": "Comité de Descolonización",
+            "qid": "Q530843"
+        },
+        "relation": "examina",
+        "object": {
+            "label": "situación del archipiélago",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:22:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:22",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "considera_juridicamente",
+        "object": {
+            "label": "territorio de soberanía",
+            "qid": "Q42008"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:23:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:23",
+        "subject": {
+            "label": "Organización de las Naciones Unidas",
+            "qid": "Q1065"
+        },
+        "relation": "considera_juridicamente",
+        "object": {
+            "label": "territorio de soberanía",
+            "qid": "Q42008"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:24:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:24",
+        "subject": {
+            "label": "territorio de soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "está entre",
+        "object": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:24:triplet:1",
+        "proposition_id": "es:Q9648:0:ap:24",
+        "subject": {
+            "label": "territorio de soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "está entre",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:25:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:25",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "administra",
+        "object": {
+            "label": "territorio de soberanía",
+            "qid": "Q42008"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:0:ap:26:triplet:0",
+        "proposition_id": "es:Q9648:0:ap:26",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "reclama_devolución",
+        "object": {
+            "label": "territorio_de_soberanía",
+            "qid": "Q42008"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:4:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:4",
+        "subject": {
+            "label": "Luis Vernet",
+            "qid": "Q215387"
+        },
+        "relation": "tiene_titulo",
+        "object": {
+            "label": "Comandante Político y Militar del archipiélago argentino",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:14:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:14",
+        "subject": {
+            "label": "capitán de la goleta Sarandí",
+            "qid": "Q6121830"
+        },
+        "relation": "es",
+        "object": {
+            "label": "José María Pinedo",
+            "qid": "Q5943335"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:30:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:30",
+        "subject": {
+            "label": "Marina Real británica",
+            "qid": "Q172771"
+        },
+        "relation": "construir",
+        "object": {
+            "label": "Puerto Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:32:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:32",
+        "subject": {
+            "label": "Primera Guerra Mundial",
+            "qid": "Q361"
+        },
+        "relation": "ocurrió_durante",
+        "object": {
+            "label": "batalla naval",
+            "qid": "Q160011"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:32:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:32",
+        "subject": {
+            "label": "Primera Guerra Mundial",
+            "qid": "Q361"
+        },
+        "relation": "lugar_de_ocurrencia",
+        "object": {
+            "label": "islas",
+            "qid": "Q160011"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:33:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:33",
+        "subject": {
+            "label": "Primera Guerra Mundial",
+            "qid": "Q361"
+        },
+        "relation": "se_produjo_durante",
+        "object": {
+            "label": "victoria británica sobre la flota imperial alemana",
+            "qid": "Q156649"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:36:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:36",
+        "subject": {
+            "label": "Dependencias de las Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "quedaron_reducidas_a",
+        "object": {
+            "label": "Georgias del Sur",
+            "qid": "Q3117681"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:36:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:36",
+        "subject": {
+            "label": "Dependencias de las Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "quedaron_reducidas_a",
+        "object": {
+            "label": "Sandwich del Sur",
+            "qid": "Q165783"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:37:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:37",
+        "subject": {
+            "label": "Georgias del Sur",
+            "qid": "Q3117681"
+        },
+        "relation": "se_agruparon",
+        "object": {
+            "label": "Sandwich del Sur",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:38:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:38",
+        "subject": {
+            "label": "gobierno del Territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "está basado en",
+        "object": {
+            "label": "Puerto Argentino/Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:39:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:39",
+        "subject": {
+            "label": "gobernador colonial británico",
+            "qid": "Q16140777"
+        },
+        "relation": "era_comisionado_de",
+        "object": {
+            "label": "georgias_del_sur",
+            "qid": "Q3117681"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:40:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:40",
+        "subject": {
+            "label": "gobernador colonial británico de las islas Georgias y Sandwich del Sur",
+            "qid": "Q16140777"
+        },
+        "relation": "representaba_al_rey",
+        "object": {
+            "label": "Territorio británico de ultramar",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:4",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:5",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "soberanía de estos archipiélagos",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:6",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:7",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "soberanía de estos archipiélagos",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:8",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:51:triplet:9",
+        "proposition_id": "es:Q9648:2:ap:51",
+        "subject": {
+            "label": "diferendo sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "relacionado_con",
+        "object": {
+            "label": "soberanía de estos archipiélagos",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:52:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:52",
+        "subject": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        },
+        "relation": "ser_considerado_por",
+        "object": {
+            "label": "comité de descolonización",
+            "qid": "Q530843"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:52:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:52",
+        "subject": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        },
+        "relation": "ser_considerado_por",
+        "object": {
+            "label": "ONU",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:52:triplet:2",
+        "proposition_id": "es:Q9648:2:ap:52",
+        "subject": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        },
+        "relation": "ser_considerado_por",
+        "object": {
+            "label": "argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:52:triplet:3",
+        "proposition_id": "es:Q9648:2:ap:52",
+        "subject": {
+            "label": "archipiélagos australes",
+            "qid": "Q33837"
+        },
+        "relation": "ser_considerado_por",
+        "object": {
+            "label": "reino unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:67:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:67",
+        "subject": {
+            "label": "disputa sobre la soberanía",
+            "qid": "Q42008"
+        },
+        "relation": "es_un_caso_de",
+        "object": {
+            "label": "litigio",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:71:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:71",
+        "subject": {
+            "label": "República Argentina",
+            "qid": "Q414"
+        },
+        "relation": "reconoce_soberanía",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:72:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:72",
+        "subject": {
+            "label": "República Argentina",
+            "qid": "Q414"
+        },
+        "relation": "considera",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:72:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:72",
+        "subject": {
+            "label": "República Argentina",
+            "qid": "Q414"
+        },
+        "relation": "considera",
+        "object": {
+            "label": "territorio de las islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:73:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:73",
+        "subject": {
+            "label": "República Argentina",
+            "qid": "Q414"
+        },
+        "relation": "considera",
+        "object": {
+            "label": "islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:88:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:88",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "manifestar_posicion",
+        "object": {
+            "label": "soberanía de las Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:88:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:88",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "manifestar_posicion",
+        "object": {
+            "label": "deseos de los isleños",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:91:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:91",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "utiliza",
+        "object": {
+            "label": "resoluciones",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:91:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:91",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "utiliza",
+        "object": {
+            "label": "Naciones Unidas",
+            "qid": "Q1065"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:121:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:121",
+        "subject": {
+            "label": "gobierno de la República Argentina",
+            "qid": "Q414"
+        },
+        "relation": "manifestar_preocupación",
+        "object": {
+            "label": "militarización de las Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:123:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:123",
+        "subject": {
+            "label": "Falkland Oil and Gas",
+            "qid": "Q1249802"
+        },
+        "relation": "confirmar_uso",
+        "object": {
+            "label": "consumo del Reino Unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:123:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:123",
+        "subject": {
+            "label": "Premier Oil",
+            "qid": "Q1249802"
+        },
+        "relation": "confirmar_uso",
+        "object": {
+            "label": "consumo del Reino Unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:123:triplet:2",
+        "proposition_id": "es:Q9648:2:ap:123",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q1249802"
+        },
+        "relation": "confirmar_uso",
+        "object": {
+            "label": "consumo del Reino Unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:130:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:130",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "está_considerando_revisar",
+        "object": {
+            "label": "apoyo",
+            "qid": "Q30"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:130:triplet:1",
+        "proposition_id": "es:Q9648:2:ap:130",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "está_considerando_revisar",
+        "object": {
+            "label": "reclamo_de_soberanía",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:2:ap:135:triplet:0",
+        "proposition_id": "es:Q9648:2:ap:135",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "está_bajo_control_de",
+        "object": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:0:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:0",
+        "subject": {
+            "label": "poder ejecutivo",
+            "qid": "Q46395"
+        },
+        "relation": "reside_en",
+        "object": {
+            "label": "carlos iii del reino unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:0:triplet:1",
+        "proposition_id": "es:Q9648:3:ap:0",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "reside_en",
+        "object": {
+            "label": "carlos iii del reino unido",
+            "qid": "Q145"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:1:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:1",
+        "subject": {
+            "label": "Carlos III del Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "delega_poder_en",
+        "object": {
+            "label": "gobernador",
+            "qid": "Q16140777"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:1:triplet:1",
+        "proposition_id": "es:Q9648:3:ap:1",
+        "subject": {
+            "label": "Carlos III del Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "delega_poder_en",
+        "object": {
+            "label": "Alison Blake",
+            "qid": "Q56808509"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:2:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:2",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "tiene_jefe_de_gobierno",
+        "object": {
+            "label": "jefe de gobierno",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:3:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:3",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "tiene",
+        "object": {
+            "label": "asamblea legislativa",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:4:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:4",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "tiene",
+        "object": {
+            "label": "corte suprema de justicia",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:5:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:5",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "tiene",
+        "object": {
+            "label": "corte de magistrados",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:6:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:6",
+        "subject": {
+            "label": "territorio británico de ultramar",
+            "qid": "Q46395"
+        },
+        "relation": "tiene_gobierno",
+        "object": {
+            "label": "gobierno",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:26:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:26",
+        "subject": {
+            "label": "Gobernador",
+            "qid": "Q16140777"
+        },
+        "relation": "puede_actuar_en",
+        "object": {
+            "label": "Instrucción",
+            "qid": "Q5419832"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:29:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:29",
+        "subject": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "elige_a",
+        "object": {
+            "label": "miembros",
+            "qid": "Q5419832"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:29:triplet:1",
+        "proposition_id": "es:Q9648:3:ap:29",
+        "subject": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "elige_a",
+        "object": {
+            "label": "Consejo Ejecutivo",
+            "qid": "Q5419832"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:31:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:31",
+        "subject": {
+            "label": "miembro ex officio del Consejo Ejecutivo",
+            "qid": "Q5419832"
+        },
+        "relation": "es_jefe_del_ejecutivo",
+        "object": {
+            "label": "jefe del Ejecutivo",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:32:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:32",
+        "subject": {
+            "label": "miembro ex officio del Consejo Ejecutivo",
+            "qid": "Q5419832"
+        },
+        "relation": "es_director_de",
+        "object": {
+            "label": "director de Finanzas",
+            "qid": "Q5280544"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:33:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:33",
+        "subject": {
+            "label": "comandante en jefe de las Fuerzas Británicas",
+            "qid": "Q275482"
+        },
+        "relation": "puede_asistir_a",
+        "object": {
+            "label": "reuniones",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:34:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:34",
+        "subject": {
+            "label": "comandante en jefe de las Fuerzas Británicas",
+            "qid": "Q275482"
+        },
+        "relation": "puede_comentar_sobre",
+        "object": {
+            "label": "cualquier tema",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:35:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:35",
+        "subject": {
+            "label": "comandante en jefe de las Fuerzas Británicas",
+            "qid": "Q275482"
+        },
+        "relation": "no_se_le_permite_votar",
+        "object": {
+            "label": "reuniones",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:41:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:41",
+        "subject": {
+            "label": "Jefe del Ejecutivo",
+            "qid": "Q3064699"
+        },
+        "relation": "ser_elegido_por",
+        "object": {
+            "label": "Consejo Ejecutivo",
+            "qid": "Q5419832"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:42:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:42",
+        "subject": {
+            "label": "Jefe del Ejecutivo",
+            "qid": "Q3064699"
+        },
+        "relation": "actúa_como_jefe",
+        "object": {
+            "label": "Administración Pública de las Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:51:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:51",
+        "subject": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "es_elegida_por",
+        "object": {
+            "label": "sufragio universal",
+            "qid": "Q319891"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:52:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:52",
+        "subject": {
+            "label": "elegencia por sufragio universal",
+            "qid": "Q319891"
+        },
+        "relation": "aplica_a",
+        "object": {
+            "label": "personas con 18 años o más",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:54:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:54",
+        "subject": {
+            "label": "Los elegidos para la Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "deben_ser",
+        "object": {
+            "label": "irlandeses",
+            "qid": "Q27"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:55:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:55",
+        "subject": {
+            "label": "Los elegidos para la Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "deben_ser_de",
+        "object": {
+            "label": "la Mancomunidad",
+            "qid": "Q7785"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:58:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:58",
+        "subject": {
+            "label": "Jefe del Ejecutivo",
+            "qid": "Q3064699"
+        },
+        "relation": "es_miembro_ex_officio_de",
+        "object": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:59:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:59",
+        "subject": {
+            "label": "director de finanzas",
+            "qid": "Q5280544"
+        },
+        "relation": "es_miembro_ex_officio_de",
+        "object": {
+            "label": "asamblea legislativa",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:60:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:60",
+        "subject": {
+            "label": "Gobernador",
+            "qid": "Q16140777"
+        },
+        "relation": "puede_anular",
+        "object": {
+            "label": "ley",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:60:triplet:1",
+        "proposition_id": "es:Q9648:3:ap:60",
+        "subject": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "hace",
+        "object": {
+            "label": "ley",
+            "qid": "Q16140777"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:61:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:61",
+        "subject": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        },
+        "relation": "necesita_obtener_autorizacion",
+        "object": {
+            "label": "Secretario de Estado británico de Asuntos Exteriores",
+            "qid": "Q16140777"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:3:ap:63:triplet:0",
+        "proposition_id": "es:Q9648:3:ap:63",
+        "subject": {
+            "label": "Nueva Constitución",
+            "qid": "Q5164252"
+        },
+        "relation": "creó",
+        "object": {
+            "label": "Asamblea Legislativa",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:6:triplet:0",
+        "proposition_id": "es:Q9648:4:ap:6",
+        "subject": {
+            "label": "Real Fuerza Aérea",
+            "qid": "Q165862"
+        },
+        "relation": "se_denomina",
+        "object": {
+            "label": "Falkland Islands Defence Force",
+            "qid": "Q3076880"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:2",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Antártida",
+            "qid": "Q51"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:3",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:5",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Antártida",
+            "qid": "Q51"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:6",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:8",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Antártida",
+            "qid": "Q51"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:31:triplet:9",
+        "proposition_id": "es:Q9648:4:ap:31",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "es_parte_de",
+        "object": {
+            "label": "sistema estratégico de poder",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:32:triplet:0",
+        "proposition_id": "es:Q9648:4:ap:32",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "tiene_márgenes_que_se_amplían_con",
+        "object": {
+            "label": "territorios_de_las_islas_de_Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:32:triplet:1",
+        "proposition_id": "es:Q9648:4:ap:32",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "tiene_márgenes_que_se_amplían_con",
+        "object": {
+            "label": "Antártida",
+            "qid": "Q51"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:33:triplet:0",
+        "proposition_id": "es:Q9648:4:ap:33",
+        "subject": {
+            "label": "territorios",
+            "qid": "Q1249802"
+        },
+        "relation": "ubicados_en",
+        "object": {
+            "label": "centro_del_atlantico_sur",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:33:triplet:1",
+        "proposition_id": "es:Q9648:4:ap:33",
+        "subject": {
+            "label": "antartida",
+            "qid": "Q51"
+        },
+        "relation": "ubicados_en",
+        "object": {
+            "label": "centro_del_atlantico_sur",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:0",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Ascensión",
+            "qid": "Q46197"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:1",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Tristán de Acuña",
+            "qid": "Q220982"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:2",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Georgias del Sur",
+            "qid": "Q3117681"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:6",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Ascensión",
+            "qid": "Q46197"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:7",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Tristán de Acuña",
+            "qid": "Q220982"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:34:triplet:8",
+        "proposition_id": "es:Q9648:4:ap:34",
+        "subject": {
+            "label": "Juan Recce",
+            "qid": "Q51"
+        },
+        "relation": "confiere_control_logístico_del_camino_de_occidente_a_la_antártida",
+        "object": {
+            "label": "Georgias del Sur",
+            "qid": "Q3117681"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:4:ap:38:triplet:0",
+        "proposition_id": "es:Q9648:4:ap:38",
+        "subject": {
+            "label": "Reino Unido",
+            "qid": "Q145"
+        },
+        "relation": "estar铆a_militarizando",
+        "object": {
+            "label": "zona de Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:1:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:1",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "inmigrantes escoceses",
+            "qid": "Q181634"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:2:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:2",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "inmigrantes galeses",
+            "qid": "Q188353"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:5:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:5",
+        "subject": {
+            "label": "población nacida en las islas malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "ingleses",
+            "qid": "Q42406"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:6:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:6",
+        "subject": {
+            "label": "población nacida en las islas malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "franceses",
+            "qid": "Q121842"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:7:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:7",
+        "subject": {
+            "label": "población nacida en las islas malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "gibraltareños",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:8:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:8",
+        "subject": {
+            "label": "población nacida en las islas malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "escandinavos",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:9:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:9",
+        "subject": {
+            "label": "población nacida en las islas malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "desciende_de",
+        "object": {
+            "label": "sudamericanos",
+            "qid": "Q18"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:58:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:58",
+        "subject": {
+            "label": "católicos",
+            "qid": "Q879146"
+        },
+        "relation": "es_principal_denominación_no_protestante",
+        "object": {
+            "label": "población total",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:58:triplet:1",
+        "proposition_id": "es:Q9648:6:ap:58",
+        "subject": {
+            "label": "católicos",
+            "qid": "Q879146"
+        },
+        "relation": "suponen",
+        "object": {
+            "label": "población total",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:58:triplet:2",
+        "proposition_id": "es:Q9648:6:ap:58",
+        "subject": {
+            "label": "población total",
+            "qid": "Q1249802"
+        },
+        "relation": "tiene_porcentaje",
+        "object": {
+            "label": "10%",
+            "qid": "Q879146"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:6:ap:62:triplet:0",
+        "proposition_id": "es:Q9648:6:ap:62",
+        "subject": {
+            "label": "iglesia católica de Santa María en Ross Road en Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "es",
+        "object": {
+            "label": "únicas iglesia católica en las Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:21:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:21",
+        "subject": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "ocurrió_en",
+        "object": {
+            "label": "Copa Latinoamericana de hockey sobre hielo de 2019",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:22:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:22",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "amenazo_con_boicotear_during",
+        "object": {
+            "label": "enfrentamiento",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:22:triplet:1",
+        "proposition_id": "es:Q9648:7:ap:22",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "amenazo_con_boicotear_during",
+        "object": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:23:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:23",
+        "subject": {
+            "label": "representativo del archipiélago",
+            "qid": "Q33837"
+        },
+        "relation": "debió competir sin denominarse como",
+        "object": {
+            "label": "Islas Malvinas",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:23:triplet:1",
+        "proposition_id": "es:Q9648:7:ap:23",
+        "subject": {
+            "label": "representativo del archipiélago",
+            "qid": "Q33837"
+        },
+        "relation": "debió competir sin denominarse como",
+        "object": {
+            "label": "Islas Falkland",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:24:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:24",
+        "subject": {
+            "label": "representativo del archipiélago",
+            "qid": "Q33837"
+        },
+        "relation": "participó_como",
+        "object": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:24:triplet:1",
+        "proposition_id": "es:Q9648:7:ap:24",
+        "subject": {
+            "label": "enfrentamiento entre las Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "ocurrió_entre",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:25:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:25",
+        "subject": {
+            "label": "representativo del archipiélago",
+            "qid": "Q33837"
+        },
+        "relation": "no_tocar",
+        "object": {
+            "label": "hymno británico",
+            "qid": "Q1249802"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:25:triplet:1",
+        "proposition_id": "es:Q9648:7:ap:25",
+        "subject": {
+            "label": "enfrentamiento entre las Islas Malvinas",
+            "qid": "Q1249802"
+        },
+        "relation": "ocurrir_en",
+        "object": {
+            "label": "argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:55:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:55",
+        "subject": {
+            "label": "Frøya",
+            "qid": "Q484119"
+        },
+        "relation": "es_localidad_de",
+        "object": {
+            "label": "Noruega",
+            "qid": "Q20"
+        }
+    },
+    {
+        "triplet_id": "es:Q9648:7:ap:56:triplet:0",
+        "proposition_id": "es:Q9648:7:ap:56",
+        "subject": {
+            "label": "Frøya",
+            "qid": "Q484119"
+        },
+        "relation": "obtener_medalla",
+        "object": {
+            "label": "medalla_de_bronce",
+            "qid": "Q845262"
+        }
+    }
+]

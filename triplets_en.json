@@ -1,0 +1,3473 @@
+[
+    {
+        "triplet_id": "en:Q9648:0:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "is_archipelago_of",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:1:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "South Atlantic Ocean",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:2:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:2",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_on",
+        "object": {
+            "label": "Patagonian Shelf",
+            "qid": "Q5503766"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:8:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:8",
+        "subject": {
+            "label": "principal islands",
+            "qid": "Q6919829"
+        },
+        "relation": "located_northern_tip",
+        "object": {
+            "label": "Antarctic Peninsula",
+            "qid": "Q185605"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:11:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:11",
+        "subject": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        },
+        "relation": "comprises",
+        "object": {
+            "label": "east_falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:12:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:12",
+        "subject": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        },
+        "relation": "comprises",
+        "object": {
+            "label": "west falkland",
+            "qid": "Q733338"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:14:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:14",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "instance_of",
+        "object": {
+            "label": "British Overseas Territory",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:15:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:15",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "has_internal_self_governance",
+        "object": {
+            "label": "internal_self_governance",
+            "qid": "Q417633"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:18:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:18",
+        "subject": {
+            "label": "capital",
+            "qid": "Q9648"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:19:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:19",
+        "subject": {
+            "label": "settlement",
+            "qid": "Q9648"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:19:triplet:1",
+        "proposition_id": "en:Q9648:0:ap:19",
+        "subject": {
+            "label": "stanley",
+            "qid": "Q12245"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:20:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:20",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "located_on",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:24:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:24",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "had_settlement",
+        "object": {
+            "label": "French settlements",
+            "qid": "Q70972"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:25:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:25",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "have_british_settlements",
+        "object": {
+            "label": "British settlements",
+            "qid": "Q70972"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:26:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:26",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "had_settlement",
+        "object": {
+            "label": "Spanish settlements",
+            "qid": "Q2365041"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:27:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:27",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "had_argentine_settlements",
+        "object": {
+            "label": "Argentine settlements",
+            "qid": "Q2365041"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:46:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:46",
+        "subject": {
+            "label": "Falkland Islanders",
+            "qid": "Q3502570"
+        },
+        "relation": "is_citizen_of",
+        "object": {
+            "label": "British citizens",
+            "qid": "Q918305"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:46:triplet:1",
+        "proposition_id": "en:Q9648:0:ap:46",
+        "subject": {
+            "label": "Falkland Islanders",
+            "qid": "Q3502570"
+        },
+        "relation": "governed_by",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:47:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:47",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_at_boundary_of",
+        "object": {
+            "label": "subantarctic oceanic zone",
+            "qid": "Q182090"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:47:triplet:1",
+        "proposition_id": "en:Q9648:0:ap:47",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_at_boundary_of",
+        "object": {
+            "label": "tundra climate zone",
+            "qid": "Q2459798"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:48:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:48",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_at_boundary_of",
+        "object": {
+            "label": "subantarctic oceanic zone",
+            "qid": "Q182090"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:48:triplet:1",
+        "proposition_id": "en:Q9648:0:ap:48",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_at_boundary_of",
+        "object": {
+            "label": "tundra climate zone",
+            "qid": "Q2459798"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:0:ap:55:triplet:0",
+        "proposition_id": "en:Q9648:0:ap:55",
+        "subject": {
+            "label": "sheep farming",
+            "qid": "Q1790941"
+        },
+        "relation": "includes",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "comes_from",
+        "object": {
+            "label": "Falkland Sound",
+            "qid": "Q629804"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:3:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:3",
+        "subject": {
+            "label": "Falkland",
+            "qid": "Q1012069"
+        },
+        "relation": "applied_to",
+        "object": {
+            "label": "channel of Falkland Sound",
+            "qid": "Q629804"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:4:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:4",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "applied_name_to",
+        "object": {
+            "label": "Falkland Sound",
+            "qid": "Q629804"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:4:triplet:1",
+        "proposition_id": "en:Q9648:1:ap:4",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "applied_name_to",
+        "object": {
+            "label": "Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:7:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:7",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "named",
+        "object": {
+            "label": "strait of Falkland Sound",
+            "qid": "Q37901"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:7:triplet:1",
+        "proposition_id": "en:Q9648:1:ap:7",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "honour_of",
+        "object": {
+            "label": "Anthony Cary",
+            "qid": "Q37901"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:17:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:17",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "was_not_applied_to",
+        "object": {
+            "label": "islands of Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "claimed",
+        "object": {
+            "label": "Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:1",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        },
+        "relation": "claimed",
+        "object": {
+            "label": "Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:2",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "British captain",
+            "qid": "Q507665"
+        },
+        "relation": "claimed",
+        "object": {
+            "label": "Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:3",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "British captain",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:4",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:5",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "British captain",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:6",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:7",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "British captain",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:8",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:18:triplet:9",
+        "proposition_id": "en:Q9648:1:ap:18",
+        "subject": {
+            "label": "British captain",
+            "qid": "Q507665"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:19:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:19",
+        "subject": {
+            "label": "British captain John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "claimed",
+        "object": {
+            "label": "islands of Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:19:triplet:1",
+        "proposition_id": "en:Q9648:1:ap:19",
+        "subject": {
+            "label": "British captain John Byron",
+            "qid": "Q507665"
+        },
+        "relation": "claimed",
+        "object": {
+            "label": "King George III",
+            "qid": "Q127318"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:20:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:20",
+        "subject": {
+            "label": "King George III",
+            "qid": "Q127318"
+        },
+        "relation": "declared",
+        "object": {
+            "label": "Falkland's Islands",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:1:ap:21:triplet:0",
+        "proposition_id": "en:Q9648:1:ap:21",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "is_standard_abbreviation_for",
+        "object": {
+            "label": "islands of Falkland",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:0",
+        "subject": {
+            "label": "Fuegians",
+            "qid": "Q735064"
+        },
+        "relation": "may_have_visited",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:0:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:0",
+        "subject": {
+            "label": "Patagonia",
+            "qid": "Q1507"
+        },
+        "relation": "may_have_visited",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:3:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:3",
+        "subject": {
+            "label": "early explorers",
+            "qid": "Q9648"
+        },
+        "relation": "sighted",
+        "object": {
+            "label": "other islands",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:4:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:4",
+        "subject": {
+            "label": "first undisputed landing",
+            "qid": "Q9648"
+        },
+        "relation": "attributed_to",
+        "object": {
+            "label": "english captain john strong",
+            "qid": "Q1274019"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:5:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:5",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "landed_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:5:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:5",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "en_route_to",
+        "object": {
+            "label": "Peru",
+            "qid": "Q419"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:6:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:6",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "landed_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:6:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:6",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "en_route_to",
+        "object": {
+            "label": "Chile",
+            "qid": "Q298"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:7:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:7",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "landed_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:8:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:8",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "explored",
+        "object": {
+            "label": "Falkland Sound",
+            "qid": "Q629804"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:8:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:8",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "landed_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:9:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:9",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "noted",
+        "object": {
+            "label": "water",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:9:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:9",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "landing_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:10:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:10",
+        "subject": {
+            "label": "John Strong",
+            "qid": "Q1274019"
+        },
+        "relation": "noted",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:11:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:11",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "remained_uninhabited_until",
+        "object": {
+            "label": "1764 establishment of Port Louis",
+            "qid": "Q3435209"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:11:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:11",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_on",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:11:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:11",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_by",
+        "object": {
+            "label": "French",
+            "qid": "Q70972"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:11:triplet:3",
+        "proposition_id": "en:Q9648:2:ap:11",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_by",
+        "object": {
+            "label": "Louis Antoine de Bougainville",
+            "qid": "Q153911"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:12:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:12",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_by",
+        "object": {
+            "label": "French",
+            "qid": "Q70972"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:12:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:12",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_at",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:12:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:12",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "established_by",
+        "object": {
+            "label": "Louis Antoine de Bougainville",
+            "qid": "Q153911"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:13:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:13",
+        "subject": {
+            "label": "Port Egmont",
+            "qid": "Q1013070"
+        },
+        "relation": "was_founded_by",
+        "object": {
+            "label": "British captain John Byron",
+            "qid": "Q507665"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:14:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:14",
+        "subject": {
+            "label": "foundation",
+            "qid": "Q1013070"
+        },
+        "relation": "was_made_by",
+        "object": {
+            "label": "british captain john byron",
+            "qid": "Q507665"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:14:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:14",
+        "subject": {
+            "label": "port egmont",
+            "qid": "Q1013070"
+        },
+        "relation": "was_founded_in",
+        "object": {
+            "label": "saunders island",
+            "qid": "Q507665"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:15:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:15",
+        "subject": {
+            "label": "Port Egmont",
+            "qid": "Q1013070"
+        },
+        "relation": "was_expanded_by",
+        "object": {
+            "label": "British captain John MacBride",
+            "qid": "Q4275192"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:16:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:16",
+        "subject": {
+            "label": "Port Egmont",
+            "qid": "Q1013070"
+        },
+        "relation": "expanded_by",
+        "object": {
+            "label": "British captain John MacBride",
+            "qid": "Q4275192"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:17:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:17",
+        "subject": {
+            "label": "Port Louis",
+            "qid": "Q3435209"
+        },
+        "relation": "located_on",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:18:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:18",
+        "subject": {
+            "label": "France",
+            "qid": "Q142"
+        },
+        "relation": "surrendered_claim_to",
+        "object": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:18:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:18",
+        "subject": {
+            "label": "France",
+            "qid": "Q142"
+        },
+        "relation": "surrendered_claim_to",
+        "object": {
+            "label": "Spain",
+            "qid": "Q29"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:19:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:19",
+        "subject": {
+            "label": "Spain",
+            "qid": "Q29"
+        },
+        "relation": "renamed",
+        "object": {
+            "label": "Puerto Soledad",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:19:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:19",
+        "subject": {
+            "label": "Spain",
+            "qid": "Q29"
+        },
+        "relation": "renamed",
+        "object": {
+            "label": "French",
+            "qid": "Q70972"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:20:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:20",
+        "subject": {
+            "label": "Spain",
+            "qid": "Q29"
+        },
+        "relation": "detected_and_captured",
+        "object": {
+            "label": "Port Egmont",
+            "qid": "Q1013070"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:21:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:21",
+        "subject": {
+            "label": "Spain",
+            "qid": "Q29"
+        },
+        "relation": "war",
+        "object": {
+            "label": "Britain",
+            "qid": "Q1773491"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:22:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:22",
+        "subject": {
+            "label": "British",
+            "qid": "Q842438"
+        },
+        "relation": "coexisted_with",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:22:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:22",
+        "subject": {
+            "label": "Spanish",
+            "qid": "Q842438"
+        },
+        "relation": "coexisted_with",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:24:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:24",
+        "subject": {
+            "label": "plaque",
+            "qid": "Q9648"
+        },
+        "relation": "was_left_for",
+        "object": {
+            "label": "king_george_iii",
+            "qid": "Q127318"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:27:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:27",
+        "subject": {
+            "label": "Puerto Soledad",
+            "qid": "Q7258835"
+        },
+        "relation": "became_penal_colony_after",
+        "object": {
+            "label": "West Falkland",
+            "qid": "Q733338"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:38:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:38",
+        "subject": {
+            "label": "Colonel David Jewett",
+            "qid": "Q3431491"
+        },
+        "relation": "informed",
+        "object": {
+            "label": "anchored ships",
+            "qid": "Q1486"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:38:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:38",
+        "subject": {
+            "label": "Colonel David Jewett",
+            "qid": "Q3431491"
+        },
+        "relation": "informed",
+        "object": {
+            "label": "Buenos Aires",
+            "qid": "Q1486"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:38:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:38",
+        "subject": {
+            "label": "Buenos Aires",
+            "qid": "Q1486"
+        },
+        "relation": "claim_to",
+        "object": {
+            "label": "Spain",
+            "qid": "Q29"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:38:triplet:3",
+        "proposition_id": "en:Q9648:2:ap:38",
+        "subject": {
+            "label": "Buenos Aires",
+            "qid": "Q1486"
+        },
+        "relation": "claim_to",
+        "object": {
+            "label": "territories in the South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:38:triplet:4",
+        "proposition_id": "en:Q9648:2:ap:38",
+        "subject": {
+            "label": "1816 claim to Spain",
+            "qid": "Q29"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "territories in the South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:39:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:39",
+        "subject": {
+            "label": "Colonel David Jewett",
+            "qid": "Q3431491"
+        },
+        "relation": "was",
+        "object": {
+            "label": "American privateer",
+            "qid": "Q201559"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:43:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:43",
+        "subject": {
+            "label": "Buenos Aires",
+            "qid": "Q1486"
+        },
+        "relation": "granted_permission_to",
+        "object": {
+            "label": "German-born merchant Luis Vernet",
+            "qid": "Q215387"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:46:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:46",
+        "subject": {
+            "label": "Buenos Aires",
+            "qid": "Q1486"
+        },
+        "relation": "named",
+        "object": {
+            "label": "Vernet",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:50:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:50",
+        "subject": {
+            "label": "USS Lexington",
+            "qid": "Q7871244"
+        },
+        "relation": "commanded_by",
+        "object": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:50:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:50",
+        "subject": {
+            "label": "USS Lexington",
+            "qid": "Q7871244"
+        },
+        "relation": "commanded_by",
+        "object": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "island_of_Puerto_Soledad",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:3",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "island_of_Puerto_Soledad",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:4",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:5",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:6",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "island_of_Puerto_Soledad",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:7",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "island_of_Puerto_Soledad",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:8",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "Silas Duncan",
+            "qid": "Q3294548"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:51:triplet:9",
+        "proposition_id": "en:Q9648:2:ap:51",
+        "subject": {
+            "label": "United States Navy",
+            "qid": "Q11220"
+        },
+        "relation": "declared_dissolution_of",
+        "object": {
+            "label": "government",
+            "qid": "Q7258835"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:59:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:59",
+        "subject": {
+            "label": "Argentine Confederation",
+            "qid": "Q832554"
+        },
+        "relation": "headed_by",
+        "object": {
+            "label": "Buenos Aires Governor Juan Manuel de Rosas",
+            "qid": "Q1486"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:59:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:59",
+        "subject": {
+            "label": "Buenos Aires Governor Juan Manuel de Rosas",
+            "qid": "Q1486"
+        },
+        "relation": "headed",
+        "object": {
+            "label": "Argentine Confederation",
+            "qid": "Q832554"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:61:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:61",
+        "subject": {
+            "label": "Argentine Confederation",
+            "qid": "Q832554"
+        },
+        "relation": "protest_against",
+        "object": {
+            "label": "Britain",
+            "qid": "Q2365041"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:117:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:117",
+        "subject": {
+            "label": "Falkland Islands Company",
+            "qid": "Q22087938"
+        },
+        "relation": "dominated",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:118:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:118",
+        "subject": {
+            "label": "Falkland Islands Company",
+            "qid": "Q22087938"
+        },
+        "relation": "owned_most_housing",
+        "object": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:120:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:120",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "served_important_role_in",
+        "object": {
+            "label": "Britain's_territorial_claims_to_subantarctic_islands",
+            "qid": "Q1141556"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:122:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:122",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "governed",
+        "object": {
+            "label": "Falkland Islands Territories",
+            "qid": "Q5431953"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:123:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:123",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "retained",
+        "object": {
+            "label": "Falkland Islands Territories",
+            "qid": "Q5431953"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:125:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:125",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "served_as_military_base_aiding_control",
+        "object": {
+            "label": "South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "took_place_in",
+        "object": {
+            "label": "First World War",
+            "qid": "Q361"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "First World War",
+            "qid": "Q361"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "took_place_in",
+        "object": {
+            "label": "December 1914",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:3",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "December 1914",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:4",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        },
+        "relation": "defeated",
+        "object": {
+            "label": "Imperial German",
+            "qid": "Q43287"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:5",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:6",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "Imperial German",
+            "qid": "Q43287"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:7",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Royal Navy",
+            "qid": "Q172771"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:126:triplet:8",
+        "proposition_id": "en:Q9648:2:ap:126",
+        "subject": {
+            "label": "Imperial German",
+            "qid": "Q43287"
+        },
+        "relation": "participated_in",
+        "object": {
+            "label": "Battle of the Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:127:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:127",
+        "subject": {
+            "label": "Second World War",
+            "qid": "Q362"
+        },
+        "relation": "took_place_in",
+        "object": {
+            "label": "December 1939 Battle of the River Plate",
+            "qid": "Q428315"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:127:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:127",
+        "subject": {
+            "label": "HMS Exeter",
+            "qid": "Q428315"
+        },
+        "relation": "steamed_to",
+        "object": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:129:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:129",
+        "subject": {
+            "label": "battalion",
+            "qid": "Q9648"
+        },
+        "relation": "redeployment_to",
+        "object": {
+            "label": "falklands",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:129:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:129",
+        "subject": {
+            "label": "falklands",
+            "qid": "Q33837"
+        },
+        "relation": "fears_of_seizure_by",
+        "object": {
+            "label": "japanese",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:131:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:131",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "affected_by",
+        "object": {
+            "label": "political uncertainty",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:131:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:131",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "resulting_from",
+        "object": {
+            "label": "revived sovereignty dispute",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:133:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:133",
+        "subject": {
+            "label": "Argentine President Juan Perón",
+            "qid": "Q93330"
+        },
+        "relation": "asserted_sovereignty_over",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:136:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:136",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "interpreted",
+        "object": {
+            "label": "United Nations resolution on decolonisation",
+            "qid": "Q230533"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:139:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:139",
+        "subject": {
+            "label": "UK",
+            "qid": "Q414"
+        },
+        "relation": "discussed_with",
+        "object": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:140:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:140",
+        "subject": {
+            "label": "UK",
+            "qid": "Q414"
+        },
+        "relation": "assumed",
+        "object": {
+            "label": "judgement",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:140:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:140",
+        "subject": {
+            "label": "UK",
+            "qid": "Q414"
+        },
+        "relation": "discussed",
+        "object": {
+            "label": "transfer",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:142:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:142",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "built",
+        "object": {
+            "label": "temporary airfield",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:142:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:142",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "based_on",
+        "object": {
+            "label": "agreement on trade ties",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:142:triplet:3",
+        "proposition_id": "en:Q9648:2:ap:142",
+        "subject": {
+            "label": "agreement on trade ties",
+            "qid": "Q33837"
+        },
+        "relation": "between",
+        "object": {
+            "label": "mainland",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:155:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:155",
+        "subject": {
+            "label": "Argentine",
+            "qid": "Q2365041"
+        },
+        "relation": "invade",
+        "object": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:156:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:156",
+        "subject": {
+            "label": "Argentine",
+            "qid": "Q2365041"
+        },
+        "relation": "invade",
+        "object": {
+            "label": "British territories in the South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:157:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:157",
+        "subject": {
+            "label": "Argentine",
+            "qid": "Q2365041"
+        },
+        "relation": "occupied",
+        "object": {
+            "label": "territories in the South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:158:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:158",
+        "subject": {
+            "label": "UK expeditionary force",
+            "qid": "Q11682252"
+        },
+        "relation": "retook",
+        "object": {
+            "label": "territories in the South Atlantic",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:160:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:160",
+        "subject": {
+            "label": "Falklands War",
+            "qid": "Q48249"
+        },
+        "relation": "followed_by",
+        "object": {
+            "label": "RAF Mount Pleasant",
+            "qid": "Q2071294"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:160:triplet:2",
+        "proposition_id": "en:Q9648:2:ap:160",
+        "subject": {
+            "label": "UK",
+            "qid": "Q48249"
+        },
+        "relation": "built",
+        "object": {
+            "label": "RAF Mount Pleasant",
+            "qid": "Q2071294"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:172:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:172",
+        "subject": {
+            "label": "Lord Shackleton",
+            "qid": "Q332818"
+        },
+        "relation": "made_recommendations_based_on",
+        "object": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:174:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:174",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "established",
+        "object": {
+            "label": "exclusive economic zone",
+            "qid": "Q202008"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:175:triplet:0",
+        "proposition_id": "en:Q9648:2:ap:175",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "allowed",
+        "object": {
+            "label": "diversify",
+            "qid": "Q202008"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:2:ap:175:triplet:1",
+        "proposition_id": "en:Q9648:2:ap:175",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "allowed",
+        "object": {
+            "label": "economy",
+            "qid": "Q202008"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "instance_of",
+        "object": {
+            "label": "British Overseas Territory",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:0:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "governing_body",
+        "object": {
+            "label": "British",
+            "qid": "Q46395"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:1:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "have_full_internal_self_government",
+        "object": {
+            "label": "2009 Constitution",
+            "qid": "Q5164252"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:5:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:5",
+        "subject": {
+            "label": "Executive authority",
+            "qid": "Q9648"
+        },
+        "relation": "exercised_on_behalf_of",
+        "object": {
+            "label": "governor",
+            "qid": "Q16140777"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:6:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:6",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "appoints",
+        "object": {
+            "label": "chief executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:6:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:6",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "appoints",
+        "object": {
+            "label": "falkland islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:6:triplet:2",
+        "proposition_id": "en:Q9648:3:ap:6",
+        "subject": {
+            "label": "falkland islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_chief_executive",
+        "object": {
+            "label": "chief executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:6:triplet:3",
+        "proposition_id": "en:Q9648:3:ap:6",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "advises",
+        "object": {
+            "label": "legislative assembly",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:6:triplet:4",
+        "proposition_id": "en:Q9648:3:ap:6",
+        "subject": {
+            "label": "legislative assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "advised_by",
+        "object": {
+            "label": "governor",
+            "qid": "Q16140777"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "chief_executive",
+            "qid": "Q3064699"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:2",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:3",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "chief_executive",
+            "qid": "Q3064699"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:4",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:5",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "chief_executive",
+            "qid": "Q3064699"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:6",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:7",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "chief_executive",
+            "qid": "Q3064699"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:8",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "governor",
+            "qid": "Q16140777"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:7:triplet:9",
+        "proposition_id": "en:Q9648:3:ap:7",
+        "subject": {
+            "label": "chief_executive",
+            "qid": "Q3064699"
+        },
+        "relation": "serve_as",
+        "object": {
+            "label": "head_of_government",
+            "qid": "Q2285706"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:9:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:9",
+        "subject": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        },
+        "relation": "took_up_post",
+        "object": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:9:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:9",
+        "subject": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        },
+        "relation": "held_by",
+        "object": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:10:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:10",
+        "subject": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        },
+        "relation": "holds_position",
+        "object": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:10:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:10",
+        "subject": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "Falklands Islands",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:10:triplet:2",
+        "proposition_id": "en:Q9648:3:ap:10",
+        "subject": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "Falklands Islands",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:11:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:11",
+        "subject": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        },
+        "relation": "is_first",
+        "object": {
+            "label": "Falkland Islander",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:11:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:11",
+        "subject": {
+            "label": "Andrea Clausen",
+            "qid": "Q4755019"
+        },
+        "relation": "holds_position",
+        "object": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:11:triplet:2",
+        "proposition_id": "en:Q9648:3:ap:11",
+        "subject": {
+            "label": "Chief Executive",
+            "qid": "Q3064699"
+        },
+        "relation": "is_position_of",
+        "object": {
+            "label": "Falklands Islands",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:20:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:20",
+        "subject": {
+            "label": "Legislative Assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "instance_of",
+        "object": {
+            "label": "unicameral legislature",
+            "qid": "Q140247"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:21:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:21",
+        "subject": {
+            "label": "Legislative Assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "consists_of",
+        "object": {
+            "label": "chief executive",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:22:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:22",
+        "subject": {
+            "label": "Legislative Assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "consists_of",
+        "object": {
+            "label": "director of finance",
+            "qid": "Q3064699"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:24:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:24",
+        "subject": {
+            "label": "Legislative Assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "elected_to",
+        "object": {
+            "label": "four-year terms",
+            "qid": "Q319891"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:24:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:24",
+        "subject": {
+            "label": "Legislative Assembly",
+            "qid": "Q3365321"
+        },
+        "relation": "elected_by",
+        "object": {
+            "label": "universal suffrage",
+            "qid": "Q319891"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:25:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:25",
+        "subject": {
+            "label": "politicians",
+            "qid": "Q9648"
+        },
+        "relation": "are_independent",
+        "object": {
+            "label": "independent",
+            "qid": "Q327591"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:27:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:27",
+        "subject": {
+            "label": "general election",
+            "qid": "Q5431967"
+        },
+        "relation": "has_salary",
+        "object": {
+            "label": "salary",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:28:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:28",
+        "subject": {
+            "label": "members",
+            "qid": "Q5431967"
+        },
+        "relation": "work_full_time",
+        "object": {
+            "label": "legislative assembly",
+            "qid": "Q3365321"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:31:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:31",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "part_of",
+        "object": {
+            "label": "overseas_countries_and_territories",
+            "qid": "Q844266"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:31:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:31",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "part_of",
+        "object": {
+            "label": "European_Union",
+            "qid": "Q7888194"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:33:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:33",
+        "subject": {
+            "label": "judicial system",
+            "qid": "Q9648"
+        },
+        "relation": "is_overseen_by",
+        "object": {
+            "label": "foreign and commonwealth office",
+            "qid": "Q358834"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:34:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:34",
+        "subject": {
+            "label": "judicial system",
+            "qid": "Q9648"
+        },
+        "relation": "based_on",
+        "object": {
+            "label": "english law",
+            "qid": "Q1138780"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:36:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:36",
+        "subject": {
+            "label": "Residents of the islands of the Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "have_right_of_appeal_to",
+        "object": {
+            "label": "European Court of Human Rights",
+            "qid": "Q683120"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:37:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:37",
+        "subject": {
+            "label": "Residents of the islands of the Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "have_right_of_appeal_to",
+        "object": {
+            "label": "Privy Council",
+            "qid": "Q683120"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:38:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:38",
+        "subject": {
+            "label": "falklands",
+            "qid": "Q9648"
+        },
+        "relation": "is_responsible_for",
+        "object": {
+            "label": "royal_falkland_islands_police",
+            "qid": "Q7374162"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:38:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:38",
+        "subject": {
+            "label": "royal_falkland_islands_police",
+            "qid": "Q7374162"
+        },
+        "relation": "is_responsible_for",
+        "object": {
+            "label": "falklands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:41:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:41",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "funds",
+        "object": {
+            "label": "Falkland Islands Defence Force",
+            "qid": "Q3076880"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:42:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:42",
+        "subject": {
+            "label": "Falkland Islands Defence Force",
+            "qid": "Q3076880"
+        },
+        "relation": "includes",
+        "object": {
+            "label": "additional platoon",
+            "qid": "Q304673"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:43:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:43",
+        "subject": {
+            "label": "additional platoon",
+            "qid": "Q304673"
+        },
+        "relation": "is_sized_to",
+        "object": {
+            "label": "company",
+            "qid": "Q102538"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:43:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:43",
+        "subject": {
+            "label": "additional platoon",
+            "qid": "Q304673"
+        },
+        "relation": "is_sized_to",
+        "object": {
+            "label": "light infantry",
+            "qid": "Q1598759"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:44:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:44",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "claim_exclusive_economic_zone",
+        "object": {
+            "label": "exclusive_economic_zone",
+            "qid": "Q202008"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:45:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:45",
+        "subject": {
+            "label": "exclusive economic zone",
+            "qid": "Q202008"
+        },
+        "relation": "extends_from",
+        "object": {
+            "label": "coastal baselines",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:45:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:45",
+        "subject": {
+            "label": "exclusive economic zone",
+            "qid": "Q202008"
+        },
+        "relation": "extends_to",
+        "object": {
+            "label": "200 nmi",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:47:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:47",
+        "subject": {
+            "label": "exclusive economic zone",
+            "qid": "Q202008"
+        },
+        "relation": "overlaps_with",
+        "object": {
+            "label": "argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:48:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:48",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "sovereignty_dispute",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:49:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:49",
+        "subject": {
+            "label": "United Kingdom",
+            "qid": "Q414"
+        },
+        "relation": "assert_sovereignty_over",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:49:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:49",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "assert_sovereignty_over",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:53:triplet:1",
+        "proposition_id": "en:Q9648:3:ap:53",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "acquired",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:53:triplet:2",
+        "proposition_id": "en:Q9648:3:ap:53",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "acquired_from",
+        "object": {
+            "label": "Spain",
+            "qid": "Q29"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:3:ap:55:triplet:0",
+        "proposition_id": "en:Q9648:3:ap:55",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "considers",
+        "object": {
+            "label": "incident of 1833",
+            "qid": "Q7301548"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:5:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:5",
+        "subject": {
+            "label": "West Falkland",
+            "qid": "Q733338"
+        },
+        "relation": "is_part_of",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:6:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:6",
+        "subject": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        },
+        "relation": "is_part_of",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:10:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:10",
+        "subject": {
+            "label": "mountains",
+            "qid": "Q33837"
+        },
+        "relation": "is_major_exception_to",
+        "object": {
+            "label": "depressed_plains_of_lafonia",
+            "qid": "Q572388"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:12:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:12",
+        "subject": {
+            "label": "Lafonia",
+            "qid": "Q572388"
+        },
+        "relation": "forms_part_of",
+        "object": {
+            "label": "East Falkland",
+            "qid": "Q642226"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:13:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:13",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "consist_of",
+        "object": {
+            "label": "continental crust",
+            "qid": "Q858571"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:14:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:14",
+        "subject": {
+            "label": "continental crust",
+            "qid": "Q858571"
+        },
+        "relation": "fragments_result_from",
+        "object": {
+            "label": "break-up of Gondwana",
+            "qid": "Q80583"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:15:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:15",
+        "subject": {
+            "label": "continental crust",
+            "qid": "Q858571"
+        },
+        "relation": "fragments_result_from",
+        "object": {
+            "label": "opening",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:17:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:17",
+        "subject": {
+            "label": "islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "ocean",
+            "qid": "Q97"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:18:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:18",
+        "subject": {
+            "label": "islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_on",
+        "object": {
+            "label": "shelf",
+            "qid": "Q5503766"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:19:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:19",
+        "subject": {
+            "label": "islands",
+            "qid": "Q9648"
+        },
+        "relation": "located_east_of",
+        "object": {
+            "label": "patagonia",
+            "qid": "Q1507"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:4:ap:20:triplet:0",
+        "proposition_id": "en:Q9648:4:ap:20",
+        "subject": {
+            "label": "islands of the Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "located_in",
+        "object": {
+            "label": "southern Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:5:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "is_part_of",
+        "object": {
+            "label": "Antarctic zone",
+            "qid": "Q571337"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:0:triplet:1",
+        "proposition_id": "en:Q9648:5:ap:0",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "is_biogeographically_part_of",
+        "object": {
+            "label": "Antarctic zone",
+            "qid": "Q571337"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:1:triplet:0",
+        "proposition_id": "en:Q9648:5:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_connections_to",
+        "object": {
+            "label": "flora_and_fauna",
+            "qid": "Q1507"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:1:triplet:1",
+        "proposition_id": "en:Q9648:5:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_connections_to",
+        "object": {
+            "label": "Patagonia",
+            "qid": "Q1507"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:2:triplet:0",
+        "proposition_id": "en:Q9648:5:ap:2",
+        "subject": {
+            "label": "Land birds",
+            "qid": "Q9648"
+        },
+        "relation": "make_up",
+        "object": {
+            "label": "avifauna",
+            "qid": "Q5113"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:3:triplet:0",
+        "proposition_id": "en:Q9648:5:ap:3",
+        "subject": {
+            "label": "endemic",
+            "qid": "Q123452"
+        },
+        "relation": "is_endemic_to",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:3:triplet:1",
+        "proposition_id": "en:Q9648:5:ap:3",
+        "subject": {
+            "label": "flightless Falkland",
+            "qid": "Q1012069"
+        },
+        "relation": "is_endemic_to",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:3:triplet:2",
+        "proposition_id": "en:Q9648:5:ap:3",
+        "subject": {
+            "label": "Cobb's wren",
+            "qid": "Q531002"
+        },
+        "relation": "is_endemic_to",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:3:triplet:3",
+        "proposition_id": "en:Q9648:5:ap:3",
+        "subject": {
+            "label": "endemic",
+            "qid": "Q123452"
+        },
+        "relation": "is_endemic_to",
+        "object": {
+            "label": "bird species",
+            "qid": "Q1012069"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:5:ap:5:triplet:0",
+        "proposition_id": "en:Q9648:5:ap:5",
+        "subject": {
+            "label": "endemic",
+            "qid": "Q123452"
+        },
+        "relation": "breed_on",
+        "object": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:0",
+        "subject": {
+            "label": "economy",
+            "qid": "Q9648"
+        },
+        "relation": "ranked",
+        "object": {
+            "label": "largest",
+            "qid": "Q82135"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:0:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:0",
+        "subject": {
+            "label": "economy",
+            "qid": "Q9648"
+        },
+        "relation": "ranked",
+        "object": {
+            "label": "largest",
+            "qid": "Q82135"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:1:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:1",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "ranks_worldwide_by_gdp_ppp_per_capita",
+        "object": {
+            "label": "GDP (PPP)",
+            "qid": "Q82135"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:4:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:4",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_human_development_index",
+        "object": {
+            "label": "High Human Development Index",
+            "qid": "Q38994"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:5:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:5",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_gini_coefficient",
+        "object": {
+            "label": "moderate Gini coefficient",
+            "qid": "Q162455"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:5:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:5",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_income_inequality",
+        "object": {
+            "label": "income inequality",
+            "qid": "Q5055020"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:5:triplet:2",
+        "proposition_id": "en:Q9648:6:ap:5",
+        "subject": {
+            "label": "moderate Gini coefficient",
+            "qid": "Q162455"
+        },
+        "relation": "has_value",
+        "object": {
+            "label": "34.17",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:46:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:46",
+        "subject": {
+            "label": "deepwater project for oil exploration",
+            "qid": "Q3241434"
+        },
+        "relation": "was_led_by",
+        "object": {
+            "label": "rockhopper exploration",
+            "qid": "Q7355289"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:50:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:50",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q7355289"
+        },
+        "relation": "took_final_investment_decisions_for",
+        "object": {
+            "label": "Phase 1 of the Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:50:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:50",
+        "subject": {
+            "label": "Navitas Petroleum",
+            "qid": "Q7355289"
+        },
+        "relation": "took_final_investment_decisions_for",
+        "object": {
+            "label": "Phase 1 of the Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:51:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:51",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q7355289"
+        },
+        "relation": "sanctioned",
+        "object": {
+            "label": "Phase 1 of the Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:51:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:51",
+        "subject": {
+            "label": "Navitas Petroleum",
+            "qid": "Q7355289"
+        },
+        "relation": "sanctioned",
+        "object": {
+            "label": "Phase 1 of the Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:52:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:52",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q7355289"
+        },
+        "relation": "had_prolonged_consideration",
+        "object": {
+            "label": "Navitas Petroleum",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:52:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:52",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q7355289"
+        },
+        "relation": "had_prolonged_consideration",
+        "object": {
+            "label": "Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:53:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:53",
+        "subject": {
+            "label": "Rockhopper Exploration",
+            "qid": "Q7355289"
+        },
+        "relation": "sanctioned_project_for_phase_1",
+        "object": {
+            "label": "Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:53:triplet:2",
+        "proposition_id": "en:Q9648:6:ap:53",
+        "subject": {
+            "label": "Navitas Petroleum",
+            "qid": "Q7355289"
+        },
+        "relation": "sanctioned_project_for_phase_1",
+        "object": {
+            "label": "Sea Lion Field",
+            "qid": "Q135233606"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:59:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:59",
+        "subject": {
+            "label": "Argentine",
+            "qid": "Q2365041"
+        },
+        "relation": "rejected",
+        "object": {
+            "label": "plans",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:60:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:60",
+        "subject": {
+            "label": "foreign ministry",
+            "qid": "Q2365041"
+        },
+        "relation": "stated",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:60:triplet:1",
+        "proposition_id": "en:Q9648:6:ap:60",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "deepen",
+        "object": {
+            "label": "action plan",
+            "qid": "Q2365041"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:60:triplet:2",
+        "proposition_id": "en:Q9648:6:ap:60",
+        "subject": {
+            "label": "Argentina",
+            "qid": "Q414"
+        },
+        "relation": "adopt",
+        "object": {
+            "label": "additional measures",
+            "qid": "Q2365041"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:61:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:61",
+        "subject": {
+            "label": "foreign ministry",
+            "qid": "Q2365041"
+        },
+        "relation": "stated",
+        "object": {
+            "label": "Argentina",
+            "qid": "Q414"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:6:ap:67:triplet:0",
+        "proposition_id": "en:Q9648:6:ap:67",
+        "subject": {
+            "label": "government",
+            "qid": "Q9648"
+        },
+        "relation": "is_largest_employer_of",
+        "object": {
+            "label": "archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:2:triplet:0",
+        "proposition_id": "en:Q9648:7:ap:2",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_population_from",
+        "object": {
+            "label": "English and French people",
+            "qid": "Q121842"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:3:triplet:0",
+        "proposition_id": "en:Q9648:7:ap:3",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "has_population_from",
+        "object": {
+            "label": "Gibraltarians",
+            "qid": "Q285828"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:9:triplet:0",
+        "proposition_id": "en:Q9648:7:ap:9",
+        "subject": {
+            "label": "British citizenship",
+            "qid": "Q918305"
+        },
+        "relation": "given_to",
+        "object": {
+            "label": "Falkland Islanders",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:10:triplet:0",
+        "proposition_id": "en:Q9648:7:ap:10",
+        "subject": {
+            "label": "full British citizenship",
+            "qid": "Q918305"
+        },
+        "relation": "was_given_to",
+        "object": {
+            "label": "Falkland Islanders",
+            "qid": "Q3502570"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:10:triplet:1",
+        "proposition_id": "en:Q9648:7:ap:10",
+        "subject": {
+            "label": "full British citizenship",
+            "qid": "Q918305"
+        },
+        "relation": "under",
+        "object": {
+            "label": "British Nationality",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:7:ap:27:triplet:1",
+        "proposition_id": "en:Q9648:7:ap:27",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "excludes",
+        "object": {
+            "label": "military_personnel_serving_in_the_archipelago",
+            "qid": "Q33837"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:0",
+        "subject": {
+            "label": "Education",
+            "qid": "Q9648"
+        },
+        "relation": "follows",
+        "object": {
+            "label": "system",
+            "qid": "Q3110820"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:2:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:2",
+        "subject": {
+            "label": "primary education",
+            "qid": "Q9648"
+        },
+        "relation": "available_at",
+        "object": {
+            "label": "stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:3:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:3",
+        "subject": {
+            "label": "primary education",
+            "qid": "Q9648"
+        },
+        "relation": "is_available_at",
+        "object": {
+            "label": "raf mount pleasant",
+            "qid": "Q2071294"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:4:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:4",
+        "subject": {
+            "label": "primary education",
+            "qid": "Q9648"
+        },
+        "relation": "is_available_for",
+        "object": {
+            "label": "children of service personnel",
+            "qid": "Q2071294"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:4:triplet:1",
+        "proposition_id": "en:Q9648:8:ap:4",
+        "subject": {
+            "label": "primary education",
+            "qid": "Q9648"
+        },
+        "relation": "is_available_at",
+        "object": {
+            "label": "raf mount pleasant",
+            "qid": "Q2071294"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:6:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:6",
+        "subject": {
+            "label": "Secondary education",
+            "qid": "Q9648"
+        },
+        "relation": "is_available_in",
+        "object": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:7:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:7",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "offers_boarding_facilities_for",
+        "object": {
+            "label": "secondary_education",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:7:triplet:1",
+        "proposition_id": "en:Q9648:8:ap:7",
+        "subject": {
+            "label": "Stanley",
+            "qid": "Q12245"
+        },
+        "relation": "offers_boarding_facilities_for",
+        "object": {
+            "label": "Falkland_Islands",
+            "qid": "Q9648"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:9:triplet:0",
+        "proposition_id": "en:Q9648:8:ap:9",
+        "subject": {
+            "label": "Students aged 16 or older",
+            "qid": "Q9648"
+        },
+        "relation": "may_study_at",
+        "object": {
+            "label": "colleges in England",
+            "qid": "Q379609"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:8:ap:9:triplet:1",
+        "proposition_id": "en:Q9648:8:ap:9",
+        "subject": {
+            "label": "Students aged 16 or older",
+            "qid": "Q9648"
+        },
+        "relation": "study_for",
+        "object": {
+            "label": "GCE Advanced Level",
+            "qid": "Q379609"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:0:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:0",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "is_based_on",
+        "object": {
+            "label": "cultural traditions",
+            "qid": "Q32501"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:1:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:1",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "influenced_by",
+        "object": {
+            "label": "Hispanic South America",
+            "qid": "Q653884"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:2:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:2",
+        "subject": {
+            "label": "Falklanders",
+            "qid": "Q9648"
+        },
+        "relation": "use_terms_and_place_names_from",
+        "object": {
+            "label": "Gaucho",
+            "qid": "Q210377"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:4:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:4",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "foremost_dialect",
+        "object": {
+            "label": "British English",
+            "qid": "Q7979"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:8:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:8",
+        "subject": {
+            "label": "Falklands",
+            "qid": "Q9648"
+        },
+        "relation": "has_weekly_newspaper",
+        "object": {
+            "label": "Penguin News",
+            "qid": "Q3431105"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:14:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:14",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "competes_in",
+        "object": {
+            "label": "Commonwealth Games",
+            "qid": "Q178340"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:15:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:15",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "competes_in",
+        "object": {
+            "label": "Island Games",
+            "qid": "Q845262"
+        }
+    },
+    {
+        "triplet_id": "en:Q9648:9:ap:16:triplet:0",
+        "proposition_id": "en:Q9648:9:ap:16",
+        "subject": {
+            "label": "Falkland Islands",
+            "qid": "Q9648"
+        },
+        "relation": "member_of",
+        "object": {
+            "label": "International Cricket Council",
+            "qid": "Q722694"
+        }
+    }
+]
