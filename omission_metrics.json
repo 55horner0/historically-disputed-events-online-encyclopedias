@@ -1,0 +1,51 @@
+[
+    {
+        "section_id_en": "en:Q9648:1",
+        "section_id_es": "es:Q9648:1",
+        "pair_id": "en:Q9648:1::es:Q9648:1",
+        "omission_metrics": {
+            "omission_es_to_en": null,
+            "omission_en_to_es": 1.0,
+            "missing_from_en": [],
+            "missing_from_es": [
+                "Q1012069",
+                "Q127318",
+                "Q1274019",
+                "Q172771",
+                "Q37901",
+                "Q507665",
+                "Q629804",
+                "Q9648"
+            ],
+            "n_entities_es": 0,
+            "n_entities_en": 8
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:7",
+        "section_id_es": "es:Q9648:6",
+        "pair_id": "en:Q9648:7::es:Q9648:6",
+        "omission_metrics": {
+            "omission_es_to_en": 0.875,
+            "omission_en_to_es": 0.8333333333333334,
+            "missing_from_en": [
+                "Q12245",
+                "Q1249802",
+                "Q18",
+                "Q181634",
+                "Q188353",
+                "Q42406",
+                "Q879146"
+            ],
+            "missing_from_es": [
+                "Q285828",
+                "Q33837",
+                "Q3502570",
+                "Q918305",
+                "Q9648"
+            ],
+            "n_entities_es": 8,
+            "n_entities_en": 6
+        }
+    }
+]

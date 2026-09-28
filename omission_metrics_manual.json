@@ -1,0 +1,233 @@
+[
+    {
+        "section_id_en": "en:Q9648:0",
+        "section_id_es": "es:Q9648:0",
+        "pair_id": "es:Q9648:0+en:Q9648:0+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": 0.8333333333333334,
+            "omission_en_to_es": 0.8888888888888888,
+            "missing_from_en": [
+                "Q1065",
+                "Q1249802",
+                "Q145",
+                "Q161243",
+                "Q3365321",
+                "Q414",
+                "Q42008",
+                "Q530843",
+                "Q5419832",
+                "Q900119"
+            ],
+            "missing_from_es": [
+                "Q12245",
+                "Q1790941",
+                "Q182090",
+                "Q185605",
+                "Q2365041",
+                "Q2459798",
+                "Q33837",
+                "Q3502570",
+                "Q417633",
+                "Q5503766",
+                "Q642226",
+                "Q6919829",
+                "Q70972",
+                "Q733338",
+                "Q918305",
+                "Q9648"
+            ],
+            "n_entities_es": 12,
+            "n_entities_en": 18
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:1",
+        "section_id_es": "es:Q9648:1",
+        "pair_id": "es:Q9648:1+en:Q9648:1+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": null,
+            "omission_en_to_es": 1.0,
+            "missing_from_en": [],
+            "missing_from_es": [
+                "Q1012069",
+                "Q127318",
+                "Q1274019",
+                "Q172771",
+                "Q37901",
+                "Q507665",
+                "Q629804",
+                "Q9648"
+            ],
+            "n_entities_es": 0,
+            "n_entities_en": 8
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:2",
+        "section_id_es": "es:Q9648:2",
+        "pair_id": "es:Q9648:2+en:Q9648:2+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": 0.7,
+            "omission_en_to_es": 0.8775510204081632,
+            "missing_from_en": [
+                "Q1065",
+                "Q1249802",
+                "Q145",
+                "Q156649",
+                "Q160011",
+                "Q16140777",
+                "Q165783",
+                "Q30",
+                "Q3117681",
+                "Q42008",
+                "Q46395",
+                "Q530843",
+                "Q5943335",
+                "Q6121830"
+            ],
+            "missing_from_es": [
+                "Q1013070",
+                "Q11220",
+                "Q1141556",
+                "Q11682252",
+                "Q127318",
+                "Q1274019",
+                "Q142",
+                "Q1486",
+                "Q1507",
+                "Q153911",
+                "Q1773491",
+                "Q201559",
+                "Q202008",
+                "Q2071294",
+                "Q22087938",
+                "Q230533",
+                "Q2365041",
+                "Q29",
+                "Q298",
+                "Q3294548",
+                "Q332818",
+                "Q3431491",
+                "Q3435209",
+                "Q362",
+                "Q419",
+                "Q4275192",
+                "Q428315",
+                "Q43287",
+                "Q48249",
+                "Q507665",
+                "Q5431953",
+                "Q629804",
+                "Q642226",
+                "Q70972",
+                "Q7258835",
+                "Q733338",
+                "Q735064",
+                "Q7871244",
+                "Q832554",
+                "Q842438",
+                "Q93330",
+                "Q9648",
+                "Q97"
+            ],
+            "n_entities_es": 20,
+            "n_entities_en": 49
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:3",
+        "section_id_es": "es:Q9648:3",
+        "pair_id": "es:Q9648:3+en:Q9648:3+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": 0.5714285714285714,
+            "omission_en_to_es": 0.7777777777777778,
+            "missing_from_en": [
+                "Q1249802",
+                "Q145",
+                "Q27",
+                "Q275482",
+                "Q5280544",
+                "Q5419832",
+                "Q56808509",
+                "Q7785"
+            ],
+            "missing_from_es": [
+                "Q102538",
+                "Q1138780",
+                "Q140247",
+                "Q1598759",
+                "Q202008",
+                "Q2285706",
+                "Q29",
+                "Q304673",
+                "Q3076880",
+                "Q327591",
+                "Q3502570",
+                "Q358834",
+                "Q414",
+                "Q4755019",
+                "Q5431967",
+                "Q683120",
+                "Q7301548",
+                "Q7374162",
+                "Q7888194",
+                "Q844266",
+                "Q9648"
+            ],
+            "n_entities_es": 14,
+            "n_entities_en": 27
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:6",
+        "section_id_es": "es:Q9648:5",
+        "pair_id": "es:Q9648:5+en:Q9648:6+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": null,
+            "omission_en_to_es": 1.0,
+            "missing_from_en": [],
+            "missing_from_es": [
+                "Q135233606",
+                "Q162455",
+                "Q2365041",
+                "Q3241434",
+                "Q33837",
+                "Q38994",
+                "Q414",
+                "Q5055020",
+                "Q7355289",
+                "Q82135",
+                "Q9648"
+            ],
+            "n_entities_es": 0,
+            "n_entities_en": 11
+        }
+    },
+    {
+        "section_id_en": "en:Q9648:7",
+        "section_id_es": "es:Q9648:6",
+        "pair_id": "es:Q9648:6+en:Q9648:7+Manual",
+        "omission_metrics": {
+            "omission_es_to_en": 0.875,
+            "omission_en_to_es": 0.8333333333333334,
+            "missing_from_en": [
+                "Q12245",
+                "Q1249802",
+                "Q18",
+                "Q181634",
+                "Q188353",
+                "Q42406",
+                "Q879146"
+            ],
+            "missing_from_es": [
+                "Q285828",
+                "Q33837",
+                "Q3502570",
+                "Q918305",
+                "Q9648"
+            ],
+            "n_entities_es": 8,
+            "n_entities_en": 6
+        }
+    }
+]
