@@ -1,0 +1,1405 @@
+{
+    "model": "Qwen3-Embedding-8B",
+    "threshold": 0.7,
+    "omission": {
+        "en_to_es": 0.9166666666666666,
+        "es_to_en": 0.8
+    },
+    "missing": {
+        "en_to_es": [
+            {
+                "ap": {
+                    "text": "The Falkland Islands are commonly referred to as the Falklands."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5924422144889832
+            },
+            {
+                "ap": {
+                    "text": "The Spanish name for the Falkland Islands is Islas Malvinas."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.631203293800354
+            },
+            {
+                "ap": {
+                    "text": "The Spanish name Islas Malvinas is pronounced as ˈislas malˈβinas."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5307382345199585
+            },
+            {
+                "ap": {
+                    "text": "The principal islands are about 300 mi east of South America's southern Patagonian coast."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5993379950523376
+            },
+            {
+                "ap": {
+                    "text": "The principal islands are about 500 km east of South America's southern Patagonian coast."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5900940895080566
+            },
+            {
+                "ap": {
+                    "text": "The principal islands are about 752 mi from Cape Dubouzet."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.35679981112480164
+            },
+            {
+                "ap": {
+                    "text": "The principal islands are about 1,210 km from Cape Dubouzet."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.34922194480895996
+            },
+            {
+                "ap": {
+                    "text": "Cape Dubouzet is at the northern tip of the Antarctic Peninsula."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.44926390051841736
+            },
+            {
+                "ap": {
+                    "text": "The principal islands are at a latitude of about 52°S."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5298677086830139
+            },
+            {
+                "ap": {
+                    "text": "The archipelago has an area of 4,700 square miles."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.4648187458515167
+            },
+            {
+                "ap": {
+                    "text": "The archipelago has an area of 12,000 square kilometers."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.45078301429748535
+            },
+            {
+                "ap": {
+                    "text": "The archipelago comprises East Falkland."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.5796300768852234
+            },
+            {
+                "ap": {
+                    "text": "The archipelago comprises West Falkland."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas abarca la totalidad del archipiélago de las Malvinas."
+                },
+                "similarity": 0.5634244084358215
+            },
+            {
+                "ap": {
+                    "text": "The archipelago comprises 776 smaller islands."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.48702237010002136
+            },
+            {
+                "ap": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.6837326884269714
+            },
+            {
+                "ap": {
+                    "text": "The Falklands have internal self-governance."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.5383217930793762
+            },
+            {
+                "ap": {
+                    "text": "The United Kingdom takes responsibility for the Falklands' defence."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.589229166507721
+            },
+            {
+                "ap": {
+                    "text": "The United Kingdom takes responsibility for the Falklands' foreign affairs."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.6396363377571106
+            },
+            {
+                "ap": {
+                    "text": "The largest settlement in East Falkland is Stanley."
+                },
+                "best_match": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "similarity": 0.596057116985321
+            },
+            {
+                "ap": {
+                    "text": "The islands are believed to have been uninhabited prior to European discovery in the 17th century."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.363835871219635
+            },
+            {
+                "ap": {
+                    "text": "There is a controversy over the Falklands' discovery by Europeans."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.5631349086761475
+            },
+            {
+                "ap": {
+                    "text": "There is a controversy over the Falklands' subsequent colonisation by Europeans."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.5436722636222839
+            },
+            {
+                "ap": {
+                    "text": "The islands have had French settlements at various times."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.3733884394168854
+            },
+            {
+                "ap": {
+                    "text": "The islands have had British settlements at various times."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.48066219687461853
+            },
+            {
+                "ap": {
+                    "text": "The islands have had Spanish settlements at various times."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.393170028924942
+            },
+            {
+                "ap": {
+                    "text": "The islands have had Argentine settlements at various times."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.4985305964946747
+            },
+            {
+                "ap": {
+                    "text": "Britain reasserted its rule in 1833."
+                },
+                "best_match": {
+                    "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.4441696107387543
+            },
+            {
+                "ap": {
+                    "text": "In April 1982, Argentine military forces invaded the islands."
+                },
+                "best_match": {
+                    "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.43906331062316895
+            },
+            {
+                "ap": {
+                    "text": "The British administration was restored two months after the Falklands War."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.5087421536445618
+            },
+            {
+                "ap": {
+                    "text": "The restoration of the British administration occurred at the end of the Falklands War."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.4934852421283722
+            },
+            {
+                "ap": {
+                    "text": "The 2013 sovereignty referendum was held."
+                },
+                "best_match": {
+                    "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.370082825422287
+            },
+            {
+                "ap": {
+                    "text": "The 2013 sovereignty referendum resulted in votes being cast."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.3418112099170685
+            },
+            {
+                "ap": {
+                    "text": "Almost all of the votes cast in the 2013 sovereignty referendum were in favour of remaining a UK overseas territory."
+                },
+                "best_match": {
+                    "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.4316752254962921
+            },
+            {
+                "ap": {
+                    "text": "The 2021 census recorded a population of 3,662 inhabitants."
+                },
+                "best_match": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "similarity": 0.245119109749794
+            },
+            {
+                "ap": {
+                    "text": "Around 30% of the 3,662 inhabitants are temporary residents."
+                },
+                "best_match": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "similarity": 0.23515479266643524
+            },
+            {
+                "ap": {
+                    "text": "Temporary residents are on short-term work visas."
+                },
+                "best_match": {
+                    "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.26599642634391785
+            },
+            {
+                "ap": {
+                    "text": "Temporary residents are working at the RAF Mount Pleasant military base."
+                },
+                "best_match": {
+                    "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.31497302651405334
+            },
+            {
+                "ap": {
+                    "text": "English is the official language."
+                },
+                "best_match": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "similarity": 0.48341256380081177
+            },
+            {
+                "ap": {
+                    "text": "English is the predominant language."
+                },
+                "best_match": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "similarity": 0.45447349548339844
+            },
+            {
+                "ap": {
+                    "text": "The British Nationality (Falkland Islands) Act 1983 applies to the Falkland Islands."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "similarity": 0.5277845859527588
+            },
+            {
+                "ap": {
+                    "text": "The British Nationality (Falkland Islands) Act 1983 states that Falkland Islanders are British citizens."
+                },
+                "best_match": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas es un territorio no autónomo."
+                },
+                "similarity": 0.5324801802635193
+            },
+            {
+                "ap": {
+                    "text": "The islands lie at the boundary of the subantarctic oceanic and tundra climate zones."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+                },
+                "similarity": 0.46195188164711
+            },
+            {
+                "ap": {
+                    "text": "Both major islands have mountain ranges."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.4001151919364929
+            },
+            {
+                "ap": {
+                    "text": "The mountain ranges on both major islands reach 2,300 ft (700 m)."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.303804874420166
+            },
+            {
+                "ap": {
+                    "text": "The homes of large bird populations are located on the main islands."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.36696889996528625
+            },
+            {
+                "ap": {
+                    "text": "Many large bird populations no longer breed on the main islands."
+                },
+                "best_match": {
+                    "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+                },
+                "similarity": 0.3626745939254761
+            },
+            {
+                "ap": {
+                    "text": "Predation by introduced species has caused many large bird populations to no longer breed on the main islands."
+                },
+                "best_match": {
+                    "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+                },
+                "similarity": 0.2980577051639557
+            },
+            {
+                "ap": {
+                    "text": "Major economic activities include fishing."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+                },
+                "similarity": 0.24544109404087067
+            },
+            {
+                "ap": {
+                    "text": "Major economic activities include tourism."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.262925922870636
+            },
+            {
+                "ap": {
+                    "text": "Major economic activities include sheep farming."
+                },
+                "best_match": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.2525652050971985
+            },
+            {
+                "ap": {
+                    "text": "Major economic activities have an emphasis on high-quality wool exports."
+                },
+                "best_match": {
+                    "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+                },
+                "similarity": 0.23962995409965515
+            },
+            {
+                "ap": {
+                    "text": "The Falkland Islands Government licenses oil exploration."
+                },
+                "best_match": {
+                    "text": "El gobierno del territorio es formalmente la responsabilidad del Gobernador de las Islas Malvinas."
+                },
+                "similarity": 0.4498741626739502
+            },
+            {
+                "ap": {
+                    "text": "Oil exploration remains controversial."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.37321704626083374
+            },
+            {
+                "ap": {
+                    "text": "Maritime disputes exist between the Falkland Islands Government and Argentina."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.6583587527275085
+            },
+            {
+                "ap": {
+                    "text": "Marital disputes between the Falkland Islands Government and Argentina cause oil exploration to remain controversial."
+                },
+                "best_match": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.5940374135971069
+            }
+        ],
+        "es_to_en": [
+            {
+                "ap": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas es un territorio dependiente."
+                },
+                "best_match": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "similarity": 0.662364661693573
+            },
+            {
+                "ap": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas es un territorio no autónomo."
+                },
+                "best_match": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "similarity": 0.6655004620552063
+            },
+            {
+                "ap": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+                },
+                "best_match": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "similarity": 0.6837326884269714
+            },
+            {
+                "ap": {
+                    "text": "El territorio británico de ultramar de las Islas Malvinas abarca la totalidad del archipiélago de las Malvinas."
+                },
+                "best_match": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "similarity": 0.6320304274559021
+            },
+            {
+                "ap": {
+                    "text": "En español, la capital se la refiere como Puerto Argentino."
+                },
+                "best_match": {
+                    "text": "The capital of East Falkland is Stanley."
+                },
+                "similarity": 0.5505568385124207
+            },
+            {
+                "ap": {
+                    "text": "En español, la capital se la refiere como Puerto Stanley."
+                },
+                "best_match": {
+                    "text": "The capital of East Falkland is Stanley."
+                },
+                "similarity": 0.6681693196296692
+            },
+            {
+                "ap": {
+                    "text": "El gobierno del territorio es formalmente la responsabilidad del Gobernador de las Islas Malvinas."
+                },
+                "best_match": {
+                    "text": "The United Kingdom takes responsibility for the Falklands' foreign affairs."
+                },
+                "similarity": 0.5353510975837708
+            },
+            {
+                "ap": {
+                    "text": "El Gobernador de las Islas Malvinas es el representante local de la Corona británica."
+                },
+                "best_match": {
+                    "text": "The Falklands are a British Overseas Territory."
+                },
+                "similarity": 0.5340776443481445
+            },
+            {
+                "ap": {
+                    "text": "El poder ejecutivo en las Islas Malvinas se ejerce por la Asamblea Legislativa de las Islas Malvinas."
+                },
+                "best_match": {
+                    "text": "The Falklands have internal self-governance."
+                },
+                "similarity": 0.529911994934082
+            },
+            {
+                "ap": {
+                    "text": "El poder ejecutivo en las Islas Malvinas se ejerce por el Consejo Ejecutivo de las Islas Malvinas."
+                },
+                "best_match": {
+                    "text": "The Falklands have internal self-governance."
+                },
+                "similarity": 0.5113245844841003
+            },
+            {
+                "ap": {
+                    "text": "Las Islas Malvinas no tienen cuestiones de defensa como cuestiones de defensa."
+                },
+                "best_match": {
+                    "text": "The United Kingdom takes responsibility for the Falklands' defence."
+                },
+                "similarity": 0.5275227427482605
+            },
+            {
+                "ap": {
+                    "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+                },
+                "best_match": {
+                    "text": "Maritime disputes exist between the Falkland Islands Government and Argentina."
+                },
+                "similarity": 0.5610454082489014
+            },
+            {
+                "ap": {
+                    "text": "Las elecciones a la Asamblea Legislativa se efectúan cada cuatro años."
+                },
+                "best_match": {
+                    "text": "The 2013 sovereignty referendum was held."
+                },
+                "similarity": 0.28083711862564087
+            },
+            {
+                "ap": {
+                    "text": "Después de las elecciones a la Asamblea Legislativa, los integrantes votantes del Consejo Ejecutivo son elegidos por la Asamblea Legislativa."
+                },
+                "best_match": {
+                    "text": "The 2013 sovereignty referendum resulted in votes being cast."
+                },
+                "similarity": 0.33656832575798035
+            },
+            {
+                "ap": {
+                    "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+                },
+                "best_match": {
+                    "text": "The archipelago comprises West Falkland."
+                },
+                "similarity": 0.5466084480285645
+            },
+            {
+                "ap": {
+                    "text": "El archipiélago está bajo supervisión del Comité de Descolonización de las Naciones Unidas."
+                },
+                "best_match": {
+                    "text": "The archipelago comprises East Falkland."
+                },
+                "similarity": 0.4995614290237427
+            },
+            {
+                "ap": {
+                    "text": "El Comité de Descolonización de las Naciones Unidas examina anualmente la situación del archipiélago."
+                },
+                "best_match": {
+                    "text": "The archipelago comprises East Falkland."
+                },
+                "similarity": 0.4101555049419403
+            },
+            {
+                "ap": {
+                    "text": "El Comité de Descolonización de las Naciones Unidas examina la situación del archipiélago por lo que la situación del archipiélago es examinada anualmente por el Comité de Descolonización de las Naciones Unidas desde 1965."
+                },
+                "best_match": {
+                    "text": "The archipelago comprises East Falkland."
+                },
+                "similarity": 0.3967446982860565
+            },
+            {
+                "ap": {
+                    "text": "La Organización de las Naciones Unidas considera jurídicamente un territorio de soberanía pendiente de definición."
+                },
+                "best_match": {
+                    "text": "The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK."
+                },
+                "similarity": 0.5283114910125732
+            },
+            {
+                "ap": {
+                    "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+                },
+                "best_match": {
+                    "text": "The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK."
+                },
+                "similarity": 0.6246960759162903
+            }
+        ]
+    },
+    "best_matches_en_to_es": [
+        {
+            "ap_en": {
+                "text": "The Falkland Islands are commonly referred to as the Falklands."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5924422144889832,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.7503678202629089,
+            "match": true
+        },
+        {
+            "ap_en": {
+                "text": "The Falkland Islands are located on the Patagonian Shelf."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.7018225789070129,
+            "match": true
+        },
+        {
+            "ap_en": {
+                "text": "The Spanish name for the Falkland Islands is Islas Malvinas."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.631203293800354,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The Spanish name Islas Malvinas is pronounced as ˈislas malˈβinas."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5307382345199585,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The principal islands are about 300 mi east of South America's southern Patagonian coast."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5993379950523376,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The principal islands are about 500 km east of South America's southern Patagonian coast."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5900940895080566,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The principal islands are about 752 mi from Cape Dubouzet."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.35679981112480164,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The principal islands are about 1,210 km from Cape Dubouzet."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.34922194480895996,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Cape Dubouzet is at the northern tip of the Antarctic Peninsula."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.44926390051841736,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The principal islands are at a latitude of about 52°S."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5298677086830139,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The archipelago has an area of 4,700 square miles."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.4648187458515167,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The archipelago has an area of 12,000 square kilometers."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.45078301429748535,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The archipelago comprises East Falkland."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.5796300768852234,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The archipelago comprises West Falkland."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas abarca la totalidad del archipiélago de las Malvinas."
+            },
+            "similarity": 0.5634244084358215,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The archipelago comprises 776 smaller islands."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.48702237010002136,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The Falklands are a British Overseas Territory."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.6837326884269714,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The Falklands have internal self-governance."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.5383217930793762,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The United Kingdom takes responsibility for the Falklands' defence."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.589229166507721,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The United Kingdom takes responsibility for the Falklands' foreign affairs."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.6396363377571106,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The capital of East Falkland is Stanley."
+            },
+            "best_match_es": {
+                "text": "La capital es denominada en inglés Stanley."
+            },
+            "similarity": 0.7158336043357849,
+            "match": true
+        },
+        {
+            "ap_en": {
+                "text": "The largest settlement in East Falkland is Stanley."
+            },
+            "best_match_es": {
+                "text": "La capital es denominada en inglés Stanley."
+            },
+            "similarity": 0.596057116985321,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands are believed to have been uninhabited prior to European discovery in the 17th century."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.363835871219635,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "There is a controversy over the Falklands' discovery by Europeans."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.5631349086761475,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "There is a controversy over the Falklands' subsequent colonisation by Europeans."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.5436722636222839,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands have had French settlements at various times."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.3733884394168854,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands have had British settlements at various times."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.48066219687461853,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands have had Spanish settlements at various times."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.393170028924942,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands have had Argentine settlements at various times."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.4985305964946747,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Britain reasserted its rule in 1833."
+            },
+            "best_match_es": {
+                "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.4441696107387543,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Argentina maintains Argentina's claim to the islands."
+            },
+            "best_match_es": {
+                "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.7311447262763977,
+            "match": true
+        },
+        {
+            "ap_en": {
+                "text": "In April 1982, Argentine military forces invaded the islands."
+            },
+            "best_match_es": {
+                "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.43906331062316895,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The British administration was restored two months after the Falklands War."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.5087421536445618,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The restoration of the British administration occurred at the end of the Falklands War."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.4934852421283722,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The 2013 sovereignty referendum was held."
+            },
+            "best_match_es": {
+                "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.370082825422287,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The 2013 sovereignty referendum resulted in votes being cast."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.3418112099170685,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Almost all of the votes cast in the 2013 sovereignty referendum were in favour of remaining a UK overseas territory."
+            },
+            "best_match_es": {
+                "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.4316752254962921,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.8033508062362671,
+            "match": true
+        },
+        {
+            "ap_en": {
+                "text": "The 2021 census recorded a population of 3,662 inhabitants."
+            },
+            "best_match_es": {
+                "text": "La capital es denominada en inglés Stanley."
+            },
+            "similarity": 0.245119109749794,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Around 30% of the 3,662 inhabitants are temporary residents."
+            },
+            "best_match_es": {
+                "text": "El archipiélago es uno de los 17 territorios en la lista de las Naciones Unidas de territorios no autónomos."
+            },
+            "similarity": 0.23515479266643524,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Temporary residents are on short-term work visas."
+            },
+            "best_match_es": {
+                "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.26599642634391785,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Temporary residents are working at the RAF Mount Pleasant military base."
+            },
+            "best_match_es": {
+                "text": "El Reino Unido administra el territorio de soberanía pendiente de definición."
+            },
+            "similarity": 0.31497302651405334,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "English is the official language."
+            },
+            "best_match_es": {
+                "text": "La capital es denominada en inglés Stanley."
+            },
+            "similarity": 0.48341256380081177,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "English is the predominant language."
+            },
+            "best_match_es": {
+                "text": "La capital es denominada en inglés Stanley."
+            },
+            "similarity": 0.45447349548339844,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The British Nationality (Falkland Islands) Act 1983 applies to the Falkland Islands."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas está bajo administración del Reino Unido."
+            },
+            "similarity": 0.5277845859527588,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The British Nationality (Falkland Islands) Act 1983 states that Falkland Islanders are British citizens."
+            },
+            "best_match_es": {
+                "text": "El territorio británico de ultramar de las Islas Malvinas es un territorio no autónomo."
+            },
+            "similarity": 0.5324801802635193,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The islands lie at the boundary of the subantarctic oceanic and tundra climate zones."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+            },
+            "similarity": 0.46195188164711,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Both major islands have mountain ranges."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.4001151919364929,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The mountain ranges on both major islands reach 2,300 ft (700 m)."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.303804874420166,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The homes of large bird populations are located on the main islands."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.36696889996528625,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Many large bird populations no longer breed on the main islands."
+            },
+            "best_match_es": {
+                "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+            },
+            "similarity": 0.3626745939254761,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Predation by introduced species has caused many large bird populations to no longer breed on the main islands."
+            },
+            "best_match_es": {
+                "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+            },
+            "similarity": 0.2980577051639557,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Major economic activities include fishing."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+            },
+            "similarity": 0.24544109404087067,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Major economic activities include tourism."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.262925922870636,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Major economic activities include sheep farming."
+            },
+            "best_match_es": {
+                "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+            },
+            "similarity": 0.2525652050971985,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Major economic activities have an emphasis on high-quality wool exports."
+            },
+            "best_match_es": {
+                "text": "Las Islas Malvinas no tienen cuestiones de relaciones exteriores como cuestiones de relaciones exteriores."
+            },
+            "similarity": 0.23962995409965515,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "The Falkland Islands Government licenses oil exploration."
+            },
+            "best_match_es": {
+                "text": "El gobierno del territorio es formalmente la responsabilidad del Gobernador de las Islas Malvinas."
+            },
+            "similarity": 0.4498741626739502,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Oil exploration remains controversial."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.37321704626083374,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Maritime disputes exist between the Falkland Islands Government and Argentina."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.6583587527275085,
+            "match": false
+        },
+        {
+            "ap_en": {
+                "text": "Marital disputes between the Falkland Islands Government and Argentina cause oil exploration to remain controversial."
+            },
+            "best_match_es": {
+                "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+            },
+            "similarity": 0.5940374135971069,
+            "match": false
+        }
+    ],
+    "matches": {
+        "en_to_es": [
+            {
+                "ap_en": {
+                    "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+                },
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+                },
+                "similarity": 0.7487961649894714
+            },
+            {
+                "ap_en": {
+                    "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+                },
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.7503678202629089
+            },
+            {
+                "ap_en": {
+                    "text": "The Falkland Islands are located on the Patagonian Shelf."
+                },
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "similarity": 0.7018225789070129
+            },
+            {
+                "ap_en": {
+                    "text": "The capital of East Falkland is Stanley."
+                },
+                "ap_es": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "similarity": 0.7158336043357849
+            },
+            {
+                "ap_en": {
+                    "text": "Argentina maintains Argentina's claim to the islands."
+                },
+                "ap_es": {
+                    "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+                },
+                "similarity": 0.7311447262763977
+            },
+            {
+                "ap_en": {
+                    "text": "The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK."
+                },
+                "ap_es": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "similarity": 0.8033508062362671
+            }
+        ],
+        "es_to_en": [
+            {
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el océano Atlántico sudoccidental."
+                },
+                "ap_en": {
+                    "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+                },
+                "similarity": 0.7487961649894714
+            },
+            {
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "ap_en": {
+                    "text": "The Falkland Islands are an archipelago in the South Atlantic Ocean."
+                },
+                "similarity": 0.7503678202629089
+            },
+            {
+                "ap_es": {
+                    "text": "El archipiélago de las Malvinas está situado en el extremo sudeste de América del Sur."
+                },
+                "ap_en": {
+                    "text": "The Falkland Islands are located on the Patagonian Shelf."
+                },
+                "similarity": 0.7018225789070129
+            },
+            {
+                "ap_es": {
+                    "text": "La capital es denominada en inglés Stanley."
+                },
+                "ap_en": {
+                    "text": "The capital of East Falkland is Stanley."
+                },
+                "similarity": 0.7158336043357849
+            },
+            {
+                "ap_es": {
+                    "text": "El territorio de soberanía pendiente de definición está entre el Reino Unido y Argentina."
+                },
+                "ap_en": {
+                    "text": "The territory's sovereignty status is part of an ongoing dispute between Argentina and the UK."
+                },
+                "similarity": 0.8033508062362671
+            },
+            {
+                "ap_es": {
+                    "text": "Argentina reclama la devolución del territorio de soberanía pendiente de definición."
+                },
+                "ap_en": {
+                    "text": "Argentina maintains Argentina's claim to the islands."
+                },
+                "similarity": 0.7311447262763977
+            }
+        ]
+    }
+}
