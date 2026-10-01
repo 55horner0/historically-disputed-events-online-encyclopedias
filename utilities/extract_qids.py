@@ -134,12 +134,35 @@ def fetch_article_html(wiki_api, title):
 # ── Step 2: Sections and explicit wikilinks ─────────────────────────────
 def extract_sections_and_links(html):
     """
-    Treat only <h2> as a top-level section boundary. Subsection content
-    (<h3>..<h6>) is absorbed into the current <h2> section. The Lead is
-    the prose before the first <h2>.
+    Walk only <h2> as section boundaries. Subsection content is absorbed.
+    The Lead is prose before the first <h2>.
+
+    The infobox is NOT kept as a section. Its wikilinks are extracted
+    separately and returned alongside the article's own links, so that
+    QIDs referenced only in the infobox still enter the alias table.
     """
     soup = BeautifulSoup(html, "html.parser")
 
+    # ── 1. Extract infobox links BEFORE decomposition ───────────────────
+    infobox_links = []
+    infobox = soup.find(class_="infobox")
+    if infobox:
+        for a in infobox.find_all("a", href=True):
+            href = a["href"]
+            if not href.startswith("/wiki/") or ":" in href:
+                continue
+            raw_title = href.replace("/wiki/", "").split("#")[0]
+            title = normalize_title(raw_title)
+            surface = a.get_text(" ", strip=True)
+            if not surface or not title:
+                continue
+            infobox_links.append({
+                "surface": surface,
+                "title": title,
+                "section": "__infobox__",   # marker, not a real section
+            })
+
+    # ── 2. Decompose non-prose (infobox included) ──────────────────────
     for tag in soup.select(
         "sup.reference, .mw-editsection, .infobox, .navbox, .metadata, "
         ".hatnote, .thumb, table, style, script, "
@@ -154,6 +177,7 @@ def extract_sections_and_links(html):
         except Exception:
             pass
 
+    # ── 3. Walk prose as before ────────────────────────────────────────
     sections = []
     links = []
     current_heading = "Lead"
@@ -212,7 +236,9 @@ def extract_sections_and_links(html):
                     "section": current_heading,
                 })
 
-    return sections, links
+    # ── 4. Merge infobox links with prose links ────────────────────────
+    all_links = links + infobox_links
+    return sections, all_links
 
 
 # ── Step 3: Resolve titles to QIDs (with redirect chain) ────────────────
@@ -681,7 +707,7 @@ def extract_qids(lang, title, output_path=None, verbose=True):
 if __name__ == "__main__":
     # Default test: English Falkland Islands
     extract_qids(
-        lang="en",
-        title="Falkland_Islands",
+        lang="es",
+        title="Islas_Malvinas_(territorio_británico_de_ultramar)", # Islas_Malvinas_(territorio_británico_de_ultramar)
         output_path="falkland_annotated.json",
     )
