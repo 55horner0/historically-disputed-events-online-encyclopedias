@@ -1,7 +1,9 @@
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from sentence_transformers import SentenceTransformer
 import torch
 from llama_cpp import Llama
+
 
 
 def load_MPropositioneur_V2():
@@ -19,4 +21,10 @@ def load_Qwen3_8B_via_llama_cpp():
     n_gpu_layers=-1,
     verbose=False)
 
+    return model
+
+
+def load_Qwen38B_embedding():
+    device = torch.device("mps" if torch.backends.mps.is_available() else "gpu" if torch.cuda.is_available() else "cpu")
+    model = SentenceTransformer("Qwen/Qwen3-Embedding-8B", device = device)
     return model
