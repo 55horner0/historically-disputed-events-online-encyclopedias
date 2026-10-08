@@ -205,119 +205,151 @@
         "article_id": "es:Q9648",
         "language": "es",
         "text": "El nombre en español para el archipiélago proviene de Îles Malouines.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:1",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Îles Malouines es el nombre en francés del archipiélago.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "El nombre en español para el archipiélago proviene del nombre en francés.",
+        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:2",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "El nombre en francés para el archipiélago es «islas Malvinas».",
+        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:3",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Saint Malo es la fuente del nombre Malouines.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Las islas fueron colonizadas en 1764.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:4",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Malouines se deriva del nombre de la ciudad de Saint Malo.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Las islas fueron colonizadas por navegantes franceses de Saint Malo.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:5",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Saint Malo es enrecada a dicha ciudad.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Las islas fueron colonizadas por comerciantes franceses de Saint Malo.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:6",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El nombre en inglés para las islas Malvinas es Falkland Islands.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Malouines se deriva de Saint Malo.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:7",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Falkland Islands se deriva de Falkland Sound.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Saint Malo es una ciudad.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:8",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Falkland Sound es el nombre en inglés del canal.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "La colonización de las islas por navegantes franceses de Saint Malo ocurre en recuerdo a Saint Malo.",
+        "source_text": "Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad."
     },
     {
         "proposition_id": "es:Q9648:1:ap:9",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El canal Falkland Sound separa las dos islas principales.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "El nombre en inglés para las islas Malvinas es Falkland Islands.",
+        "source_text": "​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:10",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El estrecho de San Carlos es el estrecho principal de las islas.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Falkland Islands se deriva de Falkland Sound.",
+        "source_text": "​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:11",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El estrecho de San Carlos fue llamado Falkland Islands en 1690.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "Falkland Sound es el nombre en inglés que se le dio al canal.",
+        "source_text": "​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:12",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "John Strong llamó el estrecho de San Carlos Falkland Islands en 1690.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "El canal que separa las dos islas principales es el estrecho de San Carlos.",
+        "source_text": "​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos ."
     },
     {
         "proposition_id": "es:Q9648:1:ap:13",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "John Strong llamó el estrecho de San Carlos en honor a Anthony Cary.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "text": "John Strong llamó a Este en 1690.",
+        "source_text": "Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland."
     },
     {
         "proposition_id": "es:Q9648:1:ap:14",
         "section_id": "es:Q9648:1",
         "article_id": "es:Q9648",
         "language": "es",
+        "text": "John Strong llamó a Este en honor a Anthony Cary.",
+        "source_text": "Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland."
+    },
+    {
+        "proposition_id": "es:Q9648:1:ap:15",
+        "section_id": "es:Q9648:1",
+        "article_id": "es:Q9648",
+        "language": "es",
         "text": "Anthony Cary era el quinto vizconde de Falkland.",
-        "source_text": "El nombre en español para el archipiélago, «islas Malvinas», proviene de Îles Malouines , que es su nombre en francés . Las islas fueron colonizadas en 1764 por navegantes y comerciantes franceses de Saint Malo , de donde se deriva Malouines , en recuerdo a dicha ciudad. ​ El nombre en inglés para las islas Malvinas es Falkland Islands , que se deriva de Falkland Sound , el nombre en inglés que se le dio al canal que separa las dos islas principales, el estrecho de San Carlos . Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland. ​"
+        "source_text": "Este, a su vez, fue llamado así en 1690 por John Strong , en honor a Anthony Cary , quinto vizconde de Falkland."
+    },
+    {
+        "proposition_id": "es:Q9648:1:ap:16",
+        "section_id": "es:Q9648:1",
+        "article_id": "es:Q9648",
+        "language": "es",
+        "text": "The input content is empty.",
+        "source_text": "​"
+    },
+    {
+        "proposition_id": "es:Q9648:1:ap:17",
+        "section_id": "es:Q9648:1",
+        "article_id": "es:Q9648",
+        "language": "es",
+        "text": "The input content has no text.",
+        "source_text": "​"
+    },
+    {
+        "proposition_id": "es:Q9648:1:ap:18",
+        "section_id": "es:Q9648:1",
+        "article_id": "es:Q9648",
+        "language": "es",
+        "text": "The input content is empty string.",
+        "source_text": "​"
     },
     {
         "proposition_id": "es:Q9648:2:ap:0",
@@ -1364,43 +1396,11 @@
         "section_id": "es:Q9648:2",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El 24 de abril de 2026, Reuters informó que una comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar el apoyo de Estados Unidos al reclamo de soberanía del Reino Unido sobre las Islas Malvinas.",
-        "source_text": "​ El 24 de abril de 2026, Reuters informó que una comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar su apoyo al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN , incluido el Reino Unido, por su limitado apoyo en la guerra con Irán."
-    },
-    {
-        "proposition_id": "es:Q9648:2:ap:131",
-        "section_id": "es:Q9648:2",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar el apoyo de Estados Unidos al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN.",
-        "source_text": "​ El 24 de abril de 2026, Reuters informó que una comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar su apoyo al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN , incluido el Reino Unido, por su limitado apoyo en la guerra con Irán."
-    },
-    {
-        "proposition_id": "es:Q9648:2:ap:132",
-        "section_id": "es:Q9648:2",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar el apoyo de Estados Unidos al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra el Reino Unido.",
-        "source_text": "​ El 24 de abril de 2026, Reuters informó que una comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar su apoyo al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN , incluido el Reino Unido, por su limitado apoyo en la guerra con Irán."
-    },
-    {
-        "proposition_id": "es:Q9648:2:ap:133",
-        "section_id": "es:Q9648:2",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar el apoyo de Estados Unidos al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN incluidos el Reino Unido.",
-        "source_text": "​ El 24 de abril de 2026, Reuters informó que una comunicación interna filtrada del Pentágono indicaba que Estados Unidos estaba considerando revisar su apoyo al reclamo de soberanía del Reino Unido sobre las Islas Malvinas como una posible medida de represalia contra aliados de la OTAN , incluido el Reino Unido, por su limitado apoyo en la guerra con Irán."
-    },
-    {
-        "proposition_id": "es:Q9648:2:ap:134",
-        "section_id": "es:Q9648:2",
-        "article_id": "es:Q9648",
-        "language": "es",
         "text": "The input content is empty.",
         "source_text": "​ ​"
     },
     {
-        "proposition_id": "es:Q9648:2:ap:135",
+        "proposition_id": "es:Q9648:2:ap:131",
         "section_id": "es:Q9648:2",
         "article_id": "es:Q9648",
         "language": "es",
@@ -1900,7 +1900,7 @@
         "section_id": "es:Q9648:3",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Se ha creado la Asamblea Legislativa después de la nueva Constitución entrar en vigor en 2009.",
+        "text": "La nueva Constitución entró en vigor en 2009.",
         "source_text": "Hasta 2009, cuando la nueva Constitución entró en vigor y se ha creado la Asamblea Legislativa, el legislador de las islas fue el Consejo Legislativo, que había existido desde el siglo XIX ."
     },
     {
@@ -1908,11 +1908,27 @@
         "section_id": "es:Q9648:3",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El legislador de las islas fue el Consejo Legislativo antes de 2009.",
+        "text": "La nueva Constitución entró en vigor en 2009.",
         "source_text": "Hasta 2009, cuando la nueva Constitución entró en vigor y se ha creado la Asamblea Legislativa, el legislador de las islas fue el Consejo Legislativo, que había existido desde el siglo XIX ."
     },
     {
         "proposition_id": "es:Q9648:3:ap:63",
+        "section_id": "es:Q9648:3",
+        "article_id": "es:Q9648",
+        "language": "es",
+        "text": "Se ha creado la Asamblea Legislativa después de la nueva Constitución entrar en vigor en 2009.",
+        "source_text": "Hasta 2009, cuando la nueva Constitución entró en vigor y se ha creado la Asamblea Legislativa, el legislador de las islas fue el Consejo Legislativo, que había existido desde el siglo XIX ."
+    },
+    {
+        "proposition_id": "es:Q9648:3:ap:64",
+        "section_id": "es:Q9648:3",
+        "article_id": "es:Q9648",
+        "language": "es",
+        "text": "El legislador de las islas fue el Consejo Legislativo antes de 2009.",
+        "source_text": "Hasta 2009, cuando la nueva Constitución entró en vigor y se ha creado la Asamblea Legislativa, el legislador de las islas fue el Consejo Legislativo, que había existido desde el siglo XIX ."
+    },
+    {
+        "proposition_id": "es:Q9648:3:ap:65",
         "section_id": "es:Q9648:3",
         "article_id": "es:Q9648",
         "language": "es",
@@ -3084,15 +3100,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965.",
-        "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
+        "text": "La Gran Lejanía con Europa es un territorio británico de ultramar.",
+        "source_text": "Su gran lejanía con Europa le impide logísticamente disputar cualquier tipo de competición dentro de la UEFA , a pesar de ser un territorio británico de ultramar ."
     },
     {
         "proposition_id": "es:Q9648:7:ap:10",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Comité de Descolonización tiene jurídicamente enfrentado al Reino Unido.",
+        "text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965.",
         "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
@@ -3100,7 +3116,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Reino Unido administra el archipiélago.",
+        "text": "El Comité de Descolonización tiene jurídicamente enfrentado al Reino Unido.",
         "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
@@ -3108,7 +3124,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Comité de Descolonización tiene jurídicamente enfrentado a Argentina.",
+        "text": "El Reino Unido administra el archipiélago.",
         "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
@@ -3116,7 +3132,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Argentina reclama la devolución del archipiélago.",
+        "text": "El Comité de Descolonización tiene jurídicamente enfrentado a Argentina.",
         "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
@@ -3124,7 +3140,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "A raíz de los movimientos políticos de Argentina, las islas tienen vedada su participación con cualquier país de la Conmebol.",
+        "text": "Argentina reclama la devolución del archipiélago.",
         "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
@@ -3132,15 +3148,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos.",
-        "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
+        "text": "A raíz de los movimientos políticos de Argentina, las islas tienen vedada su participación con cualquier país de la Conmebol.",
+        "source_text": "La situación del archipiélago es examinada anualmente por el Comité de Descolonización desde 1965, y tiene jurídicamente enfrentados al Reino Unido (quien las administra) y Argentina (quien reclama su devolución), por lo que a raíz de los movimientos políticos de este último, las islas tienen vedada su participación con cualquier país de la Conmebol ."
     },
     {
         "proposition_id": "es:Q9648:7:ap:16",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol.",
+        "text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3148,7 +3164,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El enfrentamiento entre las Islas Malvinas y Argentina fue en la Copa Latinoamericana de hockey sobre hielo de 2019.",
+        "text": "El único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3156,7 +3172,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Argentina amenazó con boicotear el enfrentamiento entre las Islas Malvinas y Argentina.",
+        "text": "El enfrentamiento entre las Islas Malvinas y Argentina fue en la Copa Latinoamericana de hockey sobre hielo de 2019.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3164,7 +3180,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland.",
+        "text": "Argentina amenazó con boicotear el enfrentamiento entre las Islas Malvinas y Argentina.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3172,7 +3188,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El representativo del archipiélago debió participar como 'Stanley'.",
+        "text": "Tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3180,7 +3196,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El representativo del archipiélago debió no tocar el himno británico.",
+        "text": "El representativo del archipiélago debió participar como 'Stanley'.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3188,7 +3204,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El representativo del archipiélago debió no llevar ningún símbolo británico en sus uniformes.",
+        "text": "El representativo del archipiélago debió no tocar el himno británico.",
         "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
@@ -3196,15 +3212,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El \"Falkland Islands Bádminton team\" puede inscribirse para la edición 2020 del Bádminton PanAm.",
-        "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
+        "text": "El representativo del archipiélago debió no llevar ningún símbolo británico en sus uniformes.",
+        "source_text": "Los enfrentamientos entre las islas y los países sudamericanos son escasos, el único enfrentamiento entre las Islas Malvinas y Argentina fue por fuera del fútbol, en la Copa Latinoamericana de hockey sobre hielo de 2019, certamen que Argentina amenazó con boicotear y, tras numerosos reclamos, el representativo del archipiélago debió competir sin denominarse como Islas Malvinas o Islas Falkland (participando como \"Stanley\"), sin tocar el himno británico o llevar algún símbolo británico en sus uniformes."
     },
     {
         "proposition_id": "es:Q9648:7:ap:24",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La edición 2020 del Bádminton PanAm se celebró en Salvador, Brasil.",
+        "text": "El \"Falkland Islands Bádminton team\" puede inscribirse para la edición 2020 del Bádminton PanAm.",
         "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
     },
     {
@@ -3212,7 +3228,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El \"Falkland Islands Bádminton team\" participará en la edición 2020 del Bádminton PanAm.",
+        "text": "La edición 2020 del Bádminton PanAm se celebró en Salvador, Brasil.",
         "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
     },
     {
@@ -3220,7 +3236,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La Federación Mundial de Bádminton (BWF) apoya al \"Falkland Islands Bádminton team\" para la edición 2020 del Bádminton PanAm.",
+        "text": "El \"Falkland Islands Bádminton team\" participará en la edición 2020 del Bádminton PanAm.",
         "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
     },
     {
@@ -3228,7 +3244,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El \"Falkland Islands Bádminton team\" no estuvo exento de reclamos para la edición 2020 del Bádminton PanAm.",
+        "text": "La Federación Mundial de Bádminton (BWF) apoya al \"Falkland Islands Bádminton team\" para la edición 2020 del Bádminton PanAm.",
         "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
     },
     {
@@ -3236,15 +3252,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La Selección de fútbol de Islas Malvinas es el representativo de la isla de Islas Malvinas.",
-        "source_text": "​ ​ El representativo de la isla es la Selección de fútbol de Islas Malvinas , también conocida como la selección de fútbol de las Islas Falkland, ​ La organización está a cargo de la Falkland Islands Football League (FIFL)."
+        "text": "El \"Falkland Islands Bádminton team\" no estuvo exento de reclamos para la edición 2020 del Bádminton PanAm.",
+        "source_text": "​ Si pudo inscribirse el \"Falkland Islands Bádminton team\" con su nombre y bandera para la edición 2020 del Bádminton PanAm, Campeonato Panamericano en Salvador (Brasil) en el que participará con el apoyo de la Federación Mundial de Bádminton (BWF), aunque no estuvo exento de reclamos."
     },
     {
         "proposition_id": "es:Q9648:7:ap:29",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La Selección de fútbol de Islas Malvinas también es conocida como la selección de fútbol de las Islas Falkland.",
+        "text": "La Selección de fútbol de Islas Malvinas es el representativo de la isla de Islas Malvinas.",
         "source_text": "​ ​ El representativo de la isla es la Selección de fútbol de Islas Malvinas , también conocida como la selección de fútbol de las Islas Falkland, ​ La organización está a cargo de la Falkland Islands Football League (FIFL)."
     },
     {
@@ -3252,7 +3268,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La organización de la Selección de fútbol de Islas Malvinas está a cargo de la Falkland Islands Football League (FIFL).",
+        "text": "La Selección de fútbol de Islas Malvinas también es conocida como la selección de fútbol de las Islas Falkland.",
         "source_text": "​ ​ El representativo de la isla es la Selección de fútbol de Islas Malvinas , también conocida como la selección de fútbol de las Islas Falkland, ​ La organización está a cargo de la Falkland Islands Football League (FIFL)."
     },
     {
@@ -3260,15 +3276,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2001.",
-        "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
+        "text": "La organización de la Selección de fútbol de Islas Malvinas está a cargo de la Falkland Islands Football League (FIFL).",
+        "source_text": "​ ​ El representativo de la isla es la Selección de fútbol de Islas Malvinas , también conocida como la selección de fútbol de las Islas Falkland, ​ La organización está a cargo de la Falkland Islands Football League (FIFL)."
     },
     {
         "proposition_id": "es:Q9648:7:ap:32",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2005.",
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2001.",
         "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
@@ -3276,7 +3292,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2009.",
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2005.",
         "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
@@ -3284,7 +3300,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2011.",
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2009.",
         "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
@@ -3292,7 +3308,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2013.",
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2011.",
         "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
@@ -3300,7 +3316,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El jugador ha jugado en los Juegos de las Islas en 2015.",
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2013.",
         "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
@@ -3308,15 +3324,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La ciudad está ubicada en América del Sur.",
-        "source_text": "A pesar de ubicarse en América del Sur, no es miembro de la Conmebol , y más allá de ser un territorio británico de ultramar, tampoco se anexó a la UEFA ."
+        "text": "El jugador ha jugado en los Juegos de las Islas en 2015.",
+        "source_text": "Ha jugado en los Juegos de las Islas en 2001, 2005, 2009, 2011, 2013 y 2015."
     },
     {
         "proposition_id": "es:Q9648:7:ap:38",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La ciudad no es miembro de la Conmebol.",
+        "text": "La ciudad está ubicada en América del Sur.",
         "source_text": "A pesar de ubicarse en América del Sur, no es miembro de la Conmebol , y más allá de ser un territorio británico de ultramar, tampoco se anexó a la UEFA ."
     },
     {
@@ -3324,7 +3340,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La ciudad es un territorio británico de ultramar.",
+        "text": "La ciudad no es miembro de la Conmebol.",
         "source_text": "A pesar de ubicarse en América del Sur, no es miembro de la Conmebol , y más allá de ser un territorio británico de ultramar, tampoco se anexó a la UEFA ."
     },
     {
@@ -3332,7 +3348,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La ciudad no se anexó a la UEFA.",
+        "text": "La ciudad es un territorio británico de ultramar.",
         "source_text": "A pesar de ubicarse en América del Sur, no es miembro de la Conmebol , y más allá de ser un territorio británico de ultramar, tampoco se anexó a la UEFA ."
     },
     {
@@ -3340,15 +3356,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Hasta el momento, nunca existió algún pedido formal desde las islas.",
-        "source_text": "Hasta el momento, nunca existió algún pedido formal desde las islas para presentarse como miembro activo de alguna entidad continental o de la FIFA."
+        "text": "La ciudad no se anexó a la UEFA.",
+        "source_text": "A pesar de ubicarse en América del Sur, no es miembro de la Conmebol , y más allá de ser un territorio británico de ultramar, tampoco se anexó a la UEFA ."
     },
     {
         "proposition_id": "es:Q9648:7:ap:42",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El pedido formal desde las islas es para presentarse como miembro activo de alguna entidad continental.",
+        "text": "Hasta el momento, nunca existió algún pedido formal desde las islas.",
         "source_text": "Hasta el momento, nunca existió algún pedido formal desde las islas para presentarse como miembro activo de alguna entidad continental o de la FIFA."
     },
     {
@@ -3356,7 +3372,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El pedido formal desde las islas es para presentarse como miembro activo de la FIFA.",
+        "text": "El pedido formal desde las islas es para presentarse como miembro activo de alguna entidad continental.",
         "source_text": "Hasta el momento, nunca existió algún pedido formal desde las islas para presentarse como miembro activo de alguna entidad continental o de la FIFA."
     },
     {
@@ -3364,15 +3380,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Los Juegos de las Islas son un evento.",
-        "source_text": "​ Los Juegos de las Islas ofrecen la única salida competitiva para los jugadores de las islas."
+        "text": "El pedido formal desde las islas es para presentarse como miembro activo de la FIFA.",
+        "source_text": "Hasta el momento, nunca existió algún pedido formal desde las islas para presentarse como miembro activo de alguna entidad continental o de la FIFA."
     },
     {
         "proposition_id": "es:Q9648:7:ap:45",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Los Juegos de las Islas tienen una única salida.",
+        "text": "Los Juegos de las Islas son un evento.",
         "source_text": "​ Los Juegos de las Islas ofrecen la única salida competitiva para los jugadores de las islas."
     },
     {
@@ -3380,7 +3396,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La única salida de los Juegos de las Islas es competitiva.",
+        "text": "Los Juegos de las Islas tienen una única salida.",
         "source_text": "​ Los Juegos de las Islas ofrecen la única salida competitiva para los jugadores de las islas."
     },
     {
@@ -3388,7 +3404,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Los jugadores de las Islas pueden participar en los Juegos de las Islas.",
+        "text": "La única salida de los Juegos de las Islas es competitiva.",
         "source_text": "​ Los Juegos de las Islas ofrecen la única salida competitiva para los jugadores de las islas."
     },
     {
@@ -3396,15 +3412,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Los Juegos de las Islas de 2013 se celebraron en las islas Bermudas.",
-        "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
+        "text": "Los jugadores de las Islas pueden participar en los Juegos de las Islas.",
+        "source_text": "​ Los Juegos de las Islas ofrecen la única salida competitiva para los jugadores de las islas."
     },
     {
         "proposition_id": "es:Q9648:7:ap:49",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El equipo de los Juegos de las Islas de 2013 logró un histórico tercer puesto.",
+        "text": "Los Juegos de las Islas de 2013 se celebraron en las islas Bermudas.",
         "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
@@ -3412,7 +3428,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El equipo de los Juegos de las Islas de 2013 ganó el partido contra el equipo de Frøya.",
+        "text": "El equipo de los Juegos de las Islas de 2013 logró un histórico tercer puesto.",
         "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
@@ -3420,7 +3436,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "Frøya es la localidad de Noruega.",
+        "text": "El equipo de los Juegos de las Islas de 2013 ganó el partido contra el equipo de Frøya.",
         "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
@@ -3428,7 +3444,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El equipo de los Juegos de las Islas de 2013 ganó el partido con un marcador de 6 a 0.",
+        "text": "Frøya es la localidad de Noruega.",
         "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
@@ -3436,7 +3452,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El equipo de los Juegos de las Islas de 2013 obtuvo una medalla de bronce.",
+        "text": "El equipo de los Juegos de las Islas de 2013 ganó el partido con un marcador de 6 a 0.",
         "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
@@ -3444,15 +3460,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La selección de las islas también ha sido ganadora del Small Islands Cup.",
-        "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
+        "text": "El equipo de los Juegos de las Islas de 2013 obtuvo una medalla de bronce.",
+        "source_text": "​ En los Juegos de las Islas de 2013 , celebrados en las islas Bermudas , logró un histórico tercer puesto tras ganarle 6 a 0 al equipo de Frøya (localidad de Noruega ), obteniendo una medalla de bronce."
     },
     {
         "proposition_id": "es:Q9648:7:ap:55",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Small Islands Cup es conocido como la Copa de las Islas Pequeñas.",
+        "text": "La selección de las islas también ha sido ganadora del Small Islands Cup.",
         "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
     },
     {
@@ -3460,7 +3476,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Small Islands Cup fue realizado en 2013.",
+        "text": "El Small Islands Cup es conocido como la Copa de las Islas Pequeñas.",
         "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
     },
     {
@@ -3468,7 +3484,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "El Small Islands Cup es un evento realizado entre los territorios participantes de los Juegos de las Islas.",
+        "text": "El Small Islands Cup fue realizado en 2013.",
         "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
     },
     {
@@ -3476,7 +3492,7 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La población de los territorios participantes del Small Islands Cup no supera los 10 000 habitantes.",
+        "text": "El Small Islands Cup es un evento realizado entre los territorios participantes de los Juegos de las Islas.",
         "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
     },
     {
@@ -3484,15 +3500,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "The input content is empty.",
-        "source_text": "​"
+        "text": "La población de los territorios participantes del Small Islands Cup no supera los 10 000 habitantes.",
+        "source_text": "​ ​ La selección de las islas también ha sido ganadora del Small Islands Cup («Copa de las Islas Pequeñas») en 2013, un evento realizado entre los territorios participantes de los Juegos de las Islas, cuya población no supera los 10 000 habitantes."
     },
     {
         "proposition_id": "es:Q9648:7:ap:60",
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "The input content has no text.",
+        "text": "The input content is empty.",
         "source_text": "​"
     },
     {
@@ -3500,799 +3516,15 @@
         "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "The input content is empty string.",
+        "text": "The input content has no text.",
         "source_text": "​"
     },
     {
-        "proposition_id": "es:Q9648:10:ap:0",
-        "section_id": "es:Q9648:10",
+        "proposition_id": "es:Q9648:7:ap:62",
+        "section_id": "es:Q9648:7",
         "article_id": "es:Q9648",
         "language": "es",
-        "text": "La bibliografía es un elemento de información.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:1",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía contiene referencias.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:2",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "Las referencias en la bibliografía son de autónoma relevancia.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:3",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre artículos científicos.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:4",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre publicaciones académicas.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:5",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre libros.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:6",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre recursos de internet.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:7",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre encuestas.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:8",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre estudios de caso.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:9",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre informaciones geográficas.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:10",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos demográficos.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:11",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos económicos.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:12",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de población.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:13",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ingreso.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:14",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de desempleo.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:15",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de crecimiento económico.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:16",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de inflación.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:17",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de recesión.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:18",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de recuperación económica.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:19",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de desplazamiento laboral.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:20",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de movimientos migratorios.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:21",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de empleo.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:22",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a cargo.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:23",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a cargo.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:24",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de titulación.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:25",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a titulación.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:26",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a titulación.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:27",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado universitario.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:28",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado universitario.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:29",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado universitario.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:30",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de magisterio.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:31",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de magisterio.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:32",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de magisterio.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:33",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de licenciatura.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:34",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de licenciatura.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:35",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de licenciatura.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:36",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de doctorado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:37",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de doctorado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:38",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de doctorado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:39",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de postgrado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:40",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de postgrado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:41",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de postgrado.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:42",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de master.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:43",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de master.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:44",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de master.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:45",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:46",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:47",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:48",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de post-PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:49",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de post-PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:50",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de post-PhD.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:51",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de doctoral postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:52",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de doctoral postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:53",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de doctoral postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:54",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de master postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:55",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de master postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:56",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de master postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:57",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:58",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:59",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:60",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de post-PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:61",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de post-PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:62",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de post-PhD postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:63",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de doctoral postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:64",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de doctoral postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:65",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de doctoral postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:66",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de master postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:67",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de master postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:68",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de master postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:69",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:70",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:71",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:72",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de post-PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:73",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de post-PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:74",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de post-PhD postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:75",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de doctoral postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:76",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de doctoral postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:77",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de doctoral postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:78",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de master postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:79",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de master postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:80",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de master postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:81",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:82",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:83",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:84",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de post-PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:85",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de post-PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:86",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de post-PhD postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:87",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de doctoral postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:88",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de doctoral postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:89",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de doctoral postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:90",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de master postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:91",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de master postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:92",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de master postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:93",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:94",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:95",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:96",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de deserción de grado de post-PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:97",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de ascenso a grado de post-PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
-    },
-    {
-        "proposition_id": "es:Q9648:10:ap:98",
-        "section_id": "es:Q9648:10",
-        "article_id": "es:Q9648",
-        "language": "es",
-        "text": "La bibliografía puede incluir información sobre datos de descenso a grado de post-PhD postgraduate postgraduate postgraduate postgraduate.",
-        "source_text": "Bibliografía."
+        "text": "The input content is empty string.",
+        "source_text": "​"
     }
 ]

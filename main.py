@@ -8,14 +8,15 @@ from utilities.alignment import (
     save_alignment_results,
 )
 
-from utilities.load_models import load_MPropositioneur_V2, load_Qwen3_8B_via_llama_cpp, load_Qwen38B_embedding
-from utilities.omission_3 import calculate_omission
-from utilities.propositioner_2 import extract_propositions_V2
-from utilities.triplets import extract_triplets
+from utilities.load_models import load_Qwen3_8B_via_llama_cpp
+from utilities.omission_3v2 import calculate_omission,load_qwen_embedding
+from utilities.propositioner_3v2 import extract_propositions_V3
+from utilities.translate_json import translate_json, replace_ap_es_text
+
 
 # download the model propositioner
-model_AP, tokenizer_AP = (load_MPropositioneur_V2())
-model_embedding = load_Qwen38B_embedding()
+qwen_model = load_Qwen3_8B_via_llama_cpp()
+tokenizer,model_embedding,device=load_qwen_embedding()
 
 """
 model_triplets = load_Qwen3_8B_via_llama_cpp()
@@ -57,85 +58,63 @@ save_alignment_results(
 )
 
 
-propositions_list_es = []
-
-for section in data_es["sections"]:
-    propositions = extract_propositions_V2(
-            section=section,
-            model=model_AP,
-            tokenizer=tokenizer_AP,
-            chunk_max_tokens=200,
-            max_new_tokens=2048)
-
-
-        # extend instead of append so that the final JSON
-        # contains one flat list of propositions.
-
-    propositions_list_es.extend(propositions)
-
-    # -----------------------------------------------------------------
-    # Save JSON
-    # -----------------------------------------------------------------
-
-with open("propositions_es.json", "w", encoding="utf-8") as file:
-    json.dump( propositions_list_es, file, indent=4, ensure_ascii=False)
-
-print("-----------------------------------")
-print("Atomization completed")
-print(f"Total propositions: {len(propositions_list_es)}")
-print(f"Saved to: propositions_es.json")
-print("-----------------------------------")
-
-
-propositions_list_en = []
+propositions_list_en_qwen = []
 
 for section in data_en["sections"]:
-    propositions = extract_propositions_V2(
-            section=section,
-            model=model_AP,
-            tokenizer=tokenizer_AP,
-            chunk_max_tokens=200,
-            max_new_tokens=2048)
+    propositions=extract_propositions_V3(
+                section=section,
+                model=qwen_model,
+                language=section["language"]
+            )
 
         # extend instead of append so that the final JSON
         # contains one flat list of propositions.
 
-    propositions_list_en.extend(propositions)
+    propositions_list_en_qwen.extend(propositions)
 
     # -----------------------------------------------------------------
     # Save JSON
     # -----------------------------------------------------------------
 
-with open("propositions_en.json", "w", encoding="utf-8") as file:
-    json.dump( propositions_list_en, file, indent=4, ensure_ascii=False)
+with open("propositions_en_sentence_level_qwen.json", "w", encoding="utf-8") as file:
+    json.dump( propositions_list_en_qwen, file, indent=4, ensure_ascii=False)
 
 print("-----------------------------------")
 print("Atomization completed")
-print(f"Total propositions: {len(propositions_list_en)}")
-print(f"Saved to: propositions_en.json")
+print(f"Total propositions: {len(propositions_list_en_qwen)}")
+print(f"Saved to: propositions_en_sentence_level_qwen.json")
 print("-----------------------------------")
 
 
-#############################################
-# Extract Triples
-# Not used in the current pipeline, but the implementation is correct.
-#############################################
+propositions_list_es_qwen = []
 
-"""
+for section in data_es["sections"]:
+    propositions=extract_propositions_V3(
+                section=section,
+                model=qwen_model,
+                language=section["language"]
+            )
 
-triplets_en = extract_triplets( propositions_list_en, model_triplets, lenguage="en")
+        # extend instead of append so that the final JSON
+        # contains one flat list of propositions.
 
-with open( "triplets_en.json", "w", encoding="utf-8" ) as f:
-    json.dump(triplets_en, f, indent=4, ensure_ascii=False)
-    print("Triples saved to triplets_en.json")
+    propositions_list_es_qwen.extend(propositions)
 
-triplets_es = extract_triplets( propositions_list_es, model_triplets, lenguage="es")
+    # -----------------------------------------------------------------
+    # Save JSON
+    # -----------------------------------------------------------------
 
-with open( "triplets_es.json", "w", encoding="utf-8" ) as f:
-    json.dump(triplets_es, f, indent=4, ensure_ascii=False)
-    print("Triples saved to triplets_es.json")
+with open("propositions_es_sentence_level_qwen.json", "w", encoding="utf-8") as file:
+    json.dump( propositions_list_es_qwen, file, indent=4, ensure_ascii=False)
 
-    """
+
+print("-----------------------------------")
+print("Atomization completed")
+print(f"Total propositions: {len(propositions_list_es_qwen)}")
+print(f"Saved to: propositions_es_sentence_level_qwen.json")
+print("-----------------------------------")
+
+propositions_list_es_qwen=translate_json(propositions_list_es_qwen)
 
 
 ##############################################
@@ -186,29 +165,29 @@ list_manual_section_pairs = [ # it should be replaced by the output of the secti
 #################
 
 
-results_omission = []
+results_omission=[]
 
 for pair in list_manual_section_pairs:
-    section_pair_id = pair["pair_id"]
-    section_id_en = pair["section_id_b"]
-    section_id_es = pair["section_id_a"]
+    section_pair_id=pair["pair_id"]
+    section_id_en=pair["section_id_b"]
+    section_id_es=pair["section_id_a"]
 
-    section_aps_en = [
+    section_aps_en=[
         {
-            "proposition_id": ap["proposition_id"],
-            "text": ap["text"]
+            "proposition_id":ap["proposition_id"],
+            "text":ap["text"]
         }
-        for ap in propositions_list_en
-        if section_id_en in ap["proposition_id"]
+        for ap in propositions_list_en_qwen
+        if section_id_en == ap["section_id"]
     ]
 
-    section_aps_es = [
+    section_aps_es=[
         {
-            "proposition_id": ap["proposition_id"],
-            "text": ap["text"]
+            "proposition_id":ap["proposition_id"],
+            "text":ap["text_en"]
         }
-        for ap in propositions_list_es
-        if section_id_es in ap["proposition_id"]
+        for ap in propositions_list_es_qwen
+        if section_id_es == ap["section_id"]
     ]
 
     print(
@@ -216,25 +195,30 @@ for pair in list_manual_section_pairs:
         f"EN: {len(section_aps_en)} | ES: {len(section_aps_es)}"
     )
 
-    omission_metrics = calculate_omission(
+    omission_metrics=calculate_omission(
         section_aps_en,
         section_aps_es,
-        threshold=0.73,
-        model=model_embedding
+        threshold=0.70,
+        tokenizer=tokenizer,
+        model=model_embedding,
+        device=device
     )
 
     results_omission.append({
-        "section_pair_id": section_pair_id,
-        "section_en": { "section_id": section_id_en, "propositions": section_aps_en },
-        "section_es": { "section_id": section_id_es, "propositions": section_aps_es },
-        "omission_metrics": omission_metrics})
+        "section_pair_id":section_pair_id,
+        "section_en":{
+            "section_id":section_id_en,
+            "propositions":section_aps_en
+        },
+        "section_es":{
+            "section_id":section_id_es,
+            "propositions":section_aps_es
+        },
+        "omission_metrics":omission_metrics
+    })
 
-with open("omission_results.json", "w", encoding="utf-8") as file:
-    json.dump(results_omission, file, ensure_ascii=False, indent=4)
-
-
-with open("omission_results.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+with open("omission_results_qwen.json","w",encoding="utf-8") as file:
+    json.dump(results_omission,file,ensure_ascii=False,indent=4)
 
 
 equivalent_aps = {}
@@ -297,13 +281,10 @@ for section in results_omission:
                     "similarity": match["similarity"]
                 }
 
-################
-# Equivalent APs
-################
-
 
 # Convertir a lista
 equivalent_aps = list(equivalent_aps.values())
+equivalent_aps = replace_ap_es_text(equivalent_aps,propositions_list_es_qwen)
 
-with open("equivalent_aps.json", "w", encoding="utf-8") as f:
+with open("equivalent_aps_qwen.json", "w", encoding="utf-8") as f:
     json.dump(equivalent_aps, f, ensure_ascii=False, indent=4)

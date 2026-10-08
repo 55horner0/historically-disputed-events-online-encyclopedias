@@ -1,0 +1,2586 @@
+[
+  {
+    "id": 1,
+    "text": "The 3rd and 4th stations all announced that they would be postponed, and the Monaco station was subsequently cancelled.",
+    "propositions": [
+      "the Monaco station was subsequently cancelled.",
+      "The 3rd and 4th stations all announced that they would be postponed",
+      "The 3rd and 4th stations all announced that they would be postponed"
+    ]
+  },
+  {
+    "id": 2,
+    "text": "It contains 22 Grand Prix events, which is the most race and longest season in the history of the sport.",
+    "propositions": [
+      "22 Grand Prix events, which is the most race and longest season in the history of the sport.",
+      "22 Grand Prix events, which is the most race and longest season in the history of the sport.",
+      "It contains 22 Grand Prix events"
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Teams and drivers competed to be world champions for constructors and drivers, respectively.",
+    "propositions": [
+      "drivers competed to be world champions for constructors and drivers",
+      "Teams and drivers competed to be world champions for constructors"
+    ]
+  },
+  {
+    "id": 4,
+    "text": "The southwestern part of the state is situated in the Rocky Mountains, and the northeast is in the Great Plains.",
+    "propositions": [
+      "part of the state is situated in the Rocky Mountains, and the northeast is in the Great Plains.",
+      "The southwestern part of the state is situated in the Rocky Mountains"
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Therefore, it is characterized by a low population density, which places the state in 49th place in this category.",
+    "propositions": [
+      "low population density, which places the state in 49th place in this category.",
+      "it is characterized by a low population density"
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Almost half of the land in Wyoming is owned by the federal government, leading the state to rank 6th by area and fifth by proportion of a state s land owned by the federal government.",
+    "propositions": [
+      "the state to rank 6th by area and fifth by proportion of a state s land owned by the federal government.",
+      "the state to rank 6th by area and fifth by proportion of a state s land owned by the federal government.",
+      "Almost half of the land in Wyoming is owned by the federal government"
+    ]
+  },
+  {
+    "id": 7,
+    "text": "The state capital and the most populous city is Cheyenne, which had an estimated population of 63,957 in 2018.",
+    "propositions": [
+      "Cheyenne, which had an estimated population of 63,957 in 2018",
+      "the most populous city is Cheyenne",
+      "The state capital and the most populous city is Cheyenne"
+    ]
+  },
+  {
+    "id": 8,
+    "text": "The 10th largest state by area, it is also the least populous and least densely populated state in the contiguous United States.",
+    "propositions": [
+      "it is also the least populous and least densely populated state in the contiguous United States",
+      "it is also the least populous and least densely populated state in the contiguous United States",
+      "The 10th largest state by area, it is"
+    ]
+  },
+  {
+    "id": 9,
+    "text": "However, according to the estimates of the International Organization of Francophonie, there are around 267 million speakers in the world (it is the fifth most spoken language in the world based on the number of total speakers).",
+    "propositions": [
+      "it is the fifth most spoken language in the world based on the number of total speakers",
+      "according to the estimates of the International Organization of Francophonie, there are around 267 million speakers in the world",
+      "there are around 267 million speakers in the world"
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Furthermore, nearly 200 million people learn French as a foreign language, making it the second most widely taught language in the world after English.",
+    "propositions": [
+      "French as a foreign language, making it the second most widely taught language in the world after English.",
+      "nearly 200 million people learn French as a foreign language"
+    ]
+  },
+  {
+    "id": 11,
+    "text": "There are 100 million people in the world who use French as their mother tongue, and another 280 million people use French (including those who use it as a second language).",
+    "propositions": [
+      "280 million people use French (including those who use it as a second language).",
+      "280 million people use French",
+      "There are 100 million people in the world who use French as their mother tongue"
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Its area is almost as large as that of the United Kingdom, with whose colonial history it is closely linked.",
+    "propositions": [
+      "the United Kingdom, with whose colonial history it is closely linked.",
+      "Its area is almost as large as that of the United Kingdom"
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Historically, the name Ghana was supposed to establish a connection with the empire of Ghana, the first large empire in West Africa that can be identified by name.",
+    "propositions": [
+      "the empire of Ghana, the first large empire in West Africa that can be identified by name.",
+      "Historically, the name Ghana was supposed to establish a connection with the empire of Ghana"
+    ]
+  },
+  {
+    "id": 14,
+    "text": "71.2% of the population is Christian, 17.6% Muslim and 5% is animist.",
+    "propositions": [
+      "population is Christian, 17.6% Muslim and 5% is animist",
+      "the population is Christian, 17.6% Muslim",
+      "71.2% of the population is Christian"
+    ]
+  },
+  {
+    "id": 15,
+    "text": "From 1957 the country was an independent state in the Commonwealth and in 1960 it became a republic, with Kwame Nkrumah as its first president.",
+    "propositions": [
+      "the country was an independent state in the Commonwealth and in 1960 it became a republic, with Kwame Nkrumah as its first president",
+      "in 1960 it became a republic",
+      "From 1957 the country was an independent state in the Commonwealth"
+    ]
+  },
+  {
+    "id": 16,
+    "text": "The largest city in Bhutan is the capital Thimphu.",
+    "propositions": [
+      "Bhutan is the capital Thimphu",
+      "The largest city in Bhutan is the capital"
+    ]
+  },
+  {
+    "id": 17,
+    "text": "In 1997 the total area was reported as around 46 500 km² and 38 394 km² in 2002.",
+    "propositions": [
+      "the total area was reported as around 46 500 km² and 38 394 km² in 2002.",
+      "In 1997 the total area was reported as around 46 500 km²"
+    ]
+  },
+  {
+    "id": 18,
+    "text": "The Ark was created following the pattern that God would have given Moses when the Israelites camped at the foot of Mount Sinai.",
+    "propositions": [
+      "Israelites camped at the foot of Mount Sinai.",
+      "pattern that God would have given Moses when the Israelites camped",
+      "pattern that God would have given Moses",
+      "The Ark was created following the pattern"
+    ]
+  },
+  {
+    "id": 19,
+    "text": "After a season with the Suns, O Neal was traded to the Cleveland Cavaliers again in the 2009-10 season.",
+    "propositions": [
+      "O Neal was traded to the Cleveland Cavaliers again in the 2009-10 season.",
+      "After a season with the Suns, O Neal was traded to the Cleveland Cavaliers"
+    ]
+  },
+  {
+    "id": 20,
+    "text": "After four years with the Magic, O Neal signed as a free agent with the Los Angeles Lakers.",
+    "propositions": [
+      "O Neal signed as a free agent with the Los Angeles Lakers",
+      "O Neal signed as a free agent with the Los Angeles Lakers",
+      "After four years with the Magic, O Neal signed as a free agent"
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Amid tension between O Neal and Kobe Bryant, O Neal was traded to the Miami Heat in 2004, and his fourth NBA championship followed in 2006.",
+    "propositions": [
+      "O Neal was traded to the Miami Heat in 2004, and his fourth NBA championship followed in 2006.",
+      "O Neal was traded to the Miami Heat in 2004",
+      "Amid tension between O Neal and Kobe Bryant, O Neal was traded to the Miami Heat"
+    ]
+  },
+  {
+    "id": 22,
+    "text": "This contrast was actually created artfully by the managers of the Rolling Stones themselves who in reality, as stated several times by Jagger himself, had a great admiration for the four from Liverpool, so much so as to make them a real reference model.",
+    "propositions": [
+      "Jagger himself, had a great admiration for the four from Liverpool, so much so as to make them a real reference model",
+      "the managers of the Rolling Stones themselves who in reality, as stated several times by Jagger himself, had a great admiration for the four from Liverpool",
+      "This contrast was actually created artfully by the managers of the Rolling Stones themselves"
+    ]
+  },
+  {
+    "id": 23,
+    "text": "With number one hits in 1968 and 2020, they are the oldest front runners of all time in Germany.",
+    "propositions": [
+      "they are the oldest front runners of all time in Germany.",
+      "number one hits in 1968 and 2020, they",
+      "number one hits in 1968 and 2020, they"
+    ]
+  },
+  {
+    "id": 24,
+    "text": "In 2015, James starred in The Cinderella Story, for which she received the Harper s Bazaar  Breakthrough Award .",
+    "propositions": [
+      "The Cinderella Story, for which she received the Harper s Bazaar  Breakthrough Award .",
+      "In 2015, James starred in The Cinderella Story"
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Greek texts written in the syllable Linear B are preserved, and similar systems were used in Cyprus until about 200 BC.",
+    "propositions": [
+      "similar systems were used in Cyprus until about 200 BC",
+      "Greek texts written in the syllable Linear B are preserved"
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Earlier, it had been called  new Miyazaki  (the  new Miyazaki ), Shinkai Makoto himself said that he was too famous to be as famous as Hayao Miyazaki.",
+    "propositions": [
+      "Shinkai Makoto himself said that he was too famous to be as famous as Hayao Miyazaki",
+      "Earlier, it had been called  new Miyazaki  (the  new Miyazaki )"
+    ]
+  },
+  {
+    "id": 27,
+    "text": "While his tenure with the Patriots would ultimately be eclipsed by Brady, Bledsoe is recognized for helping rebuild the franchise and his role during their first Super Bowl-winning season when he relieved an injured Brady to lead the team to victory in the 2001 AFC Championship.",
+    "propositions": [
+      "Patriots would ultimately be eclipsed by Brady, Bledsoe is recognized for helping rebuild the franchise and his role during their first Super Bowl-winning season when he relieved an injured Brady to lead the team to victory in the 2001 AFC Championship",
+      "the Patriots would ultimately be eclipsed by Brady, Bledsoe is recognized for helping rebuild the franchise and his role during their first Super Bowl-winning season",
+      "the Patriots would ultimately be eclipsed by Brady, Bledsoe is recognized for helping rebuild the franchise",
+      "his tenure with the Patriots would ultimately be eclipsed by Brady"
+    ]
+  },
+  {
+    "id": 28,
+    "text": "In 1799 he carried out a coup d etat in France: he left the power of the Directory, became consul.",
+    "propositions": [
+      "he left the power of the Directory, became consul",
+      "he left the power of the Directory",
+      "he carried out a coup d etat in France",
+      "In 1799 he carried out a coup d etat"
+    ]
+  },
+  {
+    "id": 29,
+    "text": "Others, however, regard him as a tyrannical dictator whose wars caused the deaths of millions of people, and he is judged as the key figure that marked the beginning of the 19th century and the subsequent evolution of contemporary Europe.",
+    "propositions": [
+      "he is judged as the key figure that marked the beginning of the 19th century and the subsequent evolution of contemporary Europe.",
+      "he is judged as the key figure that marked the beginning of the 19th century",
+      "a tyrannical dictator whose wars caused the deaths of millions of people",
+      "Others, however, regard him as a tyrannical dictator"
+    ]
+  },
+  {
+    "id": 30,
+    "text": "However, the title of the series has not been translated, which is why it is carried under both the original title and the title The Golden Compass - The Trilogy.",
+    "propositions": [
+      "it is carried under both the original title and the title The Golden Compass - The Trilogy",
+      "the title of the series has not been translated"
+    ]
+  },
+  {
+    "id": 31,
+    "text": "It adapts to captivity and thanks to its fur it easily supports the winter conditions of its habitat.",
+    "propositions": [
+      "thanks to its fur it easily supports the winter conditions of its habitat",
+      "it easily supports the winter conditions of its habitat",
+      "It adapts to captivity"
+    ]
+  },
+  {
+    "id": 32,
+    "text": "At the end of 2016, the World Conservation Union (IUCN) downgraded the threat level of giant pandas from  endangered  to  vulnerable .",
+    "propositions": [
+      "the World Conservation Union (IUCN) downgraded the threat level of giant pandas from  endangered  to  vulnerable ",
+      "At the end of 2016, the World Conservation Union (IUCN) downgraded the threat level of giant pandas",
+      "the World Conservation Union (IUCN) downgraded the threat level of giant pandas"
+    ]
+  },
+  {
+    "id": 33,
+    "text": "Due to the low fertility rate, the giant panda is rated as an endangered species in the Red Book of Endangered Animals in China and is a national treasure in mainland China.",
+    "propositions": [
+      "the giant panda is rated as an endangered species in the Red Book of Endangered Animals in China and is a national treasure in mainland China.",
+      "the giant panda is rated as an endangered species in the Red Book of Endangered Animals in China",
+      "Due to the low fertility rate, the giant panda is rated as an endangered species"
+    ]
+  },
+  {
+    "id": 34,
+    "text": "In the suborder of the canine, there is the panda family, which does not include the giant panda.",
+    "propositions": [
+      "the suborder of the canine, there is the panda family, which does not include the giant panda.",
+      "In the suborder of the canine, there is the panda family"
+    ]
+  },
+  {
+    "id": 35,
+    "text": "In the musical, the jellicle cats, a word that only they know its meaning, gather once a year so that their leader chooses one and only one of them to go to a better place.",
+    "propositions": [
+      "the jellicle cats, a word that only they know its meaning",
+      "the jellicle cats, a word that only they know its meaning, gather once a year so that their leader chooses one and only one of them to go to a better place.",
+      "In the musical, the jellicle cats, a word that only they know its meaning, gather once a year"
+    ]
+  },
+  {
+    "id": 36,
+    "text": "In 2019 it was brought to the big screen under the direction of Tom Hooper.",
+    "propositions": [
+      "it was brought to the big screen under the direction of Tom Hooper",
+      "In 2019 it was brought to the big screen"
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Its plot revolves around the tribe of Jélicos cats during the night when they take  the jelical choice  and decide which of them will be reborn in a new existence.",
+    "propositions": [
+      "Jélicos cats during the night when they take  the jelical choice  and decide which of them will be reborn in a new existence",
+      "Its plot revolves around the tribe of Jélicos cats during the night when they take  the jelical choice ",
+      "Its plot revolves around the tribe of Jélicos cats"
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Her family went through financial difficulties and she had to work to help with the household bills since she was little.",
+    "propositions": [
+      "she had to work to help with the household bills since she was little",
+      "she had to work to help with the household bills",
+      "Her family went through financial difficulties"
+    ]
+  },
+  {
+    "id": 39,
+    "text": "The name of the writer and her work became well-known brands that are still used, for example, to name dolls.",
+    "propositions": [
+      "her work became well-known brands that are still used, for example, to name dolls",
+      "her work became well-known brands",
+      "The name of the writer and her work became well-known brands"
+    ]
+  },
+  {
+    "id": 40,
+    "text": "In 1919, the team was formally established under the leadership of Curly Lambeau.",
+    "propositions": [
+      "the team was formally established under the leadership of Curly Lambeau.",
+      "In 1919, the team was formally established"
+    ]
+  },
+  {
+    "id": 41,
+    "text": "She started dating John Mulaney in 2021, and in September of that year it was announced that the couple was expecting a baby.",
+    "propositions": [
+      "2021, and in September of that year it was announced that the couple was expecting a baby.",
+      "She started dating John Mulaney in 2021"
+    ]
+  },
+  {
+    "id": 42,
+    "text": "In May 2020, the series was canceled after two seasons.",
+    "propositions": [
+      "the series was canceled after two seasons.",
+      "In May 2020, the series was canceled",
+      "the series was canceled"
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Each season features a mostly different cast ensemble, with Danielle Campbell and Paul Wesley appearing in both seasons of the series.",
+    "propositions": [
+      "Paul Wesley appearing in both seasons of the series.",
+      "Danielle Campbell and Paul Wesley appearing in both seasons of the series.",
+      "Each season features a mostly different cast ensemble"
+    ]
+  },
+  {
+    "id": 44,
+    "text": "He is considered one of the best actors of his generation and yet he has never received an Oscar nomination.",
+    "propositions": [
+      "he has never received an Oscar nomination",
+      "He is considered one of the best actors of his generation"
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Known as the Clock Tower, the name was officially changed to Elizabeth Tower on the occasion of Elizabeth II s Diamond Jubilee in June 2012.",
+    "propositions": [
+      "name was officially changed to Elizabeth Tower on the occasion of Elizabeth II s Diamond Jubilee in June 2012",
+      "name was officially changed to Elizabeth Tower on the occasion of Elizabeth II s Diamond Jubilee",
+      "Known as the Clock Tower, the name was officially changed to Elizabeth Tower"
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Until then the bells will not ring, except on important occasions and holidays.",
+    "propositions": [
+      "the bells will not ring, except on important occasions and holidays",
+      "the bells will not ring, except on important occasions",
+      "Until then the bells will not ring"
+    ]
+  },
+  {
+    "id": 47,
+    "text": "From 21 August 2017 the clock tower is closed to the public for maintenance work that will last until the second quarter of 2022.",
+    "propositions": [
+      "maintenance work that will last until the second quarter of 2022.",
+      "From 21 August 2017 the clock tower is closed to the public for maintenance work",
+      "From 21 August 2017 the clock tower is closed to the public"
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Rumors that there was a connection between the murders intensified between September and October 1888, and many letters were received by various publishers and Scotland Yard, allegedly written by the killer s hand.",
+    "propositions": [
+      "many letters were received by various publishers and Scotland Yard, allegedly written by the killer s hand",
+      "many letters were received by various publishers and Scotland Yard, allegedly written by the killer s hand",
+      "Rumors that there was a connection between the murders intensified between September and October 1888"
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Due to the incredible cruelty of the murders and the various information that appeared in the newspapers, many were convinced that there was one serial killer in London, who received the nickname  Jack the Ripper .",
+    "propositions": [
+      "one serial killer in London, who received the nickname  Jack the Ripper ",
+      "Due to the incredible cruelty of the murders and the various information that appeared in the newspapers, many were convinced that there was one serial killer in London",
+      "Due to the incredible cruelty of the murders and the various information that appeared in the newspapers, many were convinced that there was one serial killer in London"
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Rumors about the killer s identity intensified between September and October 1888, when Scotland Yard and the press received other letters allegedly written by the killer.",
+    "propositions": [
+      "the press received other letters allegedly written by the killer",
+      "Scotland Yard and the press received other letters allegedly written by the killer",
+      "Rumors about the killer s identity intensified between September and October 1888"
+    ]
+  },
+  {
+    "id": 51,
+    "text": "At UFC 199, he became the first British fighter to win a UFC Championship and he remains the sole British winner of a UFC title.",
+    "propositions": [
+      "he remains the sole British winner of a UFC title",
+      "At UFC 199, he became the first British fighter to win a UFC Championship",
+      "he became the first British fighter to win a UFC Championship"
+    ]
+  },
+  {
+    "id": 52,
+    "text": "On November 4, 2017, he lost his title to Georges Saint-Pierre.",
+    "propositions": [
+      "he lost his title to Georges Saint-Pierre.",
+      "On November 4, 2017, he lost his title"
+    ]
+  },
+  {
+    "id": 53,
+    "text": "and at UFC 199 he became the first Englishman to win a title within the company.He remains the only Briton to win a UFC title.",
+    "propositions": [
+      "He remains the only Briton to win a UFC title.",
+      "at UFC 199 he became the first Englishman to win a title within the company",
+      "he became the first Englishman to win a title within the company"
+    ]
+  },
+  {
+    "id": 54,
+    "text": "He was convicted of the murders of two women, but was classified as mentally ill, so he remained in the Mendota Mental Health Institute until his death.",
+    "propositions": [
+      "he remained in the Mendota Mental Health Institute until his death.",
+      "He was convicted of the murders of two women, but was classified as mentally ill",
+      "He was convicted of the murders of two women"
+    ]
+  },
+  {
+    "id": 55,
+    "text": "By 1968, he was judged competent to stand trial; he was found guilty of the murder of Worden, but he was found legally insane and was remanded to a psychiatric institution.",
+    "propositions": [
+      "he was found legally insane and was remanded to a psychiatric institution.",
+      "he was found legally insane",
+      "he was found guilty of the murder of Worden",
+      "By 1968, he was judged competent to stand trial"
+    ]
+  },
+  {
+    "id": 56,
+    "text": "Currently, DoS and DDoS attacks are the most popular, as they can bring almost any poorly written system to failure without leaving legally significant evidence.",
+    "propositions": [
+      "DoS and DDoS attacks are the most popular, as they can bring almost any poorly written system to failure without leaving legally significant evidence.",
+      "Currently, DoS and DDoS attacks are the most popular",
+      "DoS and DDoS attacks are the most popular"
+    ]
+  },
+  {
+    "id": 57,
+    "text": "David Kepp wrote the final script, in which most of the violence scenes from the novel were missing, and numerous changes were made to the characters of the characters.",
+    "propositions": [
+      "the final script, in which most of the violence scenes from the novel were missing, and numerous changes were made to the characters of the characters.",
+      "the final script, in which most of the violence scenes from the novel were missing",
+      "David Kepp wrote the final script"
+    ]
+  },
+  {
+    "id": 58,
+    "text": "To create animatronic dinosaur models, Spielberg hired Stan Winston s studio, whose work was then combined with computer special effects created by Industrial Light & Magic.",
+    "propositions": [
+      "Stan Winston s studio, whose work was then combined with computer special effects created by Industrial Light & Magic",
+      "To create animatronic dinosaur models, Spielberg hired Stan Winston s studio"
+    ]
+  },
+  {
+    "id": 59,
+    "text": "It is the first film that widely uses computer graphics to make animals, and it has become a milestone in the special effects of the movie.",
+    "propositions": [
+      "it has become a milestone in the special effects of the movie",
+      "It is the first film that widely uses computer graphics to make animals"
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Two years later, he became Olympic champion at the London Olympics.",
+    "propositions": [
+      "he became Olympic champion at the London Olympics",
+      "Two years later, he became Olympic champion",
+      "he became Olympic champion"
+    ]
+  },
+  {
+    "id": 61,
+    "text": "In the middle of filming, Paramount Pictures decided to delay the release date from December 25, 2008 to May 2009, in the belief that the film could reach a wider audience.",
+    "propositions": [
+      "Paramount Pictures decided to delay the release date from December 25, 2008 to May 2009, in the belief that the film could reach a wider audience",
+      "Paramount Pictures decided to delay the release date from December 25, 2008 to May 2009",
+      "In the middle of filming, Paramount Pictures decided to delay the release date"
+    ]
+  },
+  {
+    "id": 62,
+    "text": "They are asocial animals and there is only one bond between mothers and their dependent offspring.",
+    "propositions": [
+      "there is only one bond between mothers and their dependent offspring",
+      "They are asocial animals"
+    ]
+  },
+  {
+    "id": 63,
+    "text": "It is the only extant representative of the Phascolarctidae family and its closest living relatives are the wombats.",
+    "propositions": [
+      "its closest living relatives are the wombats.",
+      "It is the only extant representative of the Phascolarctidae family"
+    ]
+  },
+  {
+    "id": 64,
+    "text": "Northern populations tend to be smaller and lighter in color than southern populations, so it is believed that they may be a separate subspecies, although this possibility is under discussion.",
+    "propositions": [
+      "it is believed that they may be a separate subspecies, although this possibility is under discussion.",
+      "Northern populations tend to be smaller and lighter in color than southern populations",
+      "Northern populations tend to be smaller and lighter in color than southern populations"
+    ]
+  },
+  {
+    "id": 65,
+    "text": "In 2010 he was recognized by the BBC as the best guitarist of the last 30 years and on April 14, 2012 he was inducted into the Rock and Roll Hall of Fame as a member of the Red Hot Chili Peppers.",
+    "propositions": [
+      "he was inducted into the Rock and Roll Hall of Fame as a member of the Red Hot Chili Peppers",
+      "on April 14, 2012 he was inducted into the Rock and Roll Hall of Fame",
+      "In 2010 he was recognized by the BBC as the best guitarist of the last 30 years"
+    ]
+  },
+  {
+    "id": 66,
+    "text": "People have developed a vaccine for influenza A virus, and many countries have stocked a lot of vaccines in order to be able to quickly respond to the outbreak of avian influenza.",
+    "propositions": [
+      "many countries have stocked a lot of vaccines in order to be able to quickly respond to the outbreak of avian influenza",
+      "influenza A virus, and many countries have stocked a lot of vaccines in order to be able to quickly respond to the outbreak",
+      "influenza A virus, and many countries have stocked a lot of vaccines",
+      "People have developed a vaccine for influenza A virus"
+    ]
+  },
+  {
+    "id": 67,
+    "text": "People have extracted strains of all subspecies of influenza A virus from wild birds, but the birds themselves rarely get sick.",
+    "propositions": [
+      "but the birds themselves rarely get sick",
+      "People have extracted strains of all subspecies of influenza A virus from wild birds"
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Strains of all subtypes of influenza A virus have been isolated from wild birds, although disease is uncommon.",
+    "propositions": [
+      "influenza A virus have been isolated from wild birds, although disease is uncommon.",
+      "Strains of all subtypes of influenza A virus have been isolated from wild birds"
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Varieties of all subtypes of influenza virus type A have been isolated from wild birds, although disease is uncommon.",
+    "propositions": [
+      "although disease is uncommon",
+      "Varieties of all subtypes of influenza virus type A have been isolated from wild birds"
+    ]
+  },
+  {
+    "id": 70,
+    "text": "The term  super Tuesday  has been used since at least 1984, when Walter Mondale was elected by the Democrats to face President Ronald Reagan.",
+    "propositions": [
+      "Walter Mondale was elected by the Democrats to face President Ronald Reagan.",
+      "1984, when Walter Mondale was elected by the Democrats",
+      "The term  super Tuesday  has been used since at least 1984"
+    ]
+  },
+  {
+    "id": 71,
+    "text": "So far, Super Tuesday has always taken place in March, only in 2008 it was brought forward to February 5th.",
+    "propositions": [
+      "Super Tuesday has always taken place in March, only in 2008 it was brought forward to February 5th.",
+      "So far, Super Tuesday has always taken place in March"
+    ]
+  },
+  {
+    "id": 72,
+    "text": "In the first case, independent voters can vote, who can only participate in the vote of one party; in the second case, only militants participate.",
+    "propositions": [
+      "in the second case, only militants participate.",
+      "independent voters can vote, who can only participate in the vote of one party",
+      "In the first case, independent voters can vote"
+    ]
+  },
+  {
+    "id": 73,
+    "text": "The state was previously the fifth largest in the country and then functioned as a bridge between the disparate North and South India.",
+    "propositions": [
+      "state was previously the fifth largest in the country and then functioned as a bridge between the disparate North and South India",
+      "The state was previously the fifth largest in the country"
+    ]
+  },
+  {
+    "id": 74,
+    "text": "In April 2020, Fox renewed the series for a second season which premiered on January 18, 2021.",
+    "propositions": [
+      "a second season which premiered on January 18, 2021.",
+      "Fox renewed the series for a second season",
+      "In April 2020, Fox renewed the series"
+    ]
+  },
+  {
+    "id": 75,
+    "text": "In April 2020, Fox renewed the series for a second season that premiered on January 18, 2021.",
+    "propositions": [
+      "a second season that premiered on January 18, 2021.",
+      "Fox renewed the series for a second season",
+      "In April 2020, Fox renewed the series"
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Filming of the last 8 series began in July 2006; the show ran from April 8 to June 10, 2007.",
+    "propositions": [
+      "the show ran from April 8 to June 10, 2007.",
+      "Filming of the last 8 series began in July 2006"
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Also because of the ability to dig and observe their appearance from the burrows, wombats were perceived as something like a badger.",
+    "propositions": [
+      "wombats were perceived as something like a badger",
+      "the ability to dig and observe their appearance from the burrows, wombats",
+      "the ability to dig and observe their appearance from the burrows, wombats"
+    ]
+  },
+  {
+    "id": 78,
+    "text": "The closest living relative of these species of wombats is considered to be the koala, which stands out for having adapted to tree life; by comparison, wombats are much less specialized animals.",
+    "propositions": [
+      "by comparison, wombats are much less specialized animals",
+      "the koala, which stands out for having adapted to tree life",
+      "The closest living relative of these species of wombats is considered to be the koala"
+    ]
+  },
+  {
+    "id": 79,
+    "text": "Physiology is generally divided into plant physiology and animal physiology, but the basic principles of physiology are the same for all living things on the earth.",
+    "propositions": [
+      "the basic principles of physiology are the same for all living things on the earth.",
+      "Physiology is generally divided into plant physiology and animal physiology"
+    ]
+  },
+  {
+    "id": 80,
+    "text": "The protagonist of the novel, Winston Smith, is a peripheral party member.",
+    "propositions": [
+      "Winston Smith, is a peripheral party member.",
+      "The protagonist of the novel, Winston Smith, is"
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Thus, the term  Orwellianism  began to describe actions or organizations reminiscent of the totalitarian society depicted in the novel, and the phrase  Older Brother is watching over you!  (Big Brother is watching you!) began to denote any act of surveillance that is perceived as violent.",
+    "propositions": [
+      "the phrase  Older Brother is watching over you!  (Big Brother is watching you!) began to denote any act of surveillance that is perceived as violent.",
+      "the term  Orwellianism  began to describe actions or organizations reminiscent of the totalitarian society depicted in the novel",
+      "the term  Orwellianism  began to describe actions or organizations reminiscent of the totalitarian society depicted in the novel"
+    ]
+  },
+  {
+    "id": 82,
+    "text": "When he was studying at Harvard University, he served as the president of the Harvard Satire magazine.",
+    "propositions": [
+      "he served as the president of the Harvard Satire magazine",
+      "he was studying at Harvard University"
+    ]
+  },
+  {
+    "id": 83,
+    "text": "He gained popularity thanks to the series Happy Days, which he shot for 10 years (he was nominated for a Golden Globe for his role).",
+    "propositions": [
+      "he was nominated for a Golden Globe for his role",
+      "Happy Days, which he shot for 10 years",
+      "He gained popularity thanks to the series Happy Days"
+    ]
+  },
+  {
+    "id": 84,
+    "text": "In jail, his health deteriorated, especially due to syphilis, and after eight years behind bars, he was released.",
+    "propositions": [
+      "eight years behind bars, he was",
+      "after eight years behind bars, he was released",
+      "his health deteriorated, especially due to syphilis",
+      "In jail, his health deteriorated"
+    ]
+  },
+  {
+    "id": 85,
+    "text": "From the start of his reign, Charles Iᵉʳ faced the Parliament of England to increase his income, while the latter sought to limit the royal prerogatives, which the king considered to be of divine right.",
+    "propositions": [
+      "royal prerogatives, which the king considered to be of divine right.",
+      "the Parliament of England to increase his income, while the latter sought to limit the royal prerogatives",
+      "From the start of his reign, Charles Iᵉʳ faced the Parliament of England to increase his income"
+    ]
+  },
+  {
+    "id": 86,
+    "text": "In the context of general relativity, a black hole is defined as a gravitational singularity obscured by an absolute horizon called the event horizon.",
+    "propositions": [
+      "an absolute horizon called the event horizon",
+      "In the context of general relativity, a black hole is defined as a gravitational singularity obscured by an absolute horizon"
+    ]
+  },
+  {
+    "id": 87,
+    "text": "According to quantum physics, a black hole is likely to evaporate by the emission of black body radiation called Hawking radiation.",
+    "propositions": [
+      "black body radiation called Hawking radiation",
+      "According to quantum physics, a black hole is likely to evaporate by the emission of black body radiation"
+    ]
+  },
+  {
+    "id": 88,
+    "text": "The conflict lasted until February 2019, after both parties agreed to the definitive use of the name  Republic of North Macedonia .",
+    "propositions": [
+      "both parties agreed to the definitive use of the name  Republic of North Macedonia .",
+      "The conflict lasted until February 2019"
+    ]
+  },
+  {
+    "id": 89,
+    "text": "The use of the term  Macedonia  was rejected by Greece, and a dispute arose over the name of this country between the two states.",
+    "propositions": [
+      "a dispute arose over the name of this country between the two states.",
+      "The use of the term  Macedonia  was rejected by Greece"
+    ]
+  },
+  {
+    "id": 90,
+    "text": "After the album s release, Jessica parted ways with the record label, and signed with Epic Records.",
+    "propositions": [
+      "Jessica parted ways with the record label, and signed with Epic Records",
+      "After the album s release, Jessica parted ways with the record label"
+    ]
+  },
+  {
+    "id": 91,
+    "text": "Among other things, he has appeared in episodes of Commissioner Lynley and The Midsomer Murders.",
+    "propositions": [
+      "he has appeared in episodes of Commissioner Lynley and The Midsomer Murders.",
+      ", he has appeared in episodes of Commissioner Lynley"
+    ]
+  },
+  {
+    "id": 92,
+    "text": "The action takes place between May 1976 and December 31, 1979 (symbolically: the end of the series = the end of the 1970s).",
+    "propositions": [
+      "symbolically: the end of the series = the end of the 1970s",
+      "The action takes place between May 1976 and December 31, 1979"
+    ]
+  },
+  {
+    "id": 93,
+    "text": "The capital is called Albany and has about 100,000 inhabitants.",
+    "propositions": [
+      "Albany and has about 100,000 inhabitants.",
+      "The capital is called Albany"
+    ]
+  },
+  {
+    "id": 94,
+    "text": "Historians believe this nickname comes from a comment made by George Washington who once commented that New York was the center of the American Empire.",
+    "propositions": [
+      "George Washington who once commented that New York was the center of the American Empire",
+      "Historians believe this nickname comes from a comment made by George Washington"
+    ]
+  },
+  {
+    "id": 95,
+    "text": "The area of ​​the state is 141,300 km², of which 19,016 km² are occupied by inland waters.",
+    "propositions": [
+      "of which 19,016 km² are occupied by inland waters",
+      "The area of ​​the state is 141,300 km²"
+    ]
+  },
+  {
+    "id": 96,
+    "text": "In the end all charges against him were dropped, but Hamilton s death also ended Burr s political career.",
+    "propositions": [
+      "Hamilton s death also ended Burr s political career.",
+      "all charges against him were dropped"
+    ]
+  },
+  {
+    "id": 97,
+    "text": "Some of his behavior during this period was suspected, and he was charged with treason.",
+    "propositions": [
+      "he was charged with treason",
+      "Some of his behavior during this period was suspected"
+    ]
+  },
+  {
+    "id": 98,
+    "text": "It was also in this series that he met Judd Apatow, who would later guide him to a career in cinema.",
+    "propositions": [
+      "Judd Apatow, who would later guide him to a career in cinema.",
+      "in this series that he met Judd Apatow"
+    ]
+  },
+  {
+    "id": 99,
+    "text": "She is best known for being one of the famous Spice Girls; his nickname in the band is Scary Spice.",
+    "propositions": [
+      "his nickname in the band is Scary Spice.",
+      "She is best known for being one of the famous Spice Girls"
+    ]
+  },
+  {
+    "id": 100,
+    "text": "His original name is believed to have been Marcus Annius Verus, which through adoption was changed to Marcus Aelius Aurelius Verus, and as emperor he was named Emperor Caesar Marcus Aurelius Antoninus Augustus.",
+    "propositions": [
+      "as emperor he was named Emperor Caesar Marcus Aurelius Antoninus Augustus",
+      "Marcus Annius Verus, which through adoption was changed to Marcus Aelius Aurelius Verus",
+      "His original name is believed to have been Marcus Annius Verus"
+    ]
+  },
+  {
+    "id": 101,
+    "text": "Having used the Internet to broadcast a video in which he mutilated the corpse of his victim, he has sometimes been presented as the first “Internet killer” although the use of the Internet in murder cases has occurred previously.",
+    "propositions": [
+      "the use of the Internet in murder cases has occurred previously",
+      "he has sometimes been presented as the first “Internet killer”",
+      "used the Internet to broadcast a video in which he mutilated the corpse of his victim",
+      "he mutilated the corpse of his victim"
+    ]
+  },
+  {
+    "id": 102,
+    "text": "He became the first president of the United States in 1789 (he also became the world’s first head of state with the title of “President”).",
+    "propositions": [
+      "he also became the world’s first head of state with the title of “President”",
+      "He became the first president of the United States in 1789"
+    ]
+  },
+  {
+    "id": 103,
+    "text": "Later, in the American Revolutionary War, he led the Continental Army to win American independence.",
+    "propositions": [
+      "he led the Continental Army to win American independence",
+      "in the American Revolutionary War, he led the Continental Army"
+    ]
+  },
+  {
+    "id": 104,
+    "text": "It received positive reviews from critics, and Zellweger s performance was universally acclaimed.",
+    "propositions": [
+      "Zellweger s performance was universally acclaimed.",
+      "It received positive reviews from critics"
+    ]
+  },
+  {
+    "id": 105,
+    "text": "After a reboot, the actress was noticed at all film awards thanks to her performance.",
+    "propositions": [
+      "the actress was noticed at all film awards thanks to her performance.",
+      "After a reboot, the actress was noticed at all film awards"
+    ]
+  },
+  {
+    "id": 106,
+    "text": "The film received good reviews, and Zellweger s acting skills received unanimous praise.",
+    "propositions": [
+      "Zellweger s acting skills received unanimous praise.",
+      "The film received good reviews"
+    ]
+  },
+  {
+    "id": 107,
+    "text": "In March 2016, work began on a new version that would mark the beginning of a new shared universe with the Marvel characters to which the studio was entitled.",
+    "propositions": [
+      "a new shared universe with the Marvel characters to which the studio was entitled.",
+      "a new version that would mark the beginning of a new shared universe with the Marvel characters",
+      "In March 2016, work began on a new version",
+      "work began on a new version"
+    ]
+  },
+  {
+    "id": 108,
+    "text": "Since 1976 the capital has officially been Manila, in whose metropolitan area of ​​Metro Manila the government resides.",
+    "propositions": [
+      "Manila, in whose metropolitan area of ​​Metro Manila the government resides",
+      "Since 1976 the capital has officially been Manila"
+    ]
+  },
+  {
+    "id": 109,
+    "text": "At the beginning of the 21st century, economic reforms were initiated that led the tertiary sector to overtake agriculture as the main economic activity and currently services account for over half of the country s GDP.",
+    "propositions": [
+      "currently services account for over half of the country s GDP.",
+      "economic reforms were initiated that led the tertiary sector to overtake agriculture as the main economic activity",
+      "At the beginning of the 21st century, economic reforms were initiated"
+    ]
+  },
+  {
+    "id": 110,
+    "text": "The location near the Pacific Fire Belt and the tropical climate make the Philippines an area frequently hit by earthquakes and typhoons, some of which are very violent, such as Typhoon Yolanda, which killed around 8,000 people in 2013.",
+    "propositions": [
+      "Typhoon Yolanda, which killed around 8,000 people in 2013.",
+      "very violent, such as Typhoon Yolanda",
+      "typhoons, some of which are very violent",
+      "the tropical climate make the Philippines an area frequently hit by earthquakes and typhoons",
+      "The location near the Pacific Fire Belt and the tropical climate make the Philippines an area frequently hit by earthquakes"
+    ]
+  },
+  {
+    "id": 111,
+    "text": "Various ethnic groups and cultures coexist on the islands of the Philippines, which are considered to be a newly industrialized nation; since their independence, the Philippine economy has been growing continuously.",
+    "propositions": [
+      "since their independence, the Philippine economy has been growing continuously.",
+      "the Philippines, which are considered to be a newly industrialized nation",
+      "Various ethnic groups and cultures coexist on the islands of the Philippines",
+      "Various ethnic groups and cultures coexist on the islands of the Philippines"
+    ]
+  },
+  {
+    "id": 112,
+    "text": "The capital is Manila, the largest city is Quezon City.",
+    "propositions": [
+      "the largest city is Quezon City.",
+      "The capital is Manila"
+    ]
+  },
+  {
+    "id": 113,
+    "text": "The area is about 300 thousand km, of which 1830 km is water area.",
+    "propositions": [
+      "1830 km is water area.",
+      "The area is about 300 thousand km"
+    ]
+  },
+  {
+    "id": 114,
+    "text": "In total, there are more than 7,600 islands, but the exact number cannot be determined, because as a result of volcanic activity, new islands appear and some old ones disappear.",
+    "propositions": [
+      "as a result of volcanic activity, new islands appear and some old ones disappear",
+      "as a result of volcanic activity, new islands appear",
+      "islands, but the exact number cannot be determined",
+      "In total, there are more than 7,600 islands"
+    ]
+  },
+  {
+    "id": 115,
+    "text": "More specifically, the Pew Research Center research institute classifies those born between 1981 and 1996 as Generation Y, while author Neil Howe defines them as those born between 1982 and 2004.",
+    "propositions": [
+      "Generation Y, while author Neil Howe defines them as those born between 1982 and 2004",
+      "the Pew Research Center research institute classifies those born between 1981 and 1996 as Generation"
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Today, Philadelphia is the main metropolis of the state of Pennsylvania, although the capital and seat of government is Harrisburg.",
+    "propositions": [
+      "Pennsylvania, although the capital and seat of government is Harrisburg",
+      "Pennsylvania, although the capital and seat of government is Harrisburg",
+      "Today, Philadelphia is the main metropolis of the state of Pennsylvania"
+    ]
+  },
+  {
+    "id": 117,
+    "text": "After an inquiry and investigation, the courts found Cooke s death a justifiable homicide; his family questioned the circumstances of his death.",
+    "propositions": [
+      "Cooke s death a justifiable homicide; his family questioned the circumstances of his death",
+      "After an inquiry and investigation, the courts found Cooke s death a justifiable homicide",
+      "After an inquiry and investigation, the courts found Cooke s death a justifiable homicide"
+    ]
+  },
+  {
+    "id": 118,
+    "text": "Many consider him The King of Soul - a title he shares with Otis Redding - for having achieved thirty hits between 1957 and 1965.",
+    "propositions": [
+      "he shares with Otis Redding - for having achieved thirty hits between 1957 and 1965",
+      "The King of Soul - a title he shares with Otis Redding",
+      "Many consider him The King of Soul"
+    ]
+  },
+  {
+    "id": 119,
+    "text": "We don t know much about him in his early years, and there is no reliable historical evidence for a long time in his life.",
+    "propositions": [
+      "there is no reliable historical evidence for a long time in his life.",
+      "We don t know much about him in his early years"
+    ]
+  },
+  {
+    "id": 120,
+    "text": "It became Scorsese s first and, to date, only win for Best Director; Wahlberg was also nominated for Best Supporting Actor.",
+    "propositions": [
+      "Wahlberg was also nominated for Best Supporting Actor.",
+      "It became Scorsese s first and, to date, only win for Best Director",
+      "It became Scorsese s first and, to date, only win for Best Director"
+    ]
+  },
+  {
+    "id": 121,
+    "text": "In addition to the various ancient peoples scattered throughout modern Italy, the most common were Indo-European Italians, who gave the peninsula its name since antiquity, the Phoenicians and Carthaginians established colonies mainly on the islands of modern Italy.",
+    "propositions": [
+      "the Phoenicians and Carthaginians established colonies mainly on the islands of modern Italy.",
+      "the Phoenicians and Carthaginians established colonies mainly on the islands of modern Italy.",
+      "Indo-European Italians, who gave the peninsula its name since antiquity",
+      "the various ancient peoples scattered throughout modern Italy, the most common were Indo-European Italians"
+    ]
+  },
+  {
+    "id": 122,
+    "text": "Al-Hilal of Saudi Arabia were the defending champions, but the club effectively withdrew from the competition when they could not name the required 13 players for their final group stage match, as all but 11 players had tested positive for COVID-19.",
+    "propositions": [
+      "all but 11 players had tested positive for COVID-19",
+      "the club effectively withdrew from the competition when they could not name the required 13 players for their final group stage match",
+      "Al-Hilal of Saudi Arabia were the defending champions"
+    ]
+  },
+  {
+    "id": 123,
+    "text": "There are currently ten living Supercenteners on the Oldest Hundred List: the oldest of them is Kane Tanaka.",
+    "propositions": [
+      "living Supercenteners on the Oldest Hundred List: the oldest of them is Kane Tanaka.",
+      "There are currently ten living Supercenteners on the Oldest Hundred List"
+    ]
+  },
+  {
+    "id": 124,
+    "text": "His work won the Tony Award for Best Original Music, Grammy Award for Best Musical Album, and the play itself won the Tony Award for Best Musical; Miranda was also shortlisted for Best Musical Actor as the protagonist main character.",
+    "propositions": [
+      "Miranda was also shortlisted for Best Musical Actor as the protagonist main character.",
+      "the play itself won the Tony Award for Best Musical",
+      "His work won the Tony Award for Best Original Music, Grammy Award for Best Musical Album",
+      "His work won the Tony Award for Best Original Music"
+    ]
+  },
+  {
+    "id": 125,
+    "text": "In 2019, he was named The Best FIFA Goalkeeper and was also the recipient of the inaugural Yashin Trophy.",
+    "propositions": [
+      "he was named The Best FIFA Goalkeeper and was also the recipient of the inaugural Yashin Trophy",
+      "In 2019, he was named The Best FIFA Goalkeeper"
+    ]
+  },
+  {
+    "id": 126,
+    "text": "The following season he kept a clean sheet in the final of the FIFA Club World Cup as the team won in extra time to clinch the trophy.",
+    "propositions": [
+      "the team won in extra time to clinch the trophy.",
+      "The following season he kept a clean sheet in the final of the FIFA Club World Cup"
+    ]
+  },
+  {
+    "id": 127,
+    "text": "He also played an integral part in Liverpool s 2019–20 Premier League title-winning effort, which ended the club s 30-year league title drought.",
+    "propositions": [
+      "Liverpool s 2019–20 Premier League title-winning effort, which ended the club s 30-year league title drought",
+      "He also played an integral part in Liverpool s 2019–20 Premier League title-winning effort"
+    ]
+  },
+  {
+    "id": 128,
+    "text": "At the end of his first season in Liverpool, he received the Trophy for the best goalkeeper in the English football championship for a total of 21 matches without conceding a goal, a performance he repeated in the final of the Champions League 2019 where his club won.",
+    "propositions": [
+      "without conceding a goal, a performance he repeated in the final of the Champions League 2019 where his club won",
+      "he received the Trophy for the best goalkeeper in the English football championship for a total of 21 matches without conceding a goal, a performance he repeated in the final of the Champions League 2019",
+      "he received the Trophy for the best goalkeeper in the English football championship for a total of 21 matches without conceding a goal",
+      "At the end of his first season in Liverpool, he received the Trophy for the best goalkeeper in the English football championship"
+    ]
+  },
+  {
+    "id": 129,
+    "text": "The same year, when he was transferred to Liverpool for 62.5 million euros, he became the most expensive goalkeeper in history before being overtaken by Spain international Kepa Arrizabalaga in the same transfer window.",
+    "propositions": [
+      "The same year, when he was transferred to Liverpool",
+      "he became the most expensive goalkeeper in history before being overtaken by Spain international Kepa Arrizabalaga in the same transfer window.",
+      "he became the most expensive goalkeeper in history before being overtaken by Spain international Kepa Arrizabalaga",
+      "he was transferred to Liverpool for 62.5 million euros"
+    ]
+  },
+  {
+    "id": 130,
+    "text": "In 2019, he received the Yachine Trophy for the best player in the post of goalkeeper, as well as the title of best goalkeeper of the year awarded by the IFFHS.",
+    "propositions": [
+      "he received the Yachine Trophy for the best player in the post of goalkeeper, as well as the title of best goalkeeper of the year awarded by the IFFHS",
+      "2019, he received the Yachine Trophy for the best player in the post of goalkeeper, as well as the title of best goalkeeper of the year",
+      "he received the Yachine Trophy for the best player in the post of goalkeeper",
+      "In 2019, he received the Yachine Trophy"
+    ]
+  },
+  {
+    "id": 131,
+    "text": "Many of Studio Ghibli s films have won the Animage Anime Grand Prix, and three have received the Japanese Film Academy s award for animated film of the year.",
+    "propositions": [
+      "Studio Ghibli s films have won the Animage Anime Grand Prix, and three have received the Japanese Film Academy s award for animated film of the year.",
+      "Many of Studio Ghibli s films have won the Animage Anime Grand Prix"
+    ]
+  },
+  {
+    "id": 132,
+    "text": "Eight of the studio s films are among the 15 most successful Japanese cinema films; Spirited Away tops the list with over the equivalent of 274 million US dollars in global cinema revenues.",
+    "propositions": [
+      "Spirited Away tops the list with over the equivalent of 274 million US dollars in global cinema revenues",
+      "the 15 most successful Japanese cinema films; Spirited Away tops the list",
+      "Eight of the studio s films are among the 15 most successful Japanese cinema films"
+    ]
+  },
+  {
+    "id": 133,
+    "text": "Five of the studio s films are among the ten highest-grossing anime feature films made in Japan, with Spirited Away being number two, grossing over US$380 million at the worldwide box office.",
+    "propositions": [
+      "Spirited Away being number two, grossing over US$380 million at the worldwide box office.",
+      "highest-grossing anime feature films made in Japan, with Spirited Away being number two",
+      "Five of the studio s films are among the ten highest-grossing anime feature films made in Japan"
+    ]
+  },
+  {
+    "id": 134,
+    "text": "This is the first time that the Super Bowl has been held in Indigo Napolis and the first time it has been held in a stadium on a movable roof.",
+    "propositions": [
+      "first time that the Super Bowl has been held in Indigo Napolis and the first time it has been held in a stadium on a movable roof",
+      "This is the first time that the Super Bowl has been held in Indigo Napolis"
+    ]
+  },
+  {
+    "id": 135,
+    "text": "Warner Bros. began developing a film adaptation shortly after Doctor Sleep was published in 2013.",
+    "propositions": [
+      "Doctor Sleep was published in 2013.",
+      "Warner Bros. began developing a film adaptation shortly after Doctor Sleep was published"
+    ]
+  },
+  {
+    "id": 136,
+    "text": "In 2003, he played himself in an episode of the Canadian mock documentary hit Trailer Park Boys where he is kidnapped by Ricky as punishment for not being able to get tickets, Lifeson was later asked to perform privately for them.",
+    "propositions": [
+      "Lifeson was later asked to perform privately for them",
+      "in an episode of the Canadian mock documentary hit Trailer Park Boys where he is kidnapped by Ricky as punishment for not being able to get tickets",
+      "In 2003, he played himself in an episode of the Canadian mock documentary hit Trailer Park Boys"
+    ]
+  },
+  {
+    "id": 137,
+    "text": "Outside of music, he owns a small design, engineering and manufacturing company called The Omega Concern, as a gourmet and chef he is also a partner in the Toronto restaurant The Orbit Room and he also holds a pilot license and is a motorcycle fan.",
+    "propositions": [
+      "as a gourmet and chef he is also a partner in the Toronto restaurant The Orbit Room",
+      "Outside of music, he owns a small design, engineering and manufacturing company called The Omega Concern",
+      "he also holds a pilot license and is a motorcycle fan",
+      "he also holds a pilot license"
+    ]
+  },
+  {
+    "id": 138,
+    "text": "He is considered a virtuoso of his instrument, its sound is based on the open power chords technique.",
+    "propositions": [
+      "its sound is based on the open power chords technique",
+      "its sound is based on the open power chords technique",
+      "He is considered a virtuoso of his instrument"
+    ]
+  },
+  {
+    "id": 139,
+    "text": "There are different perspectives on what constitutes and differentiates human sexual intercourse from other sexual activities, which can also influence perspectives on sexual health.",
+    "propositions": [
+      "different perspectives on what constitutes and differentiates human sexual intercourse from other sexual activities, which can also influence perspectives on sexual health.",
+      "There are different perspectives on what constitutes and differentiates human sexual intercourse from other sexual activities",
+      "There are different perspectives on what constitutes and differentiates human sexual intercourse from other sexual activities"
+    ]
+  },
+  {
+    "id": 140,
+    "text": "Since these activities carry the risk of contracting sexually transmitted diseases, and although the risk of transmission is significantly lower during non-penetrative sex, safer sex is generally advised.",
+    "propositions": [
+      "safer sex is generally advised",
+      "risk of transmission is significantly lower during non-penetrative sex",
+      "these activities carry the risk of contracting sexually transmitted diseases"
+    ]
+  },
+  {
+    "id": 141,
+    "text": "The equivalent for animals is called mating, while stimulation of one s own genitals is called masturbation.",
+    "propositions": [
+      "stimulation of one s own genitals is called masturbation.",
+      "The equivalent for animals is called mating"
+    ]
+  },
+  {
+    "id": 142,
+    "text": "In the 2021 Q1 financial report, Tesla sold 10% of the company s bitcoins to prove the liquidity of cryptocurrency as a cash substitute.",
+    "propositions": [
+      "In the 2021 Q1 financial report, Tesla sold 10% of the company s bitcoins",
+      "Tesla sold 10% of the company s bitcoins to prove the liquidity of cryptocurrency as a cash substitute",
+      "In the 2021 Q1 financial report, Tesla sold 10% of the company s bitcoins"
+    ]
+  },
+  {
+    "id": 143,
+    "text": "He is an absolute international with Mexico, his best performance came in the 2011 Gold Cup, where he was named the best player and Golden Boot of the championship after scoring seven goals in six games that allowed him to be champion of the tournament, being his greatest achievement with the Mexican team.",
+    "propositions": [
+      "scoring seven goals in six games that allowed him to be champion of the tournament, being his greatest achievement with the Mexican team",
+      "scoring seven goals in six games that allowed him to be champion of the tournament",
+      "he was named the best player and Golden Boot of the championship after scoring seven goals in six games",
+      "2011 Gold Cup, where he was named the best player and Golden Boot of the championship",
+      "in the 2011 Gold Cup, where he was named the best player",
+      "his best performance came in the 2011 Gold Cup",
+      "He is an absolute international with Mexico"
+    ]
+  },
+  {
+    "id": 144,
+    "text": "However, the British military occupation of Egypt continued, and many Egyptians believed that the monarchy was an instrument of British colonialism.",
+    "propositions": [
+      "many Egyptians believed that the monarchy was an instrument of British colonialism",
+      "the British military occupation of Egypt continued"
+    ]
+  },
+  {
+    "id": 145,
+    "text": "Modern Egypt dates back to 1922, when it gained nominal independence from the British Empire as a monarchy.",
+    "propositions": [
+      "Egypt dates back to 1922, when it gained nominal independence from the British Empire as a monarchy",
+      "Modern Egypt dates back to 1922"
+    ]
+  },
+  {
+    "id": 146,
+    "text": "It is located mainly in the extreme northeast of Africa, while in Asia it is located on the Sinai Peninsula.",
+    "propositions": [
+      "while in Asia it is located on the Sinai Peninsula",
+      "It is located mainly in the extreme northeast of Africa"
+    ]
+  },
+  {
+    "id": 147,
+    "text": "To the north it limits with the Mediterranean Sea and to the southeast with the Red Sea.",
+    "propositions": [
+      "it limits with the Mediterranean Sea and to the southeast with the Red Sea",
+      "To the north it limits with the Mediterranean Sea"
+    ]
+  },
+  {
+    "id": 148,
+    "text": "In June 2015, his fortune was already valued at 38.4 billion dollars, in 2016 his net worth was estimated at 51.8 billion dollars.",
+    "propositions": [
+      "in 2016 his net worth was estimated at 51.8 billion dollars",
+      "In June 2015, his fortune was already valued at 38.4 billion dollars"
+    ]
+  },
+  {
+    "id": 149,
+    "text": "Zuckerberg was involved in several legal disputes that were initiated by others in the group, who claimed a stake in the company based on their participation during Facebook s development phase.",
+    "propositions": [
+      "others in the group, who claimed a stake in the company based on their participation during Facebook s development phase.",
+      "several legal disputes that were initiated by others in the group",
+      "Zuckerberg was involved in several legal disputes"
+    ]
+  },
+  {
+    "id": 150,
+    "text": "Since 2010, Time magazine has named Zuckerberg among the 100 Richest and Most Influential People in the World and was also named by the magazine as Person of the Year.",
+    "propositions": [
+      "Time magazine has named Zuckerberg among the 100 Richest and Most Influential People in the World and was also named by the magazine as Person of the Year.",
+      "Since 2010, Time magazine has named Zuckerberg among the 100 Richest and Most Influential People in the World",
+      "Since 2010, Time magazine has named Zuckerberg among the 100 Richest and Most Influential People in the World"
+    ]
+  },
+  {
+    "id": 151,
+    "text": "Since 2005 he has been an ambassador for human rights at Amnesty International.",
+    "propositions": [
+      "Since 2005 he has been an ambassador for human rights",
+      "he has been an ambassador for human rights at Amnesty International"
+    ]
+  },
+  {
+    "id": 152,
+    "text": "In July 2016, it was adopted by the IEC as  IEC 62680-1-3 .",
+    "propositions": [
+      "it was adopted by the IEC as  IEC 62680-1-3 .",
+      "In July 2016, it was adopted by the IEC"
+    ]
+  },
+  {
+    "id": 153,
+    "text": "April 15, 1947 , he becomes the first black to play in the Major League since the ban imposed at this level for sixty years by club owners, who relied on the decisions of the Supreme Court of the United States.",
+    "propositions": [
+      "becomes the first black to play in the Major League since the ban imposed at this level for sixty years by club owners, who relied on the decisions of the Supreme Court of the United States",
+      "April 15, 1947 , he becomes the first black to play in the Major League since the ban imposed at this level for sixty years by club owners"
+    ]
+  },
+  {
+    "id": 154,
+    "text": "In the 1960s, Robinson helped found the National Liberty Bank in Harlem, New York.",
+    "propositions": [
+      "Robinson helped found the National Liberty Bank in Harlem, New York",
+      "In the 1960s, Robinson helped found the National Liberty Bank"
+    ]
+  },
+  {
+    "id": 155,
+    "text": "Thomas Disch wrote a treatment and Woolverton advanced the first scripts when George Scribner was assigned director, who was later joined by Allers.",
+    "propositions": [
+      "George Scribner was assigned director, who was later joined by Allers.",
+      "George Scribner was assigned director",
+      "Woolverton advanced the first scripts",
+      "Thomas Disch wrote a treatment"
+    ]
+  },
+  {
+    "id": 156,
+    "text": "The cause of cell death is currently poorly understood, but it is known to be related to the process by which neuronal proteins form Lewy bodies.",
+    "propositions": [
+      "it is known to be related to the process by which neuronal proteins form Lewy bodies",
+      "The cause of cell death is currently poorly understood"
+    ]
+  },
+  {
+    "id": 157,
+    "text": "The cause of Parkinson s disease is still unclear, but it is generally believed to be related to genetic and environmental factors.",
+    "propositions": [
+      "Parkinson s disease is still unclear, but it is generally believed to be related to genetic and environmental factors",
+      "Parkinson s disease is still unclear, but it is generally believed to be related to genetic and environmental factors",
+      "The cause of Parkinson s disease is still unclear"
+    ]
+  },
+  {
+    "id": 158,
+    "text": "The main motor symptom of Parkinson s disease is caused by the death of substantia nigra cells of the midbrain, which makes the patient s relevant brain area dopamine insufficient.",
+    "propositions": [
+      "the death of substantia nigra cells of the midbrain, which makes the patient s relevant brain area dopamine insufficient",
+      "The main motor symptom of Parkinson s disease is caused by the death of substantia nigra cells of the midbrain"
+    ]
+  },
+  {
+    "id": 159,
+    "text": "It is in this adventure that Bilbo meets the One Ring that unleashes the Lord of the Rings trilogy.",
+    "propositions": [
+      "the One Ring that unleashes the Lord of the Rings trilogy.",
+      "It is in this adventure that Bilbo meets the One Ring"
+    ]
+  },
+  {
+    "id": 160,
+    "text": "The films were supposed to have been directed by Guillermo del Toro, but he dropped out due to the film s many delays.",
+    "propositions": [
+      "Guillermo del Toro, but he dropped out due to the film s many delays.",
+      "The films were supposed to have been directed by Guillermo del Toro"
+    ]
+  },
+  {
+    "id": 161,
+    "text": "The plot is based on the writing of JR Tolkien in 1937.",
+    "propositions": [
+      "plot is based on the writing of JR Tolkien in 1937",
+      "The plot is based on the writing of JR Tolkien"
+    ]
+  },
+  {
+    "id": 162,
+    "text": "Also, Time magazine recognized him as one of the most influential celebrities in 2015 and he has become one of the highest grossing actors in history.",
+    "propositions": [
+      "he has become one of the highest grossing actors in history.",
+      "Time magazine recognized him as one of the most influential celebrities in 2015"
+    ]
+  },
+  {
+    "id": 163,
+    "text": "In December 2020, the series was renewed for a 10-episode third season, which premiered on July 9, 2021.",
+    "propositions": [
+      "10-episode third season, which premiered on July 9, 2021",
+      "the series was renewed for a 10-episode third season",
+      "In December 2020, the series was renewed"
+    ]
+  },
+  {
+    "id": 164,
+    "text": "In September 2021, the series was renewed for a fourth and fifth season.",
+    "propositions": [
+      "the series was renewed for a fourth and fifth season",
+      "the series was renewed for a fourth and fifth season",
+      "September 2021, the series was renewed"
+    ]
+  },
+  {
+    "id": 165,
+    "text": "In December 2020, the series was renewed for a third season.",
+    "propositions": [
+      "the series was renewed for a third season",
+      "In December 2020, the series was renewed"
+    ]
+  },
+  {
+    "id": 166,
+    "text": "The impeachment proceedings are remedial rather than punitive in nature, and the remedy is limited to removal from office.",
+    "propositions": [
+      "the remedy is limited to removal from office.",
+      "The impeachment proceedings are remedial rather than punitive in nature"
+    ]
+  },
+  {
+    "id": 167,
+    "text": "Most impeachments have concerned alleged crimes committed while in office, though there is no requirement for the misconduct to be an indictable crime.",
+    "propositions": [
+      "impeachments have concerned alleged crimes committed while in office, though there is no requirement for the misconduct to be an indictable crime.",
+      "Most impeachments have concerned alleged crimes committed while in office"
+    ]
+  },
+  {
+    "id": 168,
+    "text": "Impeachment is analogous to an indictment in court proceedings; impeachment is heard in the same way as a judge and jurors in ordinary courts.",
+    "propositions": [
+      "impeachment is heard in the same way as a judge and jurors in ordinary courts",
+      "impeachment is heard in the same way as a judge and jurors in ordinary courts",
+      "Impeachment is analogous to an indictment in court proceedings"
+    ]
+  },
+  {
+    "id": 169,
+    "text": "His performance in Call Me by Your Name earned him an Academy Award nomination for Best Actor; at 22 years old, it made him the third-youngest nominee in the category.",
+    "propositions": [
+      "an Academy Award nomination for Best Actor; at 22 years old, it made him the third-youngest nominee in the category.",
+      "His performance in Call Me by Your Name earned him an Academy Award nomination for Best Actor"
+    ]
+  },
+  {
+    "id": 170,
+    "text": "Founded in 1946, they were Northern California s first franchise.",
+    "propositions": [
+      "they were Northern California s first franchise.",
+      "Founded in 1946, they were"
+    ]
+  },
+  {
+    "id": 171,
+    "text": "For some time it was used in veterinary medicine (sernylan), but since 1979 PCP has been banned from use and production, including due to the non-medical use of the drug.",
+    "propositions": [
+      "PCP has been banned from use and production, including due to the non-medical use of the drug",
+      "since 1979 PCP has been banned from use and production",
+      "since 1979 PCP has been banned from use",
+      "For some time it was used in veterinary medicine (sernylan), but since 1979 PCP"
+    ]
+  },
+  {
+    "id": 172,
+    "text": "In 1965, the use of the substance in humans was banned in the United States due to the high probability of side effects; the ban on animals was extended in 1978.",
+    "propositions": [
+      "the ban on animals was extended in 1978",
+      "the use of the substance in humans was banned in the United States due to the high probability of side effects",
+      "In 1965, the use of the substance in humans was banned in the United States",
+      "the use of the substance in humans was banned in the United States"
+    ]
+  },
+  {
+    "id": 173,
+    "text": "The Federal Target Program was first synthesized in 1926, and in the 1950s the drug entered the market as an anesthetic.",
+    "propositions": [
+      "in the 1950s the drug entered the market as an anesthetic",
+      "The Federal Target Program was first synthesized in 1926"
+    ]
+  },
+  {
+    "id": 174,
+    "text": "As a singer and music producer, she is widely known by her stage name Grimes, and she is also a visual artist.",
+    "propositions": [
+      "she is also a visual artist",
+      "her stage name Grimes, and she is",
+      "she is widely known by her stage name",
+      "a singer and music producer, she is",
+      "a singer and music producer, she is"
+    ]
+  },
+  {
+    "id": 175,
+    "text": "Her native language was Koine Greek, and she was the only Ptolemaic ruler to learn the Egyptian language.",
+    "propositions": [
+      "she was the only Ptolemaic ruler to learn the Egyptian language",
+      "Her native language was Koine Greek"
+    ]
+  },
+  {
+    "id": 176,
+    "text": "His term began at the end of the Cold War, and he was the first president of the baby boom generation.",
+    "propositions": [
+      "he was the first president of the baby boom generation",
+      "His term began at the end of the Cold War"
+    ]
+  },
+  {
+    "id": 177,
+    "text": "Symbol of the New Democrats, it is open to deregulation in the agriculture and telecommunications sectors.",
+    "propositions": [
+      "it is open to deregulation in the agriculture and telecommunications sectors.",
+      "it is open to deregulation in the agriculture and telecommunications sectors",
+      "Symbol of the New Democrats, it is"
+    ]
+  },
+  {
+    "id": 178,
+    "text": "After years of treatment and recovery, he began a solo career with the publication of Brian Wilson in 1988, the same year that The Beach Boys were inducted into the Rock and Roll Hall of Fame.",
+    "propositions": [
+      "in 1988, the same year that The Beach Boys were inducted into the Rock and Roll Hall of Fame.",
+      "he began a solo career with the publication of Brian Wilson in 1988",
+      "After years of treatment and recovery, he began a solo career",
+      "After years of treatment and recovery, he began a solo career"
+    ]
+  },
+  {
+    "id": 179,
+    "text": "Slovenes form the vast majority of the country s population, while Serbs are the largest minority.",
+    "propositions": [
+      "of the country s population, while Serbs are the largest minority",
+      "Slovenes form the vast majority of the country s population"
+    ]
+  },
+  {
+    "id": 180,
+    "text": "A sub-mediterranean climate reaches to the northern extensions of the Dinaric Alps that traverse the country in a NW-SE direction.",
+    "propositions": [
+      "the Dinaric Alps that traverse the country in a NW-SE direction.",
+      "A sub-mediterranean climate reaches to the northern extensions of the Dinaric Alps"
+    ]
+  },
+  {
+    "id": 181,
+    "text": "The home stadium of the club since 1889 has been Molyneux, which currently seats over 32 thousand spectators.",
+    "propositions": [
+      "Molyneux, which currently seats over 32 thousand spectators",
+      "The home stadium of the club since 1889 has been Molyneux"
+    ]
+  },
+  {
+    "id": 182,
+    "text": "Leaving more than 25,000 dead and 500,000 injured It is considered one of the worst industrial disasters in the world More than 500,000 people were exposed to methyl isocyanate gas (MIC).",
+    "propositions": [
+      "More than 500,000 people were exposed to methyl isocyanate gas",
+      "It is considered one of the worst industrial disasters in the world",
+      "Leaving more than 25,000 dead and 500,000 injured It",
+      "Leaving more than 25,000 dead and 500,000 injured It"
+    ]
+  },
+  {
+    "id": 183,
+    "text": "Died on September 29, 2014, in Vero Beach, Florida in the United States, he was never tried by Indian justice.",
+    "propositions": [
+      "he was never tried by Indian justice.",
+      "Died on September 29, 2014, in Vero Beach, Florida in the United States, he",
+      "Died on September 29, 2014, in Vero Beach, Florida in the United States, he"
+    ]
+  },
+  {
+    "id": 184,
+    "text": "In a 2011 interview with Parade magazine, he discussed his history of addiction as a teenager and reappeared for treatment in March 2013.",
+    "propositions": [
+      "he discussed his history of addiction as a teenager and reappeared for treatment in March 2013.",
+      "In a 2011 interview with Parade magazine, he discussed his history of addiction as a teenager"
+    ]
+  },
+  {
+    "id": 185,
+    "text": "In a 2011 interview with Parade magazine, he spoke of his addiction to drugs, and in March 2013 he again resorted to drug treatment.",
+    "propositions": [
+      "in March 2013 he again resorted to drug treatment.",
+      "In a 2011 interview with Parade magazine, he spoke of his addiction to drugs"
+    ]
+  },
+  {
+    "id": 186,
+    "text": "After the intervention of family and friends, he began a rehabilitation treatment at the age of nineteen.",
+    "propositions": [
+      "he began a rehabilitation treatment at the age of nineteen",
+      "After the intervention of family and friends, he began a rehabilitation treatment",
+      "After the intervention of family and friends, he began a rehabilitation treatment"
+    ]
+  },
+  {
+    "id": 187,
+    "text": "In a 2011 interview with Parade magazine, he discussed his history of substance abuse as a teen, and in March 2013, he again sought treatment for addiction.",
+    "propositions": [
+      "in March 2013, he again sought treatment for addiction.",
+      "In a 2011 interview with Parade magazine, he discussed his history of substance abuse as a teen"
+    ]
+  },
+  {
+    "id": 188,
+    "text": "As such she was the last queen consort of the United Kingdom of royal origin when she was born a princess in her own right.",
+    "propositions": [
+      "she was born a princess in her own right.",
+      "she was the last queen consort of the United Kingdom of royal origin"
+    ]
+  },
+  {
+    "id": 189,
+    "text": "The tourbillon is very complicated and the clockwork usually costs significantly more than the clockwork without the tourbillon.",
+    "propositions": [
+      "the clockwork usually costs significantly more than the clockwork without the tourbillon",
+      "The tourbillon is very complicated"
+    ]
+  },
+  {
+    "id": 190,
+    "text": "The purpose of the rotation of the entire structure is to eliminate the influence of gravity on the asymmetrically balanced balance mechanism, which results in increasing the precision of the watch s movement.",
+    "propositions": [
+      "eliminate the influence of gravity on the asymmetrically balanced balance mechanism, which results in increasing the precision of the watch s movement",
+      "The purpose of the rotation of the entire structure is to eliminate the influence of gravity on the asymmetrically balanced balance mechanism"
+    ]
+  },
+  {
+    "id": 191,
+    "text": "After a series of delays, the Boeing 787 took off for the first time on December 15, 2009.",
+    "propositions": [
+      "the Boeing 787 took off for the first time on December 15, 2009",
+      "After a series of delays, the Boeing 787 took off for the first time"
+    ]
+  },
+  {
+    "id": 192,
+    "text": "The sign of Aries should not be confused with the constellation Aries, in which the Sun is from April 19 to May 13.",
+    "propositions": [
+      "the constellation Aries, in which the Sun is from April 19 to May 13.",
+      "The sign of Aries should not be confused with the constellation Aries"
+    ]
+  },
+  {
+    "id": 193,
+    "text": "In the constellation Aries, the Sun is from April 19 to May 13, however, in Western astrology, Aries is assigned the period from March 21 to April 20.",
+    "propositions": [
+      "in Western astrology, Aries is assigned the period from March 21 to April 20.",
+      "In the constellation Aries, the Sun is from April 19 to May 13"
+    ]
+  },
+  {
+    "id": 194,
+    "text": "It is a viral disease with characteristics It is a cluster of skin blisters with strong pain in the local area.",
+    "propositions": [
+      "It is a cluster of skin blisters with strong pain in the local area.",
+      "It is a viral disease"
+    ]
+  },
+  {
+    "id": 195,
+    "text": "Immunosuppressed patients may spread the rash over a wide area; if the rash spreads to the eyes, it may cause vision loss.",
+    "propositions": [
+      "if the rash spreads to the eyes, it may cause vision loss",
+      "Immunosuppressed patients may spread the rash over a wide area"
+    ]
+  },
+  {
+    "id": 196,
+    "text": "As soon as it was released, the film hit the box office with critical acclaim who praised the performance of Singh, who won the 56th Filmfare Awards for Best Emerging Male Artist.",
+    "propositions": [
+      "Singh, who won the 56th Filmfare Awards for Best Emerging Male Artist.",
+      "critical acclaim who praised the performance of Singh",
+      "critical acclaim who praised the performance of Singh",
+      "the film hit the box office with critical acclaim"
+    ]
+  },
+  {
+    "id": 197,
+    "text": "The following year he was traded to the Green Bay Packers, with whom he won Super Bowl XXXI and was named three times in a row NFL MVP.",
+    "propositions": [
+      "he won Super Bowl XXXI and was named three times in a row NFL MVP.",
+      "Green Bay Packers, with whom he won Super Bowl XXXI",
+      "he was traded to the Green Bay Packers"
+    ]
+  },
+  {
+    "id": 198,
+    "text": "The capital is Vaduz and the most populous city is Schaan.",
+    "propositions": [
+      "the most populous city is Schaan",
+      "The capital is Vaduz"
+    ]
+  },
+  {
+    "id": 199,
+    "text": "Although it is not a member of the European Union, since December 2011 it has been part of the European area of ​​free movement.",
+    "propositions": [
+      "since December 2011 it has been part of the European area of ​​free movement",
+      "it is not a member of the European Union"
+    ]
+  },
+  {
+    "id": 200,
+    "text": "The place with the largest area is Triesenberg, the most populous place is Schaan.",
+    "propositions": [
+      "the most populous place is Schaan.",
+      "The place with the largest area is Triesenberg"
+    ]
+  },
+  {
+    "id": 201,
+    "text": "The House of Liechtenstein provides the sovereign prince; sovereignty is shared equally between prince and people.",
+    "propositions": [
+      "sovereignty is shared equally between prince and people.",
+      "The House of Liechtenstein provides the sovereign prince"
+    ]
+  },
+  {
+    "id": 202,
+    "text": "They are “capital” in the sense that they are the cause, therefore the head, of other sins; they are motives for committing all crimes.",
+    "propositions": [
+      "they are motives for committing all crimes.",
+      "They are “capital” in the sense that they are the cause, therefore the head, of other sins",
+      "They are “capital” in the sense that they are the cause, therefore the head, of other sins"
+    ]
+  },
+  {
+    "id": 203,
+    "text": "Much of Harald s biography remains uncertain, since the extant accounts of his life in the sagas were set down in writing around three centuries after his lifetime.",
+    "propositions": [
+      "Harald s biography remains uncertain, since the extant accounts of his life in the sagas were set down in writing around three centuries after his lifetime.",
+      "Much of Harald s biography remains uncertain"
+    ]
+  },
+  {
+    "id": 204,
+    "text": "Indeed, although it is possible to write a detailed account of Harald as a character in medieval Icelandic sagas, it is even possible to argue that there was no such historical figure at all.",
+    "propositions": [
+      "Harald as a character in medieval Icelandic sagas, it is even possible to argue that there was no such historical figure at all.",
+      "it is possible to write a detailed account of Harald as a character in medieval Icelandic sagas"
+    ]
+  },
+  {
+    "id": 205,
+    "text": "Their accounts of Harald and his life differ on many points, but it is clear that in the twelfth and thirteenth centuries Harald was regarded as having unified Norway into one kingdom.",
+    "propositions": [
+      "in the twelfth and thirteenth centuries Harald was regarded as having unified Norway into one kingdom",
+      "in the twelfth and thirteenth centuries Harald was regarded as having unified Norway into one kingdom",
+      "accounts of Harald and his life differ on many points"
+    ]
+  },
+  {
+    "id": 206,
+    "text": "She has also starred in A Callgirl s Diary, which is about a luxury prostitute and her everyday life.",
+    "propositions": [
+      "A Callgirl s Diary, which is about a luxury prostitute and her everyday life",
+      "She has also starred in A Callgirl s Diary"
+    ]
+  },
+  {
+    "id": 207,
+    "text": "Piper was married to Chris Evans in 2001–2007, but the couple separated already in 2004.",
+    "propositions": [
+      "the couple separated already in 2004",
+      "Piper was married to Chris Evans in 2001–2007"
+    ]
+  },
+  {
+    "id": 208,
+    "text": "After a short working life, he became a missionary, preaching to impoverished mining workers.",
+    "propositions": [
+      "he became a missionary, preaching to impoverished mining workers.",
+      "After a short working life, he became a missionary"
+    ]
+  },
+  {
+    "id": 209,
+    "text": "He then aspired to become a pastor, but he failed the theological exams.",
+    "propositions": [
+      "he failed the theological exams.",
+      "He then aspired to become a pastor"
+    ]
+  },
+  {
+    "id": 210,
+    "text": "The main difference between provinces and regions is that provinces are established in accordance with constitutional decrees, but regions are established in accordance with federal laws, so regions are directly under the jurisdiction of the federal government, and provinces are under the jurisdiction of the governments of each province.",
+    "propositions": [
+      "provinces are under the jurisdiction of the governments of each province",
+      "regions are directly under the jurisdiction of the federal government",
+      "regions are established in accordance with federal laws",
+      "provinces are established in accordance with constitutional decrees"
+    ]
+  },
+  {
+    "id": 211,
+    "text": "The parliament of each province is unicameral, and the leader of the majority party in the parliament is usually the governor of the province.",
+    "propositions": [
+      "the leader of the majority party in the parliament is usually the governor of the province.",
+      "The parliament of each province is unicameral"
+    ]
+  },
+  {
+    "id": 212,
+    "text": "This final even made the Patriots the first team to appear in two Super Bowls in a row since the Seattle Seahawks who did so in 2014 and 2015.",
+    "propositions": [
+      "appear in two Super Bowls in a row since the Seattle Seahawks who did so in 2014 and 2015",
+      "This final even made the Patriots the first team to appear in two Super Bowls in a row since the Seattle Seahawks"
+    ]
+  },
+  {
+    "id": 213,
+    "text": "This ethical vision is the mother of unlimited liberalism, the only political-economic system that, according to her, allows man to achieve individual happiness thanks to his work and his ability.",
+    "propositions": [
+      "liberalism, the only political-economic system that, according to her, allows man to achieve individual happiness thanks to his work and his ability",
+      "This ethical vision is the mother of unlimited liberalism"
+    ]
+  },
+  {
+    "id": 214,
+    "text": "Convinced that government should have a legitimate but relatively small role in a free society, she never recognized herself in anarcho-capitalism, but rather in miniarchism, although she never defined it in such terms.",
+    "propositions": [
+      "miniarchism, although she never defined it in such terms",
+      "she never recognized herself in anarcho-capitalism, but rather in miniarchism",
+      "she never recognized herself in anarcho-capitalism",
+      "Convinced that government should have a legitimate but relatively small role in a free society"
+    ]
+  },
+  {
+    "id": 215,
+    "text": "Her political ideas can be described as petty governmentism and libertarianism, although she has never used the first name to call herself, and she hates the second one.",
+    "propositions": [
+      "she hates the second one",
+      "she has never used the first name to call herself",
+      "Her political ideas can be described as petty governmentism and libertarianism",
+      "Her political ideas can be described as petty governmentism"
+    ]
+  },
+  {
+    "id": 216,
+    "text": "However, there are many types of socialism and there is no single definition that encompasses them all, being social property the common element shared by its various forms whose objective is to overcome the inefficiencies and crises traditionally associated with the accumulation of capital and the profit system based on labor exploitation.",
+    "propositions": [
+      "social property the common element shared by its various forms whose objective is to overcome the inefficiencies and crises traditionally associated with the accumulation of capital and the profit system based on labor exploitation.",
+      "social property the common element shared by its various forms whose objective is to overcome the inefficiencies and crises traditionally associated with the accumulation of capital",
+      "social property the common element shared by its various forms whose objective is to overcome the inefficiencies and crises traditionally associated with the accumulation of capital",
+      "socialism and there is no single definition that encompasses them all, being social property the common element shared by its various forms",
+      "types of socialism and there is no single definition that encompasses them all",
+      "there are many types of socialism"
+    ]
+  },
+  {
+    "id": 217,
+    "text": "The film is set in a post-apocalyptic dystopian future in which gasoline and water are almost exhausted resources.",
+    "propositions": [
+      "a post-apocalyptic dystopian future in which gasoline and water are almost exhausted resources",
+      "a post-apocalyptic dystopian future in which gasoline and water are almost exhausted resources",
+      "The film is set in a post-apocalyptic dystopian future"
+    ]
+  },
+  {
+    "id": 218,
+    "text": "Hentai also exists in the form of dodjinshi - works that are self-published by their authors.",
+    "propositions": [
+      "dodjinshi - works that are self-published by their authors",
+      "Hentai also exists in the form of dodjinshi"
+    ]
+  },
+  {
+    "id": 219,
+    "text": "Their first test sound made a big splash in the world, and the album was nominated for the Mercury Music Award.",
+    "propositions": [
+      "the album was nominated for the Mercury Music Award.",
+      "Their first test sound made a big splash in the world"
+    ]
+  },
+  {
+    "id": 220,
+    "text": "After Martin and Buckland formed the Pectoralz band, Berryman joined the band as bassist and they changed their name to the Starfish Band.",
+    "propositions": [
+      "they changed their name to the Starfish Band.",
+      "Berryman joined the band as bassist",
+      "After Martin and Buckland formed the Pectoralz band, Berryman joined",
+      "Martin and Buckland formed the Pectoralz band"
+    ]
+  },
+  {
+    "id": 221,
+    "text": "In 2011, Coldplay released their fifth studio album, Mylo Xyloto, which topped the charts in over 34 countries and was the UK s best-selling rock album of 2011.",
+    "propositions": [
+      "Mylo Xyloto, which topped the charts in over 34 countries and was the UK s best-selling rock album of 2011.",
+      "Mylo Xyloto, which topped the charts in over 34 countries",
+      "Coldplay released their fifth studio album, Mylo Xyloto",
+      "In 2011, Coldplay released their fifth studio album"
+    ]
+  },
+  {
+    "id": 222,
+    "text": "Relativistic quantum mechanics tried to generalize it, but eventually it turned out that such a generalization must take the form of quantum field theory.",
+    "propositions": [
+      "it turned out that such a generalization must take the form of quantum field theory.",
+      "Relativistic quantum mechanics tried to generalize it"
+    ]
+  },
+  {
+    "id": 223,
+    "text": "At the end of the 19th century, people discovered that the old classical theories could not explain the microscopic system, so through the efforts of physicists, quantum mechanics was established in the early 20th century to explain these phenomena.",
+    "propositions": [
+      "quantum mechanics was established in the early 20th century to explain these phenomena.",
+      "quantum mechanics was established in the early 20th century",
+      "through the efforts of physicists, quantum mechanics was established",
+      "At the end of the 19th century, people discovered that the old classical theories could not explain the microscopic system"
+    ]
+  },
+  {
+    "id": 224,
+    "text": "The turmoil of the silver couple continued after their marriage, and the two signed for divorce in 2007.",
+    "propositions": [
+      "the silver couple continued after their marriage, and the two signed for divorce in 2007",
+      "The turmoil of the silver couple continued after their marriage"
+    ]
+  },
+  {
+    "id": 225,
+    "text": "On April 23, 2018, their third child, Louis of Cambridge, was born, the fifth in line of succession.",
+    "propositions": [
+      "Louis of Cambridge, was born, the fifth in line of succession",
+      "On April 23, 2018, their third child, Louis of Cambridge, was born"
+    ]
+  },
+  {
+    "id": 226,
+    "text": "The most important ideals of France were formulated in the Declaration of Human and Civic Rights and in the slogan of the French revolution, liberté, égalité, fraternité ( freedom, equality, fraternity )",
+    "propositions": [
+      "liberté, égalité, fraternité ( freedom, equality, fraternity )",
+      "the slogan of the French revolution, liberté, égalité, fraternité",
+      "The most important ideals of France were formulated in the Declaration of Human and Civic Rights and in the slogan of the French revolution",
+      "The most important ideals of France were formulated in the Declaration of Human and Civic Rights"
+    ]
+  },
+  {
+    "id": 227,
+    "text": "He has his background in at this time the traditional theater company at the Steppenwolf Theater in Chicago where he met Gary Sinise with whom he has collaborated a lot since then.",
+    "propositions": [
+      "at the Steppenwolf Theater in Chicago where he met Gary Sinise",
+      "He has his background in at this time the traditional theater company at the Steppenwolf Theater in Chicago",
+      "he met Gary Sinise with whom he has collaborated a lot since then",
+      "he met Gary Sinise"
+    ]
+  },
+  {
+    "id": 228,
+    "text": "It is articulated around the interviews granted by Frank Sheeran to Charles Brandt, during which Sheeran engages in several confessions.",
+    "propositions": [
+      "the interviews granted by Frank Sheeran to Charles Brandt, during which Sheeran engages in several confessions.",
+      "It is articulated around the interviews granted by Frank Sheeran to Charles Brandt"
+    ]
+  },
+  {
+    "id": 229,
+    "text": "The title is in reference to, according to Sheeran, the first conversation he had with Hoffa over the phone, where Hoffa started by saying,  I heard you paint houses —a mob code meaning: I heard you kill people, the  paint  being the blood splatter from the gunshot.",
+    "propositions": [
+      "the  paint  being the blood splatter from the gunshot.",
+      " I heard you paint houses —a mob code meaning: I heard you kill people",
+      "Sheeran, the first conversation he had with Hoffa over the phone, where Hoffa started by saying,  I heard you paint houses ",
+      "The title is in reference to, according to Sheeran, the first conversation he had with Hoffa over the phone",
+      "The title is in reference to, according to Sheeran, the first conversation he had with Hoffa over the phone"
+    ]
+  },
+  {
+    "id": 230,
+    "text": "The transmission path to humans is indirect, classically via the bite of an infected flea, which serves as a vector; however, direct person-to-person infection via droplet infection is also possible.",
+    "propositions": [
+      "direct person-to-person infection via droplet infection is also possible.",
+      "an infected flea, which serves as a vector",
+      "The transmission path to humans is indirect, classically via the bite of an infected flea",
+      "The transmission path to humans is indirect"
+    ]
+  },
+  {
+    "id": 231,
+    "text": "A variety of antibiotics are available to treat an infection, but resistance is increasingly observed.",
+    "propositions": [
+      "resistance is increasingly observed.",
+      "A variety of antibiotics are available to treat an infection"
+    ]
+  },
+  {
+    "id": 232,
+    "text": "The 60% smaller island of Ireland is to the west – and together these islands, along with over 1,000 smaller surrounding islands and named substantial rocks, form the British Isles archipelago.",
+    "propositions": [
+      "these islands, along with over 1,000 smaller surrounding islands and named substantial rocks, form the British Isles archipelago.",
+      "these islands, along with over 1,000 smaller surrounding islands and named substantial rocks, form the British Isles archipelago",
+      "The 60% smaller island of Ireland is to the west"
+    ]
+  },
+  {
+    "id": 233,
+    "text": "During the recording in 2004, he met his future partner Michelle Williams, who the following year gave birth to the couple s daughter Matilda Rose.",
+    "propositions": [
+      "Michelle Williams, who the following year gave birth to the couple s daughter Matilda Rose",
+      "During the recording in 2004, he met his future partner Michelle Williams"
+    ]
+  },
+  {
+    "id": 234,
+    "text": "Apart from fame and controversy, he is considered one of the most influential artists of the 20th century due to his revolutionary works.",
+    "propositions": [
+      "he is considered one of the most influential artists of the 20th century due to his revolutionary works",
+      "Apart from fame and controversy, he is considered one of the most influential artists of the 20th century",
+      "Apart from fame and controversy, he is considered one of the most influential artists of the 20th century"
+    ]
+  },
+  {
+    "id": 235,
+    "text": "If a user wants they can even learn how to build and code experiences for others, programming at their own pace.",
+    "propositions": [
+      "user wants they can even learn how to build and code experiences for others, programming at their own pace.",
+      "If a user wants they can even learn how to build and code experiences for others",
+      "If a user wants they can even learn how to build and code experiences for others"
+    ]
+  },
+  {
+    "id": 236,
+    "text": "On May 12, 2021, DeGeneres announced that the show will come to an end in the next season, which starts in September 2021 and is the 19th season.",
+    "propositions": [
+      "the next season, which starts in September 2021 and is the 19th season.",
+      "the next season, which starts in September 2021",
+      "DeGeneres announced that the show will come to an end in the next season",
+      "On May 12, 2021, DeGeneres announced that the show will come to an end"
+    ]
+  },
+  {
+    "id": 237,
+    "text": "Since the main battlefield is on the European continent, the Chinese literature in the early 20th century is often referred to as the  European War .",
+    "propositions": [
+      "the Chinese literature in the early 20th century is often referred to as the  European War .",
+      "the main battlefield is on the European continent"
+    ]
+  },
+  {
+    "id": 238,
+    "text": "However, the European powers at that time were involved in each other, and the war eventually spread to the world.",
+    "propositions": [
+      "the war eventually spread to the world.",
+      "the European powers at that time were involved in each other",
+      "the European powers at that time were involved in each other"
+    ]
+  },
+  {
+    "id": 239,
+    "text": "The number of civilian casualties, according to various estimates, ranges from 7 to 12 million people, of which about 1 million died as a result of hostilities; about 55 million people were injured.",
+    "propositions": [
+      "about 55 million people were injured",
+      "about 1 million died as a result of hostilities",
+      "The number of civilian casualties, according to various estimates, ranges from 7 to 12 million people"
+    ]
+  },
+  {
+    "id": 240,
+    "text": "He announced his withdrawal from the show business in 1999, and since then, he has only performed occasionally in movies.",
+    "propositions": [
+      "1999, and since then, he has only performed occasionally in movies.",
+      "He announced his withdrawal from the show business in 1999"
+    ]
+  },
+  {
+    "id": 241,
+    "text": "Until 2014, World Service was funded by grants from Her Majesty s Ministry of Foreign Affairs, but from 1 April 2014 it became funded by mandatory contributions for television paid by every household in the United Kingdom that uses television to watch television.",
+    "propositions": [
+      "World Service was funded by grants from Her Majesty s Ministry of Foreign Affairs, but from 1 April 2014 it became funded by mandatory contributions for television paid by every household in the United Kingdom that uses television to watch television",
+      "Until 2014, World Service was funded by grants from Her Majesty s Ministry of Foreign Affairs"
+    ]
+  },
+  {
+    "id": 242,
+    "text": "Despite this form of funding, the World Service remains editorially independent, although the Office of Foreign and Commonwealth Affairs is consulted on the decision-making process on the languages ​​in which the Service is delivered.",
+    "propositions": [
+      "although the Office of Foreign and Commonwealth Affairs is consulted on the decision-making process on the languages ​​in which the Service is delivered",
+      "Despite this form of funding, the World Service remains editorially independent"
+    ]
+  },
+  {
+    "id": 243,
+    "text": "The World Service is funded by a state subsidy after the Foreign and Commonwealth Office by the UK Government - except the BBC s domestic radio and television services, which are funded primarily by a household fee in the UK, which have a television to watch programs while they are broadcast.",
+    "propositions": [
+      "the BBC s domestic radio and television services, which are funded primarily by a household fee in the UK, which have a television to watch programs while they are broadcast.",
+      "The World Service is funded by a state subsidy after the Foreign and Commonwealth Office by the UK Government"
+    ]
+  },
+  {
+    "id": 244,
+    "text": "Gore took over as main songwriter and later, in 1982, Alan Wilder replaced Clarke, establishing a lineup that continued for 13 years.",
+    "propositions": [
+      "Alan Wilder replaced Clarke, establishing a lineup that continued for 13 years",
+      "in 1982, Alan Wilder replaced Clarke",
+      "Alan Wilder replaced Clarke",
+      "Gore took over as main songwriter"
+    ]
+  },
+  {
+    "id": 245,
+    "text": "By 2011, about 115 million copies of Depeche Mode albums had been sold, and 44 singles hit the UK charts.",
+    "propositions": [
+      "Depeche Mode albums had been sold, and 44 singles hit the UK charts",
+      "By 2011, about 115 million copies of Depeche Mode albums had been",
+      "about 115 million copies of Depeche Mode albums had been sold"
+    ]
+  },
+  {
+    "id": 246,
+    "text": "Amsterdam () is the capital of the Netherlands, although the government as well as most national institutions are based in The Hague.",
+    "propositions": [
+      "the Netherlands, although the government as well as most national institutions are based in The Hague",
+      "the Netherlands, although the government as well as most national institutions are based in The Hague",
+      "Amsterdam () is the capital of the Netherlands"
+    ]
+  },
+  {
+    "id": 247,
+    "text": "About 226,000 people lost their lives, and over 5 million are estimated to have become completely homeless or forced to flee.",
+    "propositions": [
+      "over 5 million are estimated to have become completely homeless or forced to flee",
+      "About 226,000 people lost their lives"
+    ]
+  },
+  {
+    "id": 248,
+    "text": "Over 110,000 people were injured and over 1.7 million coastal residents around the Indian Ocean were left homeless.",
+    "propositions": [
+      "over 1.7 million coastal residents around the Indian Ocean were left homeless.",
+      "Over 110,000 people were injured"
+    ]
+  },
+  {
+    "id": 249,
+    "text": "The event was exceptionally well documented as many vacationers had a video or digital camera on hand.",
+    "propositions": [
+      "many vacationers had a video or digital camera on hand.",
+      "many vacationers had a video or digital camera on hand.",
+      "The event was exceptionally well documented"
+    ]
+  },
+  {
+    "id": 250,
+    "text": "In total, around 230,000 people died as a result of the quake and its aftermath, around 165,000 of them in Indonesia alone.",
+    "propositions": [
+      "people died as a result of the quake and its aftermath, around 165,000 of them in Indonesia alone",
+      "In total, around 230,000 people died",
+      "around 230,000 people died as a result of the quake and its aftermath"
+    ]
+  },
+  {
+    "id": 251,
+    "text": "The original Transformers film series has received negative to mixed reception, except for Bumblebee, which received positive reviews.",
+    "propositions": [
+      "Bumblebee, which received positive reviews",
+      "The original Transformers film series has received negative to mixed reception"
+    ]
+  },
+  {
+    "id": 252,
+    "text": "Two new short films were produced in 2001 and 2005, totaling 163 short films.",
+    "propositions": [
+      "films were produced in 2001 and 2005, totaling 163 short films",
+      "new short films were produced in 2001 and 2005",
+      "new short films were produced in 2001",
+      "Two new short films were produced"
+    ]
+  },
+  {
+    "id": 253,
+    "text": "In 2001, a television short was produced, Tom and Jerry: The Mansion Cat, while in 2005 a last film short was released, L arte of karate.",
+    "propositions": [
+      "Tom and Jerry: The Mansion Cat, while in 2005 a last film short was released, L arte of karate",
+      "Tom and Jerry: The Mansion Cat, while in 2005 a last film short was released",
+      "2001, a television short was produced, Tom and Jerry: The Mansion Cat",
+      "In 2001, a television short was produced"
+    ]
+  },
+  {
+    "id": 254,
+    "text": "Oral stimulation of the external female genital organs is called cunnilingus, while oral stimulation of the penis is called fellatio.",
+    "propositions": [
+      "oral stimulation of the penis is called fellatio",
+      "Oral stimulation of the external female genital organs is called cunnilingus"
+    ]
+  },
+  {
+    "id": 255,
+    "text": "In the case of sufficiently athletic partners it is possible to use this technique in an upright position, also with the help of the use of the arms.",
+    "propositions": [
+      "it is possible to use this technique in an upright position, also with the help of the use of the arms.",
+      "In the case of sufficiently athletic partners it is possible to use this technique in an upright position"
+    ]
+  },
+  {
+    "id": 256,
+    "text": "The most common position among individuals of different sexes involves the female partner lying on top of the male one; the variant of the reversed 69 provides for the exchange of roles.",
+    "propositions": [
+      "the variant of the reversed 69 provides for the exchange of roles",
+      "The most common position among individuals of different sexes involves the female partner lying on top of the male one"
+    ]
+  },
+  {
+    "id": 257,
+    "text": "The two partners take a position that recalls the shape of the number 69, from which the name derives.",
+    "propositions": [
+      "the number 69, from which the name derives",
+      "The two partners take a position that recalls the shape of the number 69"
+    ]
+  },
+  {
+    "id": 258,
+    "text": "In 1945 it was renamed the Royal Indian Air Force (Royal Indian Air Force) in recognition of its services during World War II.",
+    "propositions": [
+      "it was renamed the Royal Indian Air Force (Royal Indian Air Force) in recognition of its services during World War II.",
+      "In 1945 it was renamed the Royal Indian Air Force"
+    ]
+  },
+  {
+    "id": 259,
+    "text": "Most people lived in Detroit in 1950, when the city was considered the fifth most populous in the country.",
+    "propositions": [
+      "Most people lived in Detroit in 1950",
+      "in 1950, when the city was considered the fifth most populous in the country"
+    ]
+  },
+  {
+    "id": 260,
+    "text": "The Second World War brought great development to Detroit s industry, and it was a veritable  American arsenal.  In the 1940s, the first highway in the United States was built in Detroit.",
+    "propositions": [
+      "In the 1940s, the first highway in the United States was built in Detroit.",
+      "the first highway in the United States was built in Detroit",
+      "Detroit s industry, and it was a veritable  American arsenal. ",
+      "The Second World War brought great development to Detroit s industry"
+    ]
+  },
+  {
+    "id": 261,
+    "text": "According to statistics from the United States Census Bureau in 2010, Detroit ranks as the 18th largest city in the United States with a population of 713,777.",
+    "propositions": [
+      "Detroit ranks as the 18th largest city in the United States with a population of 713,777",
+      "According to statistics from the United States Census Bureau in 2010, Detroit ranks as the 18th largest city in the United States"
+    ]
+  },
+  {
+    "id": 262,
+    "text": "It is also one of six European teams to earn the right to host the Champions League Cup, which the club has won seven times.",
+    "propositions": [
+      "the Champions League Cup, which the club has won seven times.",
+      "It is also one of six European teams to earn the right to host the Champions League Cup"
+    ]
+  },
+  {
+    "id": 263,
+    "text": "Eventually, they defeated the Mughals, who were forced to withdraw from the Maratha possessions.",
+    "propositions": [
+      "the Mughals, who were forced to withdraw from the Maratha possessions.",
+      "Eventually, they defeated the Mughals"
+    ]
+  },
+  {
+    "id": 264,
+    "text": "Following a brief struggle with his aunt Tarabai, Shahu became the ruler with the help of Balaji Vishwanath and Dhanaji Jadhav.",
+    "propositions": [
+      "Following a brief struggle with his aunt Tarabai, Shahu became the ruler",
+      "Shahu became the ruler with the help of Balaji Vishwanath and Dhanaji Jadhav",
+      "Tarabai, Shahu became the ruler with the help of Balaji Vishwanath",
+      "Following a brief struggle with his aunt Tarabai, Shahu became the ruler"
+    ]
+  },
+  {
+    "id": 265,
+    "text": "Peshwa became the de facto rulers of the state, while Sivaji s successors ruled nominally from their seat in Satara.",
+    "propositions": [
+      "Sivaji s successors ruled nominally from their seat in Satara",
+      "Peshwa became the de facto rulers of the state"
+    ]
+  },
+  {
+    "id": 266,
+    "text": "Two seasons have been broadcast and a third is in preparation.",
+    "propositions": [
+      "seasons have been broadcast and a third is in preparation",
+      "Two seasons have been broadcast"
+    ]
+  },
+  {
+    "id": 267,
+    "text": "He tells of a detachment of the same name, which fights against superpowers who abuse their abilities.",
+    "propositions": [
+      "a detachment of the same name, which fights against superpowers who abuse their abilities.",
+      "He tells of a detachment of the same name"
+    ]
+  },
+  {
+    "id": 268,
+    "text": "After a trial that lasted a day, he was sentenced to death.",
+    "propositions": [
+      "he was sentenced to death.",
+      "a trial that lasted a day, he"
+    ]
+  },
+  {
+    "id": 269,
+    "text": "Although it is generally believed that oral sex has nothing to do with the loss of virginity, some people disagree with the above concepts about virginity.",
+    "propositions": [
+      "some people disagree with the above concepts about virginity",
+      "it is generally believed that oral sex has nothing to do with the loss of virginity"
+    ]
+  },
+  {
+    "id": 270,
+    "text": "Oral sex is considered taboo in some areas, but most countries have no laws prohibiting people from engaging in oral sex.",
+    "propositions": [
+      "most countries have no laws prohibiting people from engaging in oral sex.",
+      "Oral sex is considered taboo in some areas"
+    ]
+  },
+  {
+    "id": 271,
+    "text": "This is also the first time that the draft was held in Philadelphia in 1961 and returned to Philadelphia.",
+    "propositions": [
+      "the draft was held in Philadelphia in 1961 and returned to Philadelphia.",
+      "the first time that the draft was held in Philadelphia in 1961"
+    ]
+  },
+  {
+    "id": 272,
+    "text": "NFL officials said that the number of fans participating in the draft is the largest in history, totaling more than 250,000.",
+    "propositions": [
+      "number of fans participating in the draft is the largest in history, totaling more than 250,000",
+      "NFL officials said that the number of fans participating in the draft is the largest in history"
+    ]
+  },
+  {
+    "id": 273,
+    "text": "The player selection will be held on the outdoor stage of Rocky Steps, which represents the first time that the NFL Draft will be held outdoors.",
+    "propositions": [
+      "the outdoor stage of Rocky Steps, which represents the first time that the NFL Draft will be held outdoors",
+      "The player selection will be held on the outdoor stage of Rocky Steps"
+    ]
+  },
+  {
+    "id": 274,
+    "text": "The number of trades was surpassed in 2019, when 40 were conducted.",
+    "propositions": [
+      "trades was surpassed in 2019, when 40 were conducted",
+      "The number of trades was surpassed in 2019,"
+    ]
+  },
+  {
+    "id": 275,
+    "text": "The main single player game is developed by Ubisoft Montreal, and the multiplayer game is developed by Ubisoft Annecy.",
+    "propositions": [
+      "the multiplayer game is developed by Ubisoft Annecy",
+      "The main single player game is developed by Ubisoft Montreal"
+    ]
+  },
+  {
+    "id": 276,
+    "text": "The doctrine of the organization has some similarities, but its dogmas about the nature of God and the potential of human development are fundamentally different from the Christian denominations.",
+    "propositions": [
+      "the organization has some similarities, but its dogmas about the nature of God and the potential of human development are fundamentally different from the Christian denominations.",
+      "the organization has some similarities, but its dogmas about the nature of God and the potential of human development are fundamentally different from the Christian denominations.",
+      "The doctrine of the organization has some similarities"
+    ]
+  },
+  {
+    "id": 277,
+    "text": "The vice president is designated as first in the presidential line of succession by the Article II succession clause, which also authorizes Congress to provide for a line of succession beyond the vice president; it has done so on three occasions.",
+    "propositions": [
+      "Congress to provide for a line of succession beyond the vice president; it has done so on three occasions",
+      "the Article II succession clause, which also authorizes Congress to provide for a line of succession beyond the vice president",
+      "The vice president is designated as first in the presidential line of succession by the Article II succession clause"
+    ]
+  },
+  {
+    "id": 278,
+    "text": "The current Presidential Succession Act was adopted in 1947, and last revised in 2006.",
+    "propositions": [
+      "Presidential Succession Act was adopted in 1947, and last revised in 2006.",
+      "The current Presidential Succession Act was adopted in 1947"
+    ]
+  },
+  {
+    "id": 279,
+    "text": "Furthermore, this addition enables a vice-president to be nominated, so that since then it has become significantly less likely that the list of substitute successors for the president will be used.",
+    "propositions": [
+      "since then it has become significantly less likely that the list of substitute successors for the president will be used.",
+      "this addition enables a vice-president to be nominated"
+    ]
+  },
+  {
+    "id": 280,
+    "text": "Several experts in constitutional law have raised questions about the constitutionality of the provisions in which the president of the Chamber and the president pro tempore of the Senate succeed the Presidency, and in 2003 the Government Continuity Commission raised a series of other problems with the current line of succession.",
+    "propositions": [
+      "in 2003 the Government Continuity Commission raised a series of other problems with the current line of succession",
+      "Several experts in constitutional law have raised questions about the constitutionality of the provisions in which the president of the Chamber and the president pro tempore of the Senate succeed the Presidency",
+      "Several experts in constitutional law have raised questions about the constitutionality of the provisions in which the president of the Chamber and the president pro tempore of the Senate succeed the Presidency"
+    ]
+  },
+  {
+    "id": 281,
+    "text": "In 1999 Nigeria was democratized again, although the elections from the 2010s onwards are classified as halfway fair.",
+    "propositions": [
+      "Nigeria was democratized again, although the elections from the 2010s onwards are classified as halfway fair",
+      "In 1999 Nigeria was democratized again"
+    ]
+  },
+  {
+    "id": 282,
+    "text": "It tells the story of a pilot who was recruited by the New Republic to spy on the First Order.",
+    "propositions": [
+      "the story of a pilot who was recruited by the New Republic to spy on the First Order.",
+      "It tells the story of a pilot"
+    ]
+  },
+  {
+    "id": 283,
+    "text": "In Louisiana, 2,200 tons of oily material were removed from beaches in 2013, more than double the amount collected in 2012.",
+    "propositions": [
+      "2,200 tons of oily material were removed from beaches in 2013, more than double the amount collected in 2012.",
+      "In Louisiana, 2,200 tons of oily material were removed from beaches in 2013"
+    ]
+  },
+  {
+    "id": 284,
+    "text": "In civil aviation, it has also become the most common medium-haul transport aircraft - the C-130  Hercules  is operated in 65 countries.",
+    "propositions": [
+      "the C-130  Hercules  is operated in 65 countries.",
+      "In civil aviation, it has also become the most common medium-haul transport aircraft"
+    ]
+  },
+  {
+    "id": 285,
+    "text": "Negotiations for unification failed, and in 1948 separate governments were formed: the Democratic People s Republic of Korea in the north and the Republic of Korea in the south.",
+    "propositions": [
+      "separate governments were formed: the Democratic People s Republic of Korea in the north and the Republic of Korea in the south.",
+      "separate governments were formed: the Democratic People s Republic of Korea in the north",
+      "in 1948 separate governments were formed",
+      "Negotiations for unification failed"
+    ]
+  },
+  {
+    "id": 286,
+    "text": "The Democratic People s Republic of Korea was formed when Korea was to be reconstructed after the Japanese occupation during World War II.",
+    "propositions": [
+      "Korea was to be reconstructed after the Japanese occupation during World War II",
+      "The Democratic People s Republic of Korea was formed when Korea was to be reconstructed after the Japanese occupation"
+    ]
+  },
+  {
+    "id": 287,
+    "text": "In 1910, Korea was annexed to the Japanese Empire.",
+    "propositions": [
+      "Korea was annexed to the Japanese Empire.",
+      "In 1910, Korea was annexed"
+    ]
+  },
+  {
+    "id": 288,
+    "text": "In 1950, North Korea invaded the south, starting the Korean War.",
+    "propositions": [
+      "North Korea invaded the south, starting the Korean War",
+      "In 1950, North Korea invaded the south"
+    ]
+  },
+  {
+    "id": 289,
+    "text": "Its origins can be traced back to the reigns of the so-called Anglo-Saxon Heptarchy formed in the 9th and 10th centuries.",
+    "propositions": [
+      "the so-called Anglo-Saxon Heptarchy formed in the 9th and 10th centuries.",
+      "Its origins can be traced back to the reigns of the so-called Anglo-Saxon Heptarchy"
+    ]
+  },
+  {
+    "id": 290,
+    "text": "In 927 the Anglo-Saxon kingdoms were united by thelstan (c. 927-939).",
+    "propositions": [
+      "the Anglo-Saxon kingdoms were united by thelstan (c. 927-939).",
+      "In 927 the Anglo-Saxon kingdoms were united by thelstan"
+    ]
+  },
+  {
+    "id": 291,
+    "text": "In 1979 they founded the band The Young Aborigines and changed their name to Beastie Boys two years later.",
+    "propositions": [
+      "they founded the band The Young Aborigines and changed their name to Beastie Boys two years later.",
+      "In 1979 they founded the band The Young Aborigines"
+    ]
+  },
+  {
+    "id": 292,
+    "text": "In 1985, the band gained popularity by participating in the tour of Madonna, who presented his album Like A Virgin.",
+    "propositions": [
+      "Madonna, who presented his album Like A Virgin.",
+      "Madonna, who presented his album Like A Virgin.",
+      "the band gained popularity by participating in the tour of Madonna",
+      "In 1985, the band gained popularity"
+    ]
+  },
+  {
+    "id": 293,
+    "text": "Years later, he won the 1911 Nobel Prize in Chemistry alone.",
+    "propositions": [
+      "he won the 1911 Nobel Prize in Chemistry alone",
+      "Years later, he won the 1911 Nobel Prize in Chemistry"
+    ]
+  },
+  {
+    "id": 294,
+    "text": "All the characters that appear in the miniseries are based on real characters from that company; moreover, some of them appear in prerecorded interviews as a prologue to each episode.",
+    "propositions": [
+      "the characters that appear in the miniseries are based on real characters from that company; moreover, some of them appear in prerecorded interviews as a prologue to each episode.",
+      "All the characters that appear in the miniseries are based on real characters from that company"
+    ]
+  },
+  {
+    "id": 295,
+    "text": "This feature would make Kansas City the second city in the world for the number of fountains behind Rome.",
+    "propositions": [
+      "would make Kansas City the second city in the world for the number of fountains behind Rome",
+      "This feature would make Kansas City the second city in the world for the number of fountains"
+    ]
+  },
+  {
+    "id": 296,
+    "text": "It would have been the fifth time the Netherlands had organized the festival, something that had not happened since the 1980 Eurovision Song Contest.",
+    "propositions": [
+      "the Netherlands had organized the festival, something that had not happened since the 1980 Eurovision Song Contest.",
+      "It would have been the fifth time the Netherlands had organized the festival"
+    ]
+  },
+  {
+    "id": 297,
+    "text": "Five cities apply to host the competition, of which only Rotterdam and Maastricht pass the preliminary stages.",
+    "propositions": [
+      "only Rotterdam and Maastricht pass the preliminary stages",
+      "only Rotterdam and Maastricht pass the preliminary stages",
+      "Five cities apply to host the competition"
+    ]
+  },
+  {
+    "id": 298,
+    "text": "Relations between members of the kingdom are governed by the Charter of the Kingdom of the Netherlands, adopted in 1954.",
+    "propositions": [
+      "the Charter of the Kingdom of the Netherlands, adopted in 1954.",
+      "Relations between members of the kingdom are governed by the Charter of the Kingdom of the Netherlands"
+    ]
+  },
+  {
+    "id": 299,
+    "text": "The capital of the Netherlands is Amsterdam, the seat of government is The Hague.",
+    "propositions": [
+      "Netherlands is Amsterdam, the seat of government is The Hague",
+      "The capital of the Netherlands is Amsterdam"
+    ]
+  },
+  {
+    "id": 300,
+    "text": "The form of government is a constitutional parliamentary monarchy, the form of an administrative-territorial structure is a federation.",
+    "propositions": [
+      "the form of an administrative-territorial structure is a federation",
+      "The form of government is a constitutional parliamentary monarchy"
+    ]
+  }
+]
