@@ -3,9 +3,9 @@ import json
 from utilities.extract_qids import extract_qids
 from utilities.alignment import (
     align_sections,
+    align_sections_sentence_best_median,
     display_alignment,
-    display_score_matrix,
-    save_alignment_results,
+    save_alignment,
 )
 
 from utilities.load_models import load_Qwen3_8B_via_llama_cpp
@@ -36,29 +36,51 @@ data_es = extract_qids(
     verbose=False,
 )
 
-# Align their sections
-section_pairs, score_matrix = align_sections(
-    data_en,
-    data_es,
-    threshold=0.80,
+
+# ALIGNMENT METHOD
+# Choose "manual" or "sentence_best_median".
+ALIGNMENT_METHOD = "sentence_best_median"
+
+MIN_SCORE = 0.20
+
+if ALIGNMENT_METHOD == "manual":
+    alignment_results = align_sections(
+        article_a=data_en,
+        article_b=data_es,
+        min_score=MIN_SCORE,
+    )
+    output_path = (
+        "results/"
+        "falkland_malvinas_alignment_manual.json"
+    )
+
+elif ALIGNMENT_METHOD == "sentence_best_median":
+    alignment_results = align_sections_sentence_best_median(
+        article_a=data_en,
+        article_b=data_es,
+        min_score=MIN_SCORE,
+    )
+    output_path = (
+        "results/"
+        "falkland_malvinas_alignment_best_sentence_median.json"
+    )
+
+else:
+    raise ValueError(
+        f"Unknown alignment method: {ALIGNMENT_METHOD!r}"
+    )
+
+display_alignment(alignment_results)
+
+save_alignment(
+    alignment_results,
+    output_path,
 )
 
-# Display results
-display_alignment(section_pairs)
-display_score_matrix(score_matrix)
+print(f"Alignment method: {ALIGNMENT_METHOD}")
+print(f"Saved {len(alignment_results)} pairs to: {output_path}")
 
-
-
-# Optionally save results
-save_alignment_results(
-    section_pairs,
-    score_matrix,
-    alignment_output_path="falkland_malvinas_alignment.json",
-    matrix_output_path="falkland_malvinas_alignment_matrix.json",
-)
-
-
-propositions_list_en_qwen = []
+# propositions_list_es = []
 
 for section in data_en["sections"]:
     propositions=extract_propositions_V3(
@@ -67,14 +89,14 @@ for section in data_en["sections"]:
                 language=section["language"]
             )
 
-        # extend instead of append so that the final JSON
-        # contains one flat list of propositions.
+#         # extend instead of append so that the final JSON
+#         # contains one flat list of propositions.
 
     propositions_list_en_qwen.extend(propositions)
 
-    # -----------------------------------------------------------------
-    # Save JSON
-    # -----------------------------------------------------------------
+#     # -----------------------------------------------------------------
+#     # Save JSON
+#     # -----------------------------------------------------------------
 
 with open("propositions_en_sentence_level_qwen.json", "w", encoding="utf-8") as file:
     json.dump( propositions_list_en_qwen, file, indent=4, ensure_ascii=False)
@@ -95,14 +117,14 @@ for section in data_es["sections"]:
                 language=section["language"]
             )
 
-        # extend instead of append so that the final JSON
-        # contains one flat list of propositions.
+#         # extend instead of append so that the final JSON
+#         # contains one flat list of propositions.
 
     propositions_list_es_qwen.extend(propositions)
 
-    # -----------------------------------------------------------------
-    # Save JSON
-    # -----------------------------------------------------------------
+#     # -----------------------------------------------------------------
+#     # Save JSON
+#     # -----------------------------------------------------------------
 
 with open("propositions_es_sentence_level_qwen.json", "w", encoding="utf-8") as file:
     json.dump( propositions_list_es_qwen, file, indent=4, ensure_ascii=False)

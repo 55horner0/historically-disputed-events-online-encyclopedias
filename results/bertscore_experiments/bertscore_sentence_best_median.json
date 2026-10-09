@@ -1,0 +1,416 @@
+{
+    "experiment": "sentence_best_median",
+    "model_type": "roberta-base",
+    "matrix_csv": "historically-disputed-events-online-encyclopedias/bertscore_experiments\\bertscore_matrix_sentence_best_median.csv",
+    "matrix_shape": [
+        16,
+        12
+    ],
+    "score_statistics": {
+        "mean": 0.842601,
+        "median": 0.851256,
+        "minimum": 0.721894,
+        "maximum": 0.924661
+    },
+    "threshold_results": {
+        "0.5": {
+            "number_of_pairs": 8,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:0",
+                    "section_id_b": "es:Q9648:0",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.862606,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:1",
+                    "section_id_b": "es:Q9648:1",
+                    "pair_id": "section_1",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.882918,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:2",
+                    "section_id_b": "es:Q9648:2",
+                    "pair_id": "section_2",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.876996,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:3",
+                    "section_id_b": "es:Q9648:3",
+                    "pair_id": "section_3",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.87245,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:5",
+                    "section_id_b": "es:Q9648:4",
+                    "pair_id": "section_4",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.855598,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:6",
+                    "section_id_b": "es:Q9648:5",
+                    "pair_id": "section_5",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.85964,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_6",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                },
+                {
+                    "section_id_a": "en:Q9648:9",
+                    "section_id_b": "es:Q9648:7",
+                    "pair_id": "section_7",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.859158,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.5
+                }
+            ]
+        },
+        "0.6": {
+            "number_of_pairs": 8,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:0",
+                    "section_id_b": "es:Q9648:0",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.862606,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:1",
+                    "section_id_b": "es:Q9648:1",
+                    "pair_id": "section_1",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.882918,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:2",
+                    "section_id_b": "es:Q9648:2",
+                    "pair_id": "section_2",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.876996,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:3",
+                    "section_id_b": "es:Q9648:3",
+                    "pair_id": "section_3",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.87245,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:5",
+                    "section_id_b": "es:Q9648:4",
+                    "pair_id": "section_4",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.855598,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:6",
+                    "section_id_b": "es:Q9648:5",
+                    "pair_id": "section_5",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.85964,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_6",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                },
+                {
+                    "section_id_a": "en:Q9648:9",
+                    "section_id_b": "es:Q9648:7",
+                    "pair_id": "section_7",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.859158,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.6
+                }
+            ]
+        },
+        "0.7": {
+            "number_of_pairs": 8,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:0",
+                    "section_id_b": "es:Q9648:0",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.862606,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:1",
+                    "section_id_b": "es:Q9648:1",
+                    "pair_id": "section_1",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.882918,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:2",
+                    "section_id_b": "es:Q9648:2",
+                    "pair_id": "section_2",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.876996,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:3",
+                    "section_id_b": "es:Q9648:3",
+                    "pair_id": "section_3",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.87245,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:5",
+                    "section_id_b": "es:Q9648:4",
+                    "pair_id": "section_4",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.855598,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:6",
+                    "section_id_b": "es:Q9648:5",
+                    "pair_id": "section_5",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.85964,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_6",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                },
+                {
+                    "section_id_a": "en:Q9648:9",
+                    "section_id_b": "es:Q9648:7",
+                    "pair_id": "section_7",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.859158,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.7
+                }
+            ]
+        },
+        "0.8": {
+            "number_of_pairs": 8,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:0",
+                    "section_id_b": "es:Q9648:0",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.862606,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:1",
+                    "section_id_b": "es:Q9648:1",
+                    "pair_id": "section_1",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.882918,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:2",
+                    "section_id_b": "es:Q9648:2",
+                    "pair_id": "section_2",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.876996,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:3",
+                    "section_id_b": "es:Q9648:3",
+                    "pair_id": "section_3",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.87245,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:5",
+                    "section_id_b": "es:Q9648:4",
+                    "pair_id": "section_4",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.855598,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:6",
+                    "section_id_b": "es:Q9648:5",
+                    "pair_id": "section_5",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.85964,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_6",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                },
+                {
+                    "section_id_a": "en:Q9648:9",
+                    "section_id_b": "es:Q9648:7",
+                    "pair_id": "section_7",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.859158,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.8
+                }
+            ]
+        },
+        "0.85": {
+            "number_of_pairs": 8,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:0",
+                    "section_id_b": "es:Q9648:0",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.862606,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:1",
+                    "section_id_b": "es:Q9648:1",
+                    "pair_id": "section_1",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.882918,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:2",
+                    "section_id_b": "es:Q9648:2",
+                    "pair_id": "section_2",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.876996,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:3",
+                    "section_id_b": "es:Q9648:3",
+                    "pair_id": "section_3",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.87245,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:5",
+                    "section_id_b": "es:Q9648:4",
+                    "pair_id": "section_4",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.855598,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:6",
+                    "section_id_b": "es:Q9648:5",
+                    "pair_id": "section_5",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.85964,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_6",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                },
+                {
+                    "section_id_a": "en:Q9648:9",
+                    "section_id_b": "es:Q9648:7",
+                    "pair_id": "section_7",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.859158,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.85
+                }
+            ]
+        },
+        "0.9": {
+            "number_of_pairs": 1,
+            "pairs": [
+                {
+                    "section_id_a": "en:Q9648:7",
+                    "section_id_b": "es:Q9648:6",
+                    "pair_id": "section_0",
+                    "alignment_score": "Automatic_BERTScore",
+                    "numeric_alignment_score": 0.924661,
+                    "experiment": "sentence_best_median",
+                    "threshold": 0.9
+                }
+            ]
+        }
+    }
+}
