@@ -1,47 +1,19 @@
+
 """
-Cross-lingual Wikipedia section alignment WITHOUT BERTScore.
+Cross-lingual Wikipedia section alignment.
 
-Alignment is done manually from language-independent evidence that is already
-present in the dictionaries returned by extract_qids.py:
+Available methods:
+1. Manual: QIDs, numbers, headings, and relative position.
+2. Sentence Best Median: BERTScore sentence matching and median aggregation.
 
-    1. Shared Wikidata QIDs        (IDF-weighted Jaccard; main signal)
-    2. Shared numbers / years      (e.g. 1833, 1982, 2013 appear in every language)
-    3. Heading match               (expanded EN/ES canonical heading table)
-    4. Relative position           (sections tend to appear in the same order)
-
-The four scores are combined into one score per (section A, section B) pair,
-then a Hungarian one-to-one assignment picks the best pairing. Pairs under
-min_score are dropped, so sections may stay unmatched.
-
-The heading table has been expanded to support the following EN/ES article
-pairs:
-
-    1. Falkland Islands
-    2. Status of Gibraltar
-    3. Guantanamo Bay Naval Base
-    4. Belizean–Guatemalan territorial dispute
-    5. Bajo Nuevo Bank
-    6. San Andrés and Providencia
-    7. Serranilla Bank
-    8. Geography of Puerto Rico
-    9. South Georgia and the South Sandwich Islands
-
-Input: two dictionaries from extract_qids() (different languages), each with
-
-    {"language", "article_id", "article_qid", "sections": [...]}
-
-Output:
-
-    {
-        "section_id_a": "es:Q9648:0",
-        "section_id_b": "en:Q9648:0",
-        "pair_id": "section_0",
-        "alignment_score": "Manual",
-        "numeric_alignment_score": 1.0
-    }
-
-Section ids use the plain section index ("...:0", "...:1", ...), taken from
-the input's own section_id, or built from article_id + section_idx if missing.
+Both methods return:
+{
+    "section_id_a": "...",
+    "section_id_b": "...",
+    "pair_id": "section_0",
+    "alignment_score": "Manual" or "Best Sentence Median",
+    "numeric_alignment_score": 0.0
+}
 """
 
 from __future__ import annotations
@@ -49,10 +21,14 @@ from __future__ import annotations
 import json
 import math
 import re
+from functools import lru_cache
 from typing import Any
 
 import numpy as np
+import torch
+from bert_score import score as bert_score
 from scipy.optimize import linear_sum_assignment
+from transformers import MarianMTModel, MarianTokenizer
 
 
 # CONFIGURATION
@@ -64,548 +40,15 @@ WEIGHT_NUMBER = 0.15
 WEIGHT_HEADING = 0.15
 WEIGHT_POSITION = 0.10
 
-# Lead sections almost always correspond.
-LEAD_BONUS_SCORE = 1.0
-
-# Sections with fewer than this many characters of text are ignored.
 MIN_TEXT_CHARS = 20
+BERTSCORE_MODEL = "roberta-base"
+TRANSLATION_MODEL = "Helsinki-NLP/opus-mt-es-en"
 
 
-# CANONICAL HEADINGS (EN / ES)
-
-# Each heading is mapped to a language-independent concept.
-#
-# This table intentionally contains both generic translations and
-# article-specific semantic correspondences. This is important because
-# several of the selected Wikipedia articles do not use literal translations
-# of their section headings.
-
-HEADING_CANON = {
-
-    # LEAD
-
-    "lead": "lead",
-    "inicio": "lead",
-    "introducción": "lead",
-    "introduccion": "lead",
-    "resumen": "lead",
-
-    # ETYMOLOGY / NAME
-
-    "etymology": "etymology",
-    "etimología": "etymology",
-    "etimologia": "etymology",
-    "toponymy": "etymology",
-    "toponimia": "etymology",
-    "name": "etymology",
-    "nombre": "etymology",
-
-    # HISTORY
-
-    "history": "history",
-    "historia": "history",
-
-    "background and history": "history",
-    "historia de la disputa": "history",
-    "antecedentes históricos": "history",
-    "antecedentes historicos": "history",
-
-    "capture of gibraltar and the treaty of utrecht": "history",
-    "la toma de gibraltar y el tratado de utrecht": "history",
-
-    "spanish irredentism": "history",
-    "la extensión de la colonia de gibraltar": "history",
-
-    "evolución de la disputa desde la segunda guerra mundial": "history",
-
-    "early colonial era (1600s–1821)": "history",
-    "época colonial (1494-1821)": "history",
-
-    "late colonial era (1821–1930s)": "history",
-    "1930s–1975": "history",
-    "1975 to independence in 1981": "history",
-    "post-independence": "history",
-    "developments since 2005": "history",
-
-    "independencia centroamericana y primeros reclamos (1821-1859)": "history",
-    "el tratado wyke-aycinena de 1859": "history",
-    "tensiones en el siglo xx": "history",
-    "reconocimiento de la independencia y renovación del reclamo (1991-1999)": "history",
-
-    "occupación argentina y británica": "history",
-    "ocupacion argentina y britanica": "history",
-
-    "guerra de las malvinas": "history",
-    "falklands war": "history",
-
-    "dispute over the sovereignty of the falkland islands": "history",
-    "disputa sobre la soberanía de las islas malvinas": "history",
-    "disputa sobre la soberania de las islas malvinas": "history",
-
-    "south georgia": "history",
-    "islas georgias del sur": "history",
-
-    "south sandwich islands": "history",
-    "islas sandwich del sur": "history",
-
-    "17th to 19th centuries": "history",
-    "siglos xvii a xix": "history",
-
-    "20th and 21st centuries": "history",
-    "siglos xx y xxi": "history",
-
-    # San Andrés historical sections
-    "united states claims": "history",
-    "reclamaciones de los estados unidos": "history",
-
-    "declaration of self-determination": "history",
-    "declaración de autodeterminación": "history",
-    "declaracion de autodeterminacion": "history",
-
-    "época precolombina": "history",
-    "virreinato": "history",
-    "independencia": "history",
-    "siglo xix": "history",
-    "siglo xx": "history",
-    "siglo xxi": "history",
-
-    # GOVERNMENT / POLITICS
-
-    "government": "government",
-    "gobierno": "government",
-
-    "politics": "government",
-    "política": "government",
-    "politica": "government",
-
-    "government and politics": "government",
-    "gobierno y política": "government",
-    "gobierno y politica": "government",
-
-    "political development": "government",
-    "desarrollo político": "government",
-    "desarrollo politico": "government",
-
-    "gibraltar political development": "government",
-
-    "local government and representation": "government",
-    "gobierno local y representación": "government",
-    "gobierno local y representacion": "government",
-
-    "organización política": "government",
-    "organizacion politica": "government",
-
-    "organización político-administrativa": "government",
-    "organizacion politico-administrativa": "government",
-
-    "división territorial": "government",
-    "division territorial": "government",
-
-    "estructura administrativa": "government",
-
-    "executive council": "government",
-    "consejo ejecutivo": "government",
-
-    "legislative assembly": "government",
-    "asamblea legislativa": "government",
-
-    # DEFENCE / MILITARY
-
-    "defence": "military",
-    "defense": "military",
-    "defensa": "military",
-
-    "military": "military",
-    "militar": "military",
-
-    "military presence": "military",
-    "presencia militar": "military",
-
-    "military importance": "military",
-    "importancia militar": "military",
-
-    "military significance": "military",
-
-    "detention camp": "detention",
-    "detención de prisioneros": "detention",
-    "detencion de prisioneros": "detention",
-
-    "detention": "detention",
-
-    # GEOGRAPHY
-
-    "geography": "geography",
-    "geografía": "geography",
-    "geografia": "geography",
-
-    "physical geography": "geography",
-    "geografía física": "geography",
-    "geografia fisica": "geography",
-
-    "strategic geography": "geostrategy",
-    "geoestrategia": "geostrategy",
-
-    "geological": "geology",
-    "geology": "geology",
-    "geología": "geology",
-    "geologia": "geology",
-
-    "topography": "topography",
-    "topografía": "topography",
-    "topografia": "topography",
-
-    "relieve": "topography",
-
-    "description": "geography",
-    "descripción": "geography",
-    "descripcion": "geography",
-
-    "overview": "overview",
-    "descripción general": "overview",
-    "descripcion general": "overview",
-
-    # PUERTO RICO GEOGRAPHY
-
-    "rivers and lakes": "hydrography",
-    "hidrografía": "hydrography",
-    "hidrografia": "hydrography",
-
-    "mountains": "topography",
-    "montañas": "topography",
-    "montanas": "topography",
-
-    "climatology": "climate",
-    "climatología": "climate",
-    "climatologia": "climate",
-
-    "temperature": "climate",
-    "temperatura": "climate",
-
-    "precipitation": "climate",
-    "precipitación": "climate",
-    "precipitacion": "climate",
-
-    "hurricanes": "climate",
-    "huracanes": "climate",
-
-    # CLIMATE
-
-    "climate": "climate",
-    "clima": "climate",
-
-    # BIODIVERSITY / ECOLOGY
-
-    "biodiversity": "biodiversity",
-    "biodiversidad": "biodiversity",
-
-    "flora and fauna": "biodiversity",
-    "flora y fauna": "biodiversity",
-
-    "wildlife": "biodiversity",
-
-    "fauna": "biodiversity",
-    "flora": "biodiversity",
-
-    "ecology": "ecology",
-    "ecología": "ecology",
-    "ecologia": "ecology",
-
-    "notable fauna": "biodiversity",
-    "fauna notable": "biodiversity",
-
-    "forests": "biodiversity",
-    "bosques": "biodiversity",
-
-    "plants": "biodiversity",
-    "plantas": "biodiversity",
-
-    "native plants": "biodiversity",
-    "plantas nativas": "biodiversity",
-
-    "introduced plants": "biodiversity",
-    "plantas introducidas": "biodiversity",
-
-    "birds": "biodiversity",
-    "aves": "biodiversity",
-
-    "mammals": "biodiversity",
-    "mamíferos": "biodiversity",
-    "mamiferos": "biodiversity",
-
-    "marine ecosystem": "biodiversity",
-    "ecosistema marino": "biodiversity",
-
-    # ECONOMY
-
-    "economy": "economy",
-    "economía": "economy",
-    "economia": "economy",
-
-    "fishing": "fishing",
-    "pesca": "fishing",
-
-    "tourism": "tourism",
-    "turismo": "tourism",
-
-    "postage stamps": "postage",
-    "sellos postales": "postage",
-
-    "currency": "currency",
-    "moneda": "currency",
-
-    "internet domain registration": "internet",
-    "registro de dominios de internet": "internet",
-
-    "time": "time",
-    "hora": "time",
-
-    "represented businesses": "businesses",
-    "empresas y negocios": "businesses",
-
-    "education and schooling": "education",
-    "educación": "education",
-    "educacion": "education",
-
-    # DEMOGRAPHICS
-
-    "demographics": "demographics",
-    "demografía": "demographics",
-    "demografia": "demographics",
-
-    "demography": "demographics",
-
-    "population": "demographics",
-    "población": "demographics",
-    "poblacion": "demographics",
-
-    "demographics and ethnography": "demographics",
-    "demografía y etnografía": "demographics",
-    "demografia y etnografia": "demographics",
-
-    "ethnic composition": "demographics",
-    "composición étnica": "demographics",
-    "composicion etnica": "demographics",
-
-    "language": "language",
-    "idioma": "language",
-    "languages": "language",
-    "comunicaciones": "communications",
-
-    "immigration": "demographics",
-    "inmigración": "demographics",
-    "inmigracion": "demographics",
-
-    # RELIGION
-
-    "religion": "religion",
-    "religión": "religion",
-    "religion": "religion",
-
-    # CULTURE
-
-    "culture": "culture",
-    "cultura": "culture",
-
-    "gastronomy": "culture",
-    "gastronomía": "culture",
-    "gastronomia": "culture",
-
-    "festivals": "culture",
-    "festividades": "culture",
-
-    # SPORT
-
-    "sport": "sport",
-    "sports": "sport",
-    "deporte": "sport",
-    "deportes": "sport",
-
-    # GIBRALTAR-SPECIFIC POLITICAL SECTIONS
-
-    "differing positions": "positions",
-    "posiciones divergentes": "positions",
-
-    "british position": "british_position",
-    "posición británica": "british_position",
-    "posicion britanica": "british_position",
-
-    "gibraltarian position": "gibraltarian_position",
-    "posición de gibraltar": "gibraltarian_position",
-    "posicion de gibraltar": "gibraltarian_position",
-
-    "spanish position": "spanish_position",
-    "posición española": "spanish_position",
-    "posicion espanola": "spanish_position",
-
-    "resolution discussions": "resolution",
-    "propuestas de resolución del conflicto": "resolution",
-    "propuestas de resolucion del conflicto": "resolution",
-
-    "areas of contention": "contention",
-    "áreas de controversia": "contention",
-    "areas de controversia": "contention",
-
-    "isthmus": "isthmus",
-    "el istmo": "isthmus",
-
-    "territorial waters": "territorial_waters",
-    "aguas territoriales": "territorial_waters",
-
-    "re-emergence of dispute": "dispute",
-    "reemergencia de la disputa": "dispute",
-
-    "1953: rekindling the dispute": "dispute",
-    "1967 and 2002 referendums": "referendums",
-    "1967 y 2002": "referendums",
-
-    "spanish restrictions": "spanish_restrictions",
-    "restricciones españolas": "spanish_restrictions",
-
-    "disputes prior to brexit": "dispute",
-    "disputas previas al brexit": "dispute",
-
-    "effect of brexit": "dispute",
-    "efecto del brexit": "dispute",
-
-    "eu withdrawal agreement": "eu_agreement",
-    "acuerdo de retirada de la ue": "eu_agreement",
-
-    # GUANTANAMO-SPECIFIC SECTIONS
-
-    "current operations": "operations",
-    "operaciones actuales": "operations",
-
-    "units and commands": "units",
-    "unidades y comandos": "units",
-
-    "cargo shipping": "shipping",
-    "envío de carga": "shipping",
-    "envio de carga": "shipping",
-
-    "airfields": "airfields",
-    "aeródromos": "airfields",
-    "aerodromos": "airfields",
-
-    "businesses": "businesses",
-
-    "the no man's land and the cactus curtain": "border",
-    "la “tierra de nadie” y el cactus courtain": "border",
-    "la 'tierra de nadie' y el cactus courtain": "border",
-
-    "land mines": "border",
-    "minas terrestres": "border",
-
-    "resident units": "units",
-    "unidades para residentes": "units",
-
-    "assigned units": "units",
-    "unidades asignadas": "units",
-
-    "civilian contractors": "units",
-    "contratistas civiles": "units",
-
-    # BELIZE / GUATEMALA
-
-    "international court of justice": "icj",
-    "corte internacional de justicia": "icj",
-
-    "path to the international court of justice": "icj",
-    "camino hacia la corte internacional de justicia": "icj",
-
-    "the 2008 special agreement and its postponements": "icj",
-    "el acuerdo especial de 2008 y sus aplazamientos": "icj",
-
-    "popular consultations (2018–2019)": "icj",
-    "las consultas populares (2018-2019)": "icj",
-
-    "the proceedings before the international court of justice": "icj",
-    "el proceso ante la corte internacional de justicia": "icj",
-
-    "written phase": "icj",
-    "fase escrita": "icj",
-
-    "oral hearings": "icj",
-    "audiencias orales": "icj",
-
-    "related case: sovereignty over the sapodilla cayes": "sapodilla",
-    "caso relacionado: soberanía sobre los cayos zapotillos": "sapodilla",
-    "caso relacionado: soberania sobre los cayos zapotillos": "sapodilla",
-
-    "bilateral relations and common agenda": "bilateral_relations",
-    "relaciones bilaterales y agenda común": "bilateral_relations",
-    "relaciones bilaterales y agenda comun": "bilateral_relations",
-
-    "international position and outlook": "international_position",
-    "posición internacional y perspectivas": "international_position",
-    "posicion internacional y perspectivas": "international_position",
-
-    # BAJO NUEVO / SERRANILLA
-
-    "territorial dispute": "territorial_dispute",
-    "historia y disputas sobre su soberanía": "territorial_dispute",
-    "historia y disputas sobre su soberania": "territorial_dispute",
-
-    "see also": "see_also",
-    "véase también": "see_also",
-    "vease tambien": "see_also",
-
-    # SAN ANDRÉS
-
-    "island of san andrés": "san_andres",
-    "island of san andres": "san_andres",
-
-    "san andrés island": "san_andres",
-    "san andres island": "san_andres",
-
-    "cayos de albuquerque (cayos de s.w., southwest cays)": "albuquerque",
-    "cayos de albuquerque": "albuquerque",
-
-    "cayos del este sudeste (courtown cays, cayos de e.s.e.)": "courtown",
-    "banks and shoals": "banks_shoals",
-
-    # SOUTH GEORGIA
-
-    "south georgia group": "south_georgia",
-    "grupo de las islas georgias del sur": "south_georgia",
-
-    "islands within the south georgia group": "south_georgia",
-    "islas dentro del grupo de las islas georgias del sur": "south_georgia",
-
-    "south sandwich islands": "south_sandwich",
-
-    "extreme points": "extreme_points",
-    "puntos extremos": "extreme_points",
-
-    "fishing": "fishing",
-    "pesca": "fishing",
-
-    "protected marine area": "marine_protected_area",
-    "área marina protegida": "marine_protected_area",
-    "area marina protegida": "marine_protected_area",
-
-    # TAIL SECTIONS
-
-    "notes": "notes",
-    "notas": "notes",
-
-    "references": "references",
-    "referencias": "references",
-
-    "bibliography": "bibliography",
-    "bibliografía": "bibliography",
-    "bibliografia": "bibliography",
-
-    "further reading": "further_reading",
-    "lecturas adicionales": "further_reading",
-
-    "external links": "external_links",
-    "enlaces externos": "external_links",
-}
-
-
-# VALIDATION / ACCESS
+# SECTION ACCESS
 
 def get_sections(article_data: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return the sections from an extract_qids() article dictionary."""
     if not isinstance(article_data, dict):
         raise TypeError(
             "article_data must be the dictionary returned by extract_qids()."
@@ -614,27 +57,28 @@ def get_sections(article_data: dict[str, Any]) -> list[dict[str, Any]]:
     sections = article_data.get("sections")
 
     if not isinstance(sections, list):
-        raise ValueError(
-            "The extract_qids() result needs a 'sections' list."
-        )
+        raise ValueError("The article must contain a 'sections' list.")
 
-    for i, s in enumerate(sections):
-        if not isinstance(s, dict) or "text" not in s:
+    for i, section in enumerate(sections):
+        if not isinstance(section, dict) or "text" not in section:
             raise ValueError(
-                f"Section {i} must be a dict with a 'text' field."
+                f"Section {i} must be a dictionary containing 'text'."
             )
 
     return sections
 
 
 def _validate_articles(
-    a: dict[str, Any],
-    b: dict[str, Any],
+    article_a: dict[str, Any],
+    article_b: dict[str, Any],
 ) -> None:
-    if a.get("language", "unknown") == b.get("language", "unknown"):
+    language_a = article_a.get("language", "unknown")
+    language_b = article_b.get("language", "unknown")
+
+    if language_a == language_b:
         raise ValueError(
-            "The two articles must be in different languages "
-            f"(both are {a.get('language')!r})."
+            "The articles must be in different languages. "
+            f"Both have language={language_a!r}."
         )
 
 
@@ -643,14 +87,17 @@ def _section_id(
     section: dict[str, Any],
     position: int,
 ) -> str:
-    """Plain index-based id, e.g. 'en:Q9648:3'."""
-
+    """Return the section ID, or construct one if it is missing."""
     if section.get("section_id"):
         return str(section["section_id"])
 
-    idx = section.get("section_idx", position)
+    index = section.get("section_idx", position)
+    article_id = article.get(
+        "article_id",
+        f"{article.get('language', 'x')}:{article.get('article_qid', '')}",
+    )
 
-    return f"{article.get('article_id', article.get('language', 'x'))}:{idx}"
+    return f"{article_id}:{index}"
 
 
 def _heading(section: dict[str, Any]) -> str:
@@ -665,12 +112,77 @@ def _usable(section: dict[str, Any]) -> bool:
     return len((section.get("text") or "").strip()) >= MIN_TEXT_CHARS
 
 
-# EVIDENCE 1: QIDS
+# METHOD 1: MANUAL ALIGNMENT
+
+# Headings with equivalent meanings across English and Spanish.
+HEADING_CANON = {
+    "lead": "lead",
+    "inicio": "lead",
+    "introducción": "lead",
+    "introduccion": "lead",
+    "resumen": "lead",
+
+    "history": "history",
+    "historia": "history",
+    "background and history": "history",
+    "antecedentes históricos": "history",
+    "antecedentes historicos": "history",
+
+    "geography": "geography",
+    "geografía": "geography",
+    "geografia": "geography",
+    "physical geography": "geography",
+    "geografía física": "geography",
+    "geografia fisica": "geography",
+
+    "government": "government",
+    "gobierno": "government",
+    "politics": "government",
+    "política": "government",
+    "politica": "government",
+
+    "economy": "economy",
+    "economía": "economy",
+    "economia": "economy",
+
+    "population": "population",
+    "población": "population",
+    "poblacion": "population",
+    "demographics": "population",
+    "demografía": "population",
+    "demografia": "population",
+
+    "climate": "climate",
+    "clima": "climate",
+
+    "military": "military",
+    "militar": "military",
+    "defence": "military",
+    "defense": "military",
+    "defensa": "military",
+
+    "culture": "culture",
+    "cultura": "culture",
+
+    "references": "references",
+    "referencias": "references",
+    "external links": "external_links",
+    "enlaces externos": "external_links",
+    "see also": "see_also",
+    "véase también": "see_also",
+    "vease tambien": "see_also",
+}
+
+
+def _canonical_heading(heading: str) -> str | None:
+    return HEADING_CANON.get(heading.strip().lower())
+
 
 def _section_qids(
     section: dict[str, Any],
     excluded: set[str],
 ) -> set[str]:
+    """Get the Wikidata QIDs mentioned in a section."""
     return {
         span["qid"]
         for span in section.get("spans", [])
@@ -681,99 +193,69 @@ def _section_qids(
 def _idf_weights(
     all_qid_sets: list[set[str]],
 ) -> dict[str, float]:
-    """
-    QIDs that occur in many sections carry less weight.
-    """
-
-    n = len(all_qid_sets)
-
-    df: dict[str, int] = {}
+    """Give more weight to QIDs that appear in fewer sections."""
+    document_frequency: dict[str, int] = {}
 
     for qids in all_qid_sets:
-        for q in qids:
-            df[q] = df.get(q, 0) + 1
+        for qid in qids:
+            document_frequency[qid] = (
+                document_frequency.get(qid, 0) + 1
+            )
+
+    number_of_sections = len(all_qid_sets)
 
     return {
-        q: math.log((n + 1) / (count + 1)) + 1.0
-        for q, count in df.items()
+        qid: math.log(
+            (number_of_sections + 1) / (count + 1)
+        ) + 1.0
+        for qid, count in document_frequency.items()
     }
 
 
 def _weighted_jaccard(
     a: set[str],
     b: set[str],
-    w: dict[str, float],
+    weights: dict[str, float],
 ) -> float:
     if not a or not b:
         return 0.0
 
-    inter = sum(
-        w.get(q, 1.0)
-        for q in a & b
-    )
+    intersection = sum(weights.get(qid, 1.0) for qid in a & b)
+    union = sum(weights.get(qid, 1.0) for qid in a | b)
 
-    union = sum(
-        w.get(q, 1.0)
-        for q in a | b
-    )
+    return intersection / union if union else 0.0
 
-    return inter / union if union else 0.0
-
-
-# EVIDENCE 2: NUMBERS
 
 _NUMBER_RE = re.compile(r"\b\d{3,4}\b")
 
 
 def _numbers(text: str) -> set[str]:
-    return set(
-        _NUMBER_RE.findall(text or "")
-    )
+    return set(_NUMBER_RE.findall(text or ""))
 
 
-def _number_similarity(
-    a: set[str],
-    b: set[str],
-) -> float:
+def _number_similarity(a: set[str], b: set[str]) -> float:
     if not a or not b:
         return 0.0
 
     return len(a & b) / len(a | b)
 
 
-# EVIDENCE 3: HEADINGS
+def _heading_similarity(heading_a: str, heading_b: str) -> float:
+    canonical_a = _canonical_heading(heading_a)
+    canonical_b = _canonical_heading(heading_b)
 
-def _canonical_heading(
-    heading: str,
-) -> str | None:
-    return HEADING_CANON.get(
-        heading.strip().lower()
-    )
+    if canonical_a and canonical_b:
+        return float(canonical_a == canonical_b)
 
-
-def _heading_similarity(
-    h_a: str,
-    h_b: str,
-) -> float:
-    ca = _canonical_heading(h_a)
-    cb = _canonical_heading(h_b)
-
-    if ca and cb:
-        return 1.0 if ca == cb else 0.0
-
-    # Unknown headings: identical strings still count.
     if (
-        h_a
-        and h_b
-        and h_a.strip().lower()
-        == h_b.strip().lower()
+        heading_a
+        and heading_b
+        and heading_a.strip().lower() == heading_b.strip().lower()
     ):
         return 1.0
 
     return 0.0
 
-
-# EVIDENCE 4: POSITION
 
 def _position_similarity(
     i: int,
@@ -781,358 +263,449 @@ def _position_similarity(
     j: int,
     n_b: int,
 ) -> float:
-    pa = i / max(n_a - 1, 1)
-    pb = j / max(n_b - 1, 1)
+    position_a = i / max(n_a - 1, 1)
+    position_b = j / max(n_b - 1, 1)
 
-    return 1.0 - abs(pa - pb)
+    return 1.0 - abs(position_a - position_b)
 
 
-# SCORE MATRIX
-
-def build_score_matrix(
+def build_manual_score_matrix(
     article_a: dict[str, Any],
     article_b: dict[str, Any],
     sections_a: list[dict[str, Any]],
     sections_b: list[dict[str, Any]],
 ) -> np.ndarray:
-    """
-    Combined manual score for every (A, B) section pair.
-    """
-
-    # QIDs describing the whole article occur everywhere;
-    # ignore them.
+    """Calculate a manual-method score for every possible section pair."""
     excluded = {
-        q
-        for q in (
+        qid
+        for qid in (
             article_a.get("article_qid"),
             article_b.get("article_qid"),
         )
-        if q
+        if qid
     }
 
-    qids_a = [
-        _section_qids(
-            s,
-            excluded,
-        )
-        for s in sections_a
-    ]
+    qids_a = [_section_qids(s, excluded) for s in sections_a]
+    qids_b = [_section_qids(s, excluded) for s in sections_b]
 
-    qids_b = [
-        _section_qids(
-            s,
-            excluded,
-        )
-        for s in sections_b
-    ]
+    weights = _idf_weights(qids_a + qids_b)
 
-    weights = _idf_weights(
-        qids_a + qids_b
-    )
-
-    nums_a = [
-        _numbers(
-            s.get("text", "")
-        )
-        for s in sections_a
-    ]
-
-    nums_b = [
-        _numbers(
-            s.get("text", "")
-        )
-        for s in sections_b
-    ]
+    numbers_a = [_numbers(s.get("text", "")) for s in sections_a]
+    numbers_b = [_numbers(s.get("text", "")) for s in sections_b]
 
     n_a = len(sections_a)
     n_b = len(sections_b)
+    matrix = np.zeros((n_a, n_b), dtype=float)
 
-    matrix = np.zeros(
-        (n_a, n_b),
-        dtype=float,
-    )
-
-    for i, sa in enumerate(sections_a):
-        for j, sb in enumerate(sections_b):
-
-            if not (
-                _usable(sa)
-                and _usable(sb)
-            ):
+    for i, section_a in enumerate(sections_a):
+        for j, section_b in enumerate(sections_b):
+            if not (_usable(section_a) and _usable(section_b)):
                 continue
 
             score = (
                 WEIGHT_QID
-                * _weighted_jaccard(
-                    qids_a[i],
-                    qids_b[j],
-                    weights,
-                )
+                * _weighted_jaccard(qids_a[i], qids_b[j], weights)
                 + WEIGHT_NUMBER
-                * _number_similarity(
-                    nums_a[i],
-                    nums_b[j],
-                )
+                * _number_similarity(numbers_a[i], numbers_b[j])
                 + WEIGHT_HEADING
                 * _heading_similarity(
-                    _heading(sa),
-                    _heading(sb),
+                    _heading(section_a),
+                    _heading(section_b),
                 )
                 + WEIGHT_POSITION
-                * _position_similarity(
-                    i,
-                    n_a,
-                    j,
-                    n_b,
-                )
+                * _position_similarity(i, n_a, j, n_b)
             )
 
-            # Lead <-> lead is a safe rule.
+            # The two lead sections are treated as corresponding.
             if (
-                _canonical_heading(
-                    _heading(sa)
-                ) == "lead"
-                and
-                _canonical_heading(
-                    _heading(sb)
-                ) == "lead"
+                _canonical_heading(_heading(section_a)) == "lead"
+                and _canonical_heading(_heading(section_b)) == "lead"
             ):
-                score = max(
-                    score,
-                    LEAD_BONUS_SCORE,
-                )
+                score = max(score, 1.0)
 
             matrix[i, j] = score
 
     return matrix
 
 
-# ONE-TO-ONE ASSIGNMENT
-
 def one_to_one_alignment(
     matrix: np.ndarray,
-    min_score: float,
+    min_score: float = DEFAULT_MIN_SCORE,
 ) -> list[tuple[int, int, float]]:
-    """
-    Hungarian assignment maximising total score;
-    drops pairs < min_score.
-    """
-
+    """Select the highest-scoring one-to-one pairs using Hungarian matching."""
     if matrix.size == 0:
         return []
 
-    rows, cols = linear_sum_assignment(
-        matrix,
-        maximize=True,
-    )
+    rows, columns = linear_sum_assignment(matrix, maximize=True)
 
     aligned = [
-        (
-            int(r),
-            int(c),
-            float(matrix[r, c]),
-        )
-        for r, c in zip(rows, cols)
-        if matrix[r, c] >= min_score
+        (int(i), int(j), float(matrix[i, j]))
+        for i, j in zip(rows, columns)
+        if matrix[i, j] >= min_score
     ]
 
-    aligned.sort(
-        key=lambda t: t[0]
-    )
-
-    return aligned
+    return sorted(aligned, key=lambda pair: pair[0])
 
 
-# OUTPUT FORMATTING
-
-def build_section_pairs(
+def _format_pairs(
     article_a: dict[str, Any],
     article_b: dict[str, Any],
     sections_a: list[dict[str, Any]],
     sections_b: list[dict[str, Any]],
     aligned: list[tuple[int, int, float]],
+    method_label: str,
 ) -> list[dict[str, Any]]:
-    """
-    Convert aligned section indices into the manual alignment format.
-
-    alignment_score:
-        Identifies the alignment method as "Manual".
-
-    numeric_alignment_score:
-        Preserves the calculated numeric score produced by the
-        QID + number + heading + position scoring system.
-    """
-
+    """Format pairs using the required five-field JSON structure."""
     pairs = []
 
     for pair_index, (i, j, score) in enumerate(aligned):
-
-        section_id_a = _section_id(
-            article_a,
-            sections_a[i],
-            i,
-        )
-
-        section_id_b = _section_id(
-            article_b,
-            sections_b[j],
-            j,
-        )
-
-        pairs.append(
-            {
-                "section_id_a": section_id_a,
-                "section_id_b": section_id_b,
-                "pair_id": f"section_{pair_index}",
-                "alignment_score": "Manual",
-                "numeric_alignment_score": round(
-                    score,
-                    4,
-                ),
-            }
-        )
+        pairs.append({
+            "section_id_a": _section_id(article_a, sections_a[i], i),
+            "section_id_b": _section_id(article_b, sections_b[j], j),
+            "pair_id": f"section_{pair_index}",
+            "alignment_score": method_label,
+            "numeric_alignment_score": round(float(score), 4),
+        })
 
     return pairs
 
-
-# PUBLIC API
 
 def align_sections(
     article_a: dict[str, Any],
     article_b: dict[str, Any],
     min_score: float = DEFAULT_MIN_SCORE,
 ) -> list[dict[str, Any]]:
-    """
-    Align the sections of two articles in different languages.
-    """
+    """Run the manual alignment method."""
+    _validate_articles(article_a, article_b)
 
-    sections_a = get_sections(
-        article_a
-    )
+    sections_a = get_sections(article_a)
+    sections_b = get_sections(article_b)
 
-    sections_b = get_sections(
-        article_b
-    )
-
-    _validate_articles(
-        article_a,
-        article_b,
-    )
-
-    matrix = build_score_matrix(
+    matrix = build_manual_score_matrix(
         article_a,
         article_b,
         sections_a,
         sections_b,
     )
 
-    aligned = one_to_one_alignment(
-        matrix,
-        min_score,
-    )
+    aligned = one_to_one_alignment(matrix, min_score)
 
-    return build_section_pairs(
+    return _format_pairs(
         article_a,
         article_b,
         sections_a,
         sections_b,
         aligned,
+        "Manual",
     )
 
+
+# SENTENCE BEST MEDIAN
+
+_translation_tokenizer = None
+_translation_model = None
+
+
+def _load_translation_model():
+    """Load the Spanish-to-English translation model on CPU, when needed."""
+    global _translation_tokenizer, _translation_model
+
+    if _translation_tokenizer is None or _translation_model is None:
+        print(f"Loading translation model: {TRANSLATION_MODEL}")
+
+        _translation_tokenizer = MarianTokenizer.from_pretrained(
+            TRANSLATION_MODEL
+        )
+        _translation_model = MarianMTModel.from_pretrained(
+            TRANSLATION_MODEL
+        ).to(torch.device("cpu"))
+
+        _translation_model.eval()
+
+    return _translation_tokenizer, _translation_model
+
+
+def _split_for_translation(text: str, max_chars: int = 1000) -> list[str]:
+    """Split text into chunks to avoid truncating long sections."""
+    text = (text or "").strip()
+
+    if not text:
+        return []
+
+    paragraphs = re.split(r"\n\s*\n", text)
+    chunks = []
+    current = ""
+
+    for paragraph in paragraphs:
+        paragraph = paragraph.strip()
+
+        if not paragraph:
+            continue
+
+        sentences = re.split(r"(?<=[.!?])\s+", paragraph)
+
+        for sentence in sentences:
+            sentence = sentence.strip()
+
+            if not sentence:
+                continue
+
+            if len(sentence) > max_chars:
+                if current:
+                    chunks.append(current)
+                    current = ""
+
+                for start in range(0, len(sentence), max_chars):
+                    chunks.append(sentence[start:start + max_chars])
+
+            elif current and len(current) + len(sentence) + 1 > max_chars:
+                chunks.append(current)
+                current = sentence
+
+            else:
+                current = f"{current} {sentence}".strip()
+
+    if current:
+        chunks.append(current)
+
+    return chunks
+
+
+@lru_cache(maxsize=2048)
+def _translate_chunk(chunk: str) -> str:
+    """Translate one Spanish text chunk into English."""
+    tokenizer, model = _load_translation_model()
+
+    encoded = tokenizer(
+        chunk,
+        return_tensors="pt",
+        truncation=True,
+        max_length=512,
+    )
+
+    with torch.inference_mode():
+        translated = model.generate(
+            **encoded,
+            max_new_tokens=512,
+            num_beams=4,
+        )
+
+    return tokenizer.decode(
+        translated[0],
+        skip_special_tokens=True,
+    ).strip()
+
+
+def _translate_spanish_to_english(text: str) -> str:
+    chunks = _split_for_translation(text)
+
+    return " ".join(
+        _translate_chunk(chunk)
+        for chunk in chunks
+    )
+
+
+def _prepare_english_text(
+    text: str,
+    language: str,
+) -> str:
+    if language.lower().startswith("es"):
+        return _translate_spanish_to_english(text)
+
+    return text or ""
+
+
+def _split_sentences(text: str) -> list[str]:
+    """Split text into non-empty sentences."""
+    text = re.sub(r"\s+", " ", text or "").strip()
+
+    if not text:
+        return []
+
+    return [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+", text)
+        if sentence.strip()
+    ]
+
+
+def _bert_f1_scores(
+    candidates: list[str],
+    references: list[str],
+) -> list[float]:
+    """Calculate BERTScore F1 values on CPU."""
+    if not candidates:
+        return []
+
+    _, _, f1 = bert_score(
+        candidates,
+        references,
+        model_type=BERTSCORE_MODEL,
+        lang="en",
+        device="cpu",
+        batch_size=16,
+        verbose=False,
+    )
+
+    return [float(value) for value in f1.tolist()]
+
+
+def _sentence_best_median_score(
+    text_a: str,
+    text_b: str,
+) -> float:
+    """
+    Compare every sentence pair.
+
+    Each sentence selects its best match in the other section.
+    The median of the best matches from both directions is the score.
+    """
+    sentences_a = _split_sentences(text_a)
+    sentences_b = _split_sentences(text_b)
+
+    if not sentences_a or not sentences_b:
+        return 0.0
+
+    candidates = []
+    references = []
+
+    for sentence_a in sentences_a:
+        for sentence_b in sentences_b:
+            candidates.append(sentence_a)
+            references.append(sentence_b)
+
+    flat_scores = _bert_f1_scores(candidates, references)
+
+    matrix = [
+        flat_scores[
+            i * len(sentences_b):(i + 1) * len(sentences_b)
+        ]
+        for i in range(len(sentences_a))
+    ]
+
+    # Best matching sentence in B for each sentence in A.
+    best_a_to_b = [max(row) for row in matrix]
+
+    # Best matching sentence in A for each sentence in B.
+    best_b_to_a = [
+        max(matrix[i][j] for i in range(len(sentences_a)))
+        for j in range(len(sentences_b))
+    ]
+
+    all_best_matches = best_a_to_b + best_b_to_a
+
+    return float(np.median(all_best_matches))
+
+
+def build_bertscore_matrix(
+    article_a: dict[str, Any],
+    article_b: dict[str, Any],
+    experiment_name: str = "sentence_best_median",
+) -> np.ndarray:
+    """
+    Build a BERTScore matrix using only sentence_best_median.
+
+    experiment_name is retained for compatibility with main.py.
+    No other BERTScore experiments are supported in this file.
+    """
+    if experiment_name != "sentence_best_median":
+        raise ValueError(
+            "Only the 'sentence_best_median' experiment is supported."
+        )
+
+    _validate_articles(article_a, article_b)
+
+    sections_a = get_sections(article_a)
+    sections_b = get_sections(article_b)
+
+    language_a = article_a.get("language", "")
+    language_b = article_b.get("language", "")
+
+    texts_a = [
+        _prepare_english_text(section.get("text", ""), language_a)
+        for section in sections_a
+    ]
+    texts_b = [
+        _prepare_english_text(section.get("text", ""), language_b)
+        for section in sections_b
+    ]
+
+    matrix = np.zeros(
+        (len(sections_a), len(sections_b)),
+        dtype=float,
+    )
+
+    for i, section_a in enumerate(sections_a):
+        if not _usable(section_a):
+            continue
+
+        for j, section_b in enumerate(sections_b):
+            if not _usable(section_b):
+                continue
+
+            matrix[i, j] = _sentence_best_median_score(
+                texts_a[i],
+                texts_b[j],
+            )
+
+    return matrix
+
+
+def align_sections_sentence_best_median(
+    article_a: dict[str, Any],
+    article_b: dict[str, Any],
+    min_score: float = DEFAULT_MIN_SCORE,
+) -> list[dict[str, Any]]:
+    """Run sentence_best_median and return formatted one-to-one pairs."""
+    sections_a = get_sections(article_a)
+    sections_b = get_sections(article_b)
+
+    matrix = build_bertscore_matrix(
+        article_a=article_a,
+        article_b=article_b,
+        experiment_name="sentence_best_median",
+    )
+
+    aligned = one_to_one_alignment(matrix, min_score)
+
+    return _format_pairs(
+        article_a,
+        article_b,
+        sections_a,
+        sections_b,
+        aligned,
+        "Best Sentence Median",
+    )
+
+
+# OUTPUT HELPERS
 
 def save_alignment(
     pairs: list[dict[str, Any]],
     output_path: str,
 ) -> None:
-
-    with open(
-        output_path,
-        "w",
-        encoding="utf-8",
-    ) as f:
-
+    with open(output_path, "w", encoding="utf-8") as file:
         json.dump(
             pairs,
-            f,
+            file,
             ensure_ascii=False,
             indent=4,
         )
 
 
-def display_alignment(
-    pairs: list[dict[str, Any]],
-) -> None:
-
-    print(
-        "\n" + "=" * 80
-    )
-
-    print(
-        "SECTION ALIGNMENTS"
-    )
-
-    print(
-        "=" * 80
-    )
+def display_alignment(pairs: list[dict[str, Any]]) -> None:
+    print("\n" + "=" * 80)
+    print("SECTION ALIGNMENTS")
+    print("=" * 80)
 
     if not pairs:
-        print(
-            "No section pairs passed the threshold."
-        )
+        print("No section pairs passed the threshold.")
         return
 
-    for p in pairs:
-
+    for pair in pairs:
         print(
-            f"{p['section_id_a']}  <->  "
-            f"{p['section_id_b']}  "
-            f"{p['pair_id']}  "
-            f"{p['alignment_score']}  "
-            f"score={p['numeric_alignment_score']:.4f}"
-        )
-
-
-# CLI
-
-if __name__ == "__main__":
-
-    import sys
-
-    if len(sys.argv) < 3:
-
-        print(
-            "usage: python section_alignment.py "
-            "article_en.json article_es.json [out.json]"
-        )
-
-        raise SystemExit(1)
-
-    with open(
-        sys.argv[1],
-        encoding="utf-8",
-    ) as f:
-
-        art_a = json.load(f)
-
-    with open(
-        sys.argv[2],
-        encoding="utf-8",
-    ) as f:
-
-        art_b = json.load(f)
-
-    result = align_sections(
-        art_a,
-        art_b,
-    )
-
-    display_alignment(
-        result
-    )
-
-    if len(sys.argv) > 3:
-
-        save_alignment(
-            result,
-            sys.argv[3],
+            f"{pair['section_id_a']} <-> {pair['section_id_b']}  "
+            f"{pair['pair_id']}  "
+            f"{pair['alignment_score']}  "
+            f"score={pair['numeric_alignment_score']:.4f}"
         )

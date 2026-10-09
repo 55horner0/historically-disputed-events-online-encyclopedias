@@ -3,18 +3,19 @@ import json
 from utilities.extract_qids import extract_qids
 from utilities.alignment import (
     align_sections,
+    align_sections_sentence_best_median,
     display_alignment,
     save_alignment,
 )
 
-from utilities.load_models import load_MPropositioneur_V2, load_Qwen3_8B_via_llama_cpp
-from utilities.omission import calculate_omission
-from utilities.propositions import extract_propositions
-from utilities.triplets import extract_triplets
+# from utilities.load_models import load_MPropositioneur_V2, load_Qwen3_8B_via_llama_cpp
+# from utilities.omission import calculate_omission
+# from utilities.propositions import extract_propositions
+# from utilities.triplets import extract_triplets
 
-# download the model propositioner
-model_AP, tokenizer_AP = (load_MPropositioneur_V2())
-model_triplets = load_Qwen3_8B_via_llama_cpp()
+# # download the model propositioner
+# model_AP, tokenizer_AP = (load_MPropositioneur_V2())
+# model_triplets = load_Qwen3_8B_via_llama_cpp()
 
 # Extract the two articles
 data_en = extract_qids(
@@ -30,84 +31,116 @@ data_es = extract_qids(
     verbose=False,
 )
 
-alignment_results = align_sections(
-    article_a=data_en,
-    article_b=data_es,
-    min_score=0.20,
-)
+
+# ALIGNMENT METHOD
+# Choose "manual" or "sentence_best_median".
+ALIGNMENT_METHOD = "sentence_best_median"
+
+MIN_SCORE = 0.20
+
+if ALIGNMENT_METHOD == "manual":
+    alignment_results = align_sections(
+        article_a=data_en,
+        article_b=data_es,
+        min_score=MIN_SCORE,
+    )
+    output_path = (
+        "results/"
+        "falkland_malvinas_alignment_manual.json"
+    )
+
+elif ALIGNMENT_METHOD == "sentence_best_median":
+    alignment_results = align_sections_sentence_best_median(
+        article_a=data_en,
+        article_b=data_es,
+        min_score=MIN_SCORE,
+    )
+    output_path = (
+        "results/"
+        "falkland_malvinas_alignment_best_sentence_median.json"
+    )
+
+else:
+    raise ValueError(
+        f"Unknown alignment method: {ALIGNMENT_METHOD!r}"
+    )
 
 display_alignment(alignment_results)
+
 save_alignment(
     alignment_results,
-    "falkland_malvinas_alignment.json",
+    output_path,
 )
 
-propositions_list_es = []
+print(f"Alignment method: {ALIGNMENT_METHOD}")
+print(f"Saved {len(alignment_results)} pairs to: {output_path}")
 
-for section in data_es["sections"]:
-    propositions = extract_propositions(
-            section=section,
-            model=model_AP,
-            tokenizer=tokenizer_AP,
-            chunk_max_tokens=200,
-            max_new_tokens=3048)
+# propositions_list_es = []
 
-        # extend instead of append so that the final JSON
-        # contains one flat list of propositions.
+# for section in data_es["sections"]:
+#     propositions = extract_propositions(
+#             section=section,
+#             model=model_AP,
+#             tokenizer=tokenizer_AP,
+#             chunk_max_tokens=200,
+#             max_new_tokens=3048)
 
-    propositions_list_es.extend(propositions)
+#         # extend instead of append so that the final JSON
+#         # contains one flat list of propositions.
 
-    # -----------------------------------------------------------------
-    # Save JSON
-    # -----------------------------------------------------------------
+#     propositions_list_es.extend(propositions)
 
-with open("propositions_es.json", "w", encoding="utf-8") as file:
-    json.dump( propositions_list_es, file, indent=4, ensure_ascii=False)
+#     # -----------------------------------------------------------------
+#     # Save JSON
+#     # -----------------------------------------------------------------
 
-print("-----------------------------------")
-print("Atomization completed")
-print(f"Total propositions: {len(propositions_list_es)}")
-print(f"Saved to: propositions_es.json")
-print("-----------------------------------")
+# with open("propositions_es.json", "w", encoding="utf-8") as file:
+#     json.dump( propositions_list_es, file, indent=4, ensure_ascii=False)
 
-
-propositions_list_en = []
-
-for section in data_en["sections"]:
-    propositions = extract_propositions(
-            section=section,
-            model=model_AP,
-            tokenizer=tokenizer_AP,
-            chunk_max_tokens=200,
-            max_new_tokens=3048)
-
-        # extend instead of append so that the final JSON
-        # contains one flat list of propositions.
-
-    propositions_list_en.extend(propositions)
-
-    # -----------------------------------------------------------------
-    # Save JSON
-    # -----------------------------------------------------------------
-
-with open("propositions_en.json", "w", encoding="utf-8") as file:
-    json.dump( propositions_list_en, file, indent=4, ensure_ascii=False)
-
-print("-----------------------------------")
-print("Atomization completed")
-print(f"Total propositions: {len(propositions_list_en)}")
-print(f"Saved to: propositions_en.json")
-print("-----------------------------------")
+# print("-----------------------------------")
+# print("Atomization completed")
+# print(f"Total propositions: {len(propositions_list_es)}")
+# print(f"Saved to: propositions_es.json")
+# print("-----------------------------------")
 
 
-triplets_en = extract_triplets( propositions_list_en, model_triplets, lenguage="en")
+# propositions_list_en = []
 
-with open( "triplets_en.json", "w", encoding="utf-8" ) as f:
-    json.dump(triplets_en, f, indent=4, ensure_ascii=False)
-    print("Triples saved to triplets_en.json")
+# for section in data_en["sections"]:
+#     propositions = extract_propositions(
+#             section=section,
+#             model=model_AP,
+#             tokenizer=tokenizer_AP,
+#             chunk_max_tokens=200,
+#             max_new_tokens=3048)
 
-triplets_es = extract_triplets( propositions_list_es, model_triplets, lenguage="es")
+#         # extend instead of append so that the final JSON
+#         # contains one flat list of propositions.
 
-with open( "triplets_es.json", "w", encoding="utf-8" ) as f:
-    json.dump(triplets_es, f, indent=4, ensure_ascii=False)
-    print("Triples saved to triplets_es.json")
+#     propositions_list_en.extend(propositions)
+
+#     # -----------------------------------------------------------------
+#     # Save JSON
+#     # -----------------------------------------------------------------
+
+# with open("propositions_en.json", "w", encoding="utf-8") as file:
+#     json.dump( propositions_list_en, file, indent=4, ensure_ascii=False)
+
+# print("-----------------------------------")
+# print("Atomization completed")
+# print(f"Total propositions: {len(propositions_list_en)}")
+# print(f"Saved to: propositions_en.json")
+# print("-----------------------------------")
+
+
+# triplets_en = extract_triplets( propositions_list_en, model_triplets, lenguage="en")
+
+# with open( "triplets_en.json", "w", encoding="utf-8" ) as f:
+#     json.dump(triplets_en, f, indent=4, ensure_ascii=False)
+#     print("Triples saved to triplets_en.json")
+
+# triplets_es = extract_triplets( propositions_list_es, model_triplets, lenguage="es")
+
+# with open( "triplets_es.json", "w", encoding="utf-8" ) as f:
+#     json.dump(triplets_es, f, indent=4, ensure_ascii=False)
+#     print("Triples saved to triplets_es.json")

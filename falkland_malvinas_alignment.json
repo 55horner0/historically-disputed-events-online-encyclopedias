@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "section_id_a": "en:Q9648:0",
+        "section_id_b": "es:Q9648:0",
+        "pair_id": "section_0",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 1.0
+    },
+    {
+        "section_id_a": "en:Q9648:1",
+        "section_id_b": "es:Q9648:1",
+        "pair_id": "section_1",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 0.4126
+    },
+    {
+        "section_id_a": "en:Q9648:2",
+        "section_id_b": "es:Q9648:2",
+        "pair_id": "section_2",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 0.3255
+    },
+    {
+        "section_id_a": "en:Q9648:3",
+        "section_id_b": "es:Q9648:3",
+        "pair_id": "section_3",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 0.375
+    },
+    {
+        "section_id_a": "en:Q9648:6",
+        "section_id_b": "es:Q9648:5",
+        "pair_id": "section_4",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 0.2532
+    },
+    {
+        "section_id_a": "en:Q9648:7",
+        "section_id_b": "es:Q9648:6",
+        "pair_id": "section_5",
+        "alignment_score": "Manual",
+        "numeric_alignment_score": 0.4202
+    }
+]
