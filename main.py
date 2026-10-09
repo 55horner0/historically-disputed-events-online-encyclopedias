@@ -89,14 +89,14 @@ for section in data_en["sections"]:
                 language=section["language"]
             )
 
-#         # extend instead of append so that the final JSON
-#         # contains one flat list of propositions.
+    # extend instead of append so that the final JSON
+    # contains one flat list of propositions.
 
     propositions_list_en_qwen.extend(propositions)
 
-#     # -----------------------------------------------------------------
-#     # Save JSON
-#     # -----------------------------------------------------------------
+# -----------------------------------------------------------------
+# Save JSON
+# -----------------------------------------------------------------
 
 with open("propositions_en_sentence_level_qwen.json", "w", encoding="utf-8") as file:
     json.dump( propositions_list_en_qwen, file, indent=4, ensure_ascii=False)
@@ -117,14 +117,14 @@ for section in data_es["sections"]:
                 language=section["language"]
             )
 
-#         # extend instead of append so that the final JSON
-#         # contains one flat list of propositions.
+    # extend instead of append so that the final JSON
+    # contains one flat list of propositions.
 
     propositions_list_es_qwen.extend(propositions)
 
-#     # -----------------------------------------------------------------
-#     # Save JSON
-#     # -----------------------------------------------------------------
+# -----------------------------------------------------------------
+# Save JSON
+# -----------------------------------------------------------------
 
 with open("propositions_es_sentence_level_qwen.json", "w", encoding="utf-8") as file:
     json.dump( propositions_list_es_qwen, file, indent=4, ensure_ascii=False)
