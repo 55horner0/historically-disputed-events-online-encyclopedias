@@ -82,6 +82,8 @@ print(f"Saved {len(alignment_results)} pairs to: {output_path}")
 
 # propositions_list_es = []
 
+propositions_list_en_qwen = []
+
 for section in data_en["sections"]:
     propositions=extract_propositions_V3(
                 section=section,
@@ -189,7 +191,7 @@ list_manual_section_pairs = [ # it should be replaced by the output of the secti
 
 results_omission=[]
 
-for pair in list_manual_section_pairs:
+for pair in alignment_results:
     section_pair_id=pair["pair_id"]
     section_id_en=pair["section_id_b"]
     section_id_es=pair["section_id_a"]
