@@ -45,8 +45,8 @@ MIN_SCORE = 0.20
 
 if ALIGNMENT_METHOD == "manual":
     alignment_results = align_sections(
-        article_a=data_en,
-        article_b=data_es,
+        article_a=data_es,
+        article_b=data_en,
         min_score=MIN_SCORE,
     )
     output_path = (

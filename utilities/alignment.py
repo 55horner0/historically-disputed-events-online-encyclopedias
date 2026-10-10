@@ -26,9 +26,9 @@ from typing import Any
 
 import numpy as np
 import torch
-from bert_score import score as bert_score
 from scipy.optimize import linear_sum_assignment
 from transformers import MarianMTModel, MarianTokenizer
+from bert_score import BERTScorer
 
 
 # CONFIGURATION
@@ -41,8 +41,15 @@ WEIGHT_HEADING = 0.15
 WEIGHT_POSITION = 0.10
 
 MIN_TEXT_CHARS = 20
-BERTSCORE_MODEL = "roberta-base"
 TRANSLATION_MODEL = "Helsinki-NLP/opus-mt-es-en"
+
+BERTSCORE_MODEL = "roberta-base"
+
+bert_scorer = BERTScorer(
+    model_type=BERTSCORE_MODEL,
+    lang="en",
+    device="cpu",
+)
 
 
 # SECTION ACCESS
@@ -362,7 +369,7 @@ def _format_pairs(
         pairs.append({
             "section_id_a": _section_id(article_a, sections_a[i], i),
             "section_id_b": _section_id(article_b, sections_b[j], j),
-            "pair_id": f"section_{pair_index}",
+            "pair_id": f'{_section_id(article_a, sections_a[i], i)}+{_section_id(article_b, sections_b[j], j)}+{method_label}',
             "alignment_score": method_label,
             "numeric_alignment_score": round(float(score), 4),
         })
@@ -424,6 +431,7 @@ def _load_translation_model():
 
     return _translation_tokenizer, _translation_model
 
+Helsinki_token, Helsinki_model = _load_translation_model()
 
 def _split_for_translation(text: str, max_chars: int = 1000) -> list[str]:
     """Split text into chunks to avoid truncating long sections."""
@@ -472,9 +480,8 @@ def _split_for_translation(text: str, max_chars: int = 1000) -> list[str]:
 
 
 @lru_cache(maxsize=2048)
-def _translate_chunk(chunk: str) -> str:
+def _translate_chunk(chunk: str, tokenizer=Helsinki_token, model=Helsinki_model) -> str:
     """Translate one Spanish text chunk into English."""
-    tokenizer, model = _load_translation_model()
 
     encoded = tokenizer(
         chunk,
@@ -533,18 +540,14 @@ def _bert_f1_scores(
     candidates: list[str],
     references: list[str],
 ) -> list[float]:
-    """Calculate BERTScore F1 values on CPU."""
+
     if not candidates:
         return []
 
-    _, _, f1 = bert_score(
+    _, _, f1 = bert_scorer.score(
         candidates,
         references,
-        model_type=BERTSCORE_MODEL,
-        lang="en",
-        device="cpu",
         batch_size=16,
-        verbose=False,
     )
 
     return [float(value) for value in f1.tolist()]
