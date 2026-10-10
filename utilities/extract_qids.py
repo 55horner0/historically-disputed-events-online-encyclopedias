@@ -706,8 +706,9 @@ def extract_qids(lang, title, output_path=None, verbose=True):
 # ── Standalone usage ────────────────────────────────────────────────────
 if __name__ == "__main__":
     # Default test: English Falkland Islands
+    title="Islas_Malvinas_(territorio_británico_de_ultramar)"
     extract_qids(
         lang="es",
-        title="Islas_Malvinas_(territorio_británico_de_ultramar)", # Islas_Malvinas_(territorio_británico_de_ultramar)
-        output_path="falkland_annotated.json",
+        title=title, # Islas_Malvinas_(territorio_británico_de_ultramar)
+        output_path=f"{title}.json",
     )
