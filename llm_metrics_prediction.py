@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-- Input rows must contain:
-    atomic_proposition_en
-    atomic_proposition_es
+- JSON input is a list of proposition-pair objects, as in equivalent_aps_qwen.json:
+    ap_en_text, ap_es_text
+    section_pair_id, ap_en_id, ap_es_id (preserved in output)
+    similarity (accepted as input, excluded from predictions)
 
-- Optional columns such as pair_id and article are preserved in the output.
+- CSV/Excel inputs with atomic_proposition_en and atomic_proposition_es
+  are also supported. Input metadata except similarity is preserved in the output.
 
 - The classifier predicts five labels independently:
     comparable, contradiction, agency, causality, language
@@ -15,10 +17,11 @@
 - For CUDA inference, install llama-cpp-python with CUDA support.
 
 - How to use:
-python how_to_predict_the_correct_way.py \
-  --input "/path/pairs.xlsx" \
+python llm_metrics_prediction.py \
+  --input "equivalent_aps_qwen.json" \
   --model "/path/Qwen3-8B-Q4_K_M.gguf" \
-  --output "/path/predictions.csv"
+  --output "/path/predictions.csv" \
+  --output-json "/path/predictions.json"
 """
 
 from __future__ import annotations
@@ -141,7 +144,7 @@ EXAMPLES = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Classify bilingual atomic-proposition pairs with Qwen.")
-    parser.add_argument("--input", required=True, help="Input .xlsx, .xls, or .csv file.")
+    parser.add_argument("--input", default="equivalent_aps_qwen.json", help="Input .json, .xlsx, .xls, or .csv file (default: equivalent_aps_qwen.json).")
     parser.add_argument("--model", required=True, help="Path to the Qwen GGUF model.")
     parser.add_argument("--output", default="qwen_predictions.csv", help="Output CSV path.")
     parser.add_argument("--output-json", default=None, help="Optional JSON output path.")
@@ -151,22 +154,37 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def load_input(path: str, sheet: str | int = 0) -> pd.DataFrame:
+def load_input(path: str = "equivalent_aps_qwen.json", sheet: str | int = 0) -> pd.DataFrame:
     suffix = Path(path).suffix.lower()
-    if suffix == ".csv":
+    required = {"atomic_proposition_en", "atomic_proposition_es"}
+    if suffix == ".json":
+        with open(path, "r", encoding="utf-8") as f:
+            records = json.load(f)
+        if not isinstance(records, list) or not all(isinstance(record, dict) for record in records):
+            raise ValueError("JSON input must be a list of proposition-pair objects.")
+        required = {"ap_en_text", "ap_es_text"}
+        for index, record in enumerate(records, start=1):
+            missing = sorted(required - set(record))
+            if missing:
+                raise ValueError(f"JSON pair {index} is missing required fields: {missing}")
+        df = pd.DataFrame(records)
+    elif suffix == ".csv":
         df = pd.read_csv(path)
     elif suffix in {".xlsx", ".xls"}:
         df = pd.read_excel(path, sheet_name=sheet)
     else:
-        raise ValueError("Input must be .csv, .xlsx, or .xls")
+        raise ValueError("Input must be .json, .csv, .xlsx, or .xls")
 
-    required = {"atomic_proposition_en", "atomic_proposition_es"}
+    if df.empty:
+        raise ValueError("Input contains no proposition pairs.")
     missing = sorted(required - set(df.columns))
     if missing:
         raise ValueError(f"Missing required columns: {missing}")
 
     df = df.copy()
-    df = df[df["atomic_proposition_en"].notna() & df["atomic_proposition_es"].notna()].reset_index(drop=True)
+    df = df.dropna(subset=sorted(required)).reset_index(drop=True)
+    if df.empty:
+        raise ValueError("Input contains no proposition pairs with both texts present.")
     if "pair_id" not in df.columns:
         df.insert(0, "pair_id", range(1, len(df) + 1))
     return df
@@ -245,11 +263,16 @@ def predict_task(llm: Any, task: str, en: str, es: str) -> tuple[Any, str, str]:
 
 def classify_dataframe(df: pd.DataFrame, llm: Any) -> pd.DataFrame:
     output_rows = []
+    if {"ap_en_text", "ap_es_text"}.issubset(df.columns):
+        en_column, es_column = "ap_en_text", "ap_es_text"
+    else:
+        en_column, es_column = "atomic_proposition_en", "atomic_proposition_es"
 
     for i, row in df.iterrows():
-        en = str(row["atomic_proposition_en"])
-        es = str(row["atomic_proposition_es"])
+        en = str(row[en_column])
+        es = str(row[es_column])
         result = row.to_dict()
+        result.pop("similarity", None)
         result["model_id"] = MODEL_ID
 
         statuses = []
