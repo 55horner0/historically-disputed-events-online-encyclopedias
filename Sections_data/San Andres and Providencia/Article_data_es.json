@@ -1,0 +1,4023 @@
+{
+    "title": "Archipiélago_de_San_Andrés,_Providencia_y_Santa_Catalina",
+    "language": "es",
+    "article_qid": "Q26855",
+    "article_id": "es:Q26855",
+    "sections": [
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:0",
+            "section_idx": 0,
+            "language": "es",
+            "heading": "Lead",
+            "level": 0,
+            "text": "El archipiélago de San Andrés, Providencia y Santa Catalina (en inglés y criollo sanandresano : Archipelago of San Andrés, Providencia and Santa Catalina ) es uno de los treinta y dos departamentos de Colombia , pero diferencias de las demás cuenta con un régimen especial . Su capital es San Andrés . Está ubicado al oeste del mar Caribe ( océano Atlántico ) en Centroamérica , a 775 km (480 millas náuticas ) al noroeste del litoral Caribe continental de Colombia, y a 220 km (140 millas náuticas) de las costas orientales de Nicaragua . ​ Con 52 km² es el departamento menos extenso del país, el tercero menos poblado, por delante de Vaupés y Guainía , y con 1262 hab/km² , el más densamente poblado ; esto ubica a las islas en una delicada situación de recursos sostenibles. Es el único departamento insular de Colombia y además de San Andrés, la mayor isla del país, se compone de otras islas, cayos e islotes sobre la plataforma volcánica del occidente del mar de las Antillas . El 23 de junio de 1822 se izó la bandera de la entonces República de la Gran Colombia en la isla de Providencia , y el 21 de julio siguiente se hizo lo mismo en la isla de San Andrés , fecha en la cual el archipiélago fue admitido dentro de la conformación territorial de la nueva nación según lo dispuesto en la Constitución de Cúcuta . ​ Las lenguas principales habladas en el territorio son el criollo sanadresano , el español y el inglés . ",
+            "text_with_qids": "El archipiélago (Q33837) de San Andrés, Providencia y Santa Catalina (en inglés (Q1860) y criollo sanandresano (Q2044587) : Archipelago of San Andrés, Providencia and Santa Catalina ) es uno de los treinta y dos departamentos (Q215655) de Colombia (Q739) , pero diferencias de las demás cuenta con un régimen especial (Q76823829) . Su capital es San Andrés (Q134678) . Está ubicado al oeste del mar Caribe (Q1247) ( océano Atlántico (Q97) ) en Centroamérica (Q27611) , a 775 km (480 millas náuticas ) al noroeste del litoral Caribe continental (Q130185) de Colombia (Q739), y a 220 km (Q828224) (140 millas náuticas) de las costas orientales de Nicaragua (Q811) . ​ Con 52 km² (Q712226) es el departamento (Q215655) menos extenso del país, el tercero menos poblado, por delante de Vaupés (Q234505) y Guainía (Q238645) , y con 1262 hab/km² (Q712226) , el más densamente poblado (Q22856) ; esto ubica a las islas en una delicada situación de recursos sostenibles. Es el único departamento (Q215655) insular de Colombia (Q739) y además de San Andrés, la mayor isla del país, se compone de otras islas, cayos e islotes sobre la plataforma volcánica del occidente del mar de las Antillas (Q1247) . El 23 de junio de 1822 se izó la bandera de la entonces República de la Gran Colombia (Q199821) en la isla de Providencia (Q1138756) , y el 21 de julio siguiente se hizo lo mismo en la isla de San Andrés (Q131051) , fecha en la cual el archipiélago (Q33837) fue admitido dentro de la conformación territorial de la nueva nación según lo dispuesto en la Constitución de Cúcuta (Q224714) . ​ Las lenguas principales habladas en el territorio son el criollo sanadresano (Q2044587) , el español (Q1321) y el inglés (Q1860) . ",
+            "spans": [
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 3,
+                    "end": 15,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "inglés",
+                    "start": 64,
+                    "end": 70,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2044587",
+                    "surface": "criollo sanandresano",
+                    "start": 73,
+                    "end": 93,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamentos",
+                    "start": 184,
+                    "end": 197,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 201,
+                    "end": 209,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q76823829",
+                    "surface": "régimen especial",
+                    "start": 256,
+                    "end": 272,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q134678",
+                    "surface": "San Andrés",
+                    "start": 289,
+                    "end": 299,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar Caribe",
+                    "start": 328,
+                    "end": 338,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q97",
+                    "surface": "océano Atlántico",
+                    "start": 341,
+                    "end": 357,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q27611",
+                    "surface": "Centroamérica",
+                    "start": 363,
+                    "end": 376,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q130185",
+                    "surface": "Caribe continental",
+                    "start": 435,
+                    "end": 453,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 457,
+                    "end": 465,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q828224",
+                    "surface": "km",
+                    "start": 475,
+                    "end": 477,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 528,
+                    "end": 537,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 549,
+                    "end": 552,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 559,
+                    "end": 571,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q234505",
+                    "surface": "Vaupés",
+                    "start": 637,
+                    "end": 643,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q238645",
+                    "surface": "Guainía",
+                    "start": 646,
+                    "end": 653,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 671,
+                    "end": 674,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q22856",
+                    "surface": "densamente poblado",
+                    "start": 684,
+                    "end": 702,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 791,
+                    "end": 803,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 815,
+                    "end": 823,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar de las Antillas",
+                    "start": 963,
+                    "end": 982,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q199821",
+                    "surface": "Gran Colombia",
+                    "start": 1057,
+                    "end": 1070,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "isla de Providencia",
+                    "start": 1077,
+                    "end": 1096,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "isla de San Andrés",
+                    "start": 1149,
+                    "end": 1167,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1190,
+                    "end": 1202,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q224714",
+                    "surface": "Constitución de Cúcuta",
+                    "start": 1298,
+                    "end": 1320,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2044587",
+                    "surface": "criollo sanadresano",
+                    "start": 1382,
+                    "end": 1401,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "español",
+                    "start": 1407,
+                    "end": 1414,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "inglés",
+                    "start": 1420,
+                    "end": 1426,
+                    "section": "Lead",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:1",
+            "section_idx": 1,
+            "language": "es",
+            "heading": "Historia",
+            "level": 2,
+            "text": "Época precolombina. La lejanía de la pequeña proporción de terrenos habitables de las islas, apartados más de 200 kilómetros de las costas continentales centroamericanas, sumado a lo complicado de la navegación debido a las corrientes marinas, impidió que en la época precolombina se desplazaran a estos territorios poblaciones indígenas que pudieran establecer algún poblado o establecimiento permanente. ​ Virreinato. Se presume que las islas fueron vistas por Cristóbal Colón durante su cuarto viaje en 1502, si bien no existen evidencias que confirmen ese dato. En 1510 España tomó posesión oficial de las islas, pero no promovió asentamientos en ellas, puesto que los conquistadores estaban ocupados en someter las áreas continentales. Las islas fueron puestas bajo la administración de la Real Audiencia de Panamá , pero en 1544 la Corona las pone bajo jurisdicción de la Capitanía General de Guatemala . El archipiélago apareció señalado por primera vez en una Carta Universal de autoría anónima datada en 1527 y en el Mapa de Rotz de 1542. Entre 1629 y 1630 se datan los primeros asentamientos europeos en el archipiélago propiciados por la Compañía de la Isla de Providencia . Se trataba de colonos neerlandeses e ingleses que llegaron de Bermudas y Barbados entre otros y que se asentaron en Santa Catalina y Providencia principalmente, asignándoles los nombres Henrietta (San Andrés) y Providence (Providencia y Santa Catalina). ​ Entre las décadas de 1670 y 1680 Henry Morgan (conocido popularmente como el Pirata Morgan) y Eduard Mansvelt tuvieron sus base de operaciones en San Andrés; las islas entonces formaron parte de las colonias inglesas en el Nuevo Mundo . ​ En 1775 el capitán general de Guatemala, Don Bernardo Troncoso, delegó al teniente irlandés Tomás O'Neille con la misión de expulsar a los ingleses y holandeses del archipiélago, bajo autoridad del virrey Antonio Caballero y Góngora . ​ Mientras tanto, la producción y exportación de algodón estaba en su auge y España comenzó a interesarse por las islas. Las relaciones entre España e Inglaterra mejoraron posteriormente y para 1786 se firmaron tratados que exigían la salida de todos los súbditos ingleses de la Costa de Mosquitos . Muchos salieron, pero la gran mayoría pidió permanecer a cambio de rendir tributo a las autoridades españolas. ​ O'Neille solicitó que el archipiélago fuera puesto bajo jurisdicción del Virreinato de Nueva Granada , acto que se dio el 20 de noviembre de 1803, en el cual la Corona española emitió una cédula real que puso al archipiélago de San Andrés y la Costa de Mosquitos desde el Cabo Gracias a Dios hacia el río Chagres bajo jurisdicción de la Real Audiencia de Santafé de Bogotá y concedió al gobernador Tomas O'Neille un sueldo de dos mil pesos fuertes anuales. ​ Independencia. Durante la Guerra de la Independencia , las islas que hasta entonces seguían leales a la Corona española continuaron sus relaciones comerciales y de autoridad con la sede virreinal provisional que, sin embargo, perdió rápidamente la capacidad de controlar los incendiarios avances de la emancipación de la América española . Entre 1818 y 1821 el corsario francés Luis Aury (1788-1821) tomó las islas y se puso al servicio de las tropas de Simón Bolívar . El 23 de junio de 1822 se izó por primera vez la bandera de la Gran Colombia en las islas, y los cabildos de San Andrés y Providencia firmaron su adhesión a la Constitución de Cúcuta después de la visita de Luis Perú de Lacroix . Las cinco islas principales se convirtieron en el sexto cantón de la Provincia de Cartagena en 1822. ​ Siglo XIX. El archipiélago estuvo bastante olvidado durante los primeros ciento cuarenta años de la República. Sus nexos más cercanos se daban con las demás islas del Caribe angloparlante y con Panamá; uno de los primeros actos que se dieron en las islas fue la declaración de San Andrés como puerto franco y la abolición de la esclavitud, lo que provocó un exitoso movimiento alfabetizador dirigido por el pastor antiesclavista Philip Beekman Livingston. ​ Otro hecho tras la independencia fue el reconocimiento de los territorios costeros sobre el mar Caribe a Costa Rica de acuerdo con la Real Cédula de 1573. Ello como estrategia política pues se los británicos habían demostrado gran interés por Centroamérica, lo cual se expresa claramente en un texto de Tomás Cipriano de Mosquera fechado en 1852 y citado en uno de sus textos académicos por la historiadora y doctora en estudios sobre América Latina de la Universidad de Toulouse, Lucía Duque Muñoz, lo siguiente: ​ El archipiélago perteneció al Estado Soberano de Bolívar hasta 1866 cuando fue cedido al Gobierno central para que fuera administrado directamente por este. En 1868 se creó el Territorio de San Andrés y Providencia con el grupo de islas, islotes, cayos y bajos que conforman el archipiélago. ​ Siglo XX. En septiembre de 1900 el presidente de Francia Émile Loubet dictó un fallo limítrofe entre Colombia y Costa Rica en el que se reconocían como colombianas todas las islas del archipiélago. Dos años más tarde llegaron a San Andrés dos comisionados del Presidente Roosevelt de los Estados Unidos con el fin de inclinar a los isleños para secundar la separación de Panamá , pero sus propuestas fueron rechazadas sin miramientos por los isleños. ​ Después de estos acontecimientos y tras una fuerte campaña liderada por Francis Newball desde el periódico The Searchlight (El Faro), fue aprobada la ley 52 del 26 de octubre de 1912 en la cual se creaba la Intendencia de San Andrés y Providencia separada del Departamento de Bolívar , del cual formaba parte. ​ ​ Los gobiernos de Colombia y Nicaragua firmaron el 24 de marzo de 1928 el Tratado Esguerra-Bárcenas en el cual el país sudamericano reconocía a Nicaragua la soberanía sobre la Costa de Mosquitos y el país centroamericano reconocía la soberanía de Colombia sobre el Archipiélago de San Andrés, Providencia y Santa Catalina. El 5 de mayo de 1930 se firmó el Protocolo que confirmaba el Tratado de 1928. ​ El gobierno del general Gustavo Rojas Pinilla declaró a San Andrés Puerto libre en 1953, lo cual transformaría la isla en centro comercial y turístico. Ello también motivó la llegada de numerosas personas procedentes de la Colombia continental. En 1972 los Estados Unidos renunciaron a sus pretensiones sobre los Cayos Roncador , Serrana y Quitasueño , por lo cual Colombia ejerce soberanía de los mismos como parte del archipiélago. En el mismo año Nicaragua emite su primera protesta por la interpretación desventajosa para dicho país que le daba Colombia al Tratado Esguerra-Bárcenas; en 1980 el entonces presidente de Nicaragua, Daniel Ortega , denunció dicho Tratado y anunció que llevaría el caso ante la Corte Internacional de Justicia de La Haya para probar que el archipiélago correspondía a la soberanía de su país, ​ argumentando que la negociación real de dicho acuerdo se dio entre Estados Unidos y Colombia, forzando en cierta manera a Nicaragua a suscribir dicho tratado debido a la ocupación militar estadounidense sobre el país centroamericano en aquel entonces. Ante esto, Colombia ratificó la validez de los tratados. Siglo XXI. Con la Constitución colombiana de 1991 se declararon las antiguas intendencias y comisarías como Departamentos , creándose así el Departamento Archipiélago de San Andrés, Providencia y Santa Catalina . ​ Diez años más tarde la UNESCO declaró al Archipiélago de San Andrés, Providencia y Santa Catalina como Reserva de Biosfera Sea Flower. Ese mismo año (2001), Nicaragua reafirmó su posición sobre la \"nulidad\" del Tratado suscrito en 1928, y presentó una demanda ante la Corte Internacional de Justicia de La Haya el 6 de diciembre, reclamando los territorios al oriente del meridiano 82, e incluyendo el archipiélago de San Andrés. En 2003 Colombia presentó ante la Corte una \"excepciones preliminares\", rechazando los argumentos nicaragüenses. El 13 de diciembre de 2007, la Corte Internacional de Justicia dictó sentencia sobre las excepciones preliminares de Colombia. En dicha resolución, la Corte estableció que el Tratado de 1928 y el Protocolo de 1930 eran válidos y que por lo tanto la soberanía de Colombia sobre las islas de San Andrés, Providencia y Santa Catalina eran incuestionables, porque la situación había sido resuelta. ​ Sin embargo, la Corte estableció que en cambio sí está abierta la cuestión relativa a la soberanía de los Cayos Roncador, Serrana y Quitasueño, los cuales no están incluidos en el Tratado de 1928, por haber estado entonces en disputa entre Colombia y los Estados Unidos y, asimismo, dejó abierto el tema sobre la delimitación de áreas marinas y submarinas entre los dos países. El 19 de noviembre de 2012 la Corte Internacional de Justicia dictó sentencia sobre la demanda que presentó Nicaragua contra Colombia, argumentando que todo el archipiélago le pertenece a este último país, reafirmando así la soberanía de Colombia sobre las islas de San Andrés y Providencia junto con los cayos de Alburquerque , Roncador , Serrana , Bajo Nuevo , Quitasueño y Serranilla ; ​ sin embargo con este fallo Colombia perdió cerca del 43 % de su territorio marítimo en el Mar Caribe . ​ Ante tal situación el 27 de noviembre de 2012 Colombia denunció ante la OEA el Pacto de Bogotá , instrumento por cual Colombia reconocía la jurisdicción obligatoria de la Corte Internacional de Justicia . ​ Después del retiro del Pacto de Bogotá, el presidente de Colombia Juan Manuel Santos afirmó que \"Los límites no deben quedar en manos de una Corte\", diciendo también que \"dicho principio es compartido por otros países que han tomado la misma posición que hoy toma Colombia\". ​ El fallo de la Corte Internacional de Justicia dado a conocer en 2012 avivó entre los isleños las ansias de autonomía, incluso con el objetivo de convertir a este territorio en una especie de estado libre asociado a Colombia; algo similar a lo que ocurre entre Estados Unidos y Puerto Rico , o como Andorra con respecto a España y Francia . Sin embargo algunos sectores de la población no están de acuerdo con esta idea y la han rechazado. ​ El gobierno de Colombia no aceptó el fallo de La Haya ni tampoco lo reconoce. ​ El 17 de noviembre de 2020, el archipiélago fue bastamente golpeado por la fuerza del Huracán Iota , el cual durante su curso por esta, llegó a categoría 5 dejando a su paso daños materiales, el 98 % de la infraestructura de la islas de Providencia y Santa Catalina fueron arrasadas por este huracán dejándolos sin energía y sin comunicaciones, mientras que en la isla de San Andrés los daños fueron menores pero con falta de comunicaciones y electricidad. ",
+            "text_with_qids": "Época precolombina. La lejanía de la pequeña proporción de terrenos habitables de las islas, apartados más de 200 kilómetros de las costas continentales centroamericanas, sumado a lo complicado de la navegación debido a las corrientes marinas, impidió que en la época precolombina se desplazaran a estos territorios poblaciones indígenas (Q3239800) que pudieran establecer algún poblado o establecimiento permanente. ​ Virreinato. Se presume que las islas fueron vistas por Cristóbal Colón (Q7322) durante su cuarto viaje en 1502, si bien no existen evidencias que confirmen ese dato. En 1510 España (Q29) tomó posesión oficial de las islas, pero no promovió asentamientos en ellas, puesto que los conquistadores estaban ocupados en someter las áreas continentales. Las islas fueron puestas bajo la administración de la Real Audiencia de Panamá (Q1226748) , pero en 1544 la Corona las pone bajo jurisdicción de la Capitanía General de Guatemala (Q2077243) . El archipiélago (Q33837) apareció señalado por primera vez en una Carta Universal de autoría anónima datada en 1527 y en el Mapa de Rotz de 1542. Entre 1629 y 1630 se datan los primeros asentamientos europeos en el archipiélago (Q33837) propiciados por la Compañía de la Isla de Providencia (Q1138756) . Se trataba de colonos neerlandeses (Q55) e ingleses (Q21) que llegaron de Bermudas (Q23635) y Barbados (Q244) entre otros y que se asentaron en Santa Catalina (Q1061145) y Providencia (Q1138756) principalmente, asignándoles los nombres Henrietta (San Andrés) y Providence (Providencia y Santa Catalina). ​ Entre las décadas de 1670 y 1680 Henry Morgan (Q215502) (conocido popularmente como el Pirata Morgan) y Eduard Mansvelt (Q1949330) tuvieron sus base de operaciones en San Andrés; las islas entonces formaron parte de las colonias inglesas en el Nuevo Mundo (Q127834) . ​ En 1775 el capitán general de Guatemala, Don Bernardo Troncoso, delegó al teniente irlandés Tomás O'Neille (Q96318769) con la misión de expulsar a los ingleses (Q21) y holandeses del archipiélago (Q33837), bajo autoridad del virrey (Q244741) Antonio Caballero y Góngora (Q1607862) . ​ Mientras tanto, la producción y exportación de algodón (Q11457) estaba en su auge y España (Q29) comenzó a interesarse por las islas. Las relaciones entre España (Q29) e Inglaterra (Q21) mejoraron posteriormente y para 1786 se firmaron tratados (Q2996266) que exigían la salida de todos los súbditos ingleses (Q21) de la Costa de Mosquitos (Q1165546) . Muchos salieron, pero la gran mayoría pidió permanecer a cambio de rendir tributo a las autoridades españolas. ​ O'Neille solicitó que el archipiélago (Q33837) fuera puesto bajo jurisdicción del Virreinato de Nueva Granada (Q8965) , acto que se dio el 20 de noviembre de 1803, en el cual la Corona española (Q889833) emitió una cédula real (Q2134726) que puso al archipiélago (Q33837) de San Andrés y la Costa de Mosquitos (Q1165546) desde el Cabo Gracias a Dios (Q1024890) hacia el río Chagres (Q1408661) bajo jurisdicción de la Real Audiencia de Santafé (Q3421627) de Bogotá y concedió al gobernador Tomas O'Neille un sueldo de dos mil pesos fuertes anuales. ​ Independencia. Durante la Guerra de la Independencia (Q3063789) , las islas que hasta entonces seguían leales a la Corona española (Q889833) continuaron sus relaciones comerciales y de autoridad con la sede virreinal provisional que, sin embargo, perdió rápidamente la capacidad de controlar los incendiarios avances de la emancipación de la América española (Q111180987) . Entre 1818 y 1821 el corsario francés Luis Aury (Q631020) (1788-1821) tomó las islas y se puso al servicio de las tropas de Simón Bolívar (Q8605) . El 23 de junio de 1822 se izó por primera vez la bandera de la Gran Colombia (Q199821) en las islas, y los cabildos de San Andrés y Providencia (Q26855) firmaron su adhesión a la Constitución de Cúcuta (Q224714) después de la visita de Luis Perú de Lacroix (Q6687964) . Las cinco islas principales se convirtieron en el sexto cantón de la Provincia de Cartagena (Q3408345) en 1822. ​ Siglo XIX. El archipiélago (Q33837) estuvo bastante olvidado durante los primeros ciento cuarenta años de la República. Sus nexos más cercanos se daban con las demás islas del Caribe angloparlante y con Panamá; uno de los primeros actos que se dieron en las islas fue la declaración de San Andrés como puerto franco (Q218739) y la abolición de la esclavitud, lo que provocó un exitoso movimiento alfabetizador dirigido por el pastor antiesclavista Philip Beekman Livingston. ​ Otro hecho tras la independencia fue el reconocimiento de los territorios costeros sobre el mar Caribe (Q1247) a Costa Rica de acuerdo con la Real Cédula de 1573. Ello como estrategia política pues se los británicos habían demostrado gran interés por Centroamérica (Q27611), lo cual se expresa claramente en un texto de Tomás Cipriano de Mosquera (Q3135880) fechado en 1852 y citado en uno de sus textos académicos por la historiadora y doctora en estudios sobre América Latina de la Universidad de Toulouse, Lucía Duque Muñoz, lo siguiente: ​ El archipiélago (Q33837) perteneció al Estado Soberano de Bolívar (Q3591868) hasta 1866 cuando fue cedido al Gobierno central para que fuera administrado directamente por este. En 1868 se creó el Territorio de San Andrés y Providencia (Q26855) con el grupo de islas, islotes, cayos y bajos que conforman el archipiélago (Q33837). ​ Siglo XX. En septiembre de 1900 el presidente de Francia (Q142) Émile Loubet dictó un fallo limítrofe (Q5855537) entre Colombia (Q739) y Costa Rica en el que se reconocían como colombianas todas las islas del archipiélago (Q33837). Dos años más tarde llegaron a San Andrés dos comisionados del Presidente Roosevelt de los Estados Unidos (Q30) con el fin de inclinar a los isleños para secundar la separación de Panamá (Q3089201) , pero sus propuestas fueron rechazadas sin miramientos por los isleños. ​ Después de estos acontecimientos y tras una fuerte campaña liderada por Francis Newball (Q106782938) desde el periódico The Searchlight (El Faro), fue aprobada la ley 52 del 26 de octubre de 1912 en la cual se creaba la Intendencia (Q5918731) de San Andrés y Providencia (Q26855) separada del Departamento de Bolívar (Q230597) , del cual formaba parte. ​ ​ Los gobiernos de Colombia (Q739) y Nicaragua (Q811) firmaron el 24 de marzo de 1928 el Tratado Esguerra-Bárcenas (Q3536703) en el cual el país sudamericano reconocía a Nicaragua (Q811) la soberanía sobre la Costa de Mosquitos (Q1165546) y el país centroamericano reconocía la soberanía de Colombia (Q739) sobre el Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina. El 5 de mayo de 1930 se firmó el Protocolo que confirmaba el Tratado de 1928. ​ El gobierno del general Gustavo Rojas Pinilla (Q455692) declaró a San Andrés Puerto libre (Q218739) en 1953, lo cual transformaría la isla en centro comercial y turístico. Ello también motivó la llegada de numerosas personas procedentes de la Colombia (Q739) continental. En 1972 los Estados Unidos (Q30) renunciaron a sus pretensiones sobre los Cayos Roncador (Q950869) , Serrana (Q1814365) y Quitasueño (Q559484) , por lo cual Colombia (Q739) ejerce soberanía de los mismos como parte del archipiélago (Q33837). En el mismo año Nicaragua (Q811) emite su primera protesta por la interpretación desventajosa para dicho país que le daba Colombia (Q739) al Tratado Esguerra-Bárcenas (Q3536703); en 1980 el entonces presidente de Nicaragua (Q811), Daniel Ortega (Q57402) , denunció dicho Tratado y anunció que llevaría el caso ante la Corte Internacional de Justicia (Q7801) de La Haya para probar que el archipiélago (Q33837) correspondía a la soberanía de su país, ​ argumentando que la negociación real de dicho acuerdo se dio entre Estados Unidos (Q30) y Colombia (Q739), forzando en cierta manera a Nicaragua (Q811) a suscribir dicho tratado debido a la ocupación militar estadounidense sobre el país centroamericano en aquel entonces. Ante esto, Colombia (Q739) ratificó la validez de los tratados (Q2996266). Siglo XXI. Con la Constitución colombiana (Q2837647) de 1991 se declararon las antiguas intendencias y comisarías como Departamentos (Q215655) , creándose así el Departamento (Q215655) Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina . ​ Diez años más tarde la UNESCO declaró al Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina como Reserva de Biosfera (Q158454) Sea Flower. Ese mismo año (2001), Nicaragua (Q811) reafirmó su posición sobre la \"nulidad\" del Tratado suscrito en 1928, y presentó una demanda (Q131629775) ante la Corte Internacional de Justicia (Q7801) de La Haya el 6 de diciembre, reclamando los territorios al oriente del meridiano 82, e incluyendo el archipiélago (Q33837) de San Andrés. En 2003 Colombia (Q739) presentó ante la Corte una \"excepciones preliminares\", rechazando los argumentos nicaragüenses. El 13 de diciembre de 2007, la Corte Internacional de Justicia (Q7801) dictó sentencia (Q5855540) sobre las excepciones preliminares de Colombia (Q739). En dicha resolución, la Corte estableció que el Tratado de 1928 y el Protocolo de 1930 eran válidos y que por lo tanto la soberanía de Colombia (Q739) sobre las islas de San Andrés, Providencia y Santa Catalina eran incuestionables, porque la situación había sido resuelta. ​ Sin embargo, la Corte estableció que en cambio sí está abierta la cuestión relativa a la soberanía de los Cayos Roncador, Serrana (Q1814365) y Quitasueño (Q559484), los cuales no están incluidos en el Tratado de 1928, por haber estado entonces en disputa entre Colombia (Q739) y los Estados Unidos (Q30) y, asimismo, dejó abierto el tema sobre la delimitación de áreas marinas y submarinas entre los dos países. El 19 de noviembre de 2012 la Corte Internacional de Justicia (Q7801) dictó sentencia (Q5855540) sobre la demanda que presentó Nicaragua (Q811) contra Colombia (Q739), argumentando que todo el archipiélago (Q33837) le pertenece a este último país, reafirmando así la soberanía de Colombia (Q739) sobre las islas de San Andrés y Providencia (Q26855) junto con los cayos de Alburquerque (Q3259546) , Roncador (Q950869) , Serrana (Q1814365) , Bajo Nuevo (Q1257783) , Quitasueño (Q559484) y Serranilla (Q1169008) ; ​ sin embargo con este fallo Colombia (Q739) perdió cerca del 43 % de su territorio marítimo en el Mar Caribe (Q1247) . ​ Ante tal situación el 27 de noviembre de 2012 Colombia (Q739) denunció ante la OEA (Q123759) el Pacto de Bogotá (Q890663) , instrumento por cual Colombia (Q739) reconocía la jurisdicción obligatoria de la Corte Internacional de Justicia (Q7801) . ​ Después del retiro del Pacto de Bogotá (Q890663), el presidente de Colombia Juan Manuel Santos (Q57311) afirmó que \"Los límites no deben quedar en manos de una Corte\", diciendo también que \"dicho principio es compartido por otros países que han tomado la misma posición que hoy toma Colombia (Q739)\". ​ El fallo de la Corte Internacional de Justicia (Q7801) dado a conocer en 2012 avivó entre los isleños las ansias de autonomía, incluso con el objetivo de convertir a este territorio en una especie de estado libre asociado (Q609591) a Colombia (Q739); algo similar a lo que ocurre entre Estados Unidos (Q30) y Puerto Rico (Q1183) , o como Andorra (Q228) con respecto a España (Q29) y Francia (Q142) . Sin embargo algunos sectores de la población no están de acuerdo con esta idea y la han rechazado. ​ El gobierno de Colombia (Q739) no aceptó el fallo de La Haya ni tampoco lo reconoce. ​ El 17 de noviembre de 2020, el archipiélago (Q33837) fue bastamente golpeado por la fuerza del Huracán Iota (Q101717374) , el cual durante su curso por esta, llegó a categoría 5 dejando a su paso daños materiales, el 98 % de la infraestructura de la islas de Providencia y Santa Catalina fueron arrasadas por este huracán dejándolos sin energía y sin comunicaciones, mientras que en la isla de San Andrés (Q9009784) los daños fueron menores pero con falta de comunicaciones y electricidad. ",
+            "spans": [
+                {
+                    "qid": "Q3239800",
+                    "surface": "indígenas",
+                    "start": 328,
+                    "end": 337,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7322",
+                    "surface": "Cristóbal Colón",
+                    "start": 463,
+                    "end": 478,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 574,
+                    "end": 580,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1226748",
+                    "surface": "Real Audiencia de Panamá",
+                    "start": 795,
+                    "end": 819,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2077243",
+                    "surface": "Capitanía General de Guatemala",
+                    "start": 878,
+                    "end": 908,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 914,
+                    "end": 926,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1117,
+                    "end": 1129,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Isla de Providencia",
+                    "start": 1164,
+                    "end": 1183,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q55",
+                    "surface": "neerlandeses",
+                    "start": 1208,
+                    "end": 1220,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q21",
+                    "surface": "ingleses",
+                    "start": 1223,
+                    "end": 1231,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q23635",
+                    "surface": "Bermudas",
+                    "start": 1248,
+                    "end": 1256,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q244",
+                    "surface": "Barbados",
+                    "start": 1259,
+                    "end": 1267,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1061145",
+                    "surface": "Santa Catalina",
+                    "start": 1302,
+                    "end": 1316,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 1319,
+                    "end": 1330,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215502",
+                    "surface": "Henry Morgan",
+                    "start": 1475,
+                    "end": 1487,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1949330",
+                    "surface": "Eduard Mansvelt",
+                    "start": 1536,
+                    "end": 1551,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q127834",
+                    "surface": "Nuevo Mundo",
+                    "start": 1665,
+                    "end": 1676,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q96318769",
+                    "surface": "Tomás O'Neille",
+                    "start": 1773,
+                    "end": 1787,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q21",
+                    "surface": "ingleses",
+                    "start": 1820,
+                    "end": 1828,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1846,
+                    "end": 1858,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q244741",
+                    "surface": "virrey",
+                    "start": 1879,
+                    "end": 1885,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1607862",
+                    "surface": "Antonio Caballero y Góngora",
+                    "start": 1886,
+                    "end": 1913,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11457",
+                    "surface": "algodón",
+                    "start": 1965,
+                    "end": 1972,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 1993,
+                    "end": 1999,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 2058,
+                    "end": 2064,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q21",
+                    "surface": "Inglaterra",
+                    "start": 2067,
+                    "end": 2077,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2996266",
+                    "surface": "tratados",
+                    "start": 2127,
+                    "end": 2135,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q21",
+                    "surface": "ingleses",
+                    "start": 2180,
+                    "end": 2188,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Costa de Mosquitos",
+                    "start": 2195,
+                    "end": 2213,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 2354,
+                    "end": 2366,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q8965",
+                    "surface": "Virreinato de Nueva Granada",
+                    "start": 2402,
+                    "end": 2429,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q889833",
+                    "surface": "Corona española",
+                    "start": 2490,
+                    "end": 2505,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2134726",
+                    "surface": "cédula real",
+                    "start": 2517,
+                    "end": 2528,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 2541,
+                    "end": 2553,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Costa de Mosquitos",
+                    "start": 2573,
+                    "end": 2591,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1024890",
+                    "surface": "Cabo Gracias a Dios",
+                    "start": 2601,
+                    "end": 2620,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1408661",
+                    "surface": "río Chagres",
+                    "start": 2630,
+                    "end": 2641,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3421627",
+                    "surface": "Real Audiencia de Santafé",
+                    "start": 2666,
+                    "end": 2691,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3063789",
+                    "surface": "Guerra de la Independencia",
+                    "start": 2814,
+                    "end": 2840,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q889833",
+                    "surface": "Corona española",
+                    "start": 2892,
+                    "end": 2907,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q111180987",
+                    "surface": "América española",
+                    "start": 3109,
+                    "end": 3125,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q631020",
+                    "surface": "Luis Aury",
+                    "start": 3166,
+                    "end": 3175,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8605",
+                    "surface": "Simón Bolívar",
+                    "start": 3242,
+                    "end": 3255,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q199821",
+                    "surface": "Gran Colombia",
+                    "start": 3321,
+                    "end": 3334,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 3367,
+                    "end": 3391,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q224714",
+                    "surface": "Constitución de Cúcuta",
+                    "start": 3418,
+                    "end": 3440,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q6687964",
+                    "surface": "Luis Perú de Lacroix",
+                    "start": 3465,
+                    "end": 3485,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3408345",
+                    "surface": "Provincia de Cartagena",
+                    "start": 3557,
+                    "end": 3579,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 3605,
+                    "end": 3617,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q218739",
+                    "surface": "puerto franco",
+                    "start": 3884,
+                    "end": 3897,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar Caribe",
+                    "start": 4141,
+                    "end": 4151,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q27611",
+                    "surface": "Centroamérica",
+                    "start": 4292,
+                    "end": 4305,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3135880",
+                    "surface": "Tomás Cipriano de Mosquera",
+                    "start": 4352,
+                    "end": 4378,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 4568,
+                    "end": 4580,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3591868",
+                    "surface": "Estado Soberano de Bolívar",
+                    "start": 4595,
+                    "end": 4621,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 4755,
+                    "end": 4779,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 4843,
+                    "end": 4855,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q142",
+                    "surface": "Francia",
+                    "start": 4908,
+                    "end": 4915,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q5855537",
+                    "surface": "fallo limítrofe",
+                    "start": 4938,
+                    "end": 4953,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 4960,
+                    "end": 4968,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 5043,
+                    "end": 5055,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 5147,
+                    "end": 5161,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3089201",
+                    "surface": "separación de Panamá",
+                    "start": 5216,
+                    "end": 5236,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q106782938",
+                    "surface": "Francis Newball",
+                    "start": 5384,
+                    "end": 5399,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q5918731",
+                    "surface": "Intendencia",
+                    "start": 5519,
+                    "end": 5530,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 5534,
+                    "end": 5558,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q230597",
+                    "surface": "Departamento de Bolívar",
+                    "start": 5572,
+                    "end": 5595,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 5643,
+                    "end": 5651,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 5654,
+                    "end": 5663,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3536703",
+                    "surface": "Tratado Esguerra-Bárcenas",
+                    "start": 5699,
+                    "end": 5724,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 5769,
+                    "end": 5778,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Costa de Mosquitos",
+                    "start": 5801,
+                    "end": 5819,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 5872,
+                    "end": 5880,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 5890,
+                    "end": 5916,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q455692",
+                    "surface": "Gustavo Rojas Pinilla",
+                    "start": 6052,
+                    "end": 6073,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q218739",
+                    "surface": "Puerto libre",
+                    "start": 6095,
+                    "end": 6107,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 6251,
+                    "end": 6259,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 6285,
+                    "end": 6299,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q950869",
+                    "surface": "Roncador",
+                    "start": 6347,
+                    "end": 6355,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1814365",
+                    "surface": "Serrana",
+                    "start": 6358,
+                    "end": 6365,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q559484",
+                    "surface": "Quitasueño",
+                    "start": 6368,
+                    "end": 6378,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 6393,
+                    "end": 6401,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 6448,
+                    "end": 6460,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 6478,
+                    "end": 6487,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 6577,
+                    "end": 6585,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3536703",
+                    "surface": "Tratado Esguerra-Bárcenas",
+                    "start": 6589,
+                    "end": 6614,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 6650,
+                    "end": 6659,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q57402",
+                    "surface": "Daniel Ortega",
+                    "start": 6661,
+                    "end": 6674,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 6739,
+                    "end": 6770,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 6801,
+                    "end": 6813,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 6923,
+                    "end": 6937,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 6940,
+                    "end": 6948,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 6978,
+                    "end": 6987,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 7119,
+                    "end": 7127,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2996266",
+                    "surface": "tratados",
+                    "start": 7155,
+                    "end": 7163,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2837647",
+                    "surface": "Constitución colombiana",
+                    "start": 7183,
+                    "end": 7206,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "Departamentos",
+                    "start": 7273,
+                    "end": 7286,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "Departamento",
+                    "start": 7306,
+                    "end": 7318,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 7319,
+                    "end": 7345,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 7421,
+                    "end": 7447,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q158454",
+                    "surface": "Reserva de Biosfera",
+                    "start": 7483,
+                    "end": 7502,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 7537,
+                    "end": 7546,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q131629775",
+                    "surface": "una demanda",
+                    "start": 7628,
+                    "end": 7639,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 7648,
+                    "end": 7679,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 7782,
+                    "end": 7794,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 7818,
+                    "end": 7826,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 7954,
+                    "end": 7985,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q5855540",
+                    "surface": "dictó sentencia",
+                    "start": 7986,
+                    "end": 8001,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 8040,
+                    "end": 8048,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 8185,
+                    "end": 8193,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1814365",
+                    "surface": "Serrana",
+                    "start": 8441,
+                    "end": 8448,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q559484",
+                    "surface": "Quitasueño",
+                    "start": 8451,
+                    "end": 8461,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 8559,
+                    "end": 8567,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 8574,
+                    "end": 8588,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 8727,
+                    "end": 8758,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q5855540",
+                    "surface": "dictó sentencia",
+                    "start": 8759,
+                    "end": 8774,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 8805,
+                    "end": 8814,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 8822,
+                    "end": 8830,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 8857,
+                    "end": 8869,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 8935,
+                    "end": 8943,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 8963,
+                    "end": 8987,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3259546",
+                    "surface": "Alburquerque",
+                    "start": 9011,
+                    "end": 9023,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q950869",
+                    "surface": "Roncador",
+                    "start": 9026,
+                    "end": 9034,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1814365",
+                    "surface": "Serrana",
+                    "start": 9037,
+                    "end": 9044,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 9047,
+                    "end": 9057,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q559484",
+                    "surface": "Quitasueño",
+                    "start": 9060,
+                    "end": 9070,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1169008",
+                    "surface": "Serranilla",
+                    "start": 9073,
+                    "end": 9083,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 9115,
+                    "end": 9123,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "Mar Caribe",
+                    "start": 9178,
+                    "end": 9188,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 9239,
+                    "end": 9247,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q123759",
+                    "surface": "OEA",
+                    "start": 9265,
+                    "end": 9268,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q890663",
+                    "surface": "Pacto de Bogotá",
+                    "start": 9272,
+                    "end": 9287,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 9311,
+                    "end": 9319,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 9364,
+                    "end": 9395,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q890663",
+                    "surface": "Pacto de Bogotá",
+                    "start": 9423,
+                    "end": 9438,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q57311",
+                    "surface": "Juan Manuel Santos",
+                    "start": 9466,
+                    "end": 9484,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 9664,
+                    "end": 9672,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "Corte Internacional de Justicia",
+                    "start": 9692,
+                    "end": 9723,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q609591",
+                    "surface": "estado libre asociado",
+                    "start": 9869,
+                    "end": 9890,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 9893,
+                    "end": 9901,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 9938,
+                    "end": 9952,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1183",
+                    "surface": "Puerto Rico",
+                    "start": 9955,
+                    "end": 9966,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q228",
+                    "surface": "Andorra",
+                    "start": 9976,
+                    "end": 9983,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 9999,
+                    "end": 10005,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q142",
+                    "surface": "Francia",
+                    "start": 10008,
+                    "end": 10015,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 10134,
+                    "end": 10142,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 10230,
+                    "end": 10242,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q101717374",
+                    "surface": "Huracán Iota",
+                    "start": 10285,
+                    "end": 10297,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q9009784",
+                    "surface": "isla de San Andrés",
+                    "start": 10563,
+                    "end": 10581,
+                    "section": "Historia",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:2",
+            "section_idx": 2,
+            "language": "es",
+            "heading": "Organización político-administrativa",
+            "level": 2,
+            "text": "División territorial. La isla de San Andrés es una área no municipalizada , es la capital del departamento y está organizada en cuatro centros poblados : La Loma , San Luis , North End y Punta Sur . Tan solo existe un municipio: Providencia . ​ La sede de la gobernación y la asamblea departamental se encuentran ubicadas en el centro poblado: North End , al norte de la isla de San Andrés, que es el área de mayor densidad poblacional de la isla con más de 6000 hab/km². Estructura administrativa. El departamento Archipiélago de San Andrés y Providencia cuenta con un régimen administrativo especial . En este departamento, la isla de Providencia , como único municipio, es la única circunscripción que elige alcalde y Concejales; mientras que el censo electoral correspondiente al Archipiélago en su totalidad, eligen Gobernador y los miembros de la Asamblea de diputados . ​A partir de la asamblea constituyente se erige como uno de los 32 departamentos de Colombia, arrogándose para sí todos los bienes y derechos respectivos a esta titulación, tal cual como está consignado en los artículos 309 y 310 de la Constitución Política de Colombia de 1991. Judicialmente el departamento está agrupado en dos círculos notariales cuyas sedes son San Andrés y Providencia con tres notarías; la cabecera del círculo principal de registro con jurisdicción sobre todo el archipiélago está ubicado en la primera; el departamento conforma la circunscripción electoral de San Andrés, Providencia y Santa Catalina. ​ ",
+            "text_with_qids": "División territorial. La isla de San Andrés (Q131051) es una área no municipalizada (Q2997887) , es la capital (Q5119) del departamento (Q215655) y está organizada en cuatro centros poblados : La Loma , San Luis , North End (Q134678) y Punta Sur (Q18747692) . Tan solo existe un municipio (Q15284): Providencia (Q3408299) . ​ La sede de la gobernación y la asamblea departamental se encuentran ubicadas en el centro poblado: North End (Q134678) , al norte de la isla de San Andrés (Q9009784), que es el área de mayor densidad poblacional de la isla con más de 6000 hab/km² (Q712226). Estructura administrativa. El departamento (Q215655) Archipiélago de San Andrés (Q26855) y Providencia (Q3408299) cuenta con un régimen administrativo especial . En este departamento (Q215655), la isla de Providencia (Q1138756) , como único municipio (Q15284), es la única circunscripción que elige alcalde y Concejales; mientras que el censo electoral correspondiente al Archipiélago (Q33837) en su totalidad, eligen Gobernador (Q132050) y los miembros de la Asamblea de diputados (Q5707802) . ​A partir de la asamblea constituyente se erige como uno de los 32 departamentos (Q215655) de Colombia (Q739), arrogándose para sí todos los bienes y derechos respectivos a esta titulación, tal cual como está consignado en los artículos 309 y 310 de la Constitución Política de Colombia (Q2837647) de 1991. Judicialmente el departamento (Q215655) está agrupado en dos círculos notariales cuyas sedes son San Andrés y Providencia (Q26855) con tres notarías; la cabecera del círculo principal de registro con jurisdicción sobre todo el archipiélago (Q33837) está ubicado en la primera; el departamento (Q215655) conforma la circunscripción electoral de San Andrés, Providencia y Santa Catalina. ​ ",
+            "spans": [
+                {
+                    "qid": "Q131051",
+                    "surface": "isla de San Andrés",
+                    "start": 25,
+                    "end": 43,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2997887",
+                    "surface": "área no municipalizada",
+                    "start": 51,
+                    "end": 73,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q5119",
+                    "surface": "capital",
+                    "start": 82,
+                    "end": 89,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 94,
+                    "end": 106,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q134678",
+                    "surface": "North End",
+                    "start": 175,
+                    "end": 184,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q18747692",
+                    "surface": "Punta Sur",
+                    "start": 187,
+                    "end": 196,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q15284",
+                    "surface": "municipio",
+                    "start": 218,
+                    "end": 227,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3408299",
+                    "surface": "Providencia",
+                    "start": 229,
+                    "end": 240,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q134678",
+                    "surface": "North End",
+                    "start": 344,
+                    "end": 353,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q9009784",
+                    "surface": "isla de San Andrés",
+                    "start": 371,
+                    "end": 389,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 467,
+                    "end": 470,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 502,
+                    "end": 514,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 515,
+                    "end": 541,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3408299",
+                    "surface": "Providencia",
+                    "start": 544,
+                    "end": 555,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 612,
+                    "end": 624,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "isla de Providencia",
+                    "start": 629,
+                    "end": 648,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q15284",
+                    "surface": "municipio",
+                    "start": 662,
+                    "end": 671,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "Archipiélago",
+                    "start": 784,
+                    "end": 796,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q132050",
+                    "surface": "Gobernador",
+                    "start": 821,
+                    "end": 831,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q5707802",
+                    "surface": "Asamblea de diputados",
+                    "start": 853,
+                    "end": 874,
+                    "section": "Organización político-administrativa",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamentos",
+                    "start": 944,
+                    "end": 957,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 961,
+                    "end": 969,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2837647",
+                    "surface": "Constitución Política de Colombia",
+                    "start": 1113,
+                    "end": 1146,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 1173,
+                    "end": 1185,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 1243,
+                    "end": 1267,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1364,
+                    "end": 1376,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 1408,
+                    "end": 1420,
+                    "section": "Organización político-administrativa",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:3",
+            "section_idx": 3,
+            "language": "es",
+            "heading": "Geografía",
+            "level": 2,
+            "text": "El departamento es el único del país sin territorio continental. Se corresponde al archipiélago del mismo nombre que se trata de un conjunto de islas, cayos e islotes localizados sobre una plataforma volcánica del mar Caribe suroccidental. ​ Todo el archipiélago posee una extensión de 350 000 km² de mar. La extensión de su tierra firme suma 44 km² (sin contar los numerosos cayos e islotes), lo que lo hace el departamento más pequeño de Colombia en superficie y el de mayor densidad poblacional del país con 1603.5 hab./ km² . Si se compara con una isla del Caribe como Carriacou , que tiene una extensión de 34 km² y una población de 4595 personas según un censo de 1991 con una densidad de 135 personas por km² , se entiende la desproporción. ​ Por otra parte, si se compara con una isla como Java que tiene una extensión de 132 000 km², una población de 160 millones de habitantes con una densidad de 1098 hab/km² la situación de San Andrés es de relativa normalidad. Las dos islas principales ( San Andrés y Providencia ) presentan relieves y constitución de rocas diferentes: la primera es producto de sedimentos calizos recientes, mientras la segunda proviene de un volcán andesítico extinguido durante el período del mioceno medio y superior. ​ ​ El relieve de San Andrés está conformado por una serranía longitudinal de norte a sur con bosques cocoteros cuya elevación máxima es La Loma de 85 m . Providencia es de relieve de colinas con elevaciones hasta de 350 m (Alto Pick) sobre el nivel del mar. Santa Catalina, separada de la anterior por un canal de 150 m de ancho, es relativamente quebrada y su altura máxima es de 133 m s. n. m. ​ Los cayos son pequeños afloramientos de arrecifes coralinos formados principalmente por arenas calcáreas, algunas veces con vegetación de cocoteros y yerbas altas. ​ ​ Geología. El archipiélago de San Andrés, Providencia y Santa Catalina se ubica sobre una elevación del fondo marino conocida como el Elevado de Nicaragua. ​ La formación de la isla de San Andrés se debe principalmente al depósito de sedimentos marinos y restos de coral sobre una antigua base volcánica sumergida. ​ En esta isla destacan dos zonas geológicas principales: la Formación San Andrés, compuesta por rocas calizas antiguas que forman las colinas del centro de la isla; y la Formación San Luis, formada por arrecifes de coral y arenas más recientes que dan origen a las zonas bajas y planas cercanas a la costa. ​ ​ A diferencia de San Andrés, las islas de Providencia y Santa Catalina tienen un origen claramente volcánico. Su terreno está formado por rocas ígneas que se originaron a partir de la lava y las cenizas expulsadas por antiguos volcanes hoy extintos y erosionados. ​ ​ Con el paso del tiempo, sobre estas rocas volcánicas se acumularon fragmentos de conchas, arenas de playa y arrecifes de coral. Además, los cambios en el nivel del mar a lo largo de la historia y el oleaje constante han moldeado el paisaje actual, dando forma a las playas, acantilados y pequeños cayos del archipiélago. ​ ​ ",
+            "text_with_qids": "El departamento (Q215655) es el único del país sin territorio continental. Se corresponde al archipiélago (Q33837) del mismo nombre que se trata de un conjunto de islas, cayos e islotes localizados sobre una plataforma volcánica del mar Caribe (Q1247) suroccidental. ​ Todo el archipiélago (Q33837) posee una extensión de 350 000 km² (Q712226) de mar. La extensión de su tierra firme suma 44 km² (Q712226) (sin contar los numerosos cayos e islotes), lo que lo hace el departamento (Q215655) más pequeño de Colombia (Q739) en superficie y el de mayor densidad poblacional del país con 1603.5 hab./ km² (Q712226) . Si se compara con una isla del Caribe como Carriacou (Q795647) , que tiene una extensión de 34 km² (Q712226) y una población de 4595 personas según un censo de 1991 con una densidad de 135 personas por km² (Q712226) , se entiende la desproporción. ​ Por otra parte, si se compara con una isla como Java que tiene una extensión de 132 000 km² (Q712226), una población de 160 millones de habitantes con una densidad de 1098 hab/km² (Q712226) la situación de San Andrés (Q131051) es de relativa normalidad. Las dos islas principales ( San Andrés y Providencia (Q1138756) ) presentan relieves y constitución de rocas diferentes: la primera es producto de sedimentos calizos (Q185006) recientes, mientras la segunda proviene de un volcán (Q8072) andesítico (Q181908) extinguido durante el período del mioceno (Q76267) medio y superior. ​ ​ El relieve de San Andrés está conformado por una serranía longitudinal de norte a sur con bosques cocoteros (Q13187) cuya elevación m (Q11573)áxima es La Loma de 85 m . Providencia es de relieve de colinas con elevaciones hasta de 350 m (Alto Pick) sobre el nivel del mar. Santa Catalina, separada de la anterior por un canal de 150 m de ancho, es relativamente quebrada y su altura máxima es de 133 m s. n. m. ​ Los cayos son pequeños afloramientos de arrecifes coralinos formados principalmente por arenas calcáreas, algunas veces con vegetación de cocoteros (Q13187) y yerbas altas. ​ ​ Geología. El archipiélago (Q33837) de San Andrés, Providencia y Santa Catalina se ubica sobre una elevación del fondo marino conocida como el Elevado de Nicaragua (Q811). ​ La formación de la isla de San Andrés (Q9009784) se debe principalmente al depósito de sedimentos marinos y restos de coral sobre una antigua base volcánica sumergida. ​ En esta isla destacan dos zonas geológicas principales: la Formación San Andrés, compuesta por rocas calizas antiguas que forman las colinas del centro de la isla; y la Formación San Luis, formada por arrecifes de coral y arenas más recientes que dan origen a las zonas bajas y planas cercanas a la costa. ​ ​ A diferencia de San Andrés, las islas de Providencia (Q1138756) y Santa Catalina (Q439076) tienen un origen claramente volcánico. Su terreno está formado por rocas ígneas que se originaron a partir de la lava y las cenizas expulsadas por antiguos volcanes hoy extintos y erosionados. ​ ​ Con el paso del tiempo, sobre estas rocas volcánicas se acumularon fragmentos de conchas, arenas de playa y arrecifes de coral. Además, los cambios en el nivel del mar a lo largo de la historia y el oleaje constante han moldeado el paisaje actual, dando forma a las playas, acantilados y pequeños cayos del archipiélago (Q33837). ​ ​ ",
+            "spans": [
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 3,
+                    "end": 15,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 83,
+                    "end": 95,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar Caribe",
+                    "start": 214,
+                    "end": 224,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 250,
+                    "end": 262,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 294,
+                    "end": 297,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 346,
+                    "end": 349,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 412,
+                    "end": 424,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 440,
+                    "end": 448,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 524,
+                    "end": 527,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q795647",
+                    "surface": "Carriacou",
+                    "start": 573,
+                    "end": 582,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 615,
+                    "end": 618,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 712,
+                    "end": 715,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 838,
+                    "end": 841,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 916,
+                    "end": 919,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andrés",
+                    "start": 936,
+                    "end": 946,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 1015,
+                    "end": 1026,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q185006",
+                    "surface": "calizos",
+                    "start": 1121,
+                    "end": 1128,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8072",
+                    "surface": "volcán",
+                    "start": 1175,
+                    "end": 1181,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q181908",
+                    "surface": "andesítico",
+                    "start": 1182,
+                    "end": 1192,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q76267",
+                    "surface": "mioceno",
+                    "start": 1227,
+                    "end": 1234,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q13187",
+                    "surface": "cocoteros",
+                    "start": 1355,
+                    "end": 1364,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11573",
+                    "surface": "m",
+                    "start": 1380,
+                    "end": 1381,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q13187",
+                    "surface": "cocoteros",
+                    "start": 1790,
+                    "end": 1799,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1833,
+                    "end": 1845,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 1964,
+                    "end": 1973,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q9009784",
+                    "surface": "isla de San Andrés",
+                    "start": 1996,
+                    "end": 2014,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 2487,
+                    "end": 2498,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q439076",
+                    "surface": "Santa Catalina",
+                    "start": 2501,
+                    "end": 2515,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 3020,
+                    "end": 3032,
+                    "section": "Geografía",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:4",
+            "section_idx": 4,
+            "language": "es",
+            "heading": "Clima",
+            "level": 2,
+            "text": "En el archipiélago, la temporada de lluvia es muy caliente y nublada. La temporada seca es caliente y parcialmente nublada (enero-abril). Durante el transcurso del año, la temperatura generalmente varía de 26 °C a 30 °C y rara vez baja a menos de 25 °C o sube a más de 31 °C. Las precipitaciones anuales superan los 1900 mm, con más de 200 días de precipitación. La región es propicia a los huracanes más intensos (categorías IV y V) y a las olas de calor enmarcadas bajo el efecto del cambio climático. ​ ",
+            "text_with_qids": "En el archipiélago (Q33837), la temporada de lluvia es muy caliente y nublada. La temporada seca es caliente y parcialmente nublada (enero-abril). Durante el transcurso del año, la temperatura generalmente varía de 26 °C a 30 °C y rara vez baja a menos de 25 °C o sube a más de 31 °C. Las precipitaciones anuales superan los 1900 mm, con más de 200 días de precipitación. La región es propicia a los huracanes más intensos (categorías IV y V) y a las olas de calor enmarcadas bajo el efecto del cambio climático. ​ ",
+            "spans": [
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 6,
+                    "end": 18,
+                    "section": "Clima",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:5",
+            "section_idx": 5,
+            "language": "es",
+            "heading": "Demografía y etnografía",
+            "level": 2,
+            "text": "Para el 2005 el Departamento Administrativo Nacional de Estadística (DANE) registró una población de 70.554 habitantes en todo el territorio del Archipiélago con predominio del grupo afroamericano antillano el cual constituye el 56,98 % y tiene características culturales únicas y su propia lengua. Dicho grupo humano es conocido como raizal . El 42.91 % de la población es de mestizos y blancos , el 0.1 % de amerindios o indígenas y el 0,15% de gitanos , estos últimos grupos humanos llegados al Archipiélago sobre todo a partir de la segunda mitad del siglo XX especialmente de la Colombia continental y extranjeros principalmente de Alemania, España, Italia, Noruega, Finlandia, Rusia, China, Venezuela, Ecuador, Brasil, Argentina entre otros. Composición étnica. Según las cifras presentadas por el DANE del censo 2005, la composición etnográfica del departamento es: ​ Idioma. Según el artículo 10 de la constitución de Colombia , son oficiales tanto el español y la lengua criolla de San Andrés y Providencia, el criollo sanandresano ( Creole English ), hablado por la población del archipiélago. Aunque el idioma oficial del archipiélago es el español, vale la pena señalar que San Andrés y Providencia es un lugar privilegiado lingüísticamente en Colombia, ya que cuenta con una población en su gran mayoría trilingüe. El nativo generalmente habla y escribe español, así como inglés; y entre sus similares se comunica en criollo sanandresano. Tanto el idioma español como el inglés están presentes en establecimientos educativos públicos y privados, además de que la educación bilingüe es habitual. Inmigración. El más reciente censo general de la nación, realizado por el Departamento Administrativo Nacional de Estadística de Colombia ( DANE ), presenta los siguientes resultados acerca del país de nacimiento de los habitantes del Archipiélago de San Andrés, Providencia y Santa Catalina: ​ ",
+            "text_with_qids": "Para el 2005 el Departamento (Q215655) Administrativo Nacional de Estadística (DANE (Q1190181)) registró una población de 70.554 habitantes en todo el territorio del Archipiélago (Q33837) con predominio del grupo afroamericano antillano el cual constituye el 56,98 % y tiene características culturales únicas y su propia lengua. Dicho grupo humano es conocido como raizal (Q7285231) . El 42.91 % de la población es de mestizos (Q106713) y blancos (Q235155) , el 0.1 % de amerindios (Q36747) o indígenas (Q3239800) y el 0,15% de gitanos (Q8060) , estos últimos grupos humanos llegados al Archipiélago (Q33837) sobre todo a partir de la segunda mitad del siglo XX especialmente de la Colombia (Q739) continental y extranjeros principalmente de Alemania, España (Q29), Italia, Noruega, Finlandia, Rusia, China, Venezuela, Ecuador, Brasil, Argentina entre otros. Composición étnica. Según las cifras presentadas por el DANE (Q1190181) del censo 2005, la composición etnográfica del departamento (Q215655) es: ​ Idioma. Según el artículo 10 de la constitución de Colombia (Q2837647) , son oficiales tanto el español (Q1321) y la lengua criolla (Q33289) de San Andrés y Providencia (Q26855), el criollo sanandresano (Q2044587) ( Creole English ), hablado por la población del archipiélago (Q33837). Aunque el idioma oficial del archipiélago (Q33837) es el español (Q1321), vale la pena señalar que San Andrés y Providencia (Q26855) es un lugar privilegiado lingüísticamente en Colombia (Q739), ya que cuenta con una población en su gran mayoría trilingüe. El nativo generalmente habla y escribe español (Q1321), así como inglés (Q1860); y entre sus similares se comunica en criollo sanandresano (Q2044587). Tanto el idioma español (Q1321) como el inglés (Q1860) están presentes en establecimientos educativos públicos y privados, además de que la educación bilingüe es habitual. Inmigración. El más reciente censo general de la nación, realizado por el Departamento (Q215655) Administrativo Nacional de Estadística de Colombia (Q739) ( DANE (Q1190181) ), presenta los siguientes resultados acerca del país de nacimiento de los habitantes del Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina: ​ ",
+            "spans": [
+                {
+                    "qid": "Q215655",
+                    "surface": "Departamento",
+                    "start": 16,
+                    "end": 28,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1190181",
+                    "surface": "DANE",
+                    "start": 69,
+                    "end": 73,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "Archipiélago",
+                    "start": 145,
+                    "end": 157,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "raizal",
+                    "start": 335,
+                    "end": 341,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q106713",
+                    "surface": "mestizos",
+                    "start": 377,
+                    "end": 385,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q235155",
+                    "surface": "blancos",
+                    "start": 388,
+                    "end": 395,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q36747",
+                    "surface": "amerindios",
+                    "start": 410,
+                    "end": 420,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3239800",
+                    "surface": "indígenas",
+                    "start": 423,
+                    "end": 432,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8060",
+                    "surface": "gitanos",
+                    "start": 447,
+                    "end": 454,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "Archipiélago",
+                    "start": 498,
+                    "end": 510,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 584,
+                    "end": 592,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 647,
+                    "end": 653,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1190181",
+                    "surface": "DANE",
+                    "start": 804,
+                    "end": 808,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 856,
+                    "end": 868,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2837647",
+                    "surface": "constitución de Colombia",
+                    "start": 910,
+                    "end": 934,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "español",
+                    "start": 960,
+                    "end": 967,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33289",
+                    "surface": "lengua criolla",
+                    "start": 973,
+                    "end": 987,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 991,
+                    "end": 1015,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2044587",
+                    "surface": "criollo sanandresano",
+                    "start": 1020,
+                    "end": 1040,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1090,
+                    "end": 1102,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 1133,
+                    "end": 1145,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "español",
+                    "start": 1152,
+                    "end": 1159,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 1186,
+                    "end": 1210,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 1256,
+                    "end": 1264,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "español",
+                    "start": 1367,
+                    "end": 1374,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "inglés",
+                    "start": 1385,
+                    "end": 1391,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2044587",
+                    "surface": "criollo sanandresano",
+                    "start": 1430,
+                    "end": 1450,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "español",
+                    "start": 1468,
+                    "end": 1475,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "inglés",
+                    "start": 1484,
+                    "end": 1490,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "Departamento",
+                    "start": 1682,
+                    "end": 1694,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 1737,
+                    "end": 1745,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1190181",
+                    "surface": "DANE",
+                    "start": 1748,
+                    "end": 1752,
+                    "section": "Demografía y etnografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 1843,
+                    "end": 1869,
+                    "section": "Demografía y etnografía",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:6",
+            "section_idx": 6,
+            "language": "es",
+            "heading": "Economía",
+            "level": 2,
+            "text": "La economía del departamento se basa principalmente en el turismo y el comercio; diariamente llegan a las islas varios aviones procedentes de diferentes ciudades colombianas y algunos del exterior con turistas en busca de esparcimiento y descanso; las anteriores actividades son complementadas por las propias de la agricultura y la pesca de subsistencia, que son insuficientes para abastecer las islas y ello hace que del interior del país se deban importar la mayor parte de los víveres de consumo cotidiano, tanto para los naturales como para los turistas. Antiguamente se explotaban comercialmente diversos productos agrícolas, principalmente el coco , además de algodón, maíz, aguacate, caña de azúcar, mango, Naranja, ñame, noni, yuca, papaya, batata, piña, frijol, tabaco y frutas; producciones que fueron decayendo a través de los años por daños en el suelo y urbanización de muchas áreas. ​ Con la declaración del puerto libre y las migraciones posteriores tanto de la población del interior ( Bolívar , Atlántico , Antioquia ) como extranjeros ( Medio Oriente ) se impulsó la actividad turística y comercial, incentivadas por los bajos costos que tenían las mercancías. Con ello, aumentó el transporte aéreo y marítimo a la isla, que durante las temporadas altas es visitada por una gran cantidad de turistas. ​ Turismo. Las principales atracciones turísticas del Archipiélago de San Andrés, Providencia y Santa Catalina son: ​ ",
+            "text_with_qids": "La economía del departamento (Q215655) se basa principalmente en el turismo y el comercio; diariamente llegan a las islas varios aviones procedentes de diferentes ciudades colombianas y algunos del exterior con turistas en busca de esparcimiento y descanso; las anteriores actividades son complementadas por las propias de la agricultura (Q11451) y la pesca (Q14373) de subsistencia, que son insuficientes para abastecer las islas y ello hace que del interior del país se deban importar la mayor parte de los víveres de consumo cotidiano, tanto para los naturales como para los turistas. Antiguamente se explotaban comercialmente diversos productos agrícolas, principalmente el coco (Q3342808) , además de algodón (Q11457), maíz, aguacate, caña de azúcar, mango, Naranja, ñame, noni, yuca, papaya, batata, piña, frijol, tabaco y frutas; producciones que fueron decayendo a través de los años por daños en el suelo y urbanización de muchas áreas. ​ Con la declaración del puerto libre (Q218739) y las migraciones posteriores tanto de la población del interior ( Bolívar (Q230597) , Atlántico (Q230882) , Antioquia (Q123304) ) como extranjeros ( Medio Oriente (Q7204) ) se impulsó la actividad turística y comercial, incentivadas por los bajos costos que tenían las mercancías. Con ello, aumentó el transporte aéreo y marítimo a la isla, que durante las temporadas altas es visitada por una gran cantidad de turistas. ​ Turismo. Las principales atracciones turísticas del Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina son: ​ ",
+            "spans": [
+                {
+                    "qid": "Q215655",
+                    "surface": "departamento",
+                    "start": 16,
+                    "end": 28,
+                    "section": "Economía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11451",
+                    "surface": "agricultura",
+                    "start": 316,
+                    "end": 327,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q14373",
+                    "surface": "pesca",
+                    "start": 333,
+                    "end": 338,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3342808",
+                    "surface": "coco",
+                    "start": 650,
+                    "end": 654,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11457",
+                    "surface": "algodón",
+                    "start": 667,
+                    "end": 674,
+                    "section": "Economía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q218739",
+                    "surface": "puerto libre",
+                    "start": 923,
+                    "end": 935,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q230597",
+                    "surface": "Bolívar",
+                    "start": 1003,
+                    "end": 1010,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q230882",
+                    "surface": "Atlántico",
+                    "start": 1013,
+                    "end": 1022,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q123304",
+                    "surface": "Antioquia",
+                    "start": 1025,
+                    "end": 1034,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7204",
+                    "surface": "Medio Oriente",
+                    "start": 1056,
+                    "end": 1069,
+                    "section": "Economía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 1374,
+                    "end": 1400,
+                    "section": "Economía",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:7",
+            "section_idx": 7,
+            "language": "es",
+            "heading": "Educación",
+            "level": 2,
+            "text": "El archipiélago tiene el menor índice de analfabetismo del país. Dos universidades tienen sede en la isla de San Andrés (la sede Caribe de la Universidad Nacional de Colombia y la Universidad Tecnológica de Pereira ), un centro técnico y próximamente un Centro de Desarrollo Turístico donado por la Universidad Politécnica de Valencia . ",
+            "text_with_qids": "El archipiélago (Q33837) tiene el menor índice de analfabetismo del país. Dos universidades tienen sede en la isla de San Andrés (Q9009784) (la sede Caribe de la Universidad Nacional de Colombia (Q1150419) y la Universidad Tecnológica de Pereira (Q2441962) ), un centro técnico y próximamente un Centro de Desarrollo Turístico donado por la Universidad Politécnica de Valencia (Q8818) . ",
+            "spans": [
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 3,
+                    "end": 15,
+                    "section": "Educación",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q9009784",
+                    "surface": "isla de San Andrés",
+                    "start": 101,
+                    "end": 119,
+                    "section": "Educación",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1150419",
+                    "surface": "Universidad Nacional de Colombia",
+                    "start": 142,
+                    "end": 174,
+                    "section": "Educación",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2441962",
+                    "surface": "Universidad Tecnológica de Pereira",
+                    "start": 180,
+                    "end": 214,
+                    "section": "Educación",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8818",
+                    "surface": "Valencia",
+                    "start": 326,
+                    "end": 334,
+                    "section": "Educación",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:8",
+            "section_idx": 8,
+            "language": "es",
+            "heading": "Cultura",
+            "level": 2,
+            "text": "Gastronomía. La gastronomía del archipiélago está basada en el pescado como el pargo rojo, caracol, langosta y cangrejo. Estos platos vienen generalmente acompañados con coco, plátano, yuca y leche de coco. El plato más tradicional es el rondón , una especie de cazuela de pescado y caracol cocidos lentamente en leche de coco, con yuca, ñame, pescados y el dumpling , una torta hecha a base de harina de trigo. ​ Otros platos típicos son la sopa de cangrejo, los patis, las fish balls (bolitas de pescado), el pan bun (o bon), árbol del fruto del pan, crab backs, patacones y variedad de pescados. ​ ​ Religión. San Andrés cuenta numerosos cultos religiosos, entre ellos católicos , bautistas (iglesia predominante y mayoritario entre los raizales), adventistas , pentecostales y otros grupos protestantes , testigos de Jehová y además musulmanes y judíos ; cuyas religiones cuentan respectivamente con mezquita y sinagoga en la isla de San Andrés. Deporte. Festividades. ",
+            "text_with_qids": "Gastronomía. La gastronomía del archipiélago (Q33837) está basada en el pescado como el pargo rojo, caracol, langosta y cangrejo. Estos platos vienen generalmente acompañados con coco (Q3342808), plátano, yuca y leche de coco (Q3342808). El plato más tradicional es el rondón (Q14943090) , una especie de cazuela de pescado y caracol cocidos lentamente en leche de coco (Q3342808), con yuca, ñame, pescados y el dumpling , una torta hecha a base de harina de trigo. ​ Otros platos típicos son la sopa de cangrejo, los patis, las fish balls (bolitas de pescado), el pan bun (Q24961231) (o bon), árbol del fruto del pan, crab backs, patacones (Q2412544) y variedad de pescados. ​ ​ Religión. San Andrés cuenta numerosos cultos religiosos, entre ellos católicos (Q9592) , bautistas (Q93191) (iglesia predominante y mayoritario entre los raizales), adventistas (Q215168) , pentecostales (Q483978) y otros grupos protestantes (Q23540) , testigos de Jehová (Q35269) y además musulmanes (Q432) y judíos (Q7325) ; cuyas religiones cuentan respectivamente con mezquita (Q32815) y sinagoga (Q34627) en la isla de San Andrés (Q9009784). Deporte. Festividades. ",
+            "spans": [
+                {
+                    "qid": "Q33837",
+                    "surface": "archipiélago",
+                    "start": 32,
+                    "end": 44,
+                    "section": "Cultura",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3342808",
+                    "surface": "coco",
+                    "start": 170,
+                    "end": 174,
+                    "section": "Cultura",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3342808",
+                    "surface": "coco",
+                    "start": 201,
+                    "end": 205,
+                    "section": "Cultura",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14943090",
+                    "surface": "rondón",
+                    "start": 238,
+                    "end": 244,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3342808",
+                    "surface": "coco",
+                    "start": 322,
+                    "end": 326,
+                    "section": "Cultura",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q24961231",
+                    "surface": "bun",
+                    "start": 515,
+                    "end": 518,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2412544",
+                    "surface": "patacones",
+                    "start": 565,
+                    "end": 574,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q9592",
+                    "surface": "católicos",
+                    "start": 672,
+                    "end": 681,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q93191",
+                    "surface": "bautistas",
+                    "start": 684,
+                    "end": 693,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215168",
+                    "surface": "adventistas",
+                    "start": 751,
+                    "end": 762,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q483978",
+                    "surface": "pentecostales",
+                    "start": 765,
+                    "end": 778,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q23540",
+                    "surface": "protestantes",
+                    "start": 794,
+                    "end": 806,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q35269",
+                    "surface": "testigos de Jehová",
+                    "start": 809,
+                    "end": 827,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q432",
+                    "surface": "musulmanes",
+                    "start": 837,
+                    "end": 847,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7325",
+                    "surface": "judíos",
+                    "start": 850,
+                    "end": 856,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q32815",
+                    "surface": "mezquita",
+                    "start": 904,
+                    "end": 912,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q34627",
+                    "surface": "sinagoga",
+                    "start": 915,
+                    "end": 923,
+                    "section": "Cultura",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q9009784",
+                    "surface": "isla de San Andrés",
+                    "start": 930,
+                    "end": 948,
+                    "section": "Cultura",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:9",
+            "section_idx": 9,
+            "language": "es",
+            "heading": "Véase también",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:10",
+            "section_idx": 10,
+            "language": "es",
+            "heading": "Referencias",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:11",
+            "section_idx": 11,
+            "language": "es",
+            "heading": "Bibliografía",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q26855",
+            "section_id": "es:Q26855:12",
+            "section_idx": 12,
+            "language": "es",
+            "heading": "Enlaces externos",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        }
+    ],
+    "qid_to_aliases": {
+        "Q1860": [
+            "Acento de boston",
+            "Anglofona",
+            "Anglofono",
+            "Anglohablante",
+            "Angloparlante",
+            "Anglófona",
+            "Anglófono",
+            "El idioma ingles",
+            "English",
+            "English language",
+            "Idioma Inglés",
+            "Idioma ingles",
+            "Idioma inglés",
+            "Ingl.",
+            "Ingles (idioma)",
+            "Ingles moderno",
+            "Inglés (idioma)",
+            "Inglés moderno",
+            "La lengua de Shakespeare",
+            "Lengua Ingles",
+            "Lengua Inglesa",
+            "Lengua Inglés",
+            "Lengua de Shakespeare",
+            "Lengua ingles",
+            "Lengua inglesa",
+            "Lengua inglés",
+            "inglés"
+        ],
+        "Q2044587": [
+            "Criollo sanadresano",
+            "Criollo sanandresano",
+            "criollo sanadresano",
+            "criollo sanandresano"
+        ],
+        "Q215655": [
+            "Departamento (Colombia)",
+            "Departamento de Colombia",
+            "Departamentos",
+            "Departamentos de Colombia",
+            "Departamentos de colombia",
+            "departamento",
+            "departamentos"
+        ],
+        "Q739": [
+            "Colombia",
+            "Colombia (republica)",
+            "Colombia (república)",
+            "Colombiana",
+            "Colombianas",
+            "Colombiano",
+            "Colômbia",
+            "Republica de Colombia",
+            "República de Colombia",
+            "U D C",
+            "U D C.",
+            "U D. C.",
+            "U D.C.",
+            "U. D. C.",
+            "U.D.C.",
+            "Unión Departamental de Colombia"
+        ],
+        "Q76823829": [
+            "Descentralización territorial en Colombia",
+            "régimen especial"
+        ],
+        "Q134678": [
+            "North End"
+        ],
+        "Q1247": [
+            "Caribeno",
+            "Caribeño",
+            "Mar Caribe",
+            "Mar caribe",
+            "Mar de las Antillas",
+            "mar Caribe",
+            "mar de las Antillas"
+        ],
+        "Q97": [
+            "Atlantico",
+            "Atlantico Norte",
+            "Atlantico Sur",
+            "Atlantico norte",
+            "Atlantico sur",
+            "Ka Futa Lafken",
+            "Ka Füta Lafken",
+            "Mar Atlantico",
+            "Mar Atlántico",
+            "Mar Oceanica",
+            "Mar Oceánica",
+            "Mar Océana",
+            "Mar Océano",
+            "Mar océana",
+            "Oceano Atlantico",
+            "Oceano Atlantico Norte",
+            "Oceano Atlantico Sur",
+            "Oceano Atlantico norte",
+            "Oceano Atlántico",
+            "Oceano Atlántico norte",
+            "Oceano atlantico",
+            "Oceano atlántico",
+            "Océano Atlantico norte",
+            "Océano Atlántico",
+            "Océano Atlántico Norte",
+            "Océano Atlántico Sur",
+            "Océano Atlántico norte",
+            "Océano atlantico",
+            "Océano atlántico",
+            "océano Atlántico"
+        ],
+        "Q27611": [
+            "América Central",
+            "Centroamérica"
+        ],
+        "Q93318": [
+            "Milla marina",
+            "Milla maritima",
+            "Milla marítima",
+            "Milla nautica",
+            "Milla naútica",
+            "Milla náutica",
+            "Millas marinas",
+            "Millas nauticas",
+            "Millas náuticas",
+            "Nmi"
+        ],
+        "Q130185": [
+            "Caribe Colombiano",
+            "Caribe colombiano",
+            "Caribe continental",
+            "Costa Atlantica Colombiana",
+            "Costa Atlántica Colombiana",
+            "Costa Caribe colombiana",
+            "Costa atlantica de Colombia",
+            "Costa atlántica de Colombia",
+            "Region Caribe",
+            "Region Caribe Colombiana",
+            "Region Caribe colombiana",
+            "Region Caribe de Colombia",
+            "Region Costena",
+            "Region Costeña",
+            "Región Caribe Colombiana",
+            "Región Caribe Colombiano",
+            "Región Caribe colombiana",
+            "Región Caribe de Colombia",
+            "Región Costena",
+            "Región Costeña",
+            "Región caribeña de Colombia"
+        ],
+        "Q828224": [
+            "Kilómetro"
+        ],
+        "Q811": [
+            "Estado de Nicaragua",
+            "Nica",
+            "Nicaragua",
+            "Nicaraguense",
+            "Nicaraguenses",
+            "Nicaragüense",
+            "Nicaragüenses",
+            "Republica de Nicaragua",
+            "República de Nicaragua"
+        ],
+        "Q234505": [
+            "Departamento Vaupés",
+            "Departamento de Vaupes",
+            "Departamento de Vaupés",
+            "Departamento del Vaupes",
+            "Departamento del Vaupés",
+            "Vaupenses",
+            "Vaupes",
+            "Vaupes (Colombia)",
+            "Vaupes (Departamento)",
+            "Vaupes (departamento)",
+            "Vaupés",
+            "Vaupés (Colombia)",
+            "Vaupés (departamento)"
+        ],
+        "Q238645": [
+            "Departamento de Guainia",
+            "Departamento de Guainía",
+            "Departamento del Guainia",
+            "Departamento del Guainía",
+            "Guainarenses",
+            "Guainia",
+            "Guainia (Colombia)",
+            "Guainia (Departamento)",
+            "Guainia (departamento)",
+            "Guainía",
+            "Guainía (Colombia)",
+            "Guainía (Departamento)",
+            "Guainía (departamento)"
+        ],
+        "Q22856": [
+            "Densamente poblado",
+            "Densidad",
+            "Densidad (poblacion)",
+            "Densidad (población)",
+            "Densidad de la poblacion",
+            "Densidad de la población",
+            "Densidad de poblacion",
+            "Densidad de población",
+            "Densidad demografica",
+            "Densidad demográfica",
+            "Densidad poblacional",
+            "Hab km²",
+            "Hab/km²",
+            "Habitante por kilómetro cuadrado",
+            "Habitantes/km²",
+            "densamente poblado"
+        ],
+        "Q199821": [
+            "Antigua Colombia",
+            "Gran Colombia",
+            "Grancolombiano",
+            "La Gran Colombia"
+        ],
+        "Q1138756": [
+            "Isla de Providencia",
+            "Isla de providencia",
+            "Providencia (Colombia)",
+            "isla de Providencia"
+        ],
+        "Q9009784": [
+            "Isla San Andrés",
+            "Isla de San Andres",
+            "Isla de San Andrés",
+            "isla de San Andrés"
+        ],
+        "Q131051": [
+            "San Andrés Isla",
+            "Sanandresanos"
+        ],
+        "Q224714": [
+            "Constitución de Cúcuta"
+        ],
+        "Q1321": [
+            "Castellanizado",
+            "Castellano",
+            "Castellanohablante",
+            "Castellanoparlante",
+            "Castellanófono",
+            "Espanol (idioma)",
+            "Espanolas",
+            "Español",
+            "Español (idioma)",
+            "Espaňol",
+            "Habla castellana",
+            "Habla espanola",
+            "Habla española",
+            "Habla hispana",
+            "Habla hispanica",
+            "Habla hispánica",
+            "Hispanofono",
+            "Hispanoparlante",
+            "Hispanoparlantes",
+            "Hispanófono",
+            "Idioma Espanol latinoamericano",
+            "Idioma Español",
+            "Idioma Español latinoamericano",
+            "Idioma castellano",
+            "Idioma español",
+            "Idioma español latino",
+            "Idioma espáñol",
+            "Iglesias espanolas",
+            "La lengua de Cervantes",
+            "Lengua Castellana",
+            "Lengua Espanola",
+            "Lengua Española",
+            "Lengua castellana",
+            "Lengua de Cervantes",
+            "Lengua espanola",
+            "Lengua español",
+            "Lengua española",
+            "Lengua hispana",
+            "Lenguaje Espanol",
+            "Lenguaje Español",
+            "Lingua español",
+            "Produccion espanola",
+            "Produccion española",
+            "Producciones espanolas",
+            "Producción espanola",
+            "Productos de Espana",
+            "español"
+        ],
+        "Q7322": [
+            "Christopher Columbus",
+            "Christophorus Columbus",
+            "Cris Colon",
+            "Cris Colón",
+            "Cristobal Colón",
+            "Cristofaro Colombo",
+            "Cristoforo Colombo",
+            "Cristoforus Columbus",
+            "Cristoforus Colúmbus",
+            "Cristóbal Colón",
+            "Cristófaro Colombo",
+            "Cristóforo Colombo",
+            "Cristóforus Columbus",
+            "Cristóforus Colúmbus",
+            "Tercer viaje de Colon",
+            "Viajes colombinos",
+            "Viajes de Colón",
+            "Viajes de Cristóbal Colón"
+        ],
+        "Q29": [
+            "ESPAÑA",
+            "Espagna",
+            "Espainia",
+            "Espan",
+            "Espana",
+            "Espanha",
+            "Espania",
+            "Espanola",
+            "España",
+            "Española",
+            "Españolas",
+            "Estado Español",
+            "Estado espanol",
+            "Estado español",
+            "Kingdom of Spain",
+            "Reino Espanol",
+            "Reino Español",
+            "Reino de Espana",
+            "Reino de España",
+            "Spanien",
+            "Territorio español"
+        ],
+        "Q1226748": [
+            "Audiencia Real de Panamá",
+            "Audiencia de Panama",
+            "Audiencia de Panamá",
+            "Real Audiencia de Panama",
+            "Real Audiencia de Panamá",
+            "Real audiencia de panama",
+            "Real audiencia de panamá"
+        ],
+        "Q2077243": [
+            "Capitanía General de Guatemala",
+            "Capitanía general de Guatemala"
+        ],
+        "Q55": [
+            "Holandesa",
+            "Holandeses",
+            "Los Paises Bajos",
+            "Los Países Bajos",
+            "Nacionalidad neerlandesa",
+            "Nederlandia",
+            "Neerland",
+            "Neerlanda",
+            "Neerlandesa",
+            "Neerlandia",
+            "Paises Bajos",
+            "País Bajos",
+            "Países Bajos",
+            "neerlandeses"
+        ],
+        "Q21": [
+            "England",
+            "Inglaterra",
+            "Inglesa",
+            "ingleses"
+        ],
+        "Q23635": [
+            "Bermuda",
+            "Bermudas",
+            "Isla Saint David's",
+            "Islas Bermudas",
+            "Islas Saint Davids",
+            "Parlamento de Bermudas",
+            "Parlamento de las Bermudas"
+        ],
+        "Q244": [
+            "Barbadense",
+            "Barbados"
+        ],
+        "Q215502": [
+            "Henry John Morgan",
+            "Henry Morgan",
+            "Morgan (pirata)",
+            "Saqueo de Panamá"
+        ],
+        "Q1949330": [
+            "Eduard Mansvelt"
+        ],
+        "Q127834": [
+            "Nuevo Mundo",
+            "Nuevo mundo"
+        ],
+        "Q96318769": [
+            "Tomás O'Neille",
+            "Usuario:Mcalisdg/Taller"
+        ],
+        "Q244741": [
+            "Vicerrey",
+            "Virreinal",
+            "Virreino",
+            "Virrey",
+            "Virreynato",
+            "Visorey",
+            "Visorreinado",
+            "Visorrey",
+            "virrey",
+            "Época virreinal"
+        ],
+        "Q1607862": [
+            "Antonio Caballero y Gongora",
+            "Antonio Caballero y Góngora"
+        ],
+        "Q11457": [
+            "Algodon",
+            "Algodón",
+            "algodón"
+        ],
+        "Q2996266": [
+            "tratados"
+        ],
+        "Q1165546": [
+            "Costa Caribe de Nicaragua",
+            "Costa Mosquito",
+            "Costa de Mosquitos",
+            "Costa de los Mosquitos",
+            "Costa de los mosquitos",
+            "Costa de mosquitos",
+            "Mosquitia"
+        ],
+        "Q8965": [
+            "Virreinato de Nueva Granada",
+            "Virreinato de Santafe",
+            "Virreinato de Santafé",
+            "Virreinato de nueva granada"
+        ],
+        "Q889833": [
+            "Corona española",
+            "Monarquia Espanola",
+            "Monarquia Española",
+            "Monarquia en Espana",
+            "Monarquia espanola",
+            "Monarquia española",
+            "Monarquía Espanola",
+            "Monarquía Española",
+            "Monarquía de España",
+            "Monarquía en Espana",
+            "Monarquía espanola",
+            "Monarquía española"
+        ],
+        "Q2134726": [
+            "Real cédula",
+            "cédula real"
+        ],
+        "Q1024890": [
+            "Cabo Gracias a Dios"
+        ],
+        "Q1408661": [
+            "Rio Chagres",
+            "Río Chagres",
+            "río Chagres"
+        ],
+        "Q3421627": [
+            "Real Audiencia de Bogota",
+            "Real Audiencia de Bogotá",
+            "Real Audiencia de Santafe",
+            "Real Audiencia de Santafé"
+        ],
+        "Q3063789": [
+            "Guerra de la Independencia",
+            "Independencia de Colombia"
+        ],
+        "Q111180987": [
+            "América española"
+        ],
+        "Q631020": [
+            "Louis-Michel Aury",
+            "Luis Aury"
+        ],
+        "Q8605": [
+            "Bolivar",
+            "Bolíbar",
+            "Libertador de Bolivia",
+            "Simon Antonio Bolivar",
+            "Simon Antonio Bolívar",
+            "Simon Bolivar",
+            "Simon Bolivar Palacios",
+            "Simon Bolívar",
+            "Simon Bolívar Palacios",
+            "Simón Antonio Bolivar",
+            "Simón Antonio Bolívar",
+            "Simón Bolivar",
+            "Simón Bolivar Palacios",
+            "Simón Bolívar",
+            "Simón Bolívar Palacios"
+        ],
+        "Q371718": [
+            "Bandera de Gran Colombia"
+        ],
+        "Q6687964": [
+            "Luis Peru de Lacroix",
+            "Luis Perú de Lacroix",
+            "Perú de Lacroix"
+        ],
+        "Q3408345": [
+            "Gobernación de Cartagena",
+            "Gobierno de Cartagena",
+            "Provincia de Cartagena"
+        ],
+        "Q218739": [
+            "Puerto Libre",
+            "Puerto franco",
+            "Puerto libre",
+            "puerto franco",
+            "puerto libre"
+        ],
+        "Q3135880": [
+            "Combate de Barbacoas",
+            "Tomas Cipriano Mosquera",
+            "Tomas Cipriano de Mosquera",
+            "Tomás Cipriano Mosquera",
+            "Tomás Cipriano de Mosquera",
+            "Tomás de Mosquera"
+        ],
+        "Q3591868": [
+            "Estado Federal de Bolivar",
+            "Estado Federal de Bolívar",
+            "Estado Soberano de Bolivar",
+            "Estado Soberano de Bolívar"
+        ],
+        "Q6143348": [
+            "Territorio nacional"
+        ],
+        "Q5855537": [
+            "Fallo Loubet",
+            "Laudo Loubet",
+            "fallo limítrofe"
+        ],
+        "Q3089201": [
+            "separación de Panamá"
+        ],
+        "Q106782938": [
+            "Francis Newball",
+            "Francisco Newball"
+        ],
+        "Q5918731": [
+            "Intendencia"
+        ],
+        "Q230597": [
+            "Bolivar (Colombia)",
+            "Bolivar (Departamento)",
+            "Bolivar (departamento)",
+            "Bolivarenses (Colombia)",
+            "Bolívar (Colombia)",
+            "Bolívar (departamento)",
+            "Departamento Bolivar",
+            "Departamento Bolívar",
+            "Departamento de Bolivar",
+            "Departamento de Bolívar",
+            "Departamento del Bolivar",
+            "Departamento del Bolívar"
+        ],
+        "Q3536703": [
+            "Tratado Barcenas Meneses Esguerra",
+            "Tratado Barcenas Meneses-Esguerra",
+            "Tratado Bárcenas Meneses Esguerra",
+            "Tratado Bárcenas Meneses-Esguerra",
+            "Tratado Esguerra Barcenas",
+            "Tratado Esguerra Bárcenas",
+            "Tratado Esguerra-Barcenas",
+            "Tratado Esguerra-Bárcenas",
+            "Tratado Esguerra–Barcenas",
+            "Tratado Esguerra–Bárcenas"
+        ],
+        "Q455692": [
+            "Gustavo Rojas Pinilla",
+            "Rojas Pinilla"
+        ],
+        "Q30": [
+            "E U A",
+            "E.U.",
+            "E.U.A.",
+            "EE UU",
+            "EE-UU",
+            "EE. UU.",
+            "EE.UU.",
+            "EEUU",
+            "EUA",
+            "Eeuu",
+            "Estadinense",
+            "Estadinenses",
+            "Estado-unidense",
+            "Estado-unidenses",
+            "Estados Unidos",
+            "Estados Unidos de America",
+            "Estados Unidos de América",
+            "Estados Unidos de Norteamerica",
+            "Estados Unidos de Norteamérica",
+            "Estados unidos",
+            "Estadounidense",
+            "Estadounidenses",
+            "Estadunidense",
+            "Estadunidenses",
+            "Norteamérica Media",
+            "República de Estados Unidos",
+            "The United States",
+            "U S",
+            "U S A",
+            "U S A.",
+            "U S.",
+            "U S.A.",
+            "U.S.",
+            "U.S.A.",
+            "USA",
+            "United States",
+            "United States of America",
+            "United states",
+            "Unión Americana",
+            "Unión estadounidense",
+            "Usa",
+            "Usamericano",
+            "Usamericanos",
+            "Usana",
+            "Usanas",
+            "Usano",
+            "Useno",
+            "Usense",
+            "Usenses",
+            "Useña",
+            "Useñas",
+            "Useño",
+            "Useños",
+            "Yuma (gentilicio)",
+            "Yuma (modismo)"
+        ],
+        "Q950869": [
+            "Cayo Roncador",
+            "Roncador",
+            "Roncador Cay"
+        ],
+        "Q1814365": [
+            "Banco Serrana",
+            "Cayo Serrana",
+            "Serrana"
+        ],
+        "Q559484": [
+            "Banco Quita Sueno",
+            "Banco Quita Sueño",
+            "Banco Quitasueno",
+            "Banco Quitasueño",
+            "Banco quita sueno",
+            "Banco quita sueño",
+            "Cayo Quitasueño",
+            "Quitasueno",
+            "Quitasueño"
+        ],
+        "Q57402": [
+            "Daniel Ortega",
+            "Daniel Ortega S",
+            "Daniel Ortega S.",
+            "Daniel Ortega Saavedra",
+            "Daniel Ortega Saavedra.",
+            "Jose Daniel Ortega Saavedra",
+            "José Daniel Ortega Saavedra"
+        ],
+        "Q7801": [
+            "CIJ",
+            "Corte Internacional",
+            "Corte Internacional de Justicia",
+            "Corte de justicia internacional",
+            "Corte internacional de justicia",
+            "TIJ",
+            "Tribunal Internacional de Justicia",
+            "Tribunal Universal de Justicia"
+        ],
+        "Q158454": [
+            "Reserva de Biosfera",
+            "Reserva de la biosfera"
+        ],
+        "Q131629775": [
+            "una demanda"
+        ],
+        "Q5855540": [
+            "dictó sentencia"
+        ],
+        "Q3259546": [
+            "Alburquerque",
+            "Cayo Albuquerque",
+            "Cayo Alburquerque"
+        ],
+        "Q1257783": [
+            "Bajo Nuevo",
+            "Bajo Nuevo Bank",
+            "Bajo nuevo",
+            "Islas Petrel"
+        ],
+        "Q1169008": [
+            "Isla Serranilla",
+            "Serranilla"
+        ],
+        "Q123759": [
+            "Estado americano",
+            "Estados Americanos",
+            "OEA",
+            "Oea",
+            "Organizacion de Estados Americanos",
+            "Organización de Estados Americanos",
+            "Organization of American States"
+        ],
+        "Q890663": [
+            "Pacto de Bogota",
+            "Pacto de Bogotá"
+        ],
+        "Q57311": [
+            "Juan Manuel Santos",
+            "Juan Manuel Santos Calderon",
+            "Juan Manuel Santos Calderón"
+        ],
+        "Q609591": [
+            "Constitucion puertoriquena",
+            "Constitución puertoriquena",
+            "Constitución puertorriqueña",
+            "Estado Libre Asociado",
+            "estado libre asociado"
+        ],
+        "Q1183": [
+            "Borinquén",
+            "Commonwealth of Puerto Rico",
+            "Isla Puerto Rico",
+            "Isla de Puerto Rico",
+            "Mancomunidad de Puerto Rico",
+            "Puerto Rico",
+            "Puertoriquena",
+            "Puertoriqueno",
+            "Puertoriqueña",
+            "Puertoriqueño",
+            "Puertorriquena",
+            "Puertorriqueno",
+            "Puertorriqueña"
+        ],
+        "Q228": [
+            "Andorra",
+            "Andorra (principado)",
+            "Andorrana",
+            "Andorrano",
+            "Principado de Andorra",
+            "Principat d'Andorra",
+            "Principat d´Andorra"
+        ],
+        "Q142": [
+            "Estado de Francia",
+            "Estado francés",
+            "Francesa",
+            "Francia",
+            "Frankreich",
+            "L'Hexagone",
+            "País del hexágono",
+            "Poblacion de Francia",
+            "Población de Francia",
+            "Republica Francesa",
+            "Republica de Francia",
+            "Republica francesa",
+            "Republique Francaise",
+            "Republique Francasaise",
+            "Republique Française",
+            "Republique Françasaise",
+            "República Francesa",
+            "República de Francia",
+            "República francesa",
+            "République Francaise",
+            "République Francasaise",
+            "République Française",
+            "République Françasaise",
+            "V Republica Francesa",
+            "V Republica francesa"
+        ],
+        "Q101717374": [
+            "Huracán Iota",
+            "Tormenta tropical Iota"
+        ],
+        "Q2997887": [
+            "Area no municipalizada",
+            "Areas no municipalizada",
+            "Corregimiento departamental",
+            "Área no municipalizada",
+            "Áreas no municipalizadas",
+            "área no municipalizada"
+        ],
+        "Q5119": [
+            "Cabecera departamental",
+            "Cabecera nacional",
+            "Cabecera provincial",
+            "Cabecera regional",
+            "Capital",
+            "Capital (ciudad)",
+            "Capital (geografica)",
+            "Capital (geográfica)",
+            "Capital (politica)",
+            "Capital (política)",
+            "Capital nacional",
+            "Capital politica",
+            "Capital política",
+            "Capitalidad",
+            "Capitalino",
+            "Caput (urbs)",
+            "Ciudad capital"
+        ],
+        "Q138266457": [
+            "Centro poblado",
+            "Centros poblados",
+            "Centros poblados de Colombia"
+        ],
+        "Q18747692": [
+            "Punta Sur",
+            "South End Villas"
+        ],
+        "Q5707802": [
+            "Asamblea Departamental",
+            "Asamblea de diputados",
+            "Diputado (Colombia)"
+        ],
+        "Q33837": [
+            "Archipielago",
+            "Archipielagos",
+            "Archipiélago",
+            "Archipiélagos",
+            "archipiélago"
+        ],
+        "Q712226": [
+            "Kilometro cuadrado",
+            "Kilometros cuadrados",
+            "Kilómetro cuadrado",
+            "Kilómetros cuadrados",
+            "Km cuadrado",
+            "Km2",
+            "Km²",
+            "Quilómetro cuadrado",
+            "km²"
+        ],
+        "Q795647": [
+            "Cariacoa",
+            "Carriacou"
+        ],
+        "Q185006": [
+            "calizos",
+            "Óxido de calcio"
+        ],
+        "Q8072": [
+            "Actividad volcanica",
+            "Actividad volcánica",
+            "Formas volcanicas",
+            "Formas volcánicas",
+            "Piedra volcanica",
+            "Volcan",
+            "Volcanes",
+            "Volcanica",
+            "Volcanicas",
+            "Volcanico",
+            "Volcán",
+            "Volcánica",
+            "Volcánicas",
+            "Volcánico",
+            "Volcánicos",
+            "Vulcanista",
+            "volcán"
+        ],
+        "Q181908": [
+            "Andesita",
+            "Andesítica",
+            "andesítico"
+        ],
+        "Q76267": [
+            "Mioceno",
+            "Miocénica",
+            "mioceno"
+        ],
+        "Q13187": [
+            "Cocos nucifera",
+            "cocoteros"
+        ],
+        "Q11573": [
+            "Metro",
+            "Metro (Medida)",
+            "Metro (medida)",
+            "Metro (unidad)",
+            "Metro lineal",
+            "Metrof",
+            "Metros",
+            "Métrico"
+        ],
+        "Q439076": [
+            "Isla Santa Catalina",
+            "Isla de Santa Catalina"
+        ],
+        "Q1190181": [
+            "Código DANE",
+            "Código Divipola",
+            "DANE",
+            "Divipola"
+        ],
+        "Q7285231": [
+            "Raizal",
+            "Raizales",
+            "raizal"
+        ],
+        "Q106713": [
+            "Mestizo",
+            "mestizos"
+        ],
+        "Q235155": [
+            "Blanco (persona)",
+            "Blanco (raza)",
+            "Blancos (raza)",
+            "Caucasica",
+            "Caucasico",
+            "Hombre blanco",
+            "Persona blanca",
+            "Persona de piel blanca",
+            "Tez blanca",
+            "blancos"
+        ],
+        "Q36747": [
+            "Indígenas de América",
+            "amerindios"
+        ],
+        "Q3239800": [
+            "Indígena",
+            "indígenas"
+        ],
+        "Q8060": [
+            "Agitanado",
+            "Agitanar",
+            "Calé",
+            "Cañí",
+            "Cingaro",
+            "Cíngaro",
+            "Etnia gitana",
+            "Etnia rom",
+            "Gitana",
+            "Gitanada",
+            "Gitanas",
+            "Gitanería",
+            "Gitanesco",
+            "Gitanismo",
+            "Gitano",
+            "Gitanos",
+            "Pueblo Gitano",
+            "Pueblo Rom",
+            "Pueblo gitano",
+            "Pueblo rom",
+            "Pueblo roma",
+            "Pueblo romani",
+            "Pueblo romaní",
+            "Roma people",
+            "Romaníes",
+            "Rrom",
+            "Zíngaro",
+            "gitanos"
+        ],
+        "Q2837647": [
+            "Constitucion Politica de Colombia",
+            "Constitucion Política de Colombia",
+            "Constitucion de 1991",
+            "Constitucion de Colombia",
+            "Constitucion politica de Colombia",
+            "Constitucion política de Colombia",
+            "Constitución Politica de Colombia",
+            "Constitución Política de Colombia",
+            "Constitución colombiana",
+            "Constitución de 1991",
+            "Constitución de Colombia",
+            "Constitución politica de Colombia",
+            "Constitución política de Colombia",
+            "constitución de Colombia"
+        ],
+        "Q33289": [
+            "Idioma creole",
+            "Idioma criollo",
+            "Lengua creole",
+            "Lengua criolla",
+            "Lenguaje criollo",
+            "Lenguas criollas",
+            "lengua criolla"
+        ],
+        "Q11451": [
+            "Actividad agricola",
+            "Actividad agrícola",
+            "Actividades agrícolas",
+            "Agricolas",
+            "Agricultura",
+            "Agricultura por contrato",
+            "Agricultural",
+            "Agrícolas",
+            "Ciencias agronomicas",
+            "Ciencias agronómicas",
+            "Cultivo (agricultura)",
+            "Cultivo agrícola",
+            "Cultivos agricolas",
+            "Cultivos agrícolas",
+            "Filosofía agrícola",
+            "Laboreo",
+            "Producciones agricolas",
+            "Producciones agrícolas",
+            "Producción agrícola",
+            "Productos agricolas",
+            "Productos agrícolas",
+            "Sector agricola",
+            "agricultura"
+        ],
+        "Q14373": [
+            "Cotos de pesca",
+            "Pesca",
+            "Pescas",
+            "Psicultura",
+            "Recursos pesqueros",
+            "pesca"
+        ],
+        "Q3342808": [
+            "Coco",
+            "Coco (fruto)",
+            "coco"
+        ],
+        "Q230882": [
+            "Atlanticenses",
+            "Atlantico (Colombia)",
+            "Atlantico (Departamento)",
+            "Atlantico (colombia)",
+            "Atlantico (departamento)",
+            "Atlántico (Colombia)",
+            "Atlántico (colombia)",
+            "Atlántico (departamento)",
+            "Departamento de Atlantico",
+            "Departamento de Atlántico",
+            "Departamento del Atlantico",
+            "Departamento del Atlántico"
+        ],
+        "Q123304": [
+            "Antioqueños",
+            "Antioquia",
+            "Antioquia (Colombia)",
+            "Antioquia (Departamento)",
+            "Antioquia (departamento)",
+            "Departamento Antioquia",
+            "Departamento de Antioquia",
+            "Departamento del Antioquia",
+            "Nueva Antioquia"
+        ],
+        "Q7204": [
+            "Medio Oriente",
+            "Oriente Medio"
+        ],
+        "Q1150419": [
+            "U N A C",
+            "U N A.C",
+            "U N.A.C",
+            "U.N.A.C",
+            "UNAL",
+            "Universidad Nacional de Colombia",
+            "Universidad nacional de colombia"
+        ],
+        "Q2441962": [
+            "Universidad Tecnologica de Pereira",
+            "Universidad Tecnológica de Pereira"
+        ],
+        "Q8818": [
+            "Balansiya",
+            "Balenzia",
+            "Capital del Turia",
+            "Ciudad de Valencia",
+            "Ciutat de Valencia",
+            "Ciutat de València",
+            "Consell Municipal de Valencia",
+            "Valencia",
+            "Valencia (Espana)",
+            "Valencia (España)",
+            "Valencia (Valencia)",
+            "Valencia (ciudad)",
+            "Valencia / Valencia",
+            "Valencia / València",
+            "Valencia Valencia",
+            "Valencia València",
+            "Valencia del Cid",
+            "Valencia, España",
+            "Valencia/2",
+            "Valencia/3",
+            "Valencia/4",
+            "Valencia/5",
+            "Valenzia",
+            "València"
+        ],
+        "Q14943090": [
+            "Rondón (plato)",
+            "rondón"
+        ],
+        "Q24961231": [
+            "Pambón",
+            "Pan bon",
+            "bun"
+        ],
+        "Q2412544": [
+            "Patacon (comida)",
+            "Patacon Pisao",
+            "Patacon de platano",
+            "Patacones antioquenos",
+            "Patacones antioqueños",
+            "Patacones de plátano",
+            "Patacón (comida)",
+            "Patacón (gastronomía)",
+            "Patacón Pisao",
+            "Patacón de plátano",
+            "Toston",
+            "Toston de platano",
+            "Tostones",
+            "Tostón de plátano",
+            "patacones"
+        ],
+        "Q9592": [
+            "Iglesia católica",
+            "católicos"
+        ],
+        "Q93191": [
+            "Iglesias bautistas",
+            "bautistas"
+        ],
+        "Q215168": [
+            "Adventismo",
+            "adventistas"
+        ],
+        "Q483978": [
+            "Pentecostalismo",
+            "pentecostales"
+        ],
+        "Q23540": [
+            "Protestantismo",
+            "protestantes"
+        ],
+        "Q35269": [
+            "Esclavo fiel y discreto",
+            "Escuela Bíblica de Galaad",
+            "Escuela de Galaad",
+            "JW.org",
+            "Jehovaistas",
+            "Jehovaístas",
+            "Los Testigos de Jehova",
+            "Los Testigos de Jehová",
+            "TDJ",
+            "Testigo de Jehova",
+            "Testigo de Jehovah",
+            "Testigo de Jehová",
+            "Testigo de jehova",
+            "Testigo de jehová",
+            "Testigos de Jehova",
+            "Testigos de Jehová",
+            "Testigos de jehova",
+            "Testigos de jehová",
+            "Testiguismo",
+            "testigos de Jehová"
+        ],
+        "Q432": [
+            "Comunidad musulmana",
+            "El islam",
+            "Fe islámica",
+            "Fe musulmana",
+            "Islam",
+            "Islamica",
+            "Islamicas",
+            "Islamico",
+            "Islamicos",
+            "Islamismo (religión)",
+            "Islám",
+            "Islámica",
+            "Islámicas",
+            "Islámico",
+            "Islámicos",
+            "Islām",
+            "Mahometanismo",
+            "Mahometismo",
+            "Musulmanas",
+            "Religion de Mahoma",
+            "Religion islamica",
+            "Religion islámica",
+            "Religion musulmana",
+            "Religión de Mahoma",
+            "Religión islamica",
+            "Religión islámica",
+            "Religión mahometana",
+            "Religión musulmana",
+            "musulmanes"
+        ],
+        "Q7325": [
+            "Pueblo judío",
+            "judíos"
+        ],
+        "Q32815": [
+            "Masjid",
+            "Mezquita",
+            "Mezquitas",
+            "mezquita"
+        ],
+        "Q34627": [
+            "Sinagoga",
+            "Sinagogas",
+            "Templo judío",
+            "sinagoga"
+        ],
+        "Q5759129": [
+            "Cayo Cangrejo",
+            "Crab Cay"
+        ],
+        "Q5759087": [
+            "Acuario Cay",
+            "Acuario cay",
+            "Cayo Acuario",
+            "Cayo El Acuario"
+        ],
+        "Q2354158": [
+            "Bandera"
+        ],
+        "Q1733607": [
+            "Escudo"
+        ],
+        "Q484692": [
+            "Himno",
+            "Himno (genero)",
+            "Himno (género)",
+            "Himnos",
+            "Himnos Nacionales",
+            "Hymnus"
+        ],
+        "Q22664": [
+            "Coordenada geografica",
+            "Coordenada geográfica",
+            "Coordenadas",
+            "Coordenadas (cartografia)",
+            "Coordenadas (cartografía)",
+            "Coordenadas geograficas",
+            "Coordenadas geográficas",
+            "Geographic coordinate system",
+            "Sistema de Coordenadas Geograficas",
+            "Sistema de Coordenadas Geográficas",
+            "Sistema de coordenadas geográficas"
+        ],
+        "Q23492": [
+            "Idioma Oficial",
+            "Idioma oficial",
+            "Idiomas oficiales",
+            "Lengua oficial",
+            "Lenguas oficiales"
+        ],
+        "Q56061": [
+            "Demarcación administrativa",
+            "Entidad"
+        ],
+        "Q132050": [
+            "Comisionado Civil",
+            "El Gobernador",
+            "Eleccion gubernamental",
+            "Elección gubernamental",
+            "Gobernador",
+            "Gobernador de región",
+            "Gobernador estatal",
+            "Gobernadora"
+        ],
+        "Q15284": [
+            "Municipal",
+            "Municipales",
+            "Municipio",
+            "Municipios",
+            "Selsovet",
+            "Selsoviet",
+            "municipio"
+        ],
+        "Q11500": [
+            "Area",
+            "Area (Geometria)",
+            "Area (Geometría)",
+            "Area (geometria)",
+            "Area (geometría)",
+            "Area de superficies",
+            "Sección (superficie)",
+            "Superficie",
+            "Área",
+            "Área (Geometria)",
+            "Área (Geometría)",
+            "Área (geometria)",
+            "Área (geometría)",
+            "Área de superficies",
+            "Área de un triángulo",
+            "Área geométrica",
+            "Áreas"
+        ],
+        "Q190200": [
+            "Altitud",
+            "Altitud (geografia)",
+            "Altitud (geografía)",
+            "Elevación (altitud)",
+            "M s n.m.",
+            "M snm",
+            "S. n. m."
+        ],
+        "Q7937": [
+            "CLIMA",
+            "Clima",
+            "Climas",
+            "Climas del mundo",
+            "Climatico",
+            "Climatologo",
+            "Climatólogo",
+            "Climático",
+            "Tipoclima"
+        ],
+        "Q25267": [
+            "Grado Celsius"
+        ],
+        "Q2625603": [
+            "Poblacion",
+            "Poblacion (demografía)",
+            "Poblacion (sociologia)",
+            "Poblacion (sociología)",
+            "Poblacional",
+            "Población",
+            "Población (demografia)",
+            "Población (demografía)",
+            "Población (sociologia)",
+            "Población (sociología)",
+            "Población absoluta"
+        ],
+        "Q217438": [
+            "Adjetivo gentilicio",
+            "Demónimo",
+            "Gentilicio",
+            "Gentilicios",
+            "Gentinlicio"
+        ],
+        "Q12638": [
+            "PBI",
+            "PBI nominal",
+            "PIB",
+            "PIB Estatal",
+            "PIB Nacional",
+            "PIB nominal",
+            "Producto Bruto Interno",
+            "Producto Interior Bruto",
+            "Producto Interno Bruto",
+            "Producto bruto interno",
+            "Producto interior bruto",
+            "Producto interno bruto",
+            "Pruducto Interior Bruto"
+        ],
+        "Q38994": [
+            "IDH",
+            "Índice de desarrollo humano"
+        ],
+        "Q12143": [
+            "British Summer Time",
+            "CEWT",
+            "Central European Summer Time",
+            "Central European Winter Time",
+            "China Standard Time",
+            "FKST",
+            "Franja horaria",
+            "GMT-09:30",
+            "GMT-10",
+            "GMT-10:00",
+            "GMT-11",
+            "GMT-11:00",
+            "GMT-12",
+            "GMT-12:00",
+            "GMT-4",
+            "GMT-5",
+            "GMT-9:30",
+            "GMT−10",
+            "GMT−10:00",
+            "GMT−11",
+            "GMT−11:00",
+            "GMT−12",
+            "GMT−12:00",
+            "GMT−9:30",
+            "Hora local",
+            "Huso horario",
+            "Husos Horarios",
+            "Husos horarios",
+            "Pacific Daylight Time",
+            "Pacific Standard Time",
+            "Tiempo civil",
+            "UTC +5:30",
+            "UTC -12",
+            "UTC -2",
+            "UTC -3",
+            "UTC -4",
+            "UTC -8",
+            "UTC −3:30",
+            "UTC −4:30",
+            "UTC+00:00",
+            "UTC+6:30",
+            "UTC+8:30",
+            "UTC-09",
+            "UTC-4.5",
+            "UTC-4:30",
+            "UTC±0",
+            "UTC−10",
+            "UTC−8:00",
+            "UTC−9",
+            "UTC−9:00",
+            "Uso horario",
+            "Western European Summer Time",
+            "Zona Horaria",
+            "Zona horaria",
+            "Zonas horarias"
+        ],
+        "Q11480109": [
+            "Codigo de area",
+            "Código de área",
+            "Prefijo Telefonico",
+            "Prefijo Telefónico",
+            "Prefijo telefonico",
+            "Prefijo telefónico"
+        ],
+        "Q133153": [
+            "ISO 3166 2",
+            "ISO 3166-2"
+        ],
+        "Q26855": [
+            "Archipielago de San Andres",
+            "Archipielago de San Andrés",
+            "Archipiélago de San Andrés",
+            "Islas de San Andres",
+            "Islas de San Andrés",
+            "San Andres Islas",
+            "San Andres y Providencia",
+            "San Andrés Islas",
+            "San Andrés y Providencia"
+        ]
+    }
+}

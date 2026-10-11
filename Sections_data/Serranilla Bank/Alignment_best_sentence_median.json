@@ -1,0 +1,23 @@
+[
+    {
+        "section_id_a": "en:Q1169008:0",
+        "section_id_b": "es:Q1169008:0",
+        "pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8484
+    },
+    {
+        "section_id_a": "en:Q1169008:1",
+        "section_id_b": "es:Q1169008:1",
+        "pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8986
+    },
+    {
+        "section_id_a": "en:Q1169008:2",
+        "section_id_b": "es:Q1169008:2",
+        "pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8754
+    }
+]

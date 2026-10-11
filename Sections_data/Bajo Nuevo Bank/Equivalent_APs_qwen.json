@@ -1,0 +1,554 @@
+[
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:0",
+        "ap_en_text": "Bajo Nuevo Bank is an uninhabited reef.",
+        "ap_es_id": "es:Q1257783:0:ap:1",
+        "ap_es_text": "El Bajo Nuevo está constituido por un pequeño arrecife coralino.",
+        "similarity": 0.7495240569114685
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:0",
+        "ap_en_text": "Bajo Nuevo Bank is an uninhabited reef.",
+        "ap_es_id": "es:Q1257783:0:ap:2",
+        "ap_es_text": "El Bajo Nuevo es deshabitado.",
+        "similarity": 0.7185068130493164
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:1",
+        "ap_en_text": "Bajo Nuevo Bank has some grass-covered islets.",
+        "ap_es_id": "es:Q1257783:0:ap:4",
+        "ap_es_text": "Los islotes de El Bajo Nuevo están cubiertos mayormente de hierba.",
+        "similarity": 0.82392418384552
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:1",
+        "ap_en_text": "Bajo Nuevo Bank has some grass-covered islets.",
+        "ap_es_id": "es:Q1257783:0:ap:3",
+        "ap_es_text": "El Bajo Nuevo incluye algunos islotes.",
+        "similarity": 0.7364310622215271
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:1",
+        "ap_en_text": "Bajo Nuevo Bank has some grass-covered islets.",
+        "ap_es_id": "es:Q1257783:0:ap:0",
+        "ap_es_text": "El Bajo Nuevo es un conjunto insular pequeño.",
+        "similarity": 0.7067753076553345
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:2",
+        "ap_en_text": "Bajo Nuevo Bank is located in the western Caribbean Sea.",
+        "ap_es_id": "es:Q1257783:0:ap:5",
+        "ap_es_text": "Se localiza en el mar Caribe occidental.",
+        "similarity": 0.7162639498710632
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:3",
+        "ap_en_text": "Bajo Nuevo Bank is also known as the Petrel Islands.",
+        "ap_es_id": "es:Q1257783:0:ap:0",
+        "ap_es_text": "El Bajo Nuevo es un conjunto insular pequeño.",
+        "similarity": 0.7162522077560425
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:12",
+        "ap_en_text": "On 19 November 2012, the International Court of Justice (ICJ) ruled that Colombia had sovereignty over both Bajo Nuevo and Serranilla Banks.",
+        "ap_es_id": "es:Q1257783:0:ap:11",
+        "ap_es_text": "El Bajo Nuevo fue ratificado como territorio colombiano en el fallo de la Corte de La Haya en 2012.",
+        "similarity": 0.8069737553596497
+    },
+    {
+        "section_pair_id": "en:Q1257783:0+es:Q1257783:0+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:0:ap:12",
+        "ap_en_text": "On 19 November 2012, the International Court of Justice (ICJ) ruled that Colombia had sovereignty over both Bajo Nuevo and Serranilla Banks.",
+        "ap_es_id": "es:Q1257783:0:ap:12",
+        "ap_es_text": "El fallo de la Corte de La Haya en 2012 abordó el litigio entre Colombia y Nicaragua.",
+        "similarity": 0.7077197432518005
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:4",
+        "ap_en_text": "It has two atoll-like structures.",
+        "ap_es_id": "es:Q1257783:1:ap:0",
+        "ap_es_text": "La imagen satelital muestra dos estructuras distintas parecidas a un atolón.",
+        "similarity": 0.8470762372016907
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:5",
+        "ap_en_text": "The structures are separated by a deep channel.",
+        "ap_es_id": "es:Q1257783:1:ap:1",
+        "ap_es_text": "Las estructuras están separadas por un canal profundo cuya anchura en su punto más estrecho es de 1,4 km.",
+        "similarity": 0.8660038709640503
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:6",
+        "ap_en_text": "The channel is 1.4 km wide at its narrowest point.",
+        "ap_es_id": "es:Q1257783:1:ap:1",
+        "ap_es_text": "Las estructuras están separadas por un canal profundo cuya anchura en su punto más estrecho es de 1,4 km.",
+        "similarity": 0.7559934258460999
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:8",
+        "ap_en_text": "The larger southwestern reef complex measures 15.4 km (9.6 mi) northeast-southwest.",
+        "ap_es_id": "es:Q1257783:1:ap:2",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste mide 15,4 km de noreste a sudoeste.",
+        "similarity": 0.9266587495803833
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:8",
+        "ap_en_text": "The larger southwestern reef complex measures 15.4 km (9.6 mi) northeast-southwest.",
+        "ap_es_id": "es:Q1257783:1:ap:3",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste aumenta a 9,4 km.",
+        "similarity": 0.8699542880058289
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:8",
+        "ap_en_text": "The larger southwestern reef complex measures 15.4 km (9.6 mi) northeast-southwest.",
+        "ap_es_id": "es:Q1257783:1:ap:4",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste cubre un área de aproximadamente 100 km².",
+        "similarity": 0.8443698883056641
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:8",
+        "ap_en_text": "The larger southwestern reef complex measures 15.4 km (9.6 mi) northeast-southwest.",
+        "ap_es_id": "es:Q1257783:1:ap:5",
+        "ap_es_text": "El 90% del área del complejo de arrecifes más grande del sudoeste es acuática.",
+        "similarity": 0.7192401885986328
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:9",
+        "ap_en_text": "The larger southwestern reef complex is up to 9.4 km (5.8 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:3",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste aumenta a 9,4 km.",
+        "similarity": 0.8957727551460266
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:9",
+        "ap_en_text": "The larger southwestern reef complex is up to 9.4 km (5.8 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:2",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste mide 15,4 km de noreste a sudoeste.",
+        "similarity": 0.8895218372344971
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:9",
+        "ap_en_text": "The larger southwestern reef complex is up to 9.4 km (5.8 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:4",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste cubre un área de aproximadamente 100 km².",
+        "similarity": 0.8738031983375549
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:9",
+        "ap_en_text": "The larger southwestern reef complex is up to 9.4 km (5.8 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:5",
+        "ap_es_text": "El 90% del área del complejo de arrecifes más grande del sudoeste es acuática.",
+        "similarity": 0.7651246786117554
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:10",
+        "ap_en_text": "The larger southwestern reef complex covers an area of about 100 km² (39 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:4",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste cubre un área de aproximadamente 100 km².",
+        "similarity": 0.9306604862213135
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:10",
+        "ap_en_text": "The larger southwestern reef complex covers an area of about 100 km² (39 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:3",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste aumenta a 9,4 km.",
+        "similarity": 0.8332929611206055
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:10",
+        "ap_en_text": "The larger southwestern reef complex covers an area of about 100 km² (39 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:2",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste mide 15,4 km de noreste a sudoeste.",
+        "similarity": 0.8316890001296997
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:10",
+        "ap_en_text": "The larger southwestern reef complex covers an area of about 100 km² (39 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:5",
+        "ap_es_text": "El 90% del área del complejo de arrecifes más grande del sudoeste es acuática.",
+        "similarity": 0.784893274307251
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:11",
+        "ap_en_text": "The reef partially dries on the southern side.",
+        "ap_es_id": "es:Q1257783:1:ap:6",
+        "ap_es_text": "El arrecife solo está seco sobre los lados del sur y de este.",
+        "similarity": 0.887795627117157
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:12",
+        "ap_en_text": "The reef partially dries on the eastern side.",
+        "ap_es_id": "es:Q1257783:1:ap:6",
+        "ap_es_text": "El arrecife solo está seco sobre los lados del sur y de este.",
+        "similarity": 0.8540993928909302
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:13",
+        "ap_en_text": "The smaller northeastern reef complex measures 10.5 km (6.5 mi) east-west.",
+        "ap_es_id": "es:Q1257783:1:ap:7",
+        "ap_es_text": "El más pequeño arrecife noreste mide 10,5 km de este a oeste.",
+        "similarity": 0.8635368943214417
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:13",
+        "ap_en_text": "The smaller northeastern reef complex measures 10.5 km (6.5 mi) east-west.",
+        "ap_es_id": "es:Q1257783:1:ap:9",
+        "ap_es_text": "El más pequeño arrecife noreste cubre un área marítima de 45 km².",
+        "similarity": 0.7958225607872009
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:13",
+        "ap_en_text": "The smaller northeastern reef complex measures 10.5 km (6.5 mi) east-west.",
+        "ap_es_id": "es:Q1257783:1:ap:8",
+        "ap_es_text": "El más pequeño arrecife noreste aumenta a 5,5 km de ancho.",
+        "similarity": 0.7920440435409546
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:13",
+        "ap_en_text": "The smaller northeastern reef complex measures 10.5 km (6.5 mi) east-west.",
+        "ap_es_id": "es:Q1257783:1:ap:10",
+        "ap_es_text": "El área emergida del más pequeño arrecife noreste es minúscula.",
+        "similarity": 0.7343013286590576
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:13",
+        "ap_en_text": "The smaller northeastern reef complex measures 10.5 km (6.5 mi) east-west.",
+        "ap_es_id": "es:Q1257783:1:ap:2",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste mide 15,4 km de noreste a sudoeste.",
+        "similarity": 0.7247755527496338
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:14",
+        "ap_en_text": "The smaller northeastern reef complex is up to 5.5 km (3.4 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:8",
+        "ap_es_text": "El más pequeño arrecife noreste aumenta a 5,5 km de ancho.",
+        "similarity": 0.8424565196037292
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:14",
+        "ap_en_text": "The smaller northeastern reef complex is up to 5.5 km (3.4 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:9",
+        "ap_es_text": "El más pequeño arrecife noreste cubre un área marítima de 45 km².",
+        "similarity": 0.8033542037010193
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:14",
+        "ap_en_text": "The smaller northeastern reef complex is up to 5.5 km (3.4 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:7",
+        "ap_es_text": "El más pequeño arrecife noreste mide 10,5 km de este a oeste.",
+        "similarity": 0.788971483707428
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:14",
+        "ap_en_text": "The smaller northeastern reef complex is up to 5.5 km (3.4 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:10",
+        "ap_es_text": "El área emergida del más pequeño arrecife noreste es minúscula.",
+        "similarity": 0.7352014780044556
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:14",
+        "ap_en_text": "The smaller northeastern reef complex is up to 5.5 km (3.4 mi) wide.",
+        "ap_es_id": "es:Q1257783:1:ap:2",
+        "ap_es_text": "El complejo de arrecifes más grande del sudoeste mide 15,4 km de noreste a sudoeste.",
+        "similarity": 0.7104726433753967
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:15",
+        "ap_en_text": "The smaller northeastern reef complex covers an area of 45 km² (17 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:9",
+        "ap_es_text": "El más pequeño arrecife noreste cubre un área marítima de 45 km².",
+        "similarity": 0.8655776381492615
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:15",
+        "ap_en_text": "The smaller northeastern reef complex covers an area of 45 km² (17 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:10",
+        "ap_es_text": "El área emergida del más pequeño arrecife noreste es minúscula.",
+        "similarity": 0.7583496570587158
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:15",
+        "ap_en_text": "The smaller northeastern reef complex covers an area of 45 km² (17 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:8",
+        "ap_es_text": "El más pequeño arrecife noreste aumenta a 5,5 km de ancho.",
+        "similarity": 0.7469968199729919
+    },
+    {
+        "section_pair_id": "en:Q1257783:1+es:Q1257783:1+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:1:ap:15",
+        "ap_en_text": "The smaller northeastern reef complex covers an area of 45 km² (17 sq mi).",
+        "ap_es_id": "es:Q1257783:1:ap:7",
+        "ap_es_text": "El más pequeño arrecife noreste mide 10,5 km de este a oeste.",
+        "similarity": 0.7400631904602051
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:0",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:0",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.9232130646705627
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:0",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:2",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8482891321182251
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:0",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:1",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.7609902620315552
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:0",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.7298558354377747
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:1",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:1",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.9239286184310913
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:1",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8692510724067688
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:1",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1257783:2:ap:0",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.7681576609611511
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:2",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:2",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.9062405824661255
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:2",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:0",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.8500086665153503
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:2",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the Archipelago of San Andrés be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.7450064420700073
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:3",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.9175136685371399
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:3",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:1",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.865500807762146
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:3",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:2",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.7276371717453003
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:3",
+        "ap_en_text": "The Royal Decree of 20 November 1803 resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1257783:2:ap:0",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.7169539928436279
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:4",
+        "ap_en_text": "Colombia secured sovereignty over the islands.",
+        "ap_es_id": "es:Q1257783:2:ap:4",
+        "ap_es_text": "Colombia aseguró la soberanía de las islas.",
+        "similarity": 0.9481802582740784
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:5",
+        "ap_en_text": "The islands subscribed to the Constitution of Cúcuta in June 1822.",
+        "ap_es_id": "es:Q1257783:2:ap:5",
+        "ap_es_text": "Las islas se suscribieron a la Constitución de Cúcuta en junio de 1822.",
+        "similarity": 0.9999164342880249
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:26",
+        "ap_en_text": "In November 1993, Colombia and Jamaica agreed upon a maritime delimitation treaty.",
+        "ap_es_id": "es:Q1257783:2:ap:8",
+        "ap_es_text": "El 13 de noviembre de 1993, Colombia y Jamaica firmaron un Tratado de delimitación Marítima.",
+        "similarity": 0.9641163349151611
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:26",
+        "ap_en_text": "In November 1993, Colombia and Jamaica agreed upon a maritime delimitation treaty.",
+        "ap_es_id": "es:Q1257783:2:ap:12",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras fue firmado el 2 de agosto de 1986.",
+        "similarity": 0.7115474343299866
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:26",
+        "ap_en_text": "In November 1993, Colombia and Jamaica agreed upon a maritime delimitation treaty.",
+        "ap_es_id": "es:Q1257783:2:ap:13",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999.",
+        "similarity": 0.705876886844635
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:27",
+        "ap_en_text": "The treaty established the 'Joint Regime Area' to cooperatively manage and exploit living and non-living resources in designated waters between the two aforementioned banks.",
+        "ap_es_id": "es:Q1257783:2:ap:9",
+        "ap_es_text": "El Tratado estableció una zona de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos.",
+        "similarity": 0.8648700714111328
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:41",
+        "ap_en_text": "Nicaragua accepted the ICJ's 2012 ruling of Colombian sovereignty.",
+        "ap_es_id": "es:Q1257783:2:ap:16",
+        "ap_es_text": "En 2012 la CIJ decidió que los cayos limítrofes con Nicaragua pertenecen a Colombia de manera oficial",
+        "similarity": 0.801741898059845
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:41",
+        "ap_en_text": "Nicaragua accepted the ICJ's 2012 ruling of Colombian sovereignty.",
+        "ap_es_id": "es:Q1257783:2:ap:15",
+        "ap_es_text": "En 2012 la CIJ decidió que los cayos de Bajo Nuevo y Serranilla pertenecen a Colombia de manera oficial",
+        "similarity": 0.7380986213684082
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:43",
+        "ap_en_text": "The United States claim was made on 22 November 1869 by James W.",
+        "ap_es_id": "es:Q1257783:2:ap:6",
+        "ap_es_text": "La reclamación de los Estados Unidos fue efectuada el 22 de noviembre de 1869.",
+        "similarity": 0.926846981048584
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:51",
+        "ap_en_text": "Honduras ratified a maritime boundary treaty with Colombia on 20 December 1999.",
+        "ap_es_id": "es:Q1257783:2:ap:13",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999.",
+        "similarity": 0.882895827293396
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:51",
+        "ap_en_text": "Honduras ratified a maritime boundary treaty with Colombia on 20 December 1999.",
+        "ap_es_id": "es:Q1257783:2:ap:12",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras fue firmado el 2 de agosto de 1986.",
+        "similarity": 0.7767522931098938
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:51",
+        "ap_en_text": "Honduras ratified a maritime boundary treaty with Colombia on 20 December 1999.",
+        "ap_es_id": "es:Q1257783:2:ap:8",
+        "ap_es_text": "El 13 de noviembre de 1993, Colombia y Jamaica firmaron un Tratado de delimitación Marítima.",
+        "similarity": 0.7199594974517822
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:53",
+        "ap_en_text": "The maritime demarcation excluded Honduras from any control over the banks.",
+        "ap_es_id": "es:Q1257783:2:ap:14",
+        "ap_es_text": "Ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Bajo Nuevo.",
+        "similarity": 0.710891842842102
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:54",
+        "ap_en_text": "The maritime demarcation excluded Honduras from any control over the surrounding waters of the banks.",
+        "ap_es_id": "es:Q1257783:2:ap:14",
+        "ap_es_text": "Ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Bajo Nuevo.",
+        "similarity": 0.7080423831939697
+    },
+    {
+        "section_pair_id": "en:Q1257783:2+es:Q1257783:2+Best Sentence Median",
+        "ap_en_id": "en:Q1257783:2:ap:55",
+        "ap_en_text": "This bilateral treaty ensured that Honduras implicitly recognized Colombia's sovereignty over the disputed territories.",
+        "ap_es_id": "es:Q1257783:2:ap:13",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999.",
+        "similarity": 0.7103583216667175
+    }
+]

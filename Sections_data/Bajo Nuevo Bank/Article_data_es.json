@@ -1,0 +1,662 @@
+{
+    "title": "Bajo_Nuevo",
+    "language": "es",
+    "article_qid": "Q1257783",
+    "article_id": "es:Q1257783",
+    "sections": [
+        {
+            "article_id": "es:Q1257783",
+            "section_id": "es:Q1257783:0",
+            "section_idx": 0,
+            "language": "es",
+            "heading": "Lead",
+            "level": 0,
+            "text": "El Bajo Nuevo o islas Petrel es un pequeño conjunto insular constituido por un pequeño arrecife coralino , deshabitado y algunos islotes, cubiertos mayormente de hierba. Se localiza en el mar Caribe occidental en las coordenadas 15°53′N 78°38′O ﻿ / ﻿ 15.883, -78.633 , que corresponden al faro que existe sobre el cayo Bajo. Este pequeño territorio forma parte del departamento colombiano del Archipiélago de San Andrés, Providencia y Santa Catalina y asimismo es el punto de tierra más septentrional del país. El Bajo Nuevo fue ratificado como territorio colombiano en el fallo de la Corte de La Haya en 2012 sobre el litigio entre Colombia y Nicaragua . Diversas fuentes sostienen que también los Estados Unidos tendrían un \" reclamo latente \" sobre el Bajo Nuevo, lo cual no ha sido aclarado pero figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado. ​ ",
+            "text_with_qids": "El Bajo Nuevo (Q1257783) o islas Petrel es un pequeño conjunto insular constituido por un pequeño arrecife (Q184358) coralino (Q171446) , deshabitado y algunos islotes, cubiertos mayormente de hierba. Se localiza en el mar Caribe (Q1247) occidental en las coordenadas 15°53′N 78°38′O ﻿ / ﻿ 15.883, -78.633 , que corresponden al faro que existe sobre el cayo Bajo. Este pequeño territorio forma parte del departamento colombiano (Q739) del Archipiélago de San Andrés (Q26855), Providencia y Santa Catalina y asimismo es el punto de tierra más septentrional del país. El Bajo Nuevo (Q1257783) fue ratificado como territorio colombiano (Q739) en el fallo de la Corte de La Haya en 2012 sobre el litigio entre Colombia (Q739) y Nicaragua (Q811) . Diversas fuentes sostienen que también los Estados Unidos (Q30) tendrían un \" reclamo latente \" sobre el Bajo Nuevo (Q1257783), lo cual no ha sido aclarado pero figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado. ​ ",
+            "spans": [
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 3,
+                    "end": 13,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q184358",
+                    "surface": "arrecife",
+                    "start": 87,
+                    "end": 95,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q171446",
+                    "surface": "coralino",
+                    "start": 96,
+                    "end": 104,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar Caribe",
+                    "start": 188,
+                    "end": 198,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "colombiano",
+                    "start": 378,
+                    "end": 388,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 393,
+                    "end": 419,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 514,
+                    "end": 524,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "colombiano",
+                    "start": 556,
+                    "end": 566,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 633,
+                    "end": 641,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 644,
+                    "end": 653,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 699,
+                    "end": 713,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 755,
+                    "end": 765,
+                    "section": "Lead",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q1257783",
+            "section_id": "es:Q1257783:1",
+            "section_idx": 1,
+            "language": "es",
+            "heading": "Descripción",
+            "level": 2,
+            "text": "La imagen satelital claramente muestra dos estructuras distintas parecidas a un atolón separadas por un canal profundo de 1,4 km de ancho en su punto más estrecho. El complejo de arrecifes más grande del sudoeste, sobre el cual está el Cayo Bajo, mide 15,4 km de noreste a sudoeste y aumenta a 9,4 km, cubriendo un área de aproximadamente 100 km² (casi en su 90% acuática). El arrecife solo está seco sobre los lados del sur y de este. El más pequeño arrecife noreste mide 10,5 km de este a oeste y aumenta a 5,5 km de ancho, cubriendo un área marítima de 45 km², pero en comparación el área emergida es minúscula. El cayo Bajo mide aproximadamente 0,01 km². ",
+            "text_with_qids": "La imagen satelital claramente muestra dos estructuras distintas parecidas a un atolón (Q42523) separadas por un canal profundo de 1,4 km de ancho en su punto más estrecho. El complejo de arrecifes más grande del sudoeste, sobre el cual está el Cayo Bajo, mide 15,4 km de noreste a sudoeste y aumenta a 9,4 km, cubriendo un área de aproximadamente 100 km² (Q712226) (casi en su 90% acuática). El arrecife (Q184358) solo está seco sobre los lados del sur y de este. El más pequeño arrecife (Q184358) noreste mide 10,5 km de este a oeste y aumenta a 5,5 km de ancho, cubriendo un área marítima de 45 km² (Q712226), pero en comparación el área emergida es minúscula. El cayo Bajo mide aproximadamente 0,01 km² (Q712226). ",
+            "spans": [
+                {
+                    "qid": "Q42523",
+                    "surface": "atolón",
+                    "start": 80,
+                    "end": 86,
+                    "section": "Descripción",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 343,
+                    "end": 346,
+                    "section": "Descripción",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q184358",
+                    "surface": "arrecife",
+                    "start": 377,
+                    "end": 385,
+                    "section": "Descripción",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q184358",
+                    "surface": "arrecife",
+                    "start": 451,
+                    "end": 459,
+                    "section": "Descripción",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 559,
+                    "end": 562,
+                    "section": "Descripción",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 654,
+                    "end": 657,
+                    "section": "Descripción",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q1257783",
+            "section_id": "es:Q1257783:2",
+            "section_idx": 2,
+            "language": "es",
+            "heading": "Historia y disputas sobre su soberanía",
+            "level": 2,
+            "text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés , así como la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala y dependiera del Virreinato de Nueva Granada . ​ Con el advenimiento de las luchas de las colonias hispanoamericanas por su independencia, Colombia aseguró la soberanía de las islas cuando estas se suscribieron a la Constitución de Cúcuta en junio de 1822. ​ La  reclamación de los Estados Unidos fue efectuada  el 22 de noviembre de 1869  tras ser aprobada el 18 de agosto de 1856 la Ley de Islas Guaneras . El 13 de noviembre de 1993 Colombia y Jamaica firmaron un Tratado de delimitación Marítima que estableció en torno al Bajo Nuevo y al Banco Serranilla una zona de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos, denominada Área de Régimen Común. ​ Desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Bajo Nuevo. ​ En 2012 la CIJ decidió que los cayos de Bajo Nuevo y Serranilla , así como de los otros cinco cayos limítrofes con Nicaragua , pertenecen a Colombia de manera oficial ",
+            "text_with_qids": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés (Q26855) , así como la parte de Mosquitia (Q1165546) entre el cabo Gracias a Dios (Q1024890) y el río Chagres (Q1408661) quedara segregada de la Capitanía general de Guatemala (Q2077243) y dependiera del Virreinato de Nueva Granada (Q8965) . ​ Con el advenimiento de las luchas de las colonias hispanoamericanas por su independencia, Colombia (Q739) aseguró la soberanía de las islas cuando estas se suscribieron a la Constitución de Cúcuta (Q224714) en junio de 1822. ​ La  reclamación de los Estados Unidos (Q30) fue efectuada  el 22 de noviembre de 1869  tras ser aprobada el 18 de agosto de 1856 la Ley de Islas Guaneras (Q513470) . El 13 de noviembre de 1993 Colombia (Q739) y Jamaica (Q766) firmaron un Tratado de delimitación Marítima que estableció en torno al Bajo Nuevo (Q1257783) y al Banco Serranilla (Q1169008) una zona de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos, denominada Área de Régimen Común. ​ Desde la firma del Tratado de Delimitación Marítima entre Colombia (Q739) y Honduras (Q783) del 2 de agosto de 1986, que entró en vigor al ser ratificado por Honduras (Q783) el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras (Q783) de todo reclamo sobre el Bajo Nuevo (Q1257783). ​ En 2012 la CIJ (Q7801) decidió que los cayos de Bajo Nuevo (Q1257783) y Serranilla (Q1169008) , así como de los otros cinco cayos limítrofes con Nicaragua (Q811) , pertenecen a Colombia (Q739) de manera oficial ",
+            "spans": [
+                {
+                    "qid": "Q26855",
+                    "surface": "Archipiélago de San Andrés",
+                    "start": 59,
+                    "end": 85,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Mosquitia",
+                    "start": 109,
+                    "end": 118,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1024890",
+                    "surface": "cabo Gracias a Dios",
+                    "start": 128,
+                    "end": 147,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1408661",
+                    "surface": "río Chagres",
+                    "start": 153,
+                    "end": 164,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2077243",
+                    "surface": "Capitanía general de Guatemala",
+                    "start": 189,
+                    "end": 219,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8965",
+                    "surface": "Virreinato de Nueva Granada",
+                    "start": 237,
+                    "end": 264,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 359,
+                    "end": 367,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q224714",
+                    "surface": "Constitución de Cúcuta",
+                    "start": 436,
+                    "end": 458,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 502,
+                    "end": 516,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q513470",
+                    "surface": "Ley de Islas Guaneras",
+                    "start": 605,
+                    "end": 626,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 656,
+                    "end": 664,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q766",
+                    "surface": "Jamaica",
+                    "start": 667,
+                    "end": 674,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 747,
+                    "end": 757,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1169008",
+                    "surface": "Banco Serranilla",
+                    "start": 763,
+                    "end": 779,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 980,
+                    "end": 988,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q783",
+                    "surface": "Honduras",
+                    "start": 991,
+                    "end": 999,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q783",
+                    "surface": "Honduras",
+                    "start": 1066,
+                    "end": 1074,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q783",
+                    "surface": "Honduras",
+                    "start": 1158,
+                    "end": 1166,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 1192,
+                    "end": 1202,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "CIJ",
+                    "start": 1217,
+                    "end": 1220,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo",
+                    "start": 1246,
+                    "end": 1256,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1169008",
+                    "surface": "Serranilla",
+                    "start": 1259,
+                    "end": 1269,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q811",
+                    "surface": "Nicaragua",
+                    "start": 1321,
+                    "end": 1330,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 1346,
+                    "end": 1354,
+                    "section": "Historia y disputas sobre su soberanía",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q1257783",
+            "section_id": "es:Q1257783:3",
+            "section_idx": 3,
+            "language": "es",
+            "heading": "Véase también",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q1257783",
+            "section_id": "es:Q1257783:4",
+            "section_idx": 4,
+            "language": "es",
+            "heading": "Referencias",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        }
+    ],
+    "qid_to_aliases": {
+        "Q184358": [
+            "Arrecife",
+            "Arrecifes artificiales",
+            "arrecife"
+        ],
+        "Q171446": [
+            "Coral",
+            "Coral (animal)",
+            "Coral (invertebrado)",
+            "Corales",
+            "coralino"
+        ],
+        "Q1247": [
+            "Caribe",
+            "Caribeno",
+            "Caribeño",
+            "Mar Caribe",
+            "Mar caribe",
+            "Mar de las Antillas",
+            "mar Caribe"
+        ],
+        "Q739": [
+            "Colombia",
+            "Colombia (republica)",
+            "Colombia (república)",
+            "Colombiana",
+            "Colombianas",
+            "Colombiano",
+            "Colômbia",
+            "Republica de Colombia",
+            "República de Colombia",
+            "U D C",
+            "U D C.",
+            "U D. C.",
+            "U D.C.",
+            "U. D. C.",
+            "U.D.C.",
+            "Unión Departamental de Colombia",
+            "colombiano"
+        ],
+        "Q26855": [
+            "Archipielago de San Andres",
+            "Archipielago de San Andrés",
+            "Archipiélago de San Andrés",
+            "Islas de San Andres",
+            "Islas de San Andrés",
+            "San Andres Islas",
+            "San Andres y Providencia",
+            "San Andrés Islas",
+            "San Andrés y Providencia"
+        ],
+        "Q30": [
+            "E U A",
+            "E.U.",
+            "E.U.A.",
+            "EE UU",
+            "EE-UU",
+            "EE. UU.",
+            "EE.UU.",
+            "EEUU",
+            "EUA",
+            "Eeuu",
+            "Estadinense",
+            "Estadinenses",
+            "Estado-unidense",
+            "Estado-unidenses",
+            "Estados Unidos",
+            "Estados Unidos de America",
+            "Estados Unidos de América",
+            "Estados Unidos de Norteamerica",
+            "Estados Unidos de Norteamérica",
+            "Estados unidos",
+            "Estadounidense",
+            "Estadounidenses",
+            "Estadunidense",
+            "Estadunidenses",
+            "Norteamérica Media",
+            "República de Estados Unidos",
+            "The United States",
+            "U S",
+            "U S A",
+            "U S A.",
+            "U S.",
+            "U S.A.",
+            "U.S.",
+            "U.S.A.",
+            "USA",
+            "United States",
+            "United States of America",
+            "United states",
+            "Unión Americana",
+            "Unión estadounidense",
+            "Usa",
+            "Usamericano",
+            "Usamericanos",
+            "Usana",
+            "Usanas",
+            "Usano",
+            "Useno",
+            "Usense",
+            "Usenses",
+            "Useña",
+            "Useñas",
+            "Useño",
+            "Useños",
+            "Yuma (gentilicio)",
+            "Yuma (modismo)"
+        ],
+        "Q42523": [
+            "Atolon",
+            "Atolones",
+            "Atolones del Pacifico",
+            "Atolones del Pacífico",
+            "Atolón",
+            "Atolón de coral",
+            "atolón"
+        ],
+        "Q712226": [
+            "Kilómetro cuadrado",
+            "km²"
+        ],
+        "Q1165546": [
+            "Costa Caribe de Nicaragua",
+            "Costa Mosquito",
+            "Costa de Mosquitos",
+            "Costa de los Mosquitos",
+            "Costa de los mosquitos",
+            "Costa de mosquitos",
+            "Mosquitia"
+        ],
+        "Q1024890": [
+            "Cabo Gracias a Dios",
+            "cabo Gracias a Dios"
+        ],
+        "Q1408661": [
+            "Rio Chagres",
+            "Río Chagres",
+            "río Chagres"
+        ],
+        "Q2077243": [
+            "Capitania General de Guatemala",
+            "Capitania de Guatemala",
+            "Capitanía General de Guatemala",
+            "Capitanía de Guatemala",
+            "Capitanía general de Guatemala",
+            "Reino de Guatemala"
+        ],
+        "Q8965": [
+            "Virreinato de Nueva Granada",
+            "Virreinato de Santafe",
+            "Virreinato de Santafé",
+            "Virreinato de nueva granada"
+        ],
+        "Q224714": [
+            "Constitución de Cúcuta"
+        ],
+        "Q513470": [
+            "Acta de Islas Guaneras",
+            "Acta de islas guaneras",
+            "Guano Islands Act",
+            "Ley de Islas Guaneras",
+            "Ley de islas guaneras"
+        ],
+        "Q766": [
+            "Isla de Jamaica",
+            "Jamaica",
+            "Jamaicano",
+            "Jamaicanos",
+            "Jamaiquina",
+            "Jamaiquino",
+            "Republica Jamaiquina",
+            "República Jamaiquina"
+        ],
+        "Q1169008": [
+            "Banco Serranilla",
+            "Cayo Serranilla",
+            "Isla Serranilla",
+            "Isla serranilla",
+            "Serranilla",
+            "Serranilla Bank"
+        ],
+        "Q783": [
+            "Hibueras",
+            "Honduras",
+            "Hondurena",
+            "Hondureno",
+            "Republica de Honduras",
+            "República Hondureña",
+            "República de Honduras"
+        ],
+        "Q7801": [
+            "CIJ",
+            "Corte Internacional de Justicia"
+        ],
+        "Q811": [
+            "Estado de Nicaragua",
+            "Nica",
+            "Nicaragua",
+            "Nicaraguense",
+            "Nicaraguenses",
+            "Nicaragüense",
+            "Nicaragüenses",
+            "Republica de Nicaragua",
+            "República de Nicaragua"
+        ],
+        "Q11210": [
+            "Cambio de coordenadas",
+            "Coordenada",
+            "Coordenadas",
+            "Cordenadas",
+            "Sistema de coordenadas",
+            "Sistemas de coordenadas"
+        ],
+        "Q462778": [
+            "Area insular",
+            "Área insular",
+            "área insular"
+        ],
+        "Q498452": [
+            "RAAN",
+            "RACCN",
+            "Region Autonoma Atlantico Norte",
+            "Region Autonoma Atlántico Norte",
+            "Region Autónoma Atlantico Norte",
+            "Region Autónoma Atlántico Norte",
+            "Región Autónoma Atlantico Norte",
+            "Región Autónoma Atlántico Norte"
+        ],
+        "Q1008456": [
+            "Bilwi",
+            "Puerto Cabezas"
+        ],
+        "Q215655": [
+            "Departamento",
+            "Departamento (Colombia)",
+            "Departamento de Colombia",
+            "Departamentos de Colombia",
+            "Departamentos de colombia"
+        ],
+        "Q828224": [
+            "Kilómetro"
+        ],
+        "Q11573": [
+            "Metro",
+            "Metro (Medida)",
+            "Metro (medida)",
+            "Metro (unidad)",
+            "Metro lineal",
+            "Metrof",
+            "Metros",
+            "Métrico"
+        ],
+        "Q1257783": [
+            "Bajo Nuevo",
+            "Bajo Nuevo Bank",
+            "Bajo nuevo",
+            "Islas Petrel"
+        ]
+    }
+}

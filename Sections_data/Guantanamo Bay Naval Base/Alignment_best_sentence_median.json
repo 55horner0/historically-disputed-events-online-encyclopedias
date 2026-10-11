@@ -1,0 +1,51 @@
+[
+    {
+        "section_id_a": "en:Q762570:0",
+        "section_id_b": "es:Q762570:1",
+        "pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8633
+    },
+    {
+        "section_id_a": "en:Q762570:1",
+        "section_id_b": "es:Q762570:2",
+        "pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.9515
+    },
+    {
+        "section_id_a": "en:Q762570:2",
+        "section_id_b": "es:Q762570:3",
+        "pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8733
+    },
+    {
+        "section_id_a": "en:Q762570:3",
+        "section_id_b": "es:Q762570:4",
+        "pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8682
+    },
+    {
+        "section_id_a": "en:Q762570:4",
+        "section_id_b": "es:Q762570:5",
+        "pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.9788
+    },
+    {
+        "section_id_a": "en:Q762570:5",
+        "section_id_b": "es:Q762570:6",
+        "pair_id": "en:Q762570:5+es:Q762570:6+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8545
+    },
+    {
+        "section_id_a": "en:Q762570:6",
+        "section_id_b": "es:Q762570:0",
+        "pair_id": "en:Q762570:6+es:Q762570:0+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8404
+    }
+]

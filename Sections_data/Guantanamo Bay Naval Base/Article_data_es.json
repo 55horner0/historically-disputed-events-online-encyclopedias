@@ -1,0 +1,2071 @@
+{
+    "title": "Base_Naval_de_la_Bahía_de_Guantánamo",
+    "language": "es",
+    "article_qid": "Q762570",
+    "article_id": "es:Q762570",
+    "sections": [
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:0",
+            "section_idx": 0,
+            "language": "es",
+            "heading": "Lead",
+            "level": 0,
+            "text": "La Base Naval de la Bahía de Guantánamo (en inglés : Guantanamo Bay Naval Base o Gitmo ) es un enclave e instalación militar de los Estados Unidos de América en el mar Caribe . Cuba reclama ser el Estado soberano de dicho territorio. Este último país disputa su soberanía sobre la base y la considera un territorio ocupado, pero los Estados Unidos se niegan a poner fin al arriendo haciendo valer el Tratado cubano-estadounidense de 1903. Para el gobierno cubano, el territorio de la base es parte del municipio de Caimanera , dentro de la provincia de Guantánamo . ​ ​ Se localiza al extremo sureste de Cuba y alberga una base naval estadounidense de aproximadamente 117,6 km² (49,4 de tierra firme y el resto de agua y pantanos), en que se encuentra su prisión militar . El perímetro de la base se extiende por 28,5 km. ",
+            "text_with_qids": "La Base Naval (Q1324633) de la Bahía de Guantánamo (Q208035) (en inglés (Q1860) : Guantanamo Bay Naval Base o Gitmo (Q762570) ) es un enclave e instalación militar de los Estados Unidos de América (Q30) en el mar Caribe (Q1247) . Cuba (Q241) reclama ser el Estado soberano de dicho territorio. Este último país disputa su soberanía sobre la base y la considera un territorio ocupado, pero los Estados Unidos (Q30) se niegan a poner fin al arriendo (Q10530881) haciendo valer el Tratado cubano-estadounidense (Q3179689) de 1903. Para el gobierno cubano, el territorio de la base es parte del municipio de Caimanera (Q1025873) , dentro de la provincia de Guantánamo (Q115319) . ​ ​ Se localiza al extremo sureste de Cuba (Q1503155) y alberga una base naval (Q1324633) estadounidense (Q30) de aproximadamente 117,6 km² (Q712226) (49,4 de tierra firme y el resto de agua y pantanos), en que se encuentra su prisión militar (Q357) . El perímetro de la base se extiende por 28,5 km. ",
+            "spans": [
+                {
+                    "qid": "Q1324633",
+                    "surface": "Base Naval",
+                    "start": 3,
+                    "end": 13,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 20,
+                    "end": 39,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "inglés",
+                    "start": 44,
+                    "end": 50,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q762570",
+                    "surface": "Gitmo",
+                    "start": 81,
+                    "end": 86,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos de América",
+                    "start": 132,
+                    "end": 157,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "mar Caribe",
+                    "start": 164,
+                    "end": 174,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 177,
+                    "end": 181,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 333,
+                    "end": 347,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q10530881",
+                    "surface": "arriendo",
+                    "start": 373,
+                    "end": 381,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3179689",
+                    "surface": "Tratado cubano-estadounidense",
+                    "start": 400,
+                    "end": 429,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1025873",
+                    "surface": "Caimanera",
+                    "start": 515,
+                    "end": 524,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q115319",
+                    "surface": "provincia de Guantánamo",
+                    "start": 540,
+                    "end": 563,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1503155",
+                    "surface": "Cuba",
+                    "start": 604,
+                    "end": 608,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1324633",
+                    "surface": "base naval",
+                    "start": 623,
+                    "end": 633,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 634,
+                    "end": 648,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q712226",
+                    "surface": "km²",
+                    "start": 674,
+                    "end": 677,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q357",
+                    "surface": "prisión militar",
+                    "start": 755,
+                    "end": 770,
+                    "section": "Lead",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:1",
+            "section_idx": 1,
+            "language": "es",
+            "heading": "Historia",
+            "level": 2,
+            "text": "La Base Naval de la Bahía de Guantánamo se estableció en 1898, cuando Estados Unidos ocupó militarmente la isla tras la derrota de España en la guerra hispano-estadounidense . El Gobierno de los Estados Unidos obtuvo un arrendamiento perpetuo que comenzó el 23 de febrero de 1903, con la firma por parte de Tomás Estrada Palma , primer presidente de la República de Cuba , del Tratado cubano-estadounidense . El recién formado protectorado estadounidense incorporó la Enmienda Platt en la Constitución cubana . El Tratado cubano-estadounidense establecía, entre otras cosas, que los Estados Unidos tendrían completo control y jurisdicción sobre la bahía de Guantánamo, con propósitos de operar estaciones navales y de embarque, mientras que reconocía que Cuba mantenía su soberanía. En 1905 hubo un requerimiento de ocupación de Cuba durante tres años debido en parte a la Enmienda Platt. Un tratado en 1934 reafirmó el derecho de paso a Cuba y sus socios comerciales a través de la bahía, modificando el pago anual de una renta de 2000 dólares en monedas de oro , al valor equivalente en 1934 de 4085 dólares estadounidenses del Tesoro ( U.S. Treasury Dollars ), y agregó el requerimiento de que la terminación de esta renta requeriría el consentimiento de ambos gobiernos, o el abandono de la propiedad por los Estados Unidos. En 1961 se interrumpe la relación entre los Estados Unidos y Cuba, tras la Revolución cubana . En la actualidad, la base Gitmo es la única base estadounidense en operación en un Estado socialista. Desde la llegada al poder de Fidel Castro solamente ha cobrado una renta del alquiler, mientras que firmemente rechaza cobrar a cualquier otro gobierno, ya que ve esta base como ilegítima. No obstante, mientras no existían relaciones diplomáticas entre los Estados Unidos y Cuba, los Estados Unidos accedieron mandar de regreso a fugitivos de la ley cubana a las autoridades de Cuba, y esta, por su parte, accedió a devolver a los Estados Unidos a fugitivos de la ley estadounidense que hayan cometido delitos en Guantánamo. El control de este territorio cubano por parte de los estadounidenses nunca ha estado bien visto entre los cubanos. [ cita requerida ] El Gobierno de Cuba ha denunciado constantemente que el artículo 52 de la Convención de Viena de 1969 , declara la abolición de un tratado si se concluye que se ha usado la fuerza o intervención, en este caso la inclusión de la Enmienda Platt en la Constitución cubana. Estados Unidos advirtió a la Convención Constitucional de Cuba sobre no modificar la enmienda, y se les ordenó a las tropas estadounidenses no abandonar Cuba hasta que los términos sean adoptados como una condición para garantizar independencia a los Estados Unidos. El Gobierno cubano dejó de proveer el abastecimiento de agua para la base, provocando que los Estados Unidos importaran el agua desde Jamaica y construyese plantas de desalinización . En la actualidad, la base es autosuficiente y produce su propia electricidad y agua de consumo. Los últimos dos cubanos, ambos de edad avanzada, que trabajaban diariamente dentro de la base, cruzando desde Cuba, se jubilaron el 31 de diciembre de 2012. ​ El Gobierno cubano prohíbe más reclutamiento de personal desde Cuba. Cuenta, además, con un centro comercial , una oficina postal , ocho bares , restaurantes , una estación de bomberos , una gasolinera , una capilla , una mezquita , una piscina , dos cines al aire libre, un hospital , una casa de cambios, una estación de radio y dos colegios . ",
+            "text_with_qids": "La Base Naval (Q1324633) de la Bahía de Guantánamo (Q208035) se estableció en 1898, cuando Estados Unidos (Q30) ocupó militarmente la isla tras la derrota de España (Q29) en la guerra hispano-estadounidense (Q12583) . El Gobierno de los Estados Unidos (Q30) obtuvo un arrendamiento perpetuo que comenzó el 23 de febrero de 1903, con la firma por parte de Tomás Estrada Palma (Q322173) , primer presidente de la República de Cuba (Q241) , del Tratado cubano-estadounidense (Q3179689) . El recién formado protectorado estadounidense (Q30) incorporó la Enmienda Platt (Q863445) en la Constitución cubana (Q4557859) . El Tratado cubano-estadounidense (Q3179689) establecía, entre otras cosas, que los Estados Unidos (Q30) tendrían completo control y jurisdicción sobre la bahía de Guantánamo, con propósitos de operar estaciones navales y de embarque, mientras que reconocía que Cuba (Q241) mantenía su soberanía. En 1905 hubo un requerimiento de ocupación de Cuba (Q241) durante tres años debido en parte a la Enmienda Platt (Q863445). Un tratado en 1934 reafirmó el derecho de paso a Cuba (Q241) y sus socios comerciales a través de la bahía, modificando el pago anual de una renta de 2000 dólares (Q14083) en monedas de oro (Q897) , al valor equivalente en 1934 de 4085 dólares (Q14083) estadounidenses del Tesoro ( U.S. Treasury Dollars ), y agregó el requerimiento de que la terminación de esta renta requeriría el consentimiento de ambos gobiernos, o el abandono de la propiedad por los Estados Unidos (Q30). En 1961 se interrumpe la relación entre los Estados Unidos (Q30) y Cuba (Q241), tras la Revolución cubana (Q11264) . En la actualidad, la base Gitmo (Q762570) es la única base estadounidense (Q30) en operación en un Estado socialista. Desde la llegada al poder de Fidel Castro (Q11256) solamente ha cobrado una renta del alquiler, mientras que firmemente rechaza cobrar a cualquier otro gobierno, ya que ve esta base como ilegítima. No obstante, mientras no existían relaciones diplomáticas entre los Estados Unidos (Q30) y Cuba (Q241), los Estados Unidos (Q30) accedieron mandar de regreso a fugitivos de la ley cubana a las autoridades de Cuba (Q241), y esta, por su parte, accedió a devolver a los Estados Unidos (Q30) a fugitivos de la ley estadounidense (Q30) que hayan cometido delitos en Guantánamo. El control de este territorio cubano por parte de los estadounidenses nunca ha estado bien visto entre los cubanos. [ cita requerida ] El Gobierno de Cuba (Q241) ha denunciado constantemente que el artículo 52 de la Convención de Viena de 1969 , declara la abolición de un tratado si se concluye que se ha usado la fuerza o intervención, en este caso la inclusión de la Enmienda Platt (Q863445) en la Constitución cubana (Q4557859). Estados Unidos (Q30) advirtió a la Convención Constitucional (Q7755) de Cuba (Q241) sobre no modificar la enmienda, y se les ordenó a las tropas estadounidenses no abandonar Cuba (Q241) hasta que los términos sean adoptados como una condición para garantizar independencia a los Estados Unidos (Q30). El Gobierno cubano dejó de proveer el abastecimiento de agua para la base, provocando que los Estados Unidos (Q30) importaran el agua desde Jamaica (Q766) y construyese plantas de desalinización (Q190873) . En la actualidad, la base es autosuficiente y produce su propia electricidad (Q12725) y agua de consumo. Los últimos dos cubanos, ambos de edad avanzada, que trabajaban diariamente dentro de la base, cruzando desde Cuba (Q241), se jubilaron el 31 de diciembre de 2012. ​ El Gobierno cubano prohíbe más reclutamiento de personal desde Cuba (Q241). Cuenta, además, con un centro comercial (Q11315) , una oficina postal (Q35054) , ocho bares (Q187456) , restaurantes (Q11707) , una estación de bomberos (Q1195942) , una gasolinera (Q205495) , una capilla (Q108325) , una mezquita (Q32815) , una piscina (Q1501) , dos cines (Q16144339) al aire libre, un hospital (Q16917) , una casa de cambios, una estación de radio (Q14350) y dos colegios (Q5142769) . ",
+            "spans": [
+                {
+                    "qid": "Q1324633",
+                    "surface": "Base Naval",
+                    "start": 3,
+                    "end": 13,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 20,
+                    "end": 39,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 70,
+                    "end": 84,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q29",
+                    "surface": "España",
+                    "start": 131,
+                    "end": 137,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q12583",
+                    "surface": "guerra hispano-estadounidense",
+                    "start": 144,
+                    "end": 173,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 195,
+                    "end": 209,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q322173",
+                    "surface": "Tomás Estrada Palma",
+                    "start": 307,
+                    "end": 326,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "República de Cuba",
+                    "start": 353,
+                    "end": 370,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3179689",
+                    "surface": "Tratado cubano-estadounidense",
+                    "start": 377,
+                    "end": 406,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 440,
+                    "end": 454,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q863445",
+                    "surface": "Enmienda Platt",
+                    "start": 468,
+                    "end": 482,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q4557859",
+                    "surface": "Constitución cubana",
+                    "start": 489,
+                    "end": 508,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3179689",
+                    "surface": "Tratado cubano-estadounidense",
+                    "start": 514,
+                    "end": 543,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 583,
+                    "end": 597,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 755,
+                    "end": 759,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 829,
+                    "end": 833,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q863445",
+                    "surface": "Enmienda Platt",
+                    "start": 873,
+                    "end": 887,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 938,
+                    "end": 942,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14083",
+                    "surface": "dólares",
+                    "start": 1037,
+                    "end": 1044,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q897",
+                    "surface": "oro",
+                    "start": 1059,
+                    "end": 1062,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q14083",
+                    "surface": "dólares",
+                    "start": 1102,
+                    "end": 1109,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1313,
+                    "end": 1327,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1373,
+                    "end": 1387,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 1390,
+                    "end": 1394,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11264",
+                    "surface": "Revolución cubana",
+                    "start": 1404,
+                    "end": 1421,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q762570",
+                    "surface": "Gitmo",
+                    "start": 1450,
+                    "end": 1455,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 1473,
+                    "end": 1487,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11256",
+                    "surface": "Fidel Castro",
+                    "start": 1555,
+                    "end": 1567,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1783,
+                    "end": 1797,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 1800,
+                    "end": 1804,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1810,
+                    "end": 1824,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 1904,
+                    "end": 1908,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1957,
+                    "end": 1971,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 1994,
+                    "end": 2008,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 2201,
+                    "end": 2205,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q863445",
+                    "surface": "Enmienda Platt",
+                    "start": 2414,
+                    "end": 2428,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q4557859",
+                    "surface": "Constitución cubana",
+                    "start": 2435,
+                    "end": 2454,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 2456,
+                    "end": 2470,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7755",
+                    "surface": "Constitucional",
+                    "start": 2496,
+                    "end": 2510,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 2514,
+                    "end": 2518,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 2609,
+                    "end": 2613,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 2707,
+                    "end": 2721,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 2817,
+                    "end": 2831,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q766",
+                    "surface": "Jamaica",
+                    "start": 2857,
+                    "end": 2864,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q190873",
+                    "surface": "desalinización",
+                    "start": 2890,
+                    "end": 2904,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q12725",
+                    "surface": "electricidad",
+                    "start": 2971,
+                    "end": 2983,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 3113,
+                    "end": 3117,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 3225,
+                    "end": 3229,
+                    "section": "Historia",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11315",
+                    "surface": "centro comercial",
+                    "start": 3254,
+                    "end": 3270,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q35054",
+                    "surface": "oficina postal",
+                    "start": 3277,
+                    "end": 3291,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q187456",
+                    "surface": "bares",
+                    "start": 3299,
+                    "end": 3304,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11707",
+                    "surface": "restaurantes",
+                    "start": 3307,
+                    "end": 3319,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1195942",
+                    "surface": "estación de bomberos",
+                    "start": 3326,
+                    "end": 3346,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q205495",
+                    "surface": "gasolinera",
+                    "start": 3353,
+                    "end": 3363,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q108325",
+                    "surface": "capilla",
+                    "start": 3370,
+                    "end": 3377,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q32815",
+                    "surface": "mezquita",
+                    "start": 3384,
+                    "end": 3392,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1501",
+                    "surface": "piscina",
+                    "start": 3399,
+                    "end": 3406,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q16144339",
+                    "surface": "cines",
+                    "start": 3413,
+                    "end": 3418,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q16917",
+                    "surface": "hospital",
+                    "start": 3437,
+                    "end": 3445,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q14350",
+                    "surface": "estación de radio",
+                    "start": 3473,
+                    "end": 3490,
+                    "section": "Historia",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q5142769",
+                    "surface": "colegios",
+                    "start": 3497,
+                    "end": 3505,
+                    "section": "Historia",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:2",
+            "section_idx": 2,
+            "language": "es",
+            "heading": "Geografía",
+            "level": 2,
+            "text": "La Base Naval se divide en tres secciones geográficas principales: Punta de Sotavento, Punta de Barlovento y Bahía de Guantánamo .  La Bahía de Guantánamo divide físicamente la Estación Naval en secciones.  La bahía se extiende más allá de los límites de la base hacia Cuba, donde la bahía se conoce como Bahía de Guantánamo.  La Bahía de Guantánamo contiene varios cayos, que se identifican como Cayo Hospital, Cayo Medico, Cayo North Toro y Cayo South Toro. [ cita requerida ] El Leeward Point de la Estación Naval es el sitio del aeródromo activo.  Las principales características geográficas de Leeward Point incluyen la bahía de Mohomilla y el río Guantánamo .  Existen tres playas en el lado de Sotavento.  Dos están disponibles para uso de los residentes de la base, mientras que el tercero, Playa Hicacal, está cerrado. Windward Point contiene la mayoría de las actividades de la Estación Naval.  Hay nueve playas disponibles para el personal de la base.  El punto más alto en la base es la colina John Paul Jones con un total de 495 pies (151 m).  La geografía de Windward Point es tal que hay muchas calas y penínsulas a lo largo de la costa de la bahía que proporcionan áreas ideales para amarrar barcos. Según Stephen Benz, Stephen Crane describió el área como \"escarpada\" y \"cortada con barrancos\".  También describió la costa como cubierta de crestas y \"acantilados calcáreos \". [ cita requerida ] ",
+            "text_with_qids": "La Base Naval (Q1324633) se divide en tres secciones geográficas principales: Punta de Sotavento, Punta de Barlovento y Bahía de Guantánamo (Q208035) .  La Bahía de Guantánamo (Q208035) divide físicamente la Estación Naval en secciones.  La bahía se extiende más allá de los límites de la base hacia Cuba (Q241), donde la bahía se conoce como Bahía de Guantánamo (Q208035).  La Bahía de Guantánamo (Q208035) contiene varios cayos, que se identifican como Cayo Hospital, Cayo Medico, Cayo North Toro y Cayo South Toro. [ cita requerida ] El Leeward Point de la Estación Naval es el sitio del aeródromo (Q62447) activo.  Las principales características geográficas de Leeward Point incluyen la bahía de Mohomilla y el río Guantánamo (Q2617277) .  Existen tres playas en el lado de Sotavento.  Dos están disponibles para uso de los residentes de la base, mientras que el tercero, Playa Hicacal, está cerrado. Windward Point contiene la mayoría de las actividades de la Estación Naval.  Hay nueve playas disponibles para el personal de la base.  El punto más alto en la base es la colina John Paul Jones (Q314333) con un total de 495 pies (151 m).  La geografía de Windward Point es tal que hay muchas calas (Q417991) y penínsulas (Q34763) a lo largo de la costa de la bahía que proporcionan áreas ideales para amarrar barcos. Según Stephen Benz, Stephen Crane (Q206534) describió el área como \"escarpada\" y \"cortada con barrancos\".  También describió la costa como cubierta de crestas y \"acantilados calcáreos \". [ cita requerida ] ",
+            "spans": [
+                {
+                    "qid": "Q1324633",
+                    "surface": "Base Naval",
+                    "start": 3,
+                    "end": 13,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 109,
+                    "end": 128,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 135,
+                    "end": 154,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 269,
+                    "end": 273,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 305,
+                    "end": 324,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 330,
+                    "end": 349,
+                    "section": "Geografía",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q62447",
+                    "surface": "aeródromo",
+                    "start": 533,
+                    "end": 542,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2617277",
+                    "surface": "río Guantánamo",
+                    "start": 649,
+                    "end": 663,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q314333",
+                    "surface": "John Paul Jones",
+                    "start": 1006,
+                    "end": 1021,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q417991",
+                    "surface": "calas",
+                    "start": 1110,
+                    "end": 1115,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q34763",
+                    "surface": "penínsulas",
+                    "start": 1118,
+                    "end": 1128,
+                    "section": "Geografía",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q206534",
+                    "surface": "Stephen Crane",
+                    "start": 1236,
+                    "end": 1249,
+                    "section": "Geografía",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:3",
+            "section_idx": 3,
+            "language": "es",
+            "heading": "La “tierra de nadie” y el Cactus Courtain",
+            "level": 2,
+            "text": "El Cactus Courtain (lit. “Cortina de cactus”) es un término que describe la línea que separa la base naval del territorio controlado por Cuba.  Después de la Revolución Cubana , algunos cubanos buscaron refugio en la Base Naval de la Bahía de Guantánamo.  A fines de 1961, las tropas cubanas plantaron una barrera de cactus Opuntia de 8 millas (13 km) de largo y 10 pies (3,0 m) de ancho a lo largo de la sección noreste de la cerca de 17 millas (27 km) que rodea la base para prevenir  evasión del puesto de control al moverse entre la base y Cuba propiamente dicha.  Esto se denominó la “Cortina de Cactus”, una alusión a la Cortina de Hierro en Europa , la Cortina de Bambú en Asia Oriental o la Cortina de Hielo en el Estrecho de Bering . La cortina forma parte de una \"tierra de nadie\" que rodea la base.  Esta área se completa con patrullas perimetrales, puestos de avanzada con sacos de arena y torres de vigilancia , y se ha complementado con cercas de alambre de púas , campos de minas y cactus.  Además de los cactus, tanto las tropas estadounidenses como las cubanas erigieron, mantuvieron y, de otro modo, tripularon estas defensas, principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado. Minas terrestres. Las tropas estadounidenses y cubanas colocaron unas 55.000 minas terrestres antipersonal y antitanques en la \"tierra de nadie\" alrededor del perímetro de la base naval, creando el segundo campo de minas más grande del mundo y el más grande del hemisferio occidental .  Inicialmente, las minas fueron colocadas por tropas estadounidenses, quienes también colocaron carteles que decían que las minas terrestres eran \"precauciones\" y no deberían considerarse \"agresivas\".  En respuesta, las tropas cubanas también colocaron sus propias minas, y ambas partes terminaron sus campos de minas en 1961. Entre 1961 y 1965, las explosiones de minas terrestres provocaron la muerte de al menos 10 personas, incluso como resultado de accidentes de ingeniería y asistentes a fiestas nocturnas.  El 16 de mayo de 1996, el presidente de los Estados Unidos , Bill Clinton , ordenó el desminado del campo estadounidense.  Desde entonces, han sido reemplazados por sensores de movimiento y sonido para detectar intrusos en la base. El gobierno cubano no ha removido su correspondiente campo minado fuera del perímetro. ",
+            "text_with_qids": "El Cactus (Q14560) Courtain (lit. “Cortina de cactus (Q14560)”) es un término que describe la línea que separa la base naval (Q1324633) del territorio controlado por Cuba (Q241).  Después de la Revolución Cubana (Q11264) , algunos cubanos buscaron refugio en la Base Naval (Q1324633) de la Bahía de Guantánamo (Q208035).  A fines de 1961, las tropas cubanas (Q663472) plantaron una barrera de cactus (Q14560) Opuntia (Q158991) de 8 millas (13 km) de largo y 10 pies (3,0 m) de ancho a lo largo de la sección noreste de la cerca de 17 millas (27 km) que rodea la base para prevenir  evasión del puesto de control al moverse entre la base y Cuba (Q241) propiamente dicha.  Esto se denominó la “Cortina de Cactus (Q14560)”, una alusión a la Cortina de Hierro (Q124425) en Europa , la Cortina de Bambú en Asia Oriental o la Cortina de Hielo en el Estrecho de Bering (Q11769) . La cortina forma parte de una \"tierra de nadie\" que rodea la base.  Esta área se completa con patrullas perimetrales, puestos de avanzada con sacos de arena y torres de vigilancia , y se ha complementado con cercas de alambre de púas (Q192065) , campos de minas y cactus (Q14560).  Además de los cactus (Q14560), tanto las tropas estadounidenses como las cubanas erigieron, mantuvieron y, de otro modo, tripularon estas defensas, principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado. Minas terrestres (Q178795). Las tropas estadounidenses y cubanas colocaron unas 55.000 minas terrestres (Q178795) antipersonal y antitanques en la \"tierra de nadie\" alrededor del perímetro de la base naval (Q1324633), creando el segundo campo de minas más grande del mundo y el más grande del hemisferio occidental (Q181982) .  Inicialmente, las minas fueron colocadas por tropas estadounidenses, quienes también colocaron carteles que decían que las minas terrestres (Q178795) eran \"precauciones\" y no deberían considerarse \"agresivas\".  En respuesta, las tropas cubanas (Q663472) también colocaron sus propias minas, y ambas partes terminaron sus campos de minas en 1961. Entre 1961 y 1965, las explosiones de minas terrestres (Q178795) provocaron la muerte de al menos 10 personas, incluso como resultado de accidentes de ingeniería y asistentes a fiestas nocturnas.  El 16 de mayo de 1996, el presidente de los Estados Unidos (Q30) , Bill Clinton (Q1124) , ordenó el desminado (Q1345044) del campo estadounidense (Q30).  Desde entonces, han sido reemplazados por sensores de movimiento y sonido para detectar intrusos en la base. El gobierno cubano no ha removido su correspondiente campo minado fuera del perímetro. ",
+            "spans": [
+                {
+                    "qid": "Q14560",
+                    "surface": "Cactus",
+                    "start": 3,
+                    "end": 9,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14560",
+                    "surface": "cactus",
+                    "start": 37,
+                    "end": 43,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1324633",
+                    "surface": "base naval",
+                    "start": 96,
+                    "end": 106,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 137,
+                    "end": 141,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11264",
+                    "surface": "Revolución Cubana",
+                    "start": 158,
+                    "end": 175,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1324633",
+                    "surface": "Base Naval",
+                    "start": 217,
+                    "end": 227,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 234,
+                    "end": 253,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q663472",
+                    "surface": "tropas cubanas",
+                    "start": 277,
+                    "end": 291,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14560",
+                    "surface": "cactus",
+                    "start": 317,
+                    "end": 323,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q158991",
+                    "surface": "Opuntia",
+                    "start": 324,
+                    "end": 331,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 544,
+                    "end": 548,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14560",
+                    "surface": "Cactus",
+                    "start": 601,
+                    "end": 607,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q124425",
+                    "surface": "Cortina de Hierro",
+                    "start": 627,
+                    "end": 644,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11769",
+                    "surface": "Estrecho de Bering",
+                    "start": 722,
+                    "end": 740,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q192065",
+                    "surface": "alambre de púas",
+                    "start": 961,
+                    "end": 976,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q14560",
+                    "surface": "cactus",
+                    "start": 997,
+                    "end": 1003,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14560",
+                    "surface": "cactus",
+                    "start": 1020,
+                    "end": 1026,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q178795",
+                    "surface": "Minas terrestres",
+                    "start": 1252,
+                    "end": 1268,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q178795",
+                    "surface": "minas terrestres",
+                    "start": 1329,
+                    "end": 1345,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1324633",
+                    "surface": "base naval",
+                    "start": 1427,
+                    "end": 1437,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q181982",
+                    "surface": "hemisferio occidental",
+                    "start": 1514,
+                    "end": 1535,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q178795",
+                    "surface": "minas terrestres",
+                    "start": 1662,
+                    "end": 1678,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q663472",
+                    "surface": "tropas cubanas",
+                    "start": 1758,
+                    "end": 1772,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q178795",
+                    "surface": "minas terrestres",
+                    "start": 1903,
+                    "end": 1919,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 2096,
+                    "end": 2110,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1124",
+                    "surface": "Bill Clinton",
+                    "start": 2113,
+                    "end": 2125,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1345044",
+                    "surface": "desminado",
+                    "start": 2138,
+                    "end": 2147,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 2158,
+                    "end": 2172,
+                    "section": "La “tierra de nadie” y el Cactus Courtain",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:4",
+            "section_idx": 4,
+            "language": "es",
+            "heading": "Detención de prisioneros",
+            "level": 2,
+            "text": "En el último cuarto del siglo XX , la base fue usada como centro de reclusión para refugiados cubanos y haitianos interceptados en alta mar. Sin embargo, comenzando el año 2002, una pequeña porción de la base fue usada para albergar dentro de los campos X-Ray, Delta y Echo, a prisioneros sospechosos de nexos con Al-Qaeda y el ejército talibán que fueron capturados en Afganistán . La publicidad más reciente divulgó la transferencia de prisioneros, el 22 de septiembre de 2004, cuando 10 prisioneros fueron traídos desde Afganistán. Finalmente, fueron encarcelados en la base sin ningún cargo. El estatus legal tan peculiar de la Bahía de Guantánamo fue un factor para elegirla como centro de detención. Debido a que la soberanía de la Bahía de Guantánamo reside en Cuba , el gobierno estadounidense argumentó que la gente detenida en Guantánamo se encontraba legalmente fuera de su país y no tenían los derechos constitucionales que tendrían si estuvieran retenidos en él. Durante 2004, la Corte Suprema rechazó este argumento en el caso Rasul contra Bush , con la decisión mayoritaria, y se estableció que los prisioneros en Guantánamo tengan acceso a cortes estadounidenses, citando el hecho de que Estados Unidos tiene el control exclusivo sobre la Bahía de Guantánamo. ",
+            "text_with_qids": "En el último cuarto del siglo XX , la base fue usada como centro de reclusión para refugiados (Q131572) cubanos y haitianos (Q790) interceptados en alta mar. Sin embargo, comenzando el año 2002, una pequeña porción de la base fue usada para albergar dentro de los campos X-Ray, Delta y Echo, a prisioneros sospechosos de nexos con Al-Qaeda (Q34490) y el ejército talibán (Q42418) que fueron capturados en Afganistán (Q889) . La publicidad más reciente divulgó la transferencia de prisioneros, el 22 de septiembre de 2004, cuando 10 prisioneros fueron traídos desde Afganistán (Q889). Finalmente, fueron encarcelados en la base sin ningún cargo. El estatus legal tan peculiar de la Bahía de Guantánamo (Q208035) fue un factor para elegirla como centro de detención. Debido a que la soberanía de la Bahía de Guantánamo (Q208035) reside en Cuba (Q241) , el gobierno estadounidense (Q30) argumentó que la gente detenida en Guantánamo se encontraba legalmente fuera de su país y no tenían los derechos constitucionales (Q7755) que tendrían si estuvieran retenidos en él. Durante 2004, la Corte Suprema (Q11201) rechazó este argumento en el caso Rasul contra Bush , con la decisión mayoritaria, y se estableció que los prisioneros en Guantánamo tengan acceso a cortes estadounidenses, citando el hecho de que Estados Unidos (Q30) tiene el control exclusivo sobre la Bahía de Guantánamo (Q208035). ",
+            "spans": [
+                {
+                    "qid": "Q131572",
+                    "surface": "refugiados",
+                    "start": 83,
+                    "end": 93,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q790",
+                    "surface": "haitianos",
+                    "start": 104,
+                    "end": 113,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q34490",
+                    "surface": "Al-Qaeda",
+                    "start": 314,
+                    "end": 322,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q42418",
+                    "surface": "talibán",
+                    "start": 337,
+                    "end": 344,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q889",
+                    "surface": "Afganistán",
+                    "start": 370,
+                    "end": 380,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q889",
+                    "surface": "Afganistán",
+                    "start": 523,
+                    "end": 533,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 632,
+                    "end": 651,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 738,
+                    "end": 757,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 768,
+                    "end": 772,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "estadounidense",
+                    "start": 787,
+                    "end": 801,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7755",
+                    "surface": "constitucionales",
+                    "start": 915,
+                    "end": 931,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11201",
+                    "surface": "Corte Suprema",
+                    "start": 993,
+                    "end": 1006,
+                    "section": "Detención de prisioneros",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q30",
+                    "surface": "Estados Unidos",
+                    "start": 1204,
+                    "end": 1218,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q208035",
+                    "surface": "Bahía de Guantánamo",
+                    "start": 1255,
+                    "end": 1274,
+                    "section": "Detención de prisioneros",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:5",
+            "section_idx": 5,
+            "language": "es",
+            "heading": "Empresas y negocios",
+            "level": 2,
+            "text": "A pesar de la prohibición del establecimiento de \"empresas comerciales o de otro tipo\" como se establece en el artículo 3 de la segunda parte del contrato de arrendamiento, se han abierto varias empresas en la base militar.  Un puesto de helados Baskin-Robbins , que abrió en la década de 1980, fue una de las primeras franquicias comerciales permitidas en la base.  A principios de 1986, la base agregó el primer y único restaurante McDonald's en Cuba.  En 2002 se abrió un restaurante Subway . En 2004, se abrió un restaurante combinado de KFC y A&W en la bolera y se añadió un Pizza Hut Express al restaurante Windjammer .  También hay una cafetería que vende café Starbucks , y hay un restaurante combinado de KFC y Taco Bell . La mayoría de los restaurantes de la instalación son franquicias que pertenecen al Departamento de la Marina y son operados por él.  Todas las ganancias de estos restaurantes se utilizan para apoyar las actividades de moral, bienestar y recreación (MWR) para el personal de servicio y sus familias.  Estos restaurantes se encuentran dentro de la base;  como tales, no son accesibles para los cubanos. ",
+            "text_with_qids": "A pesar de la prohibición del establecimiento de \"empresas comerciales o de otro tipo\" como se establece en el artículo 3 de la segunda parte del contrato de arrendamiento, se han abierto varias empresas en la base militar.  Un puesto de helados Baskin-Robbins (Q584601) , que abrió en la década de 1980, fue una de las primeras franquicias (Q171947) comerciales permitidas en la base.  A principios de 1986, la base agregó el primer y único restaurante McDonald's (Q38076) en Cuba (Q241).  En 2002 se abrió un restaurante Subway (Q244457) . En 2004, se abrió un restaurante combinado de KFC (Q524757) y A&W (Q277641) en la bolera (Q3177899) y se añadió un Pizza Hut Express al restaurante Windjammer .  También hay una cafetería que vende café Starbucks (Q37158) , y hay un restaurante combinado de KFC (Q524757) y Taco Bell (Q752941) . La mayoría de los restaurantes (Q11707) de la instalación son franquicias (Q171947) que pertenecen al Departamento de la Marina y son operados por él.  Todas las ganancias de estos restaurantes (Q11707) se utilizan para apoyar las actividades de moral, bienestar y recreación (MWR) para el personal de servicio y sus familias.  Estos restaurantes (Q11707) se encuentran dentro de la base;  como tales, no son accesibles para los cubanos. ",
+            "spans": [
+                {
+                    "qid": "Q584601",
+                    "surface": "Baskin-Robbins",
+                    "start": 246,
+                    "end": 260,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q171947",
+                    "surface": "franquicias",
+                    "start": 319,
+                    "end": 330,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q38076",
+                    "surface": "McDonald's",
+                    "start": 434,
+                    "end": 444,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q241",
+                    "surface": "Cuba",
+                    "start": 448,
+                    "end": 452,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q244457",
+                    "surface": "Subway",
+                    "start": 487,
+                    "end": 493,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q524757",
+                    "surface": "KFC",
+                    "start": 542,
+                    "end": 545,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q277641",
+                    "surface": "A&W",
+                    "start": 548,
+                    "end": 551,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3177899",
+                    "surface": "bolera",
+                    "start": 558,
+                    "end": 564,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q37158",
+                    "surface": "Starbucks",
+                    "start": 668,
+                    "end": 677,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q524757",
+                    "surface": "KFC",
+                    "start": 714,
+                    "end": 717,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q752941",
+                    "surface": "Taco Bell",
+                    "start": 720,
+                    "end": 729,
+                    "section": "Empresas y negocios",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q11707",
+                    "surface": "restaurantes",
+                    "start": 750,
+                    "end": 762,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q171947",
+                    "surface": "franquicias",
+                    "start": 785,
+                    "end": 796,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11707",
+                    "surface": "restaurantes",
+                    "start": 894,
+                    "end": 906,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q11707",
+                    "surface": "restaurantes",
+                    "start": 1038,
+                    "end": 1050,
+                    "section": "Empresas y negocios",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:6",
+            "section_idx": 6,
+            "language": "es",
+            "heading": "Unidades y comandos",
+            "level": 2,
+            "text": "Unidades para residentes. Unidades asignadas. Contratistas civiles. Además de los miembros del servicio, la base alberga una gran cantidad de contratistas civiles que trabajan para el ejército.  Muchos de estos contratistas son trabajadores migrantes de Jamaica y Filipinas , y se cree que constituyen hasta el 40% de la población de la base. Entre los principales contratistas que trabajan en NSGB se encuentran los siguientes: [ cita requerida ] Envío de carga. El transporte marítimo es proporcionado por Schuyler Line Navigation Company , un transportista marítimo de bandera de los EE. UU.  Schuyler Line opera bajo contrato con el gobierno para brindar suministros de sostenimiento y construcción a la base. ",
+            "text_with_qids": "Unidades para residentes. Unidades asignadas. Contratistas civiles. Además de los miembros del servicio, la base alberga una gran cantidad de contratistas civiles que trabajan para el ejército.  Muchos de estos contratistas son trabajadores migrantes de Jamaica (Q766) y Filipinas (Q928) , y se cree que constituyen hasta el 40% de la población de la base. Entre los principales contratistas que trabajan en NSGB se encuentran los siguientes: [ cita requerida ] Envío de carga. El transporte marítimo es proporcionado por Schuyler Line Navigation Company , un transportista marítimo de bandera de los EE. UU.  Schuyler Line opera bajo contrato con el gobierno para brindar suministros de sostenimiento y construcción a la base. ",
+            "spans": [
+                {
+                    "qid": "Q766",
+                    "surface": "Jamaica",
+                    "start": 254,
+                    "end": 261,
+                    "section": "Unidades y comandos",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q928",
+                    "surface": "Filipinas",
+                    "start": 264,
+                    "end": 273,
+                    "section": "Unidades y comandos",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:7",
+            "section_idx": 7,
+            "language": "es",
+            "heading": "Véase también",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:8",
+            "section_idx": 8,
+            "language": "es",
+            "heading": "Notas",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:9",
+            "section_idx": 9,
+            "language": "es",
+            "heading": "Referencias",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "es:Q762570",
+            "section_id": "es:Q762570:10",
+            "section_idx": 10,
+            "language": "es",
+            "heading": "Enlaces externos",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        }
+    ],
+    "qid_to_aliases": {
+        "Q1860": [
+            "Acento de boston",
+            "Anglofona",
+            "Anglofono",
+            "Anglohablante",
+            "Angloparlante",
+            "Anglófona",
+            "Anglófono",
+            "El idioma ingles",
+            "English",
+            "English language",
+            "Idioma Inglés",
+            "Idioma ingles",
+            "Idioma inglés",
+            "Ingl.",
+            "Ingles (idioma)",
+            "Ingles moderno",
+            "Inglés (idioma)",
+            "Inglés moderno",
+            "La lengua de Shakespeare",
+            "Lengua Ingles",
+            "Lengua Inglesa",
+            "Lengua Inglés",
+            "Lengua de Shakespeare",
+            "Lengua ingles",
+            "Lengua inglesa",
+            "Lengua inglés",
+            "inglés"
+        ],
+        "Q30": [
+            "E U A",
+            "E.U.",
+            "E.U.A.",
+            "EE UU",
+            "EE-UU",
+            "EE. UU.",
+            "EE.UU.",
+            "EEUU",
+            "EUA",
+            "Eeuu",
+            "Estadinense",
+            "Estadinenses",
+            "Estado-unidense",
+            "Estado-unidenses",
+            "Estados Unidos",
+            "Estados Unidos de America",
+            "Estados Unidos de América",
+            "Estados Unidos de Norteamerica",
+            "Estados Unidos de Norteamérica",
+            "Estados unidos",
+            "Estadounidense",
+            "Estadounidenses",
+            "Estadunidense",
+            "Estadunidenses",
+            "Norteamérica Media",
+            "República de Estados Unidos",
+            "The United States",
+            "U S",
+            "U S A",
+            "U S A.",
+            "U S.",
+            "U S.A.",
+            "U.S.",
+            "U.S.A.",
+            "USA",
+            "United States",
+            "United States of America",
+            "United states",
+            "Unión Americana",
+            "Unión estadounidense",
+            "Usa",
+            "Usamericano",
+            "Usamericanos",
+            "Usana",
+            "Usanas",
+            "Usano",
+            "Useno",
+            "Usense",
+            "Usenses",
+            "Useña",
+            "Useñas",
+            "Useño",
+            "Useños",
+            "Yuma (gentilicio)",
+            "Yuma (modismo)",
+            "estadounidense"
+        ],
+        "Q1247": [
+            "Caribeno",
+            "Caribeño",
+            "Mar Caribe",
+            "Mar caribe",
+            "Mar de las Antillas",
+            "mar Caribe"
+        ],
+        "Q241": [
+            "Cuba",
+            "Cubanacán",
+            "Estado Cubano",
+            "Nacionalidad cubana",
+            "Republica de Cuba",
+            "República Socialista de Cuba",
+            "República de Cuba"
+        ],
+        "Q10530881": [
+            "Contrato de arrendamiento",
+            "arriendo"
+        ],
+        "Q3179689": [
+            "Tratado Cubano Americano",
+            "Tratado Cubano-Americano",
+            "Tratado americano cubano",
+            "Tratado americano-cubano",
+            "Tratado cubano americano",
+            "Tratado cubano estadounidense",
+            "Tratado cubano-americano",
+            "Tratado cubano-estadounidense",
+            "Tratado estadounidense cubano",
+            "Tratado estadounidense-cubano"
+        ],
+        "Q1025873": [
+            "Caimanera"
+        ],
+        "Q115319": [
+            "Guantanamo (provincia)",
+            "Guantánamo (provincia)",
+            "Provincia de Guantanamo",
+            "Provincia de Guantánamo",
+            "provincia de Guantánamo"
+        ],
+        "Q1503155": [
+            "Geografía de Cuba"
+        ],
+        "Q1324633": [
+            "Base naval",
+            "Puerto naval militar",
+            "base naval"
+        ],
+        "Q712226": [
+            "Kilometro cuadrado",
+            "Kilometros cuadrados",
+            "Kilómetro cuadrado",
+            "Kilómetros cuadrados",
+            "Km cuadrado",
+            "Km2",
+            "Km²",
+            "Quilómetro cuadrado",
+            "km²"
+        ],
+        "Q357": [
+            "Prision de Guantanamo",
+            "Prision de Guantánamo",
+            "Prision estadounidense de Guantanamo",
+            "Prision estadounidense de Guantánamo",
+            "Prision estadounidense en Guantanamo",
+            "Prision estadounidense en Guantánamo",
+            "Prisión de Guantanamo",
+            "Prisión de Guantánamo",
+            "Prisión estadounidense de Guantanamo",
+            "Prisión estadounidense de Guantánamo",
+            "Prisión estadounidense en Guantanamo",
+            "Prisión estadounidense en Guantánamo",
+            "Prisión norteamericana en Guantanamo",
+            "Prisión norteamericana en Guantánamo",
+            "prisión militar"
+        ],
+        "Q29": [
+            "ESPAÑA",
+            "Espagna",
+            "Espainia",
+            "Espan",
+            "Espana",
+            "Espanha",
+            "Espania",
+            "Espanola",
+            "España",
+            "Española",
+            "Españolas",
+            "Estado Español",
+            "Estado espanol",
+            "Estado español",
+            "Kingdom of Spain",
+            "Reino Espanol",
+            "Reino Español",
+            "Reino de Espana",
+            "Reino de España",
+            "Spanien",
+            "Territorio español"
+        ],
+        "Q12583": [
+            "Crisis de 1898",
+            "Desastre de 1898",
+            "Guerra Espanola Estadounidense",
+            "Guerra Espanola-Estadounidense",
+            "Guerra Española Estadounidense",
+            "Guerra Española-Americana",
+            "Guerra Española-Estadounidense",
+            "Guerra Hispano Americana",
+            "Guerra Hispano Cubano Estadounidense",
+            "Guerra Hispano Cubano-Estadounidense",
+            "Guerra Hispano Estadounidense",
+            "Guerra Hispano Norteamericana",
+            "Guerra Hispano estadounidense",
+            "Guerra Hispano-Americana",
+            "Guerra Hispano-Cubano-Estadounidense",
+            "Guerra Hispano-Estadounidense",
+            "Guerra Hispano-Norteamericana",
+            "Guerra Hispano-cubana-Norteamericana",
+            "Guerra Hispano-estadounidense",
+            "Guerra Hispanoamericana",
+            "Guerra hispano americana",
+            "Guerra hispano cubana estadounidense",
+            "Guerra hispano cubano norteamericana",
+            "Guerra hispano estadounidense",
+            "Guerra hispano norteamericana",
+            "Guerra hispano-americana",
+            "Guerra hispano-cubana-estadounidense",
+            "Guerra hispano-cubano-estadounidense",
+            "Guerra hispano-cubano-norteamericana",
+            "Guerra hispano-estadounidense",
+            "Guerra hispano-norteamericana",
+            "Guerra hispano-norteamericana de 1898",
+            "Guerra hispanoamericana",
+            "La guerra Hispano Estadounidense",
+            "guerra hispano-estadounidense"
+        ],
+        "Q322173": [
+            "Estrada Palma",
+            "Tomas Estrada Palma",
+            "Tomás Estrada Palma"
+        ],
+        "Q1370482": [
+            "Presidente de Cuba"
+        ],
+        "Q863445": [
+            "Enmienda Platt"
+        ],
+        "Q4557859": [
+            "Constitución cubana",
+            "Constitución cubana de 1901"
+        ],
+        "Q14083": [
+            "Dolar",
+            "Dolares",
+            "Dollar",
+            "Dolár",
+            "Dólar",
+            "dólares"
+        ],
+        "Q897": [
+            "Aurifero",
+            "Aurum",
+            "Aurífera",
+            "Aurífero",
+            "Elemento quimico oro",
+            "Elemento químico oro",
+            "Oro",
+            "Oro amarillo",
+            "Oro gris",
+            "Oro puro",
+            "Oro rojo",
+            "Oro rosa",
+            "oro"
+        ],
+        "Q11264": [
+            "Gobierno de Raúl Castro",
+            "Guerra de Liberación",
+            "Revolucion Cubana",
+            "Revolucion castrista",
+            "Revolucion cubana",
+            "Revolucion de Cuba",
+            "Revolución Cubana",
+            "Revolución Cubana de 1959",
+            "Revolución Socialista en Cuba",
+            "Revolución castrista",
+            "Revolución cubana",
+            "Revolución de Cuba"
+        ],
+        "Q11256": [
+            "Castrismo",
+            "Castrista",
+            "Fidel Alejandro Castro",
+            "Fidel Alejandro Castro Ruz",
+            "Fidel Castro",
+            "Fidel Castro Ruz",
+            "Fidelismo"
+        ],
+        "Q766": [
+            "Isla de Jamaica",
+            "Jamaica",
+            "Jamaicano",
+            "Jamaicanos",
+            "Jamaiquina",
+            "Jamaiquino",
+            "Republica Jamaiquina",
+            "República Jamaiquina"
+        ],
+        "Q190873": [
+            "Desalacion",
+            "Desalación",
+            "Desalado",
+            "Desaladora",
+            "Desaladoras",
+            "Desalar",
+            "Desalinizacion",
+            "Desalinización",
+            "Desalinizador",
+            "Desalinizadora",
+            "EDAM",
+            "Planta Desaladora",
+            "Planta desaladora",
+            "Planta desalinizadora",
+            "desalinización"
+        ],
+        "Q12725": [
+            "Electricidad",
+            "Electrico",
+            "Eléctrico",
+            "Energia electica",
+            "Energia eléctica",
+            "Energía eléctica",
+            "Producción de electricidad",
+            "Uso domestico",
+            "Uso doméstico",
+            "electricidad"
+        ],
+        "Q11315": [
+            "Centro Comercial",
+            "Centro comercial",
+            "Centros comerciales",
+            "Mall",
+            "Parque comercial",
+            "centro comercial"
+        ],
+        "Q35054": [
+            "Oficina de correos",
+            "oficina postal"
+        ],
+        "Q187456": [
+            "Bar",
+            "Bar (establecimiento)",
+            "Tasca",
+            "bares"
+        ],
+        "Q11707": [
+            "Restaurant",
+            "Restaurante",
+            "Restaurantes",
+            "Restoran",
+            "Restorán",
+            "restaurantes"
+        ],
+        "Q1195942": [
+            "Parque de bomberos",
+            "estación de bomberos"
+        ],
+        "Q205495": [
+            "Estación de servicio",
+            "gasolinera"
+        ],
+        "Q108325": [
+            "Capilla",
+            "Capilla (edificio)",
+            "Capilla axial",
+            "Capilla bautismal",
+            "Capilla lateral",
+            "Capillas laterales",
+            "capilla"
+        ],
+        "Q32815": [
+            "Masjid",
+            "Mezquita",
+            "Mezquitas",
+            "mezquita"
+        ],
+        "Q1501": [
+            "Alberque",
+            "Pileta de natacion",
+            "Pileta de natación",
+            "Piscina",
+            "Piscinas",
+            "piscina"
+        ],
+        "Q16144339": [
+            "Arte cinematografico",
+            "Arte cinematográfico",
+            "Cine",
+            "Cine 2D",
+            "Cinematografia",
+            "Cinematografiar",
+            "Cinematografica",
+            "Cinematografico",
+            "Cinematográfica",
+            "Cinematográficas",
+            "Cinematográfico",
+            "Gran pantalla",
+            "Grandes del cine",
+            "Obra cinematográfica",
+            "Septimo Arte",
+            "Septimo arte",
+            "Séptimo Arte",
+            "cines"
+        ],
+        "Q16917": [
+            "Atencion especializada",
+            "Casa de salud",
+            "Centro hospitalario",
+            "Hospital",
+            "Hospitales",
+            "Hospitalización",
+            "Nosocomio",
+            "Nosocomios"
+        ],
+        "Q14350": [
+            "Estación de radio",
+            "estación de radio"
+        ],
+        "Q5142769": [
+            "Colegio",
+            "Colegio (desambiguación)",
+            "Colegios",
+            "colegios"
+        ],
+        "Q208035": [
+            "Bahía de Caimanera",
+            "Bahía de Guantánamo"
+        ],
+        "Q62447": [
+            "Aerodromo",
+            "Aeródromo",
+            "aeródromo"
+        ],
+        "Q2617277": [
+            "Río Guantánamo",
+            "río Guantánamo"
+        ],
+        "Q314333": [
+            "John Paul Jones"
+        ],
+        "Q417991": [
+            "Cala",
+            "calas"
+        ],
+        "Q34763": [
+            "Península",
+            "penínsulas"
+        ],
+        "Q206534": [
+            "Stephen Crane"
+        ],
+        "Q14560": [
+            "Cactacea",
+            "Cactaceae",
+            "Cactaceas",
+            "Cacto",
+            "Cactus",
+            "Cactácea",
+            "Cactáceas",
+            "Cereaceae",
+            "Leuctenbergiaceae",
+            "Nopaleaceae",
+            "Opuntiaceae",
+            "cactus"
+        ],
+        "Q158991": [
+            "Cactodendron",
+            "Chaffeyopuntia",
+            "Clavarioidia",
+            "Ficindica",
+            "Nopalea",
+            "Opuntia",
+            "Opuntia spp.",
+            "Parviopuntia",
+            "Phyllarthus",
+            "Platyopuntia",
+            "Plutonopuntia",
+            "Quimil",
+            "Subulatopuntia",
+            "Tunera",
+            "Tuneras",
+            "Xoconostle"
+        ],
+        "Q124425": [
+            "Cortina de Hierro",
+            "Cortina de hierro",
+            "Telon de Acero",
+            "Telon de acero",
+            "Telón de Acero",
+            "Telón de acero"
+        ],
+        "Q1072056": [
+            "Telon de Bambu",
+            "Telon de Bambú",
+            "Telón de Bambu",
+            "Telón de Bambú"
+        ],
+        "Q11769": [
+            "Estrecho de Behring",
+            "Estrecho de Bering",
+            "Estrecho de Béring"
+        ],
+        "Q947103": [
+            "Torre de vigilancia"
+        ],
+        "Q192065": [
+            "Alambre con púas",
+            "Alambre de Puas",
+            "Alambre de Púas",
+            "Alambre de pua",
+            "Alambre de puas",
+            "Alambre de púa",
+            "Alambre de púas",
+            "Cerco de puas",
+            "Cerco de púas",
+            "alambre de púas"
+        ],
+        "Q178795": [
+            "Mina terrestre",
+            "minas terrestres"
+        ],
+        "Q181982": [
+            "Hemisferio Occidental",
+            "Hemisferio occidental",
+            "Hemisferio oeste",
+            "hemisferio occidental"
+        ],
+        "Q663472": [
+            "FAR (Cuba)",
+            "Fuerzas Armadas de Cuba",
+            "tropas cubanas"
+        ],
+        "Q11696": [
+            "Presidencia de Estados Unidos",
+            "Presidente de EE UU",
+            "Presidente de EE.UU.",
+            "Presidente de Estados Unidos",
+            "Presidente de eeuu",
+            "Presidente de los EEUU",
+            "Presidente eeuu",
+            "Presidente estadounidense"
+        ],
+        "Q1124": [
+            "Bill Clinton",
+            "Bill clinton",
+            "William J. Clinton",
+            "William Jefferson Blythe III",
+            "William Jefferson Clinton"
+        ],
+        "Q1345044": [
+            "Desminado",
+            "Desminado humanitario",
+            "Eliminacion de minas",
+            "Eliminación de minas",
+            "desminado"
+        ],
+        "Q131572": [
+            "Refugiado",
+            "Refugiados",
+            "Refugiados del mundo",
+            "refugiados"
+        ],
+        "Q790": [
+            "Haiti",
+            "Haitiana",
+            "Haitiano",
+            "Haitianos",
+            "Haití",
+            "Haitíano",
+            "Republica de Haiti",
+            "Republica de Haití",
+            "República de Haiti",
+            "República de Haití",
+            "haitianos"
+        ],
+        "Q34490": [
+            "Al Qaeda",
+            "Al-Qaeda"
+        ],
+        "Q42418": [
+            "Insurgencia Taliban",
+            "Insurgencia Talibán",
+            "Insurgencia taliban",
+            "Insurgencia talibán",
+            "Taliban",
+            "Talibanas",
+            "Talibanes",
+            "Talibano",
+            "Talibán",
+            "Terrorista talibán",
+            "Terroristas talibanes",
+            "talibán"
+        ],
+        "Q889": [
+            "AFG",
+            "Afganistan",
+            "Afganistán",
+            "Afganos",
+            "Afghanistan",
+            "Afghanistán",
+            "Emirato Islamico de Afganistán",
+            "Emirato Islámico de Afganistán",
+            "Emirato Islámico del Afganistán"
+        ],
+        "Q7755": [
+            "Carta Constitucional",
+            "Carta Fundamental",
+            "Carta fundamental",
+            "Carta magna",
+            "Constitucion",
+            "Constitucion Nacional",
+            "Constitucion Politica",
+            "Constitucion Política",
+            "Constitucion politica",
+            "Constitucion política",
+            "Constitucional",
+            "Constitucionales",
+            "Constitucionalidad",
+            "Constitución",
+            "Constitución Nacional",
+            "Constitución Politica",
+            "Constitución Política",
+            "Constitución codificada",
+            "Constitución politica",
+            "Constitución política",
+            "Ley Fundamental",
+            "Ley Suprema",
+            "Ley suprema",
+            "Regimen constitucional",
+            "Texto constitucional",
+            "constitucionales"
+        ],
+        "Q11201": [
+            "Corte Suprema",
+            "U.S. Supreme Court"
+        ],
+        "Q584601": [
+            "Baskin Robbins",
+            "Baskin robbins",
+            "Baskin-Robbins"
+        ],
+        "Q171947": [
+            "Contrato de Franquicia",
+            "Franquicia",
+            "Franquicias",
+            "Regimen de franquicia",
+            "Régimen de franquicia",
+            "franquicias"
+        ],
+        "Q38076": [
+            "Mc Donald's",
+            "Mc Donalds",
+            "Mc. Donald's",
+            "McAuto",
+            "McDonald's",
+            "McDonalds",
+            "Mcdonald's",
+            "Mcdonalds"
+        ],
+        "Q244457": [
+            "Subway",
+            "Subway (restaurante)"
+        ],
+        "Q524757": [
+            "KFC",
+            "Kentucky Fried Chicken",
+            "Pollo frito de Kentucky"
+        ],
+        "Q277641": [
+            "A&W",
+            "A&W Restaurants"
+        ],
+        "Q3177899": [
+            "Bolera",
+            "Bolos",
+            "Juego de bolos",
+            "bolera"
+        ],
+        "Q37158": [
+            "Il Giornale Coffee Company",
+            "Starbucks",
+            "Starbucks Coffee",
+            "Starbucks Corporation",
+            "Tea and Spice"
+        ],
+        "Q752941": [
+            "Taco Bell",
+            "Taco Bell Express"
+        ],
+        "Q928": [
+            "Archipielago filipino",
+            "Archipiélago Filipino",
+            "Archipiélago filipino",
+            "Filipinas",
+            "Islas Filipinas",
+            "Islas filipinas",
+            "Las Filipinas",
+            "Philippines",
+            "Quinta Repúblca Filipina",
+            "Republica de Filipinas",
+            "Republica de las Filipinas",
+            "República de Filipinas",
+            "República de las Filipinas",
+            "Área insular de Filipinas"
+        ],
+        "Q11210": [
+            "Cambio de coordenadas",
+            "Coordenada",
+            "Coordenadas",
+            "Cordenadas",
+            "Sistema de coordenadas",
+            "Sistemas de coordenadas"
+        ],
+        "Q11220": [
+            "Armada Estadounidense",
+            "Armada de EE.UU.",
+            "Armada de Estados Unidos",
+            "Armada estadounidense",
+            "Marina de EE.UU.",
+            "Marina de Estados Unidos",
+            "U S Navy",
+            "U.S. Navy",
+            "US NAVY",
+            "US Navy",
+            "USN",
+            "United States Navy"
+        ],
+        "Q48525": [
+            "Gobierno de Estados Unidos",
+            "Gobierno de Washington",
+            "Gobierno de los EE.UU",
+            "Gobierno estadounidense"
+        ],
+        "Q762570": [
+            "Base Guantánamo",
+            "Base Naval de Guantanamo",
+            "Base Naval de Guantánamo",
+            "Base de Guantánamo",
+            "Base estadounidense de Guantánamo",
+            "Base naval de Guantánamo",
+            "Gitmo"
+        ]
+    }
+}

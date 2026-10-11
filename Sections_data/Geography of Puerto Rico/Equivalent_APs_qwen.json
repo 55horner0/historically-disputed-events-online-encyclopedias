@@ -1,0 +1,2106 @@
+[
+    {
+        "section_pair_id": "en:Q2527656:0+es:Q2527656:1+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:0:ap:0",
+        "ap_en_text": "Puerto Rico is an archipelagic and island nation.",
+        "ap_es_id": "es:Q2527656:1:ap:27",
+        "ap_es_text": "Puerto Rico tiene parques nacionales.",
+        "similarity": 0.7825636863708496
+    },
+    {
+        "section_pair_id": "en:Q2527656:0+es:Q2527656:1+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:0:ap:0",
+        "ap_en_text": "Puerto Rico is an archipelagic and island nation.",
+        "ap_es_id": "es:Q2527656:1:ap:14",
+        "ap_es_text": "Puerto Rico es uno de los países más interesantes del mundo para el estudio de los suelos.",
+        "similarity": 0.7066254019737244
+    },
+    {
+        "section_pair_id": "en:Q2527656:0+es:Q2527656:1+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:0:ap:4",
+        "ap_en_text": "It is located between the Greater and Lesser Antilles in the northeastern Caribbean.",
+        "ap_es_id": "es:Q2527656:1:ap:48",
+        "ap_es_text": "Parte del llamado Triángulo de las Bermudas se encuentra al noreste de la isla.",
+        "similarity": 0.7130662202835083
+    },
+    {
+        "section_pair_id": "en:Q2527656:0+es:Q2527656:1+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:0:ap:8",
+        "ap_en_text": "It is south of the Puerto Rico Trench.",
+        "ap_es_id": "es:Q2527656:1:ap:12",
+        "ap_es_text": "La fosa de Puerto Rico es la más profunda del océano Atlántico.",
+        "similarity": 0.7459739446640015
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:29",
+        "ap_es_text": "La isla principal de Puerto Rico se encuentra separada geológicamente de la Antilla Mayor de La Española por el canal de la Mona.",
+        "similarity": 0.9535230398178101
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:30",
+        "ap_es_text": "La isla principal de Puerto Rico se encuentra separada geológicamente del arco insular de las Antillas Menores por el canal de la Anegada.",
+        "similarity": 0.8661701679229736
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:17",
+        "ap_es_text": "La isla principal de Puerto Rico es la más pequeña y oriental de las Antillas Mayores.",
+        "similarity": 0.7135021090507507
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:23",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho 35 millas náuticas.",
+        "similarity": 0.7048942446708679
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:20",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 96 millas náuticas.",
+        "similarity": 0.704745352268219
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:0",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Greater Antilles island of Hispaniola by the Mona Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:19",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 110 millas terrestres.",
+        "similarity": 0.7018335461616516
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:1",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Lesser Antilles island arc by the Anegada Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:30",
+        "ap_es_text": "La isla principal de Puerto Rico se encuentra separada geológicamente del arco insular de las Antillas Menores por el canal de la Anegada.",
+        "similarity": 0.950579047203064
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:1",
+        "ap_en_text": "The main island of Puerto Rico is geologically separated from the Lesser Antilles island arc by the Anegada Passage.",
+        "ap_es_id": "es:Q2527656:0:ap:29",
+        "ap_es_text": "La isla principal de Puerto Rico se encuentra separada geológicamente de la Antilla Mayor de La Española por el canal de la Mona.",
+        "similarity": 0.8628778457641602
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:2",
+        "ap_en_text": "The Spanish Virgin Islands of Vieques and Culebra are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:31",
+        "ap_es_text": "Las Islas Vírgenes Españolas de Vieques y Culebra se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.8508816361427307
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:2",
+        "ap_en_text": "The Spanish Virgin Islands of Vieques and Culebra are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:10",
+        "ap_es_text": "El archipiélago puertorriqueño incluye las islas de Vieques, Culebra, Mona, Desecheo, Caja de Muertos, Palominos y Icacos.",
+        "similarity": 0.7793959379196167
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:2",
+        "ap_en_text": "The Spanish Virgin Islands of Vieques and Culebra are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:0",
+        "ap_es_text": "Puerto Rico es una nación insular caribeña.",
+        "similarity": 0.7204796671867371
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:2",
+        "ap_en_text": "The Spanish Virgin Islands of Vieques and Culebra are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:33",
+        "ap_es_text": "Las Islas Vírgenes de los Estados Unidos se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7139320373535156
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:2",
+        "ap_en_text": "The Spanish Virgin Islands of Vieques and Culebra are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:8",
+        "ap_es_text": "El archipiélago puertorriqueño consiste de la isla principal de Puerto Rico.",
+        "similarity": 0.7010276913642883
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:3",
+        "ap_en_text": "The British Virgin Islands are part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:32",
+        "ap_es_text": "Las Islas Vírgenes Británicas se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.73578941822052
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:4",
+        "ap_en_text": "The U.S. is part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:0",
+        "ap_es_text": "Puerto Rico es una nación insular caribeña.",
+        "similarity": 0.7693142890930176
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:4",
+        "ap_en_text": "The U.S. is part of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:7",
+        "ap_es_text": "El archipiélago puertorriqueño es un territorio autónomo no incorporado bajo la soberanía de los Estados Unidos.",
+        "similarity": 0.7178842425346375
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:5",
+        "ap_en_text": "The Virgin Islands, except for the southernmost island of Saint Croix, lie on the same carbonate platform and insular shelf.",
+        "ap_es_id": "es:Q2527656:0:ap:33",
+        "ap_es_text": "Las Islas Vírgenes de los Estados Unidos se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.743048369884491
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:5",
+        "ap_en_text": "The Virgin Islands, except for the southernmost island of Saint Croix, lie on the same carbonate platform and insular shelf.",
+        "ap_es_id": "es:Q2527656:0:ap:34",
+        "ap_es_text": "La isla más meridional de Saint Croix no se encuentra en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7274942994117737
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:5",
+        "ap_en_text": "The Virgin Islands, except for the southernmost island of Saint Croix, lie on the same carbonate platform and insular shelf.",
+        "ap_es_id": "es:Q2527656:0:ap:31",
+        "ap_es_text": "Las Islas Vírgenes Españolas de Vieques y Culebra se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.711554765701294
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:5",
+        "ap_en_text": "The Virgin Islands, except for the southernmost island of Saint Croix, lie on the same carbonate platform and insular shelf.",
+        "ap_es_id": "es:Q2527656:0:ap:32",
+        "ap_es_text": "Las Islas Vírgenes Británicas se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7036487460136414
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:6",
+        "ap_en_text": "The carbonate platform and insular shelf is called the Puerto Rico Bank.",
+        "ap_es_id": "es:Q2527656:0:ap:35",
+        "ap_es_text": "La plataforma continental, el Banco de Puerto Rico, se encuentra entre la fosa de Puerto Rico en el océano Atlántico Norte y el noreste mar Caribe.",
+        "similarity": 0.7935671210289001
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:6",
+        "ap_en_text": "The carbonate platform and insular shelf is called the Puerto Rico Bank.",
+        "ap_es_id": "es:Q2527656:0:ap:32",
+        "ap_es_text": "Las Islas Vírgenes Británicas se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7077993750572205
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:7",
+        "ap_en_text": "The Puerto Rico Bank is located between the Puerto Rico Trench in the North Atlantic Ocean and the Muertos Trough in the northeastern Caribbean Sea.",
+        "ap_es_id": "es:Q2527656:0:ap:35",
+        "ap_es_text": "La plataforma continental, el Banco de Puerto Rico, se encuentra entre la fosa de Puerto Rico en el océano Atlántico Norte y el noreste mar Caribe.",
+        "similarity": 0.824363648891449
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:8",
+        "ap_en_text": "The archipelagos of Puerto Rico and the Virgin Islands except for Saint Croix lie on the same tectonic plate.",
+        "ap_es_id": "es:Q2527656:0:ap:33",
+        "ap_es_text": "Las Islas Vírgenes de los Estados Unidos se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7766426801681519
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:8",
+        "ap_en_text": "The archipelagos of Puerto Rico and the Virgin Islands except for Saint Croix lie on the same tectonic plate.",
+        "ap_es_id": "es:Q2527656:0:ap:31",
+        "ap_es_text": "Las Islas Vírgenes Españolas de Vieques y Culebra se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7688823342323303
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:8",
+        "ap_en_text": "The archipelagos of Puerto Rico and the Virgin Islands except for Saint Croix lie on the same tectonic plate.",
+        "ap_es_id": "es:Q2527656:0:ap:32",
+        "ap_es_text": "Las Islas Vírgenes Británicas se encuentran en la misma plataforma continental, el Banco de Puerto Rico.",
+        "similarity": 0.7587858438491821
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:8",
+        "ap_en_text": "The archipelagos of Puerto Rico and the Virgin Islands except for Saint Croix lie on the same tectonic plate.",
+        "ap_es_id": "es:Q2527656:0:ap:10",
+        "ap_es_text": "El archipiélago puertorriqueño incluye las islas de Vieques, Culebra, Mona, Desecheo, Caja de Muertos, Palominos y Icacos.",
+        "similarity": 0.720891535282135
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:8",
+        "ap_en_text": "The archipelagos of Puerto Rico and the Virgin Islands except for Saint Croix lie on the same tectonic plate.",
+        "ap_es_id": "es:Q2527656:0:ap:8",
+        "ap_es_text": "El archipiélago puertorriqueño consiste de la isla principal de Puerto Rico.",
+        "similarity": 0.7124642729759216
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:21",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho unos 65 kilómetros.",
+        "similarity": 0.8178772330284119
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:37",
+        "ap_es_text": "La isla tiene aproximadamente 60% de su superficie montañosa.",
+        "similarity": 0.8087461590766907
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:20",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 96 millas náuticas.",
+        "similarity": 0.7646088600158691
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:19",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 110 millas terrestres.",
+        "similarity": 0.7596110105514526
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:22",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho 40 millas terrestres.",
+        "similarity": 0.7585358619689941
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:18",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo unos 178 kilómetros.",
+        "similarity": 0.7472814321517944
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.7209982872009277
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:10",
+        "ap_en_text": "The main island of Puerto Rico is approximately 60% mountainous.",
+        "ap_es_id": "es:Q2527656:0:ap:23",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho 35 millas náuticas.",
+        "similarity": 0.7191844582557678
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:8",
+        "ap_es_text": "El archipiélago puertorriqueño consiste de la isla principal de Puerto Rico.",
+        "similarity": 0.8011655211448669
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:19",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 110 millas terrestres.",
+        "similarity": 0.7952984571456909
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:18",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo unos 178 kilómetros.",
+        "similarity": 0.788895845413208
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.7766985893249512
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:20",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 96 millas náuticas.",
+        "similarity": 0.756463348865509
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:21",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho unos 65 kilómetros.",
+        "similarity": 0.7561919689178467
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:22",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho 40 millas terrestres.",
+        "similarity": 0.7554027438163757
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:17",
+        "ap_es_text": "La isla principal de Puerto Rico es la más pequeña y oriental de las Antillas Mayores.",
+        "similarity": 0.7342671751976013
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:23",
+        "ap_es_text": "La isla principal de Puerto Rico mide de ancho 35 millas náuticas.",
+        "similarity": 0.7292051911354065
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:0",
+        "ap_es_text": "Puerto Rico es una nación insular caribeña.",
+        "similarity": 0.7221468687057495
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:11",
+        "ap_en_text": "The main island of Puerto Rico has one principal mountain range.",
+        "ap_es_id": "es:Q2527656:0:ap:29",
+        "ap_es_text": "La isla principal de Puerto Rico se encuentra separada geológicamente de la Antilla Mayor de La Española por el canal de la Mona.",
+        "similarity": 0.715540885925293
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:12",
+        "ap_en_text": "The principal mountain range of Puerto Rico covers the central region of the island.",
+        "ap_es_id": "es:Q2527656:0:ap:8",
+        "ap_es_text": "El archipiélago puertorriqueño consiste de la isla principal de Puerto Rico.",
+        "similarity": 0.71758633852005
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:12",
+        "ap_en_text": "The principal mountain range of Puerto Rico covers the central region of the island.",
+        "ap_es_id": "es:Q2527656:0:ap:40",
+        "ap_es_text": "La Cordillera Central está ubicada en la región central y occidental de la isla.",
+        "similarity": 0.7113817930221558
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:12",
+        "ap_en_text": "The principal mountain range of Puerto Rico covers the central region of the island.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.7089477181434631
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:12",
+        "ap_en_text": "The principal mountain range of Puerto Rico covers the central region of the island.",
+        "ap_es_id": "es:Q2527656:0:ap:19",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 110 millas terrestres.",
+        "similarity": 0.7072322368621826
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:12",
+        "ap_en_text": "The principal mountain range of Puerto Rico covers the central region of the island.",
+        "ap_es_id": "es:Q2527656:0:ap:18",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo unos 178 kilómetros.",
+        "similarity": 0.706684410572052
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:13",
+        "ap_en_text": "The principal mountain range of Puerto Rico extends from west to east.",
+        "ap_es_id": "es:Q2527656:0:ap:18",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo unos 178 kilómetros.",
+        "similarity": 0.7265041470527649
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:13",
+        "ap_en_text": "The principal mountain range of Puerto Rico extends from west to east.",
+        "ap_es_id": "es:Q2527656:0:ap:19",
+        "ap_es_text": "La isla principal de Puerto Rico mide de largo 110 millas terrestres.",
+        "similarity": 0.7162611484527588
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:13",
+        "ap_en_text": "The principal mountain range of Puerto Rico extends from west to east.",
+        "ap_es_id": "es:Q2527656:0:ap:17",
+        "ap_es_text": "La isla principal de Puerto Rico es la más pequeña y oriental de las Antillas Mayores.",
+        "similarity": 0.7093278169631958
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:14",
+        "ap_en_text": "The principal mountain range of Puerto Rico is called the Cordillera Central.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.7378684878349304
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:14",
+        "ap_en_text": "The principal mountain range of Puerto Rico is called the Cordillera Central.",
+        "ap_es_id": "es:Q2527656:0:ap:41",
+        "ap_es_text": "El punto de elevación más alta en Puerto Rico, Cerro de Punta, tiene una elevación de 4389 pies (1338 m).",
+        "similarity": 0.7036331295967102
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:17",
+        "ap_en_text": "The Sierra de Cayey is in the southeast.",
+        "ap_es_id": "es:Q2527656:0:ap:38",
+        "ap_es_text": "La Sierra de Cayey está ubicada en el sureste de la isla.",
+        "similarity": 0.9673508405685425
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:18",
+        "ap_en_text": "The Sierra de Luquillo is in the northeast.",
+        "ap_es_id": "es:Q2527656:0:ap:39",
+        "ap_es_text": "La Sierra de Luquillo está ubicada en el noreste de la isla.",
+        "similarity": 0.9672180414199829
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:18",
+        "ap_en_text": "The Sierra de Luquillo is in the northeast.",
+        "ap_es_id": "es:Q2527656:0:ap:44",
+        "ap_es_text": "Pico El Yunque se localiza en la Sierra de Luquillo.",
+        "similarity": 0.7265369296073914
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:19",
+        "ap_en_text": "The highest elevation point in Puerto Rico is Cerro de Punta.",
+        "ap_es_id": "es:Q2527656:0:ap:41",
+        "ap_es_text": "El punto de elevación más alta en Puerto Rico, Cerro de Punta, tiene una elevación de 4389 pies (1338 m).",
+        "similarity": 0.9221575260162354
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:19",
+        "ap_en_text": "The highest elevation point in Puerto Rico is Cerro de Punta.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.8172306418418884
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:20",
+        "ap_en_text": "Cerro de Punta has an elevation of 4,390 feet or 1,338 meters.",
+        "ap_es_id": "es:Q2527656:0:ap:41",
+        "ap_es_text": "El punto de elevación más alta en Puerto Rico, Cerro de Punta, tiene una elevación de 4389 pies (1338 m).",
+        "similarity": 0.7623879909515381
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:21",
+        "ap_en_text": "Cerro de Punta is located in the Cordillera Central.",
+        "ap_es_id": "es:Q2527656:0:ap:42",
+        "ap_es_text": "Cerro de Punta se encuentra en la Cordillera Central.",
+        "similarity": 0.9998492002487183
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:22",
+        "ap_en_text": "El Yunque is one of the most popular peaks in Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.9692341089248657
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:22",
+        "ap_en_text": "El Yunque is one of the most popular peaks in Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:45",
+        "ap_es_text": "Pico El Yunque se encuentra en el Bosque nacional El Yunque.",
+        "similarity": 0.8236101269721985
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:22",
+        "ap_en_text": "El Yunque is one of the most popular peaks in Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:44",
+        "ap_es_text": "Pico El Yunque se localiza en la Sierra de Luquillo.",
+        "similarity": 0.8059049248695374
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:22",
+        "ap_en_text": "El Yunque is one of the most popular peaks in Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:41",
+        "ap_es_text": "El punto de elevación más alta en Puerto Rico, Cerro de Punta, tiene una elevación de 4389 pies (1338 m).",
+        "similarity": 0.7303503155708313
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:23",
+        "ap_en_text": "El Yunque is located in the Sierra de Luquillo.",
+        "ap_es_id": "es:Q2527656:0:ap:44",
+        "ap_es_text": "Pico El Yunque se localiza en la Sierra de Luquillo.",
+        "similarity": 0.9330688714981079
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:23",
+        "ap_en_text": "El Yunque is located in the Sierra de Luquillo.",
+        "ap_es_id": "es:Q2527656:0:ap:45",
+        "ap_es_text": "Pico El Yunque se encuentra en el Bosque nacional El Yunque.",
+        "similarity": 0.8475192189216614
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:23",
+        "ap_en_text": "El Yunque is located in the Sierra de Luquillo.",
+        "ap_es_id": "es:Q2527656:0:ap:43",
+        "ap_es_text": "Pico El Yunque es uno de los picos más populares en Puerto Rico.",
+        "similarity": 0.7395516633987427
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:23",
+        "ap_en_text": "El Yunque is located in the Sierra de Luquillo.",
+        "ap_es_id": "es:Q2527656:0:ap:39",
+        "ap_es_text": "La Sierra de Luquillo está ubicada en el noreste de la isla.",
+        "similarity": 0.7169202566146851
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:24",
+        "ap_en_text": "El Yunque is part of El Yunque National Forest.",
+        "ap_es_id": "es:Q2527656:0:ap:45",
+        "ap_es_text": "Pico El Yunque se encuentra en el Bosque nacional El Yunque.",
+        "similarity": 0.8545506000518799
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:24",
+        "ap_en_text": "El Yunque is part of El Yunque National Forest.",
+        "ap_es_id": "es:Q2527656:0:ap:44",
+        "ap_es_text": "Pico El Yunque se localiza en la Sierra de Luquillo.",
+        "similarity": 0.7628958821296692
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:25",
+        "ap_en_text": "El Yunque has a maximum elevation of 3,540 feet (1,080 m).",
+        "ap_es_id": "es:Q2527656:0:ap:45",
+        "ap_es_text": "Pico El Yunque se encuentra en el Bosque nacional El Yunque.",
+        "similarity": 0.704587996006012
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:26",
+        "ap_en_text": "The main island has seven valleys.",
+        "ap_es_id": "es:Q2527656:0:ap:47",
+        "ap_es_text": "La isla tiene siete valles.",
+        "similarity": 0.9304589629173279
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:27",
+        "ap_en_text": "The valleys are Caguas, Yabucoa, Lajas, Añasco, the Coloso and Culebrinas, Cibuco, and Guanajibo.",
+        "ap_es_id": "es:Q2527656:0:ap:48",
+        "ap_es_text": "Los valles son: Valle de Caguas, Valle de Yabucoa, Valle de Lajas, Valle de Añasco, Valle de Coloso y Culebrinas, Valle del Río Cibuco y Valle del Río Guanajibo.",
+        "similarity": 0.977665901184082
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:28",
+        "ap_en_text": "It has two narrow coastal plains.",
+        "ap_es_id": "es:Q2527656:0:ap:49",
+        "ap_es_text": "La isla tiene dos llanuras costeras.",
+        "similarity": 0.8658669590950012
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:28",
+        "ap_en_text": "It has two narrow coastal plains.",
+        "ap_es_id": "es:Q2527656:0:ap:50",
+        "ap_es_text": "Una llanura costera se extiende a lo largo de la costa norte.",
+        "similarity": 0.7360115051269531
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:28",
+        "ap_en_text": "It has two narrow coastal plains.",
+        "ap_es_id": "es:Q2527656:0:ap:51",
+        "ap_es_text": "La otra llanura costera se extiende a lo largo de la costa sur.",
+        "similarity": 0.7200756072998047
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:29",
+        "ap_en_text": "One coastal plain stretches alongside the northern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:50",
+        "ap_es_text": "Una llanura costera se extiende a lo largo de la costa norte.",
+        "similarity": 0.9579643607139587
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:29",
+        "ap_en_text": "One coastal plain stretches alongside the northern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:53",
+        "ap_es_text": "El área metropolitana principal se encuentra en la llanura costera del norte en el noreste.",
+        "similarity": 0.769525945186615
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:29",
+        "ap_en_text": "One coastal plain stretches alongside the northern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:51",
+        "ap_es_text": "La otra llanura costera se extiende a lo largo de la costa sur.",
+        "similarity": 0.7176653146743774
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:30",
+        "ap_en_text": "The other coastal plain stretches alongside the southern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:51",
+        "ap_es_text": "La otra llanura costera se extiende a lo largo de la costa sur.",
+        "similarity": 0.9743111729621887
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:30",
+        "ap_en_text": "The other coastal plain stretches alongside the southern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:50",
+        "ap_es_text": "Una llanura costera se extiende a lo largo de la costa norte.",
+        "similarity": 0.7208101749420166
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:30",
+        "ap_en_text": "The other coastal plain stretches alongside the southern coast.",
+        "ap_es_id": "es:Q2527656:0:ap:49",
+        "ap_es_text": "La isla tiene dos llanuras costeras.",
+        "similarity": 0.7138630151748657
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:31",
+        "ap_en_text": "The capital, San Juan, is located on the northern coastal plain in the northeast.",
+        "ap_es_id": "es:Q2527656:0:ap:52",
+        "ap_es_text": "La capital San Juan se encuentra en la llanura costera del norte en el noreste.",
+        "similarity": 0.9904525876045227
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:32",
+        "ap_en_text": "San Juan's metropolitan area is located on the northern coastal plain in the northeast.",
+        "ap_es_id": "es:Q2527656:0:ap:52",
+        "ap_es_text": "La capital San Juan se encuentra en la llanura costera del norte en el noreste.",
+        "similarity": 0.8629084229469299
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:32",
+        "ap_en_text": "San Juan's metropolitan area is located on the northern coastal plain in the northeast.",
+        "ap_es_id": "es:Q2527656:0:ap:53",
+        "ap_es_text": "El área metropolitana principal se encuentra en la llanura costera del norte en el noreste.",
+        "similarity": 0.8255588412284851
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:33",
+        "ap_en_text": "It has one prominent karst formation in its northwestern central region called the Northern Karst Belt.",
+        "ap_es_id": "es:Q2527656:0:ap:54",
+        "ap_es_text": "Tiene una formación cárstica extensa en su región noroeste central llamada Cinturón del Carso Norteño.",
+        "similarity": 0.927281379699707
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:34",
+        "ap_en_text": "It has two prominent batholiths.",
+        "ap_es_id": "es:Q2527656:0:ap:55",
+        "ap_es_text": "Tiene dos batolitos prominentes.",
+        "similarity": 0.8546560406684875
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:35",
+        "ap_en_text": "One of the batholiths is located in the southeastern municipality of San Lorenzo.",
+        "ap_es_id": "es:Q2527656:0:ap:56",
+        "ap_es_text": "Un batolito está ubicado al sureste en San Lorenzo.",
+        "similarity": 0.8597050905227661
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:36",
+        "ap_en_text": "The other batholith is located in the western municipality of Utuado.",
+        "ap_es_id": "es:Q2527656:0:ap:57",
+        "ap_es_text": "Otro batolito está ubicado al centro oeste en Utuado.",
+        "similarity": 0.8568205833435059
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:37",
+        "ap_en_text": "The island has 47 major rivers.",
+        "ap_es_id": "es:Q2527656:0:ap:58",
+        "ap_es_text": "La isla tiene 47 ríos principales.",
+        "similarity": 0.9789380431175232
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:39",
+        "ap_en_text": "The island has 26 reservoirs, lagoons, or lakes.",
+        "ap_es_id": "es:Q2527656:0:ap:59",
+        "ap_es_text": "La isla tiene 26 embalses, lagunas o lagos.",
+        "similarity": 0.9968825578689575
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:40",
+        "ap_en_text": "Laguna Grande is one of three bioluminescent bays in the archipelago of Puerto Rico.",
+        "ap_es_id": "es:Q2527656:0:ap:60",
+        "ap_es_text": "Laguna Grande de Fajardo es una de tres bahías bioluminiscentes en el archipiélago de Puerto Rico.",
+        "similarity": 0.933806836605072
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:41",
+        "ap_en_text": "The archipelago of Puerto Rico is located in the far northeastern municipality of Fajardo.",
+        "ap_es_id": "es:Q2527656:0:ap:61",
+        "ap_es_text": "Laguna Grande de Fajardo se encuentra en el extremo noreste del archipiélago de Puerto Rico.",
+        "similarity": 0.7694388031959534
+    },
+    {
+        "section_pair_id": "en:Q2527656:1+es:Q2527656:0+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:1:ap:42",
+        "ap_en_text": "Puerto Rico has numerous protected nature areas.",
+        "ap_es_id": "es:Q2527656:0:ap:1",
+        "ap_es_text": "Puerto Rico tiene una identidad colectiva basada en su territorio.",
+        "similarity": 0.7174590826034546
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:0",
+        "ap_es_text": "Puerto Rico es en su mayoría montañoso.",
+        "similarity": 0.9999322295188904
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:3",
+        "ap_es_text": "La elevación más alta de Puerto Rico es Cerro de Punta.",
+        "similarity": 0.764119029045105
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:1",
+        "ap_es_text": "Puerto Rico tiene grandes áreas costeras en el norte y el sur.",
+        "similarity": 0.7476387619972229
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:43",
+        "ap_es_text": "Los picos más altos de Puerto Rico son: Ubicación:",
+        "similarity": 0.7327653169631958
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:2",
+        "ap_es_text": "La cordillera principal se llama Cordillera Central.",
+        "similarity": 0.7322391867637634
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:0",
+        "ap_en_text": "Puerto Rico is mostly mountainous.",
+        "ap_es_id": "es:Q2527656:3:ap:22",
+        "ap_es_text": "Puerto Rico se encuentra en la frontera entre las placas tectónicas del Caribe y América del Norte.",
+        "similarity": 0.701079249382019
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:1",
+        "ap_en_text": "Puerto Rico has large coastal areas in the north and south.",
+        "ap_es_id": "es:Q2527656:3:ap:1",
+        "ap_es_text": "Puerto Rico tiene grandes áreas costeras en el norte y el sur.",
+        "similarity": 0.9999040365219116
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:1",
+        "ap_en_text": "Puerto Rico has large coastal areas in the north and south.",
+        "ap_es_id": "es:Q2527656:3:ap:0",
+        "ap_es_text": "Puerto Rico es en su mayoría montañoso.",
+        "similarity": 0.7483450174331665
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:1",
+        "ap_en_text": "Puerto Rico has large coastal areas in the north and south.",
+        "ap_es_id": "es:Q2527656:3:ap:22",
+        "ap_es_text": "Puerto Rico se encuentra en la frontera entre las placas tectónicas del Caribe y América del Norte.",
+        "similarity": 0.722411572933197
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:2",
+        "ap_en_text": "The main mountain range is called Cordillera Central.",
+        "ap_es_id": "es:Q2527656:3:ap:2",
+        "ap_es_text": "La cordillera principal se llama Cordillera Central.",
+        "similarity": 0.9999011754989624
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:2",
+        "ap_en_text": "The main mountain range is called Cordillera Central.",
+        "ap_es_id": "es:Q2527656:3:ap:0",
+        "ap_es_text": "Puerto Rico es en su mayoría montañoso.",
+        "similarity": 0.734582781791687
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:3",
+        "ap_en_text": "Cordillera Central is also known as the Central Mountain Range.",
+        "ap_es_id": "es:Q2527656:3:ap:2",
+        "ap_es_text": "La cordillera principal se llama Cordillera Central.",
+        "similarity": 0.8963375091552734
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:4",
+        "ap_en_text": "The highest elevation in Puerto Rico is Cerro de Punta.",
+        "ap_es_id": "es:Q2527656:3:ap:3",
+        "ap_es_text": "La elevación más alta de Puerto Rico es Cerro de Punta.",
+        "similarity": 0.9999068379402161
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:4",
+        "ap_en_text": "The highest elevation in Puerto Rico is Cerro de Punta.",
+        "ap_es_id": "es:Q2527656:3:ap:43",
+        "ap_es_text": "Los picos más altos de Puerto Rico son: Ubicación:",
+        "similarity": 0.7926957607269287
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:4",
+        "ap_en_text": "The highest elevation in Puerto Rico is Cerro de Punta.",
+        "ap_es_id": "es:Q2527656:3:ap:0",
+        "ap_es_text": "Puerto Rico es en su mayoría montañoso.",
+        "similarity": 0.7653452754020691
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:5",
+        "ap_en_text": "Cerro de Punta has an elevation of 4,393 feet.",
+        "ap_es_id": "es:Q2527656:3:ap:4",
+        "ap_es_text": "Cerro de Punta tiene una altura de 4393 pies.",
+        "similarity": 0.9802393317222595
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:5",
+        "ap_en_text": "Cerro de Punta has an elevation of 4,393 feet.",
+        "ap_es_id": "es:Q2527656:3:ap:5",
+        "ap_es_text": "Cerro de Punta tiene una altura de 1339 metros.",
+        "similarity": 0.8298747539520264
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:5",
+        "ap_en_text": "Cerro de Punta has an elevation of 4,393 feet.",
+        "ap_es_id": "es:Q2527656:3:ap:6",
+        "ap_es_text": "Cerro de Punta se encuentra en este rango.",
+        "similarity": 0.7681570053100586
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:6",
+        "ap_en_text": "Cerro de Punta has an elevation of 1,339 meters.",
+        "ap_es_id": "es:Q2527656:3:ap:5",
+        "ap_es_text": "Cerro de Punta tiene una altura de 1339 metros.",
+        "similarity": 0.9802237749099731
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:6",
+        "ap_en_text": "Cerro de Punta has an elevation of 1,339 meters.",
+        "ap_es_id": "es:Q2527656:3:ap:4",
+        "ap_es_text": "Cerro de Punta tiene una altura de 4393 pies.",
+        "similarity": 0.8204299211502075
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:6",
+        "ap_en_text": "Cerro de Punta has an elevation of 1,339 meters.",
+        "ap_es_id": "es:Q2527656:3:ap:6",
+        "ap_es_text": "Cerro de Punta se encuentra en este rango.",
+        "similarity": 0.7614345550537109
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:7",
+        "ap_en_text": "Cerro de Punta is located in this range.",
+        "ap_es_id": "es:Q2527656:3:ap:6",
+        "ap_es_text": "Cerro de Punta se encuentra en este rango.",
+        "similarity": 0.9906186461448669
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:7",
+        "ap_en_text": "Cerro de Punta is located in this range.",
+        "ap_es_id": "es:Q2527656:3:ap:5",
+        "ap_es_text": "Cerro de Punta tiene una altura de 1339 metros.",
+        "similarity": 0.7609632611274719
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:7",
+        "ap_en_text": "Cerro de Punta is located in this range.",
+        "ap_es_id": "es:Q2527656:3:ap:4",
+        "ap_es_text": "Cerro de Punta tiene una altura de 4393 pies.",
+        "similarity": 0.7481712698936462
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:8",
+        "ap_en_text": "El Yunque is the second highest peak in the Sierra de Luquillo.",
+        "ap_es_id": "es:Q2527656:3:ap:7",
+        "ap_es_text": "El Yunque es el segundo pico más alto de la Sierra de Luquillo.",
+        "similarity": 0.7981553077697754
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:11",
+        "ap_en_text": "Puerto Rico is composed of Cretaceous to Eocene volcanic and plutonic rocks.",
+        "ap_es_id": "es:Q2527656:3:ap:12",
+        "ap_es_text": "Puerto Rico está compuesto por rocas Cretáceas a Eoceno volcánicas y plutónicas.",
+        "similarity": 0.9733424186706543
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:12",
+        "ap_en_text": "Younger Oligocene to recent carbonates and other sedimentary rocks are overlain by Puerto Rico.",
+        "ap_es_id": "es:Q2527656:3:ap:14",
+        "ap_es_text": "Además, están superpuestas por rocas carbonatadas y sedimentarias más recientes.",
+        "similarity": 0.7324012517929077
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:12",
+        "ap_en_text": "Younger Oligocene to recent carbonates and other sedimentary rocks are overlain by Puerto Rico.",
+        "ap_es_id": "es:Q2527656:3:ap:13",
+        "ap_es_text": "Estas rocas están superpuestas por rocas del Oligoceno más jóvenes.",
+        "similarity": 0.7064526677131653
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:12",
+        "ap_en_text": "Younger Oligocene to recent carbonates and other sedimentary rocks are overlain by Puerto Rico.",
+        "ap_es_id": "es:Q2527656:3:ap:12",
+        "ap_es_text": "Puerto Rico está compuesto por rocas Cretáceas a Eoceno volcánicas y plutónicas.",
+        "similarity": 0.7058694958686829
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:13",
+        "ap_en_text": "Most of the caverns and karst topography on the island occurs in the northern Oligocene to recent carbonates.",
+        "ap_es_id": "es:Q2527656:3:ap:15",
+        "ap_es_text": "La mayoría de las cavernas y la topografía kárstica de la isla se producen en el Oligoceno del norte a carbonatos recientes.",
+        "similarity": 0.9310400485992432
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:14",
+        "ap_en_text": "The oldest rocks are approximately 190 million years old.",
+        "ap_es_id": "es:Q2527656:3:ap:16",
+        "ap_es_text": "Las rocas más antiguas tienen aproximadamente 190 millones de años.",
+        "similarity": 0.9999276399612427
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:14",
+        "ap_en_text": "The oldest rocks are approximately 190 million years old.",
+        "ap_es_id": "es:Q2527656:3:ap:19",
+        "ap_es_text": "Las rocas más antiguas pertenecen al Jurásico.",
+        "similarity": 0.786646842956543
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:14",
+        "ap_en_text": "The oldest rocks are approximately 190 million years old.",
+        "ap_es_id": "es:Q2527656:3:ap:18",
+        "ap_es_text": "Las rocas más antiguas están en la parte suroeste de la isla.",
+        "similarity": 0.7052100896835327
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:15",
+        "ap_en_text": "The oldest rocks are located at Sierra Bermeja.",
+        "ap_es_id": "es:Q2527656:3:ap:17",
+        "ap_es_text": "Las rocas más antiguas se encuentran en Sierra Bermeja.",
+        "similarity": 0.9933059811592102
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:15",
+        "ap_en_text": "The oldest rocks are located at Sierra Bermeja.",
+        "ap_es_id": "es:Q2527656:3:ap:18",
+        "ap_es_text": "Las rocas más antiguas están en la parte suroeste de la isla.",
+        "similarity": 0.7194774150848389
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:16",
+        "ap_en_text": "The oldest rocks are located along the Lajas Valley.",
+        "ap_es_id": "es:Q2527656:3:ap:17",
+        "ap_es_text": "Las rocas más antiguas se encuentran en Sierra Bermeja.",
+        "similarity": 0.7478536367416382
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:16",
+        "ap_en_text": "The oldest rocks are located along the Lajas Valley.",
+        "ap_es_id": "es:Q2527656:3:ap:18",
+        "ap_es_text": "Las rocas más antiguas están en la parte suroeste de la isla.",
+        "similarity": 0.730889618396759
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:16",
+        "ap_en_text": "The oldest rocks are located along the Lajas Valley.",
+        "ap_es_id": "es:Q2527656:3:ap:16",
+        "ap_es_text": "Las rocas más antiguas tienen aproximadamente 190 millones de años.",
+        "similarity": 0.7064414024353027
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:17",
+        "ap_en_text": "The oldest rocks are located in the southwest part of the island.",
+        "ap_es_id": "es:Q2527656:3:ap:18",
+        "ap_es_text": "Las rocas más antiguas están en la parte suroeste de la isla.",
+        "similarity": 0.9976864457130432
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:17",
+        "ap_en_text": "The oldest rocks are located in the southwest part of the island.",
+        "ap_es_id": "es:Q2527656:3:ap:17",
+        "ap_es_text": "Las rocas más antiguas se encuentran en Sierra Bermeja.",
+        "similarity": 0.719792366027832
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:17",
+        "ap_en_text": "The oldest rocks are located in the southwest part of the island.",
+        "ap_es_id": "es:Q2527656:3:ap:16",
+        "ap_es_text": "Las rocas más antiguas tienen aproximadamente 190 millones de años.",
+        "similarity": 0.7001097798347473
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:18",
+        "ap_en_text": "The rocks are from the Jurassic period.",
+        "ap_es_id": "es:Q2527656:3:ap:19",
+        "ap_es_text": "Las rocas más antiguas pertenecen al Jurásico.",
+        "similarity": 0.8879707455635071
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:19",
+        "ap_en_text": "These rocks may represent part of the oceanic crust.",
+        "ap_es_id": "es:Q2527656:3:ap:20",
+        "ap_es_text": "Estas rocas pueden representar parte de la corteza oceánica",
+        "similarity": 0.9716492891311646
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:20",
+        "ap_en_text": "These rocks are believed to come from the Pacific Ocean realm.",
+        "ap_es_id": "es:Q2527656:3:ap:21",
+        "ap_es_text": "se cree que provienen del Océano Pacífico",
+        "similarity": 0.8527824282646179
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:20",
+        "ap_en_text": "These rocks are believed to come from the Pacific Ocean realm.",
+        "ap_es_id": "es:Q2527656:3:ap:20",
+        "ap_es_text": "Estas rocas pueden representar parte de la corteza oceánica",
+        "similarity": 0.7878624200820923
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:21",
+        "ap_en_text": "Puerto Rico lies at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:22",
+        "ap_es_text": "Puerto Rico se encuentra en la frontera entre las placas tectónicas del Caribe y América del Norte.",
+        "similarity": 0.974743127822876
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:21",
+        "ap_en_text": "Puerto Rico lies at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:33",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el límite entre las placas del Caribe y América del Norte.",
+        "similarity": 0.9062544107437134
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:21",
+        "ap_en_text": "Puerto Rico lies at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:1",
+        "ap_es_text": "Puerto Rico tiene grandes áreas costeras en el norte y el sur.",
+        "similarity": 0.7221264839172363
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:21",
+        "ap_en_text": "Puerto Rico lies at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:0",
+        "ap_es_text": "Puerto Rico es en su mayoría montañoso.",
+        "similarity": 0.7167968153953552
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:21",
+        "ap_en_text": "Puerto Rico lies at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:32",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el Océano Atlántico.",
+        "similarity": 0.7148486971855164
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:22",
+        "ap_en_text": "It is currently being deformed by tectonic stresses.",
+        "ap_es_id": "es:Q2527656:3:ap:23",
+        "ap_es_text": "Actualmente se está deformando por las tensiones tectónicas causadas por la interacción de estas placas.",
+        "similarity": 0.9096259474754333
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:23",
+        "ap_en_text": "The tectonic stresses are caused by the interaction of these plates.",
+        "ap_es_id": "es:Q2527656:3:ap:23",
+        "ap_es_text": "Actualmente se está deformando por las tensiones tectónicas causadas por la interacción de estas placas.",
+        "similarity": 0.8575804233551025
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:23",
+        "ap_en_text": "The tectonic stresses are caused by the interaction of these plates.",
+        "ap_es_id": "es:Q2527656:3:ap:24",
+        "ap_es_text": "Estas tensiones pueden causar terremotos y tsunamis.",
+        "similarity": 0.7316128611564636
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:24",
+        "ap_en_text": "These stresses may cause earthquakes.",
+        "ap_es_id": "es:Q2527656:3:ap:24",
+        "ap_es_text": "Estas tensiones pueden causar terremotos y tsunamis.",
+        "similarity": 0.8639757633209229
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:25",
+        "ap_en_text": "These stresses may cause tsunamis.",
+        "ap_es_id": "es:Q2527656:3:ap:24",
+        "ap_es_text": "Estas tensiones pueden causar terremotos y tsunamis.",
+        "similarity": 0.8743968605995178
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:25",
+        "ap_en_text": "These stresses may cause tsunamis.",
+        "ap_es_id": "es:Q2527656:3:ap:30",
+        "ap_es_text": "fue acompañado por un tsunami",
+        "similarity": 0.7450976371765137
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:26",
+        "ap_en_text": "Seismic events are some of the most dangerous geologic hazards in the island.",
+        "ap_es_id": "es:Q2527656:3:ap:25",
+        "ap_es_text": "Estos eventos sísmicos representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.8861707448959351
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:26",
+        "ap_en_text": "Seismic events are some of the most dangerous geologic hazards in the island.",
+        "ap_es_id": "es:Q2527656:3:ap:26",
+        "ap_es_text": "Los deslizamientos de tierra representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.7468151450157166
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:27",
+        "ap_en_text": "Landslides are some of the most dangerous geologic hazards in the island.",
+        "ap_es_id": "es:Q2527656:3:ap:26",
+        "ap_es_text": "Los deslizamientos de tierra representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.8985183238983154
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:27",
+        "ap_en_text": "Landslides are some of the most dangerous geologic hazards in the island.",
+        "ap_es_id": "es:Q2527656:3:ap:25",
+        "ap_es_text": "Estos eventos sísmicos representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.7631890773773193
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:28",
+        "ap_en_text": "Seismic events, along with landslides, are some of the most dangerous geologic hazards in the northeastern Caribbean.",
+        "ap_es_id": "es:Q2527656:3:ap:25",
+        "ap_es_text": "Estos eventos sísmicos representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.7320372462272644
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:28",
+        "ap_en_text": "Seismic events, along with landslides, are some of the most dangerous geologic hazards in the northeastern Caribbean.",
+        "ap_es_id": "es:Q2527656:3:ap:26",
+        "ap_es_text": "Los deslizamientos de tierra representan una geoamenaza peligrosa en la isla.",
+        "similarity": 0.7047677636146545
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:29",
+        "ap_en_text": "The most recent major earthquake occurred on October 11, 1918.",
+        "ap_es_id": "es:Q2527656:3:ap:27",
+        "ap_es_text": "El terremoto grande más reciente ocurrió el 11 de octubre de 1918.",
+        "similarity": 0.999871551990509
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:30",
+        "ap_en_text": "The seismic moment of the earthquake was estimated at 7.5 on the moment magnitude scale.",
+        "ap_es_id": "es:Q2527656:3:ap:28",
+        "ap_es_text": "El movimiento sísmico fue estimado en 7.5 en la escala de magnitud de momento.",
+        "similarity": 0.9258980751037598
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:31",
+        "ap_en_text": "It originated off the coast of Aguadilla.",
+        "ap_es_id": "es:Q2527656:3:ap:29",
+        "ap_es_text": "Se originó frente a la costa de Aguadilla",
+        "similarity": 0.9618727564811707
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:32",
+        "ap_en_text": "It was accompanied by a tsunami.",
+        "ap_es_id": "es:Q2527656:3:ap:30",
+        "ap_es_text": "fue acompañado por un tsunami",
+        "similarity": 0.9710593819618225
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:33",
+        "ap_en_text": "The Puerto Rico Trench is located about 75 mi (121 km) north of Puerto Rico in the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:3:ap:32",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el Océano Atlántico.",
+        "similarity": 0.7601709365844727
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:33",
+        "ap_en_text": "The Puerto Rico Trench is located about 75 mi (121 km) north of Puerto Rico in the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:3:ap:34",
+        "ap_es_text": "La Fosa de Puerto Rico es la más grande y profunda del Atlántico.",
+        "similarity": 0.7083413004875183
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:34",
+        "ap_en_text": "The Puerto Rico Trench is at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:33",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el límite entre las placas del Caribe y América del Norte.",
+        "similarity": 0.8853747844696045
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:34",
+        "ap_en_text": "The Puerto Rico Trench is at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:22",
+        "ap_es_text": "Puerto Rico se encuentra en la frontera entre las placas tectónicas del Caribe y América del Norte.",
+        "similarity": 0.8547375798225403
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:34",
+        "ap_en_text": "The Puerto Rico Trench is at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:32",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el Océano Atlántico.",
+        "similarity": 0.7316905856132507
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:34",
+        "ap_en_text": "The Puerto Rico Trench is at the boundary between the Caribbean and North American plates.",
+        "ap_es_id": "es:Q2527656:3:ap:34",
+        "ap_es_text": "La Fosa de Puerto Rico es la más grande y profunda del Atlántico.",
+        "similarity": 0.7050518989562988
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:35",
+        "ap_en_text": "The Puerto Rico Trench is the largest and deepest trench in the Atlantic.",
+        "ap_es_id": "es:Q2527656:3:ap:34",
+        "ap_es_text": "La Fosa de Puerto Rico es la más grande y profunda del Atlántico.",
+        "similarity": 0.8754880428314209
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:35",
+        "ap_en_text": "The Puerto Rico Trench is the largest and deepest trench in the Atlantic.",
+        "ap_es_id": "es:Q2527656:3:ap:32",
+        "ap_es_text": "La Fosa de Puerto Rico se encuentra en el Océano Atlántico.",
+        "similarity": 0.7714031934738159
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:36",
+        "ap_en_text": "The trench is 1,090 mi long.",
+        "ap_es_id": "es:Q2527656:3:ap:35",
+        "ap_es_text": "La zanja tiene 1090 millas de largo.",
+        "similarity": 0.8953914046287537
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:36",
+        "ap_en_text": "The trench is 1,090 mi long.",
+        "ap_es_id": "es:Q2527656:3:ap:38",
+        "ap_es_text": "La zanja tiene 97 km de ancho.",
+        "similarity": 0.7145067453384399
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:37",
+        "ap_en_text": "The trench is 1,750 km long.",
+        "ap_es_id": "es:Q2527656:3:ap:36",
+        "ap_es_text": "La zanja tiene 1754,2 km de largo.",
+        "similarity": 0.8223477602005005
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:37",
+        "ap_en_text": "The trench is 1,750 km long.",
+        "ap_es_id": "es:Q2527656:3:ap:35",
+        "ap_es_text": "La zanja tiene 1090 millas de largo.",
+        "similarity": 0.7040481567382812
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:38",
+        "ap_en_text": "The trench is about 97 km wide.",
+        "ap_es_id": "es:Q2527656:3:ap:38",
+        "ap_es_text": "La zanja tiene 97 km de ancho.",
+        "similarity": 0.8926741480827332
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:38",
+        "ap_en_text": "The trench is about 97 km wide.",
+        "ap_es_id": "es:Q2527656:3:ap:35",
+        "ap_es_text": "La zanja tiene 1090 millas de largo.",
+        "similarity": 0.7125298380851746
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:39",
+        "ap_en_text": "The trench is 60 mi wide.",
+        "ap_es_id": "es:Q2527656:3:ap:37",
+        "ap_es_text": "La zanja tiene 60,3 millas de ancho.",
+        "similarity": 0.8999438881874084
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:40",
+        "ap_en_text": "The Milwaukee Depth is 27,493 feet deep.",
+        "ap_es_id": "es:Q2527656:3:ap:39",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 27 493 pies de profundidad.",
+        "similarity": 0.8917586803436279
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:40",
+        "ap_en_text": "The Milwaukee Depth is 27,493 feet deep.",
+        "ap_es_id": "es:Q2527656:3:ap:41",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene aproximadamente 5,21 millas de profundidad.",
+        "similarity": 0.8251051306724548
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:40",
+        "ap_en_text": "The Milwaukee Depth is 27,493 feet deep.",
+        "ap_es_id": "es:Q2527656:3:ap:40",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 8,4 km de profundidad.",
+        "similarity": 0.8096647262573242
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:41",
+        "ap_en_text": "The Milwaukee Depth is 8,380 meters deep.",
+        "ap_es_id": "es:Q2527656:3:ap:40",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 8,4 km de profundidad.",
+        "similarity": 0.8274853825569153
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:41",
+        "ap_en_text": "The Milwaukee Depth is 8,380 meters deep.",
+        "ap_es_id": "es:Q2527656:3:ap:39",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 27 493 pies de profundidad.",
+        "similarity": 0.7896910905838013
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:41",
+        "ap_en_text": "The Milwaukee Depth is 8,380 meters deep.",
+        "ap_es_id": "es:Q2527656:3:ap:41",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene aproximadamente 5,21 millas de profundidad.",
+        "similarity": 0.7733050584793091
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:42",
+        "ap_en_text": "The Milwaukee Depth is approximately 5.21 miles deep.",
+        "ap_es_id": "es:Q2527656:3:ap:41",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene aproximadamente 5,21 millas de profundidad.",
+        "similarity": 0.870012640953064
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:42",
+        "ap_en_text": "The Milwaukee Depth is approximately 5.21 miles deep.",
+        "ap_es_id": "es:Q2527656:3:ap:39",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 27 493 pies de profundidad.",
+        "similarity": 0.812012255191803
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:42",
+        "ap_en_text": "The Milwaukee Depth is approximately 5.21 miles deep.",
+        "ap_es_id": "es:Q2527656:3:ap:40",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 8,4 km de profundidad.",
+        "similarity": 0.8008019328117371
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:43",
+        "ap_en_text": "The Milwaukee Depth is approximately 8.38 kilometers deep.",
+        "ap_es_id": "es:Q2527656:3:ap:40",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 8,4 km de profundidad.",
+        "similarity": 0.8492048978805542
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:43",
+        "ap_en_text": "The Milwaukee Depth is approximately 8.38 kilometers deep.",
+        "ap_es_id": "es:Q2527656:3:ap:41",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene aproximadamente 5,21 millas de profundidad.",
+        "similarity": 0.8050344586372375
+    },
+    {
+        "section_pair_id": "en:Q2527656:2+es:Q2527656:3+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:2:ap:43",
+        "ap_en_text": "The Milwaukee Depth is approximately 8.38 kilometers deep.",
+        "ap_es_id": "es:Q2527656:3:ap:39",
+        "ap_es_text": "En su punto más profundo, llamado la Depresión Milwaukee, tiene 27 493 pies de profundidad.",
+        "similarity": 0.7937973737716675
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:1",
+        "ap_en_text": "Puerto Rico is located east of Hispaniola.",
+        "ap_es_id": "es:Q2527656:4:ap:0",
+        "ap_es_text": "Puerto Rico tiene un clima tropical más agradable que otros países caribeños.",
+        "similarity": 0.7070719599723816
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:3",
+        "ap_en_text": "Puerto Rico is located in the northeastern Caribbean Sea.",
+        "ap_es_id": "es:Q2527656:4:ap:0",
+        "ap_es_text": "Puerto Rico tiene un clima tropical más agradable que otros países caribeños.",
+        "similarity": 0.7015148997306824
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:22",
+        "ap_en_text": "Puerto Rico is located in the tropics.",
+        "ap_es_id": "es:Q2527656:4:ap:0",
+        "ap_es_text": "Puerto Rico tiene un clima tropical más agradable que otros países caribeños.",
+        "similarity": 0.8180559873580933
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:24",
+        "ap_en_text": "The seasons do not change very drastically.",
+        "ap_es_id": "es:Q2527656:4:ap:26",
+        "ap_es_text": "Las estaciones del año no se marcan mucho pero sí un poco.",
+        "similarity": 0.7972796559333801
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:24",
+        "ap_en_text": "The seasons do not change very drastically.",
+        "ap_es_id": "es:Q2527656:4:ap:21",
+        "ap_es_text": "No hace frío ni mucho calor en Marzo.",
+        "similarity": 0.7065189480781555
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:28",
+        "ap_en_text": "The minimum registration is 39 °F (3.9 °C) in Aibonito.",
+        "ap_es_id": "es:Q2527656:4:ap:15",
+        "ap_es_text": "La temperatura más baja registrada se ha registrado en tres municipios: Aibonito , Corozal y Adjuntas .",
+        "similarity": 0.7492900490760803
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:29",
+        "ap_en_text": "The dry season spans from December to April.",
+        "ap_es_id": "es:Q2527656:4:ap:46",
+        "ap_es_text": "De diciembre a abril son los meses más secos.",
+        "similarity": 0.9196816682815552
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:29",
+        "ap_en_text": "The dry season spans from December to April.",
+        "ap_es_id": "es:Q2527656:4:ap:56",
+        "ap_es_text": "Los meses de diciembre a abril podrían considerarse temporada alta.",
+        "similarity": 0.7770978212356567
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:29",
+        "ap_en_text": "The dry season spans from December to April.",
+        "ap_es_id": "es:Q2527656:4:ap:53",
+        "ap_es_text": "En el sur suele pasar meses y meses sin llover.",
+        "similarity": 0.7173470258712769
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:30",
+        "ap_en_text": "The wet season coincides with the Atlantic hurricane season from May to November.",
+        "ap_es_id": "es:Q2527656:4:ap:58",
+        "ap_es_text": "La temporada oficial de huracanes se extiende entre el 1 de junio y el 30 de noviembre.",
+        "similarity": 0.7673269510269165
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:30",
+        "ap_en_text": "The wet season coincides with the Atlantic hurricane season from May to November.",
+        "ap_es_id": "es:Q2527656:4:ap:47",
+        "ap_es_text": "De mayo a septiembre son los meses más lluviosos.",
+        "similarity": 0.742933988571167
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:30",
+        "ap_en_text": "The wet season coincides with the Atlantic hurricane season from May to November.",
+        "ap_es_id": "es:Q2527656:4:ap:59",
+        "ap_es_text": "Agosto y septiembre son los meses de mayor actividad en el océano Atlántico.",
+        "similarity": 0.7262225151062012
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:40",
+        "ap_en_text": "The south is drier than the north.",
+        "ap_es_id": "es:Q2527656:4:ap:52",
+        "ap_es_text": "Las lluvias del norte contrastan con la sequía del sur.",
+        "similarity": 0.8515229225158691
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:40",
+        "ap_en_text": "The south is drier than the north.",
+        "ap_es_id": "es:Q2527656:4:ap:53",
+        "ap_es_text": "En el sur suele pasar meses y meses sin llover.",
+        "similarity": 0.8164843916893005
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:41",
+        "ap_en_text": "The south is hotter than the north.",
+        "ap_es_id": "es:Q2527656:4:ap:53",
+        "ap_es_text": "En el sur suele pasar meses y meses sin llover.",
+        "similarity": 0.7482498288154602
+    },
+    {
+        "section_pair_id": "en:Q2527656:3+es:Q2527656:4+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:3:ap:41",
+        "ap_en_text": "The south is hotter than the north.",
+        "ap_es_id": "es:Q2527656:4:ap:52",
+        "ap_es_text": "Las lluvias del norte contrastan con la sequía del sur.",
+        "similarity": 0.7264055013656616
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:0",
+        "ap_en_text": "The geographic location of the main island of Puerto Rico has been recognized for its strategic significance and accessibility since the European colonization in the early 1500s.",
+        "ap_es_id": "es:Q2527656:5:ap:0",
+        "ap_es_text": "La ubicación geográfica de Puerto Rico ha sido reconocida por su importancia y accesibilidad estratégica desde la colonización europea a principios del siglo XVI.",
+        "similarity": 0.9638362526893616
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:0",
+        "ap_en_text": "The geographic location of the main island of Puerto Rico has been recognized for its strategic significance and accessibility since the European colonization in the early 1500s.",
+        "ap_es_id": "es:Q2527656:5:ap:2",
+        "ap_es_text": "Puerto Rico fue la principal área de tierra de América colonizada por los españoles durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.7233815789222717
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:0",
+        "ap_en_text": "The geographic location of the main island of Puerto Rico has been recognized for its strategic significance and accessibility since the European colonization in the early 1500s.",
+        "ap_es_id": "es:Q2527656:5:ap:3",
+        "ap_es_text": "Puerto Rico era la zona más cercana tanto a Europa como a África continental durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.7015211582183838
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:1",
+        "ap_en_text": "During the Age of Exploration and Sail, Puerto Rico was known to the Spanish as La Llave de las Indias.",
+        "ap_es_id": "es:Q2527656:5:ap:1",
+        "ap_es_text": "Puerto Rico fue conocido por el Imperio español como «La Llave de las Indias» durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.9212145209312439
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:1",
+        "ap_en_text": "During the Age of Exploration and Sail, Puerto Rico was known to the Spanish as La Llave de las Indias.",
+        "ap_es_id": "es:Q2527656:5:ap:2",
+        "ap_es_text": "Puerto Rico fue la principal área de tierra de América colonizada por los españoles durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.7287908792495728
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:2",
+        "ap_en_text": "Puerto Rico was the closest European-settled major area of land in the Americas to both continental Europe and Africa.",
+        "ap_es_id": "es:Q2527656:5:ap:3",
+        "ap_es_text": "Puerto Rico era la zona más cercana tanto a Europa como a África continental durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.8588151335716248
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:2",
+        "ap_en_text": "Puerto Rico was the closest European-settled major area of land in the Americas to both continental Europe and Africa.",
+        "ap_es_id": "es:Q2527656:5:ap:2",
+        "ap_es_text": "Puerto Rico fue la principal área de tierra de América colonizada por los españoles durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.7119686007499695
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:3",
+        "ap_en_text": "Puerto Rico had open access to the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:4",
+        "ap_es_text": "Puerto Rico tenía acceso abierto al océano Atlántico durante la era de exploración y la era de la navegación a vela.",
+        "similarity": 0.9316446185112
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:3",
+        "ap_en_text": "Puerto Rico had open access to the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.7828893661499023
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:3",
+        "ap_en_text": "Puerto Rico had open access to the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.7800617814064026
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:3",
+        "ap_en_text": "Puerto Rico had open access to the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.7668360471725464
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:3",
+        "ap_en_text": "Puerto Rico had open access to the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:15",
+        "ap_es_text": "Puerto Rico vigila sobre la entrada al Mar Caribe",
+        "similarity": 0.7245792746543884
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:4",
+        "ap_en_text": "The northeast trade winds, coupled with the Canary, North Equatorial, and Antilles ocean currents, naturally made the main island the first major location to encounter en route to the Caribbean, North America, Central America, and South America.",
+        "ap_es_id": "es:Q2527656:5:ap:5",
+        "ap_es_text": "Los vientos alisios del norte junto con las corrientes oceánicas de las Islas Canarias y del Ecuatorial del Norte naturalmente hicieron de la isla el primer lugar significativo en encontrarse los españoles en ruta hacia el Caribe",
+        "similarity": 0.855158805847168
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:5",
+        "ap_en_text": "The Spanish established their territories in the regions of the Caribbean, North America, Central America, and South America, often simply called the Indias (Indies).",
+        "ap_es_id": "es:Q2527656:5:ap:7",
+        "ap_es_text": "El Imperio español estableció sus territorios en regiones como el Caribe, Norteamérica, América Central y Sudamérica",
+        "similarity": 0.8754058480262756
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:5",
+        "ap_en_text": "The Spanish established their territories in the regions of the Caribbean, North America, Central America, and South America, often simply called the Indias (Indies).",
+        "ap_es_id": "es:Q2527656:5:ap:8",
+        "ap_es_text": "Las regiones donde el Imperio español estableció sus territorios a menudo se llamaban simplemente como las « Indias »",
+        "similarity": 0.8634268045425415
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:5",
+        "ap_en_text": "The Spanish established their territories in the regions of the Caribbean, North America, Central America, and South America, often simply called the Indias (Indies).",
+        "ap_es_id": "es:Q2527656:5:ap:6",
+        "ap_es_text": "Los españoles en ruta hacia el Caribe, Norteamérica, América Central y Sudamérica encontraron la isla como el primer lugar significativo",
+        "similarity": 0.7694187164306641
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:6",
+        "ap_en_text": "In 1640, King Philip IV of Spain described Puerto Rico as: which, translated in English , reads as: In 1643, the king reiterated the importance of Puerto Rico to the Spanish Empire as: which, translated in English , reads as: As an unincorporated territory of the United States , the geostrategic location of Puerto Rico was paramount in the construction of the Panama Canal , and the defense of the Western Hemisphere against Nazi Operation Neuland in the Battle of the Caribbean during WWII .",
+        "ap_es_id": "es:Q2527656:5:ap:11",
+        "ap_es_text": "Como territorio de Estados Unidos , la geoestratégica ubicación de Puerto Rico fue primordial en la construcción del canal de Panamá",
+        "similarity": 0.7501602172851562
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:6",
+        "ap_en_text": "In 1640, King Philip IV of Spain described Puerto Rico as: which, translated in English , reads as: In 1643, the king reiterated the importance of Puerto Rico to the Spanish Empire as: which, translated in English , reads as: As an unincorporated territory of the United States , the geostrategic location of Puerto Rico was paramount in the construction of the Panama Canal , and the defense of the Western Hemisphere against Nazi Operation Neuland in the Battle of the Caribbean during WWII .",
+        "ap_es_id": "es:Q2527656:5:ap:10",
+        "ap_es_text": "En 1643, el Rey reiteró la importancia de Puerto Rico para el Imperio español como:",
+        "similarity": 0.7463238835334778
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:6",
+        "ap_en_text": "In 1640, King Philip IV of Spain described Puerto Rico as: which, translated in English , reads as: In 1643, the king reiterated the importance of Puerto Rico to the Spanish Empire as: which, translated in English , reads as: As an unincorporated territory of the United States , the geostrategic location of Puerto Rico was paramount in the construction of the Panama Canal , and the defense of the Western Hemisphere against Nazi Operation Neuland in the Battle of the Caribbean during WWII .",
+        "ap_es_id": "es:Q2527656:5:ap:9",
+        "ap_es_text": "En 1640, el rey Felipe IV de España describió a Puerto Rico como:",
+        "similarity": 0.7398155331611633
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:13",
+        "ap_es_text": "Puerto Rico es apodado un Gibraltar americano",
+        "similarity": 0.9751764535903931
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:14",
+        "ap_es_text": "Puerto Rico es apodado el «Gibraltar del Caribe»",
+        "similarity": 0.9190717339515686
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.8147207498550415
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.7799721956253052
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.745157778263092
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:7",
+        "ap_en_text": "Puerto Rico is known as an American Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:15",
+        "ap_es_text": "Puerto Rico vigila sobre la entrada al Mar Caribe",
+        "similarity": 0.7386115193367004
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:14",
+        "ap_es_text": "Puerto Rico es apodado el «Gibraltar del Caribe»",
+        "similarity": 0.957007110118866
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:13",
+        "ap_es_text": "Puerto Rico es apodado un Gibraltar americano",
+        "similarity": 0.9339044690132141
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.8013959527015686
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.7950037121772766
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.762283444404602
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:8",
+        "ap_en_text": "Puerto Rico is known as the Gibraltar of the Caribbean",
+        "ap_es_id": "es:Q2527656:5:ap:15",
+        "ap_es_text": "Puerto Rico vigila sobre la entrada al Mar Caribe",
+        "similarity": 0.7367779016494751
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.8824169635772705
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:15",
+        "ap_es_text": "Puerto Rico vigila sobre la entrada al Mar Caribe",
+        "similarity": 0.8803724646568298
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.8791540861129761
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.8506925702095032
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:13",
+        "ap_es_text": "Puerto Rico es apodado un Gibraltar americano",
+        "similarity": 0.8369923233985901
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:14",
+        "ap_es_text": "Puerto Rico es apodado el «Gibraltar del Caribe»",
+        "similarity": 0.8344063758850098
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:21",
+        "ap_es_text": "Puerto Rico está ubicado en el medio del océano Atlántico.",
+        "similarity": 0.7057578563690186
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:9",
+        "ap_en_text": "Puerto Rico stands guard over the entrance to the Caribbean Sea",
+        "ap_es_id": "es:Q2527656:5:ap:20",
+        "ap_es_text": "El Gibraltar británico vigila la entrada al mar Mediterráneo desde el océano Atlántico",
+        "similarity": 0.702323317527771
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:10",
+        "ap_en_text": "The Caribbean Sea is a passageway into North , Central , and South America",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.7660166025161743
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:10",
+        "ap_en_text": "The Caribbean Sea is a passageway into North , Central , and South America",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.762312114238739
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:10",
+        "ap_en_text": "The Caribbean Sea is a passageway into North , Central , and South America",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.752592921257019
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:10",
+        "ap_en_text": "The Caribbean Sea is a passageway into North , Central , and South America",
+        "ap_es_id": "es:Q2527656:5:ap:15",
+        "ap_es_text": "Puerto Rico vigila sobre la entrada al Mar Caribe",
+        "similarity": 0.7211416363716125
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:11",
+        "ap_en_text": "British Gibraltar stands guard over the Strait of Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:19",
+        "ap_es_text": "El Gibraltar británico vigila el estrecho de Gibraltar",
+        "similarity": 0.9329480528831482
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:11",
+        "ap_en_text": "British Gibraltar stands guard over the Strait of Gibraltar",
+        "ap_es_id": "es:Q2527656:5:ap:20",
+        "ap_es_text": "El Gibraltar británico vigila la entrada al mar Mediterráneo desde el océano Atlántico",
+        "similarity": 0.9033876061439514
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:12",
+        "ap_en_text": "The Strait of Gibraltar is the entrance to the Mediterranean Sea from the Atlantic Ocean",
+        "ap_es_id": "es:Q2527656:5:ap:20",
+        "ap_es_text": "El Gibraltar británico vigila la entrada al mar Mediterráneo desde el océano Atlántico",
+        "similarity": 0.7897636890411377
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:13",
+        "ap_en_text": "Puerto Rico is located in the middle of the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:21",
+        "ap_es_text": "Puerto Rico está ubicado en el medio del océano Atlántico.",
+        "similarity": 0.9998881816864014
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:13",
+        "ap_en_text": "Puerto Rico is located in the middle of the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:16",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Norte",
+        "similarity": 0.7159185409545898
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:13",
+        "ap_en_text": "Puerto Rico is located in the middle of the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:18",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América del Sur",
+        "similarity": 0.7132908701896667
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:13",
+        "ap_en_text": "Puerto Rico is located in the middle of the Atlantic Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:17",
+        "ap_es_text": "Puerto Rico tiene un pasaje marítimo que ofrece acceso hacia América Central",
+        "similarity": 0.7079947590827942
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:14",
+        "ap_en_text": "Hawaii is located in the middle of the Pacific Ocean.",
+        "ap_es_id": "es:Q2527656:5:ap:22",
+        "ap_es_text": "Hawái está ubicado en el medio del océano Pacífico.",
+        "similarity": 0.9999070763587952
+    },
+    {
+        "section_pair_id": "en:Q2527656:4+es:Q2527656:5+Best Sentence Median",
+        "ap_en_id": "en:Q2527656:4:ap:15",
+        "ap_en_text": "Puerto Rico plays an important part for the continuation of American power abroad.",
+        "ap_es_id": "es:Q2527656:5:ap:23",
+        "ap_es_text": "Puerto Rico fue una parte importante para la proyección marítima del poder estadounidense hacia el extranjero.",
+        "similarity": 0.8777626752853394
+    }
+]

@@ -1,0 +1,1394 @@
+[
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:0",
+        "ap_en_text": "Guantanamo Bay Naval Base is also called GTMO.",
+        "ap_es_id": "es:Q762570:1:ap:0",
+        "ap_es_text": "La Base Naval de la Bahía de Guantánamo se estableció en 1898.",
+        "similarity": 0.7061348557472229
+    },
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:9",
+        "ap_en_text": "The entity has been a naval base since 1903.",
+        "ap_es_id": "es:Q762570:1:ap:0",
+        "ap_es_text": "La Base Naval de la Bahía de Guantánamo se estableció en 1898.",
+        "similarity": 0.7017565965652466
+    },
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:19",
+        "ap_en_text": "The Cuban government has consistently protested against the U.S. since taking power in 1959.",
+        "ap_es_id": "es:Q762570:1:ap:27",
+        "ap_es_text": "El Gobierno de Cuba ha denunciado constantemente el artículo 52 de la Convención de Viena de 1969.",
+        "similarity": 0.7380721569061279
+    },
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:20",
+        "ap_en_text": "The base was imposed on Cuba by force.",
+        "ap_es_id": "es:Q762570:1:ap:23",
+        "ap_es_text": "Fidel Castro ve la base como ilegítima.",
+        "similarity": 0.7058324217796326
+    },
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:22",
+        "ap_en_text": "The lease requires bilateral consent.",
+        "ap_es_id": "es:Q762570:1:ap:16",
+        "ap_es_text": "Se requiere el consentimiento de ambos gobiernos para la terminación de esta renta.",
+        "similarity": 0.716500997543335
+    },
+    {
+        "section_pair_id": "en:Q762570:0+es:Q762570:1+Best Sentence Median",
+        "ap_en_id": "en:Q762570:0:ap:25",
+        "ap_en_text": "The naval base has maintained the Guantanamo Bay detention camp since 2002.",
+        "ap_es_id": "es:Q762570:1:ap:0",
+        "ap_es_text": "La Base Naval de la Bahía de Guantánamo se estableció en 1898.",
+        "similarity": 0.7538044452667236
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:0",
+        "ap_en_text": "The naval base occupies three main geographical sections.",
+        "ap_es_id": "es:Q762570:2:ap:0",
+        "ap_es_text": "La Base Naval se divide en tres secciones geográficas principales.",
+        "similarity": 0.9546287655830383
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:1",
+        "ap_en_text": "The three main geographical sections are Leeward Point, Windward Point, and Guantánamo Bay.",
+        "ap_es_id": "es:Q762570:2:ap:1",
+        "ap_es_text": "Las secciones geográficas principales son Punta de Sotavento, Punta de Barlovento y Bahía de Guantánamo.",
+        "similarity": 0.9143635630607605
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:1",
+        "ap_en_text": "The three main geographical sections are Leeward Point, Windward Point, and Guantánamo Bay.",
+        "ap_es_id": "es:Q762570:2:ap:0",
+        "ap_es_text": "La Base Naval se divide en tres secciones geográficas principales.",
+        "similarity": 0.7495828866958618
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:2",
+        "ap_en_text": "Guantánamo Bay physically divides the naval station into sections.",
+        "ap_es_id": "es:Q762570:2:ap:2",
+        "ap_es_text": "La Bahía de Guantánamo divide físicamente la Estación Naval en secciones.",
+        "similarity": 0.994744598865509
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:2",
+        "ap_en_text": "Guantánamo Bay physically divides the naval station into sections.",
+        "ap_es_id": "es:Q762570:2:ap:5",
+        "ap_es_text": "La Bahía de Guantánamo contiene varios cayos.",
+        "similarity": 0.7124161124229431
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:2",
+        "ap_en_text": "Guantánamo Bay physically divides the naval station into sections.",
+        "ap_es_id": "es:Q762570:2:ap:0",
+        "ap_es_text": "La Base Naval se divide en tres secciones geográficas principales.",
+        "similarity": 0.7096930146217346
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:3",
+        "ap_en_text": "The bay extends past the boundaries of the base into Cuba.",
+        "ap_es_id": "es:Q762570:2:ap:3",
+        "ap_es_text": "La bahía se extiende más allá de los límites de la base hacia Cuba.",
+        "similarity": 0.9865151643753052
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:3",
+        "ap_en_text": "The bay extends past the boundaries of the base into Cuba.",
+        "ap_es_id": "es:Q762570:2:ap:4",
+        "ap_es_text": "La bahía se conoce como Bahía de Guantánamo en Cuba.",
+        "similarity": 0.750578761100769
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:4",
+        "ap_en_text": "The bay is referred to as Bahía de Guantánamo in Cuba.",
+        "ap_es_id": "es:Q762570:2:ap:4",
+        "ap_es_text": "La bahía se conoce como Bahía de Guantánamo en Cuba.",
+        "similarity": 0.9449781179428101
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:4",
+        "ap_en_text": "The bay is referred to as Bahía de Guantánamo in Cuba.",
+        "ap_es_id": "es:Q762570:2:ap:5",
+        "ap_es_text": "La Bahía de Guantánamo contiene varios cayos.",
+        "similarity": 0.7568231821060181
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:4",
+        "ap_en_text": "The bay is referred to as Bahía de Guantánamo in Cuba.",
+        "ap_es_id": "es:Q762570:2:ap:3",
+        "ap_es_text": "La bahía se extiende más allá de los límites de la base hacia Cuba.",
+        "similarity": 0.7548836469650269
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:5",
+        "ap_en_text": "Guantánamo Bay contains several cays.",
+        "ap_es_id": "es:Q762570:2:ap:5",
+        "ap_es_text": "La Bahía de Guantánamo contiene varios cayos.",
+        "similarity": 0.8922653198242188
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:5",
+        "ap_en_text": "Guantánamo Bay contains several cays.",
+        "ap_es_id": "es:Q762570:2:ap:4",
+        "ap_es_text": "La bahía se conoce como Bahía de Guantánamo en Cuba.",
+        "similarity": 0.7819497585296631
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:5",
+        "ap_en_text": "Guantánamo Bay contains several cays.",
+        "ap_es_id": "es:Q762570:2:ap:2",
+        "ap_es_text": "La Bahía de Guantánamo divide físicamente la Estación Naval en secciones.",
+        "similarity": 0.7068803906440735
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:6",
+        "ap_en_text": "The cays in Guantánamo Bay are identified as Hospital Cay, Medico Cay, North Toro Cay, and South Toro Cay.",
+        "ap_es_id": "es:Q762570:2:ap:6",
+        "ap_es_text": "Los cayos se identifican como Cayo Hospital, Cayo Medico, Cayo North Toro y Cayo South Toro.",
+        "similarity": 0.742710292339325
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:6",
+        "ap_en_text": "The cays in Guantánamo Bay are identified as Hospital Cay, Medico Cay, North Toro Cay, and South Toro Cay.",
+        "ap_es_id": "es:Q762570:2:ap:5",
+        "ap_es_text": "La Bahía de Guantánamo contiene varios cayos.",
+        "similarity": 0.7381821274757385
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:7",
+        "ap_en_text": "Leeward Point contains the airfield.",
+        "ap_es_id": "es:Q762570:2:ap:7",
+        "ap_es_text": "El Leeward Point de la Estación Naval es el sitio del aeródromo activo.",
+        "similarity": 0.8232535123825073
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:7",
+        "ap_en_text": "Leeward Point contains the airfield.",
+        "ap_es_id": "es:Q762570:2:ap:8",
+        "ap_es_text": "Leeward Point tiene la bahía de Mohomilla como una de sus características geográficas principales.",
+        "similarity": 0.7084442973136902
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:8",
+        "ap_en_text": "Major geographical features on Leeward Point include Mohomilla Bay and the Guantánamo River.",
+        "ap_es_id": "es:Q762570:2:ap:8",
+        "ap_es_text": "Leeward Point tiene la bahía de Mohomilla como una de sus características geográficas principales.",
+        "similarity": 0.8739811778068542
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:8",
+        "ap_en_text": "Major geographical features on Leeward Point include Mohomilla Bay and the Guantánamo River.",
+        "ap_es_id": "es:Q762570:2:ap:9",
+        "ap_es_text": "Leeward Point tiene el río Guantánamo como una de sus características geográficas principales.",
+        "similarity": 0.8494176268577576
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:9",
+        "ap_en_text": "Three beaches exist at Leeward Point.",
+        "ap_es_id": "es:Q762570:2:ap:10",
+        "ap_es_text": "Existen tres playas en el lado de Sotavento.",
+        "similarity": 0.737085223197937
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:9",
+        "ap_en_text": "Three beaches exist at Leeward Point.",
+        "ap_es_id": "es:Q762570:2:ap:8",
+        "ap_es_text": "Leeward Point tiene la bahía de Mohomilla como una de sus características geográficas principales.",
+        "similarity": 0.7053886651992798
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:10",
+        "ap_en_text": "Two are available for use by base residents.",
+        "ap_es_id": "es:Q762570:2:ap:11",
+        "ap_es_text": "Dos están disponibles para uso de los residentes de la base.",
+        "similarity": 0.9999080300331116
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:11",
+        "ap_en_text": "The third, Hicacal Beach, is closed.",
+        "ap_es_id": "es:Q762570:2:ap:12",
+        "ap_es_text": "El tercero, Playa Hicacal, está cerrado.",
+        "similarity": 0.9951107501983643
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:17",
+        "ap_en_text": "Windward Point contains most of the activities at the naval station.",
+        "ap_es_id": "es:Q762570:2:ap:13",
+        "ap_es_text": "Windward Point contiene la mayoría de las actividades de la Estación Naval.",
+        "similarity": 0.9817162156105042
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:17",
+        "ap_en_text": "Windward Point contains most of the activities at the naval station.",
+        "ap_es_id": "es:Q762570:2:ap:7",
+        "ap_es_text": "El Leeward Point de la Estación Naval es el sitio del aeródromo activo.",
+        "similarity": 0.711276650428772
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:18",
+        "ap_en_text": "There are nine beaches available to base personnel.",
+        "ap_es_id": "es:Q762570:2:ap:14",
+        "ap_es_text": "Hay nueve playas disponibles para el personal de la base.",
+        "similarity": 0.9605439305305481
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:19",
+        "ap_en_text": "The highest point on the base is John Paul Jones Hill.",
+        "ap_es_id": "es:Q762570:2:ap:15",
+        "ap_es_text": "El punto más alto en la base es la colina John Paul Jones.",
+        "similarity": 0.9850621819496155
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:19",
+        "ap_en_text": "The highest point on the base is John Paul Jones Hill.",
+        "ap_es_id": "es:Q762570:2:ap:16",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 495 pies.",
+        "similarity": 0.7341930270195007
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:19",
+        "ap_en_text": "The highest point on the base is John Paul Jones Hill.",
+        "ap_es_id": "es:Q762570:2:ap:17",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 151 metros.",
+        "similarity": 0.7310283780097961
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:21",
+        "ap_en_text": "John Paul Jones Hill has a height of 495 feet.",
+        "ap_es_id": "es:Q762570:2:ap:16",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 495 pies.",
+        "similarity": 0.9706910252571106
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:21",
+        "ap_en_text": "John Paul Jones Hill has a height of 495 feet.",
+        "ap_es_id": "es:Q762570:2:ap:17",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 151 metros.",
+        "similarity": 0.8357473015785217
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:21",
+        "ap_en_text": "John Paul Jones Hill has a height of 495 feet.",
+        "ap_es_id": "es:Q762570:2:ap:15",
+        "ap_es_text": "El punto más alto en la base es la colina John Paul Jones.",
+        "similarity": 0.7476404905319214
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:22",
+        "ap_en_text": "John Paul Jones Hill has a height of 151 meters.",
+        "ap_es_id": "es:Q762570:2:ap:17",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 151 metros.",
+        "similarity": 0.9720079898834229
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:22",
+        "ap_en_text": "John Paul Jones Hill has a height of 151 meters.",
+        "ap_es_id": "es:Q762570:2:ap:16",
+        "ap_es_text": "La colina John Paul Jones tiene un total de 495 pies.",
+        "similarity": 0.8259312510490417
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:22",
+        "ap_en_text": "John Paul Jones Hill has a height of 151 meters.",
+        "ap_es_id": "es:Q762570:2:ap:15",
+        "ap_es_text": "El punto más alto en la base es la colina John Paul Jones.",
+        "similarity": 0.7253241539001465
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:23",
+        "ap_en_text": "There are many coves and peninsulas along the bay shoreline.",
+        "ap_es_id": "es:Q762570:2:ap:18",
+        "ap_es_text": "La geografía de Windward Point incluye muchas calas y penínsulas a lo largo de la costa de la bahía.",
+        "similarity": 0.841815173625946
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:23",
+        "ap_en_text": "There are many coves and peninsulas along the bay shoreline.",
+        "ap_es_id": "es:Q762570:2:ap:19",
+        "ap_es_text": "Estas calas y penínsulas proporcionan áreas ideales para amarrar barcos.",
+        "similarity": 0.7371050119400024
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:24",
+        "ap_en_text": "These areas provide ideal locations for mooring ships.",
+        "ap_es_id": "es:Q762570:2:ap:19",
+        "ap_es_text": "Estas calas y penínsulas proporcionan áreas ideales para amarrar barcos.",
+        "similarity": 0.8913477063179016
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:25",
+        "ap_en_text": "Stephen Benz stated that Stephen Crane described the area as 'craggy' and 'cut with ravines'.",
+        "ap_es_id": "es:Q762570:2:ap:21",
+        "ap_es_text": "Stephen Benz mencionó que Stephen Crane describió el área como 'cortada con barrancos'",
+        "similarity": 0.9387169480323792
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:25",
+        "ap_en_text": "Stephen Benz stated that Stephen Crane described the area as 'craggy' and 'cut with ravines'.",
+        "ap_es_id": "es:Q762570:2:ap:20",
+        "ap_es_text": "Stephen Benz mencionó que Stephen Crane describió el área como 'escarpada'",
+        "similarity": 0.8986669182777405
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:26",
+        "ap_en_text": "Stephen Benz stated that Stephen Crane described the coastline as covered in ridges and 'chalky cliffs'.",
+        "ap_es_id": "es:Q762570:2:ap:21",
+        "ap_es_text": "Stephen Benz mencionó que Stephen Crane describió el área como 'cortada con barrancos'",
+        "similarity": 0.83909010887146
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:26",
+        "ap_en_text": "Stephen Benz stated that Stephen Crane described the coastline as covered in ridges and 'chalky cliffs'.",
+        "ap_es_id": "es:Q762570:2:ap:20",
+        "ap_es_text": "Stephen Benz mencionó que Stephen Crane describió el área como 'escarpada'",
+        "similarity": 0.8076419234275818
+    },
+    {
+        "section_pair_id": "en:Q762570:1+es:Q762570:2+Best Sentence Median",
+        "ap_en_id": "en:Q762570:1:ap:26",
+        "ap_en_text": "Stephen Benz stated that Stephen Crane described the coastline as covered in ridges and 'chalky cliffs'.",
+        "ap_es_id": "es:Q762570:2:ap:22",
+        "ap_es_text": "La costa fue descrita como cubierta de crestas.",
+        "similarity": 0.7265888452529907
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:27",
+        "ap_en_text": "The United States maintained a strong military presence on the island.",
+        "ap_es_id": "es:Q762570:3:ap:18",
+        "ap_es_text": "Las tropas estadounidenses mantuvieron estas defensas.",
+        "similarity": 0.7109867930412292
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:86",
+        "ap_en_text": "The \"Cactus Curtain\" is a term describing the line separating the naval base from Cuban-controlled territory.",
+        "ap_es_id": "es:Q762570:3:ap:1",
+        "ap_es_text": "El término 'Cortina de cactus' describe la línea que separa la base naval del territorio controlado por Cuba.",
+        "similarity": 0.971150815486908
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:87",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to Europe's Iron Curtain.",
+        "ap_es_id": "es:Q762570:3:ap:7",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hierro en Europa.",
+        "similarity": 0.8961038589477539
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:87",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to Europe's Iron Curtain.",
+        "ap_es_id": "es:Q762570:3:ap:8",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Bambú en Asia Oriental.",
+        "similarity": 0.813190221786499
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:87",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to Europe's Iron Curtain.",
+        "ap_es_id": "es:Q762570:3:ap:9",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hielo en el Estrecho de Bering.",
+        "similarity": 0.7874287366867065
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:88",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the Bamboo Curtain in East Asia.",
+        "ap_es_id": "es:Q762570:3:ap:8",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Bambú en Asia Oriental.",
+        "similarity": 0.929107129573822
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:88",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the Bamboo Curtain in East Asia.",
+        "ap_es_id": "es:Q762570:3:ap:7",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hierro en Europa.",
+        "similarity": 0.8997622728347778
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:88",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the Bamboo Curtain in East Asia.",
+        "ap_es_id": "es:Q762570:3:ap:9",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hielo en el Estrecho de Bering.",
+        "similarity": 0.8320497870445251
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:89",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the similar Ice Curtain in the Bering Strait.",
+        "ap_es_id": "es:Q762570:3:ap:9",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hielo en el Estrecho de Bering.",
+        "similarity": 0.9522819519042969
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:89",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the similar Ice Curtain in the Bering Strait.",
+        "ap_es_id": "es:Q762570:3:ap:7",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Hierro en Europa.",
+        "similarity": 0.8541418313980103
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:89",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the similar Ice Curtain in the Bering Strait.",
+        "ap_es_id": "es:Q762570:3:ap:8",
+        "ap_es_text": "La Cortina de Cactus se denominó así como alusión a la Cortina de Bambú en Asia Oriental.",
+        "similarity": 0.840381383895874
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:89",
+        "ap_en_text": "The \"Cactus Curtain\" is an allusion to the similar Ice Curtain in the Bering Strait.",
+        "ap_es_id": "es:Q762570:3:ap:1",
+        "ap_es_text": "El término 'Cortina de cactus' describe la línea que separa la base naval del territorio controlado por Cuba.",
+        "similarity": 0.7065758109092712
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:90",
+        "ap_en_text": "After the Cuban Revolution, some Cubans sought refuge on the Guantanamo Bay Naval Base.",
+        "ap_es_id": "es:Q762570:3:ap:2",
+        "ap_es_text": "Después de la Revolución Cubana, algunos cubanos buscaron refugio en la Base Naval de la Bahía de Guantánamo.",
+        "similarity": 0.985850989818573
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:91",
+        "ap_en_text": "In late 1961, Cuban troops planted an 8-mile (13 km)-long, 10-foot (3 m)-wide barrier of Opuntia (prickly pear) cactus along the northeastern section of the 17-mile (27 km) fence surrounding the base.",
+        "ap_es_id": "es:Q762570:3:ap:3",
+        "ap_es_text": "A fines de 1961, las tropas cubanas plantaron una barrera de cactus Opuntia.",
+        "similarity": 0.877122700214386
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:91",
+        "ap_en_text": "In late 1961, Cuban troops planted an 8-mile (13 km)-long, 10-foot (3 m)-wide barrier of Opuntia (prickly pear) cactus along the northeastern section of the 17-mile (27 km) fence surrounding the base.",
+        "ap_es_id": "es:Q762570:3:ap:5",
+        "ap_es_text": "La barrera fue colocada a lo largo de la sección noreste de la cerca de 17 millas (27 km) que rodea la base.",
+        "similarity": 0.7151050567626953
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:91",
+        "ap_en_text": "In late 1961, Cuban troops planted an 8-mile (13 km)-long, 10-foot (3 m)-wide barrier of Opuntia (prickly pear) cactus along the northeastern section of the 17-mile (27 km) fence surrounding the base.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.7004485726356506
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:92",
+        "ap_en_text": "The barrier was planted to prevent checkpoint evasion when moving between the base and Cuba proper.",
+        "ap_es_id": "es:Q762570:3:ap:6",
+        "ap_es_text": "La barrera fue construida para prevenir la evasión del puesto de control al moverse entre la base y Cuba propiamente dicha.",
+        "similarity": 0.9065314531326294
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:92",
+        "ap_en_text": "The barrier was planted to prevent checkpoint evasion when moving between the base and Cuba proper.",
+        "ap_es_id": "es:Q762570:3:ap:3",
+        "ap_es_text": "A fines de 1961, las tropas cubanas plantaron una barrera de cactus Opuntia.",
+        "similarity": 0.7174778580665588
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:93",
+        "ap_en_text": "The curtain is part of a 'no man's land' that encircles the base.",
+        "ap_es_id": "es:Q762570:3:ap:10",
+        "ap_es_text": "La cortina forma parte de una 'tierra de nadie' que rodea la base.",
+        "similarity": 0.9897354245185852
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:94",
+        "ap_en_text": "This area contains perimeter patrols.",
+        "ap_es_id": "es:Q762570:3:ap:11",
+        "ap_es_text": "Esta área tiene patrullas perimetrales.",
+        "similarity": 0.9913601279258728
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:94",
+        "ap_en_text": "This area contains perimeter patrols.",
+        "ap_es_id": "es:Q762570:3:ap:13",
+        "ap_es_text": "Esta área tiene torres de vigilancia.",
+        "similarity": 0.7835187315940857
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:94",
+        "ap_en_text": "This area contains perimeter patrols.",
+        "ap_es_id": "es:Q762570:3:ap:12",
+        "ap_es_text": "Esta área tiene puestos de avanzada con sacos de arena.",
+        "similarity": 0.7417001128196716
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:95",
+        "ap_en_text": "Outposts featuring sandbags and watchtowers are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:12",
+        "ap_es_text": "Esta área tiene puestos de avanzada con sacos de arena.",
+        "similarity": 0.9118165373802185
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:95",
+        "ap_en_text": "Outposts featuring sandbags and watchtowers are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:13",
+        "ap_es_text": "Esta área tiene torres de vigilancia.",
+        "similarity": 0.7465537786483765
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:95",
+        "ap_en_text": "Outposts featuring sandbags and watchtowers are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:14",
+        "ap_es_text": "Esta área se ha complementado con cercas de alambre de púas.",
+        "similarity": 0.7181476950645447
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:96",
+        "ap_en_text": "This area has been complemented with barbed wire fences.",
+        "ap_es_id": "es:Q762570:3:ap:14",
+        "ap_es_text": "Esta área se ha complementado con cercas de alambre de púas.",
+        "similarity": 0.9958533048629761
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:96",
+        "ap_en_text": "This area has been complemented with barbed wire fences.",
+        "ap_es_id": "es:Q762570:3:ap:15",
+        "ap_es_text": "Esta área se ha complementado con campos de minas.",
+        "similarity": 0.7871026396751404
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:96",
+        "ap_en_text": "This area has been complemented with barbed wire fences.",
+        "ap_es_id": "es:Q762570:3:ap:12",
+        "ap_es_text": "Esta área tiene puestos de avanzada con sacos de arena.",
+        "similarity": 0.7452205419540405
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:96",
+        "ap_en_text": "This area has been complemented with barbed wire fences.",
+        "ap_es_id": "es:Q762570:3:ap:11",
+        "ap_es_text": "Esta área tiene patrullas perimetrales.",
+        "similarity": 0.7102556824684143
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:97",
+        "ap_en_text": "Mine fields and cacti are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:16",
+        "ap_es_text": "Esta área se ha complementado con cactus.",
+        "similarity": 0.84867924451828
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:97",
+        "ap_en_text": "Mine fields and cacti are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:15",
+        "ap_es_text": "Esta área se ha complementado con campos de minas.",
+        "similarity": 0.7605623006820679
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:97",
+        "ap_en_text": "Mine fields and cacti are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:12",
+        "ap_es_text": "Esta área tiene puestos de avanzada con sacos de arena.",
+        "similarity": 0.752651035785675
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:97",
+        "ap_en_text": "Mine fields and cacti are present in this area.",
+        "ap_es_id": "es:Q762570:3:ap:24",
+        "ap_es_text": "Minas terrestres.",
+        "similarity": 0.7379936575889587
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.9952892661094666
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:22",
+        "ap_es_text": "Las tropas cubanas tripularon estas defensas.",
+        "similarity": 0.9209736585617065
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:21",
+        "ap_es_text": "Las tropas cubanas mantuvieron estas defensas.",
+        "similarity": 0.891074538230896
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:17",
+        "ap_es_text": "Las tropas estadounidenses erigieron estas defensas.",
+        "similarity": 0.8073302507400513
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.7713347673416138
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:19",
+        "ap_es_text": "Las tropas estadounidenses tripularon estas defensas.",
+        "similarity": 0.7255853414535522
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:99",
+        "ap_en_text": "Cuban troops erected these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:3",
+        "ap_es_text": "A fines de 1961, las tropas cubanas plantaron una barrera de cactus Opuntia.",
+        "similarity": 0.7027423977851868
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:21",
+        "ap_es_text": "Las tropas cubanas mantuvieron estas defensas.",
+        "similarity": 0.9902586936950684
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:22",
+        "ap_es_text": "Las tropas cubanas tripularon estas defensas.",
+        "similarity": 0.9370999336242676
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.9101897478103638
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:18",
+        "ap_es_text": "Las tropas estadounidenses mantuvieron estas defensas.",
+        "similarity": 0.8051421642303467
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:19",
+        "ap_es_text": "Las tropas estadounidenses tripularon estas defensas.",
+        "similarity": 0.771721601486206
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.7253233194351196
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:100",
+        "ap_en_text": "Cuban troops maintained these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:17",
+        "ap_es_text": "Las tropas estadounidenses erigieron estas defensas.",
+        "similarity": 0.7226203083992004
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:22",
+        "ap_es_text": "Las tropas cubanas tripularon estas defensas.",
+        "similarity": 0.9776086211204529
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.9416369795799255
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:21",
+        "ap_es_text": "Las tropas cubanas mantuvieron estas defensas.",
+        "similarity": 0.939633309841156
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:19",
+        "ap_es_text": "Las tropas estadounidenses tripularon estas defensas.",
+        "similarity": 0.795147716999054
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.7628482580184937
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:18",
+        "ap_es_text": "Las tropas estadounidenses mantuvieron estas defensas.",
+        "similarity": 0.7443646788597107
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:101",
+        "ap_en_text": "Cuban troops manned these defenses.",
+        "ap_es_id": "es:Q762570:3:ap:17",
+        "ap_es_text": "Las tropas estadounidenses erigieron estas defensas.",
+        "similarity": 0.7410857677459717
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:102",
+        "ap_en_text": "These defenses were primarily erected to prevent checkpoint evasion.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.8609040975570679
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:102",
+        "ap_en_text": "These defenses were primarily erected to prevent checkpoint evasion.",
+        "ap_es_id": "es:Q762570:3:ap:6",
+        "ap_es_text": "La barrera fue construida para prevenir la evasión del puesto de control al moverse entre la base y Cuba propiamente dicha.",
+        "similarity": 0.7355304956436157
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:103",
+        "ap_en_text": "These defenses were primarily maintained to prevent checkpoint evasion.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.801685094833374
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:104",
+        "ap_en_text": "These defenses were primarily manned to prevent checkpoint evasion.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.8886042833328247
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:105",
+        "ap_en_text": "These defenses were primarily erected to prevent possible invasion from the other side.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.8739773631095886
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:106",
+        "ap_en_text": "These defenses were primarily maintained to prevent possible invasion from the other side.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.887574315071106
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:107",
+        "ap_en_text": "These defenses were primarily manned to prevent possible invasion from the other side.",
+        "ap_es_id": "es:Q762570:3:ap:23",
+        "ap_es_text": "Estas defensas fueron erigidas, mantuvieron y tripuladas principalmente para evitar la evasión de los puestos de control y una posible invasión desde el otro lado.",
+        "similarity": 0.8846621513366699
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:108",
+        "ap_en_text": "Cuban troops placed 55,000 anti-personnel and anti-tank land mines across the 'no man's land' around the perimeter of the base.",
+        "ap_es_id": "es:Q762570:3:ap:25",
+        "ap_es_text": "Las tropas estadounidenses y cubanas colocaron unas 55.000 minas terrestres antipersonal y antitanques en la 'tierra de nadie' alrededor del perímetro de la base naval.",
+        "similarity": 0.902613639831543
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:108",
+        "ap_en_text": "Cuban troops placed 55,000 anti-personnel and anti-tank land mines across the 'no man's land' around the perimeter of the base.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.7621127963066101
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:108",
+        "ap_en_text": "Cuban troops placed 55,000 anti-personnel and anti-tank land mines across the 'no man's land' around the perimeter of the base.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.7203412652015686
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:109",
+        "ap_en_text": "The minefield created is the second-largest in the world.",
+        "ap_es_id": "es:Q762570:3:ap:26",
+        "ap_es_text": "El campo de minas creado es el segundo campo de minas más grande del mundo.",
+        "similarity": 0.9909443855285645
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:109",
+        "ap_en_text": "The minefield created is the second-largest in the world.",
+        "ap_es_id": "es:Q762570:3:ap:27",
+        "ap_es_text": "El campo de minas creado es el más grande del hemisferio occidental.",
+        "similarity": 0.7541777491569519
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:110",
+        "ap_en_text": "The minefield created is the largest in the Western Hemisphere.",
+        "ap_es_id": "es:Q762570:3:ap:27",
+        "ap_es_text": "El campo de minas creado es el más grande del hemisferio occidental.",
+        "similarity": 0.9998959898948669
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:110",
+        "ap_en_text": "The minefield created is the largest in the Western Hemisphere.",
+        "ap_es_id": "es:Q762570:3:ap:26",
+        "ap_es_text": "El campo de minas creado es el segundo campo de minas más grande del mundo.",
+        "similarity": 0.7390962839126587
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:111",
+        "ap_en_text": "US troops laid down the mines initially.",
+        "ap_es_id": "es:Q762570:3:ap:28",
+        "ap_es_text": "Las minas fueron colocadas por tropas estadounidenses.",
+        "similarity": 0.9038702845573425
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:111",
+        "ap_en_text": "US troops laid down the mines initially.",
+        "ap_es_id": "es:Q762570:3:ap:17",
+        "ap_es_text": "Las tropas estadounidenses erigieron estas defensas.",
+        "similarity": 0.7217973470687866
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:111",
+        "ap_en_text": "US troops laid down the mines initially.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.7175354361534119
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:112",
+        "ap_en_text": "US troops posted signs stating that the landmines were 'precautions'.",
+        "ap_es_id": "es:Q762570:3:ap:29",
+        "ap_es_text": "Las tropas estadounidenses colocaron carteles que decían que las minas terrestres eran 'precauciones' y no deberían considerarse 'agresivas'.",
+        "similarity": 0.9356294870376587
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:112",
+        "ap_en_text": "US troops posted signs stating that the landmines were 'precautions'.",
+        "ap_es_id": "es:Q762570:3:ap:28",
+        "ap_es_text": "Las minas fueron colocadas por tropas estadounidenses.",
+        "similarity": 0.7170575261116028
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:113",
+        "ap_en_text": "US troops posted signs stating that the landmines should not be viewed as 'aggressive'.",
+        "ap_es_id": "es:Q762570:3:ap:29",
+        "ap_es_text": "Las tropas estadounidenses colocaron carteles que decían que las minas terrestres eran 'precauciones' y no deberían considerarse 'agresivas'.",
+        "similarity": 0.9082920551300049
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:114",
+        "ap_en_text": "Cuban troops laid down their own mines.",
+        "ap_es_id": "es:Q762570:3:ap:30",
+        "ap_es_text": "Las tropas cubanas colocaron sus propias minas.",
+        "similarity": 0.9874283671379089
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:114",
+        "ap_en_text": "Cuban troops laid down their own mines.",
+        "ap_es_id": "es:Q762570:3:ap:20",
+        "ap_es_text": "Las tropas cubanas erigieron estas defensas.",
+        "similarity": 0.7752506732940674
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:114",
+        "ap_en_text": "Cuban troops laid down their own mines.",
+        "ap_es_id": "es:Q762570:3:ap:22",
+        "ap_es_text": "Las tropas cubanas tripularon estas defensas.",
+        "similarity": 0.7596346735954285
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:114",
+        "ap_en_text": "Cuban troops laid down their own mines.",
+        "ap_es_id": "es:Q762570:3:ap:21",
+        "ap_es_text": "Las tropas cubanas mantuvieron estas defensas.",
+        "similarity": 0.7237153053283691
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:114",
+        "ap_en_text": "Cuban troops laid down their own mines.",
+        "ap_es_id": "es:Q762570:3:ap:25",
+        "ap_es_text": "Las tropas estadounidenses y cubanas colocaron unas 55.000 minas terrestres antipersonal y antitanques en la 'tierra de nadie' alrededor del perímetro de la base naval.",
+        "similarity": 0.7038543224334717
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:115",
+        "ap_en_text": "Both sides completed their minefields in 1961.",
+        "ap_es_id": "es:Q762570:3:ap:31",
+        "ap_es_text": "Ambas partes terminaron sus campos de minas en 1961.",
+        "similarity": 0.9998872876167297
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:116",
+        "ap_en_text": "Between 1961 and 1965, landmine explosions resulted in the deaths of at least 10 people.",
+        "ap_es_id": "es:Q762570:3:ap:32",
+        "ap_es_text": "Entre 1961 y 1965, las explosiones de minas terrestres provocaron la muerte de al menos 10 personas.",
+        "similarity": 0.9876295328140259
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:116",
+        "ap_en_text": "Between 1961 and 1965, landmine explosions resulted in the deaths of at least 10 people.",
+        "ap_es_id": "es:Q762570:3:ap:33",
+        "ap_es_text": "Las explosiones de minas terrestres provocaron la muerte de al menos 10 personas como resultado de accidentes de ingeniería.",
+        "similarity": 0.7355716228485107
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:116",
+        "ap_en_text": "Between 1961 and 1965, landmine explosions resulted in the deaths of at least 10 people.",
+        "ap_es_id": "es:Q762570:3:ap:34",
+        "ap_es_text": "Las explosiones de minas terrestres provocaron la muerte de al menos 10 personas como resultado de asistentes a fiestas nocturnas.",
+        "similarity": 0.7190816402435303
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:117",
+        "ap_en_text": "The deaths included cases resulting from engineering accidents.",
+        "ap_es_id": "es:Q762570:3:ap:33",
+        "ap_es_text": "Las explosiones de minas terrestres provocaron la muerte de al menos 10 personas como resultado de accidentes de ingeniería.",
+        "similarity": 0.7743174433708191
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:118",
+        "ap_en_text": "The deaths included cases resulting from late-night partygoers.",
+        "ap_es_id": "es:Q762570:3:ap:34",
+        "ap_es_text": "Las explosiones de minas terrestres provocaron la muerte de al menos 10 personas como resultado de asistentes a fiestas nocturnas.",
+        "similarity": 0.7192606925964355
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:120",
+        "ap_en_text": "President Bill Clinton ordered the demining of the American field.",
+        "ap_es_id": "es:Q762570:3:ap:35",
+        "ap_es_text": "El 16 de mayo de 1996, el presidente de los Estados Unidos, Bill Clinton, ordenó el desminado del campo estadounidense.",
+        "similarity": 0.8592487573623657
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:121",
+        "ap_en_text": "Motion and sound sensors have replaced the mines.",
+        "ap_es_id": "es:Q762570:3:ap:36",
+        "ap_es_text": "Han sido reemplazados por sensores de movimiento y sonido para detectar intrusos en la base.",
+        "similarity": 0.8515462279319763
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:122",
+        "ap_en_text": "The sensors are used to detect intruders on the base.",
+        "ap_es_id": "es:Q762570:3:ap:36",
+        "ap_es_text": "Han sido reemplazados por sensores de movimiento y sonido para detectar intrusos en la base.",
+        "similarity": 0.8213726878166199
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:122",
+        "ap_en_text": "The sensors are used to detect intruders on the base.",
+        "ap_es_id": "es:Q762570:3:ap:13",
+        "ap_es_text": "Esta área tiene torres de vigilancia.",
+        "similarity": 0.7138994932174683
+    },
+    {
+        "section_pair_id": "en:Q762570:2+es:Q762570:3+Best Sentence Median",
+        "ap_en_id": "en:Q762570:2:ap:123",
+        "ap_en_text": "The Cuban government has not removed its corresponding minefield outside the perimeter.",
+        "ap_es_id": "es:Q762570:3:ap:37",
+        "ap_es_text": "El gobierno cubano no ha removido su correspondiente campo minado fuera del perímetro.",
+        "similarity": 0.9999160766601562
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:4",
+        "ap_en_text": "It is the only military base the U.S. owns.",
+        "ap_es_id": "es:Q762570:4:ap:16",
+        "ap_es_text": "Estados Unidos tiene el control exclusivo sobre la Bahía de Guantánamo.",
+        "similarity": 0.7389156222343445
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:68",
+        "ap_en_text": "The airfield was used to house Cuban and Haitian refugees beginning in the 1990s.",
+        "ap_es_id": "es:Q762570:4:ap:0",
+        "ap_es_text": "En el último cuarto del siglo XX, la base fue usada como centro de reclusión para refugiados cubanos y haitianos interceptados en alta mar.",
+        "similarity": 0.7641127705574036
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:80",
+        "ap_en_text": "The base was used to house Cuban refugees intercepted on the high seas.",
+        "ap_es_id": "es:Q762570:4:ap:0",
+        "ap_es_text": "En el último cuarto del siglo XX, la base fue usada como centro de reclusión para refugiados cubanos y haitianos interceptados en alta mar.",
+        "similarity": 0.8683988451957703
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:81",
+        "ap_en_text": "The base was used to house Haitian refugees intercepted on the high seas.",
+        "ap_es_id": "es:Q762570:4:ap:0",
+        "ap_es_text": "En el último cuarto del siglo XX, la base fue usada como centro de reclusión para refugiados cubanos y haitianos interceptados en alta mar.",
+        "similarity": 0.8563193082809448
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:91",
+        "ap_en_text": "The invasion of Afghanistan is mentioned in the sentence.",
+        "ap_es_id": "es:Q762570:4:ap:3",
+        "ap_es_text": "Los prisioneros fueron capturados en Afganistán.",
+        "similarity": 0.7476838827133179
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:92",
+        "ap_en_text": "These detainees were not afforded POW status.",
+        "ap_es_id": "es:Q762570:4:ap:12",
+        "ap_es_text": "La gente detenida en Guantánamo no tenían los derechos constitucionales que tendrían si estuvieran retenidos en él.",
+        "similarity": 0.7270227074623108
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:93",
+        "ap_en_text": "These detainees were not facing formal charges.",
+        "ap_es_id": "es:Q762570:4:ap:7",
+        "ap_es_text": "Fueron encarcelados en la base sin ningún cargo.",
+        "similarity": 0.7481017112731934
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:100",
+        "ap_en_text": "The Supreme Court has recognized that the detainees have been imprisoned in territory over which the United States exercises exclusive jurisdiction and control.",
+        "ap_es_id": "es:Q762570:4:ap:17",
+        "ap_es_text": "La decisión citó el hecho de que Estados Unidos tiene el control exclusivo sobre la Bahía de Guantánamo.",
+        "similarity": 0.7497603893280029
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:133",
+        "ap_en_text": "The prisoner had been held at Guantanamo Bay for about 15 years without trial.",
+        "ap_es_id": "es:Q762570:4:ap:8",
+        "ap_es_text": "El estatus legal de la Bahía de Guantánamo es peculiar.",
+        "similarity": 0.7135531902313232
+    },
+    {
+        "section_pair_id": "en:Q762570:3+es:Q762570:4+Best Sentence Median",
+        "ap_en_id": "en:Q762570:3:ap:133",
+        "ap_en_text": "The prisoner had been held at Guantanamo Bay for about 15 years without trial.",
+        "ap_es_id": "es:Q762570:4:ap:12",
+        "ap_es_text": "La gente detenida en Guantánamo no tenían los derechos constitucionales que tendrían si estuvieran retenidos en él.",
+        "similarity": 0.7093361020088196
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:0",
+        "ap_en_text": "Article 3 of the second part of the lease prohibits the establishment of commercial or other enterprises.",
+        "ap_es_id": "es:Q762570:5:ap:0",
+        "ap_es_text": "El artículo 3 de la segunda parte del contrato de arrendamiento prohíbe el establecimiento de empresas comerciales o de otro tipo.",
+        "similarity": 0.9914358854293823
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:1",
+        "ap_en_text": "Several recognized American food outlets have been opened at the military base.",
+        "ap_es_id": "es:Q762570:5:ap:15",
+        "ap_es_text": "Estos restaurantes se encuentran dentro de la base.",
+        "similarity": 0.7538732886314392
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:1",
+        "ap_en_text": "Several recognized American food outlets have been opened at the military base.",
+        "ap_es_id": "es:Q762570:5:ap:1",
+        "ap_es_text": "Se han abierto varias empresas en la base militar.",
+        "similarity": 0.7441496253013611
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:2",
+        "ap_en_text": "Most of the restaurants on the installation are franchises.",
+        "ap_es_id": "es:Q762570:5:ap:10",
+        "ap_es_text": "La mayoría de los restaurantes de la instalación son franquicias.",
+        "similarity": 0.9476194977760315
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:2",
+        "ap_en_text": "Most of the restaurants on the installation are franchises.",
+        "ap_es_id": "es:Q762570:5:ap:15",
+        "ap_es_text": "Estos restaurantes se encuentran dentro de la base.",
+        "similarity": 0.7502813935279846
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:3",
+        "ap_en_text": "The franchises are owned and operated by the Department of the Navy.",
+        "ap_es_id": "es:Q762570:5:ap:12",
+        "ap_es_text": "El Departamento de la Marina opera las franquicias.",
+        "similarity": 0.9411311745643616
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:3",
+        "ap_en_text": "The franchises are owned and operated by the Department of the Navy.",
+        "ap_es_id": "es:Q762570:5:ap:11",
+        "ap_es_text": "Las franquicias pertenecen al Departamento de la Marina.",
+        "similarity": 0.9320449829101562
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:4",
+        "ap_en_text": "Proceeds from these restaurants are used to support Morale, Welfare and Recreation activities.",
+        "ap_es_id": "es:Q762570:5:ap:13",
+        "ap_es_text": "Todas las ganancias de estos restaurantes se utilizan para apoyar las actividades de moral, bienestar y recreación (MWR).",
+        "similarity": 0.9065902829170227
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:5",
+        "ap_en_text": "Morale, Welfare and Recreation activities are for service personnel and their families.",
+        "ap_es_id": "es:Q762570:5:ap:14",
+        "ap_es_text": "Las actividades de moral, bienestar y recreación (MWR) son para el personal de servicio y sus familias.",
+        "similarity": 0.9216833114624023
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:6",
+        "ap_en_text": "These restaurants are located inside the base.",
+        "ap_es_id": "es:Q762570:5:ap:15",
+        "ap_es_text": "Estos restaurantes se encuentran dentro de la base.",
+        "similarity": 0.9916782975196838
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:6",
+        "ap_en_text": "These restaurants are located inside the base.",
+        "ap_es_id": "es:Q762570:5:ap:10",
+        "ap_es_text": "La mayoría de los restaurantes de la instalación son franquicias.",
+        "similarity": 0.7178800702095032
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:7",
+        "ap_en_text": "They are not accessible to Cubans.",
+        "ap_es_id": "es:Q762570:5:ap:16",
+        "ap_es_text": "Estos restaurantes no son accesibles para los cubanos.",
+        "similarity": 0.8485683798789978
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:8",
+        "ap_en_text": "A Baskin-Robbins ice cream stand opened in the 1980s.",
+        "ap_es_id": "es:Q762570:5:ap:2",
+        "ap_es_text": "Un puesto de helados Baskin-Robbins abrió en la década de 1980.",
+        "similarity": 0.9999071359634399
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:8",
+        "ap_en_text": "A Baskin-Robbins ice cream stand opened in the 1980s.",
+        "ap_es_id": "es:Q762570:5:ap:3",
+        "ap_es_text": "El puesto de helados Baskin-Robbins fue una de las primeras franquicias comerciales permitidas en la base.",
+        "similarity": 0.7044333815574646
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:9",
+        "ap_en_text": "A Baskin-Robbins ice cream stand was one of the first business franchises allowed on the base.",
+        "ap_es_id": "es:Q762570:5:ap:3",
+        "ap_es_text": "El puesto de helados Baskin-Robbins fue una de las primeras franquicias comerciales permitidas en la base.",
+        "similarity": 0.9761254191398621
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:9",
+        "ap_en_text": "A Baskin-Robbins ice cream stand was one of the first business franchises allowed on the base.",
+        "ap_es_id": "es:Q762570:5:ap:2",
+        "ap_es_text": "Un puesto de helados Baskin-Robbins abrió en la década de 1980.",
+        "similarity": 0.7002394199371338
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:10",
+        "ap_en_text": "In early 1986, the base added a McDonald's restaurant.",
+        "ap_es_id": "es:Q762570:5:ap:4",
+        "ap_es_text": "A principios de 1986, la base agregó el primer y único restaurante McDonald's en Cuba.",
+        "similarity": 0.8233303427696228
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:11",
+        "ap_en_text": "The McDonald's restaurant was the first and only one within Cuba.",
+        "ap_es_id": "es:Q762570:5:ap:4",
+        "ap_es_text": "A principios de 1986, la base agregó el primer y único restaurante McDonald's en Cuba.",
+        "similarity": 0.8443899750709534
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:12",
+        "ap_en_text": "A Subway restaurant was opened in 1987.",
+        "ap_es_id": "es:Q762570:5:ap:5",
+        "ap_es_text": "En 2002 se abrió un restaurante Subway.",
+        "similarity": 0.8240944743156433
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:15",
+        "ap_en_text": "In 2004, a combined KFC and A&W restaurant was opened at the bowling alley.",
+        "ap_es_id": "es:Q762570:5:ap:6",
+        "ap_es_text": "En 2004, se abrió un restaurante combinado de KFC y A&W en la bolera.",
+        "similarity": 0.9923787713050842
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:16",
+        "ap_en_text": "A Pizza Hut Express was added to the Windjammer Restaurant.",
+        "ap_es_id": "es:Q762570:5:ap:7",
+        "ap_es_text": "Se añadió un Pizza Hut Express al restaurante Windjammer.",
+        "similarity": 0.9975157380104065
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:17",
+        "ap_en_text": "There is a cafe that sells Starbucks coffee.",
+        "ap_es_id": "es:Q762570:5:ap:8",
+        "ap_es_text": "Hay una cafetería que vende café Starbucks.",
+        "similarity": 0.9686393141746521
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:18",
+        "ap_en_text": "There is a combined KFC and Taco Bell restaurant.",
+        "ap_es_id": "es:Q762570:5:ap:9",
+        "ap_es_text": "Hay un restaurante combinado de KFC y Taco Bell.",
+        "similarity": 0.9920077323913574
+    },
+    {
+        "section_pair_id": "en:Q762570:4+es:Q762570:5+Best Sentence Median",
+        "ap_en_id": "en:Q762570:4:ap:18",
+        "ap_en_text": "There is a combined KFC and Taco Bell restaurant.",
+        "ap_es_id": "es:Q762570:5:ap:6",
+        "ap_es_text": "En 2004, se abrió un restaurante combinado de KFC y A&W en la bolera.",
+        "similarity": 0.7107177376747131
+    }
+]

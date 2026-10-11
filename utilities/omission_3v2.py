@@ -72,7 +72,6 @@ def ap_to_text(ap):
 
     return ap["text"]
 
-
 def calculate_omission(
     aps_en,
     aps_es,
@@ -82,123 +81,163 @@ def calculate_omission(
     device
 ):
 
-    texts_en=[ap_to_text(ap) for ap in aps_en]
-    texts_es=[ap_to_text(ap) for ap in aps_es]
+    # Handle empty cases before computing embeddings
+    if len(aps_en) == 0 or len(aps_es) == 0:
 
-    embeddings_en=get_embeddings(
+        missing_from_es = [
+            {"ap": ap}
+            for ap in aps_en
+        ] if len(aps_es) == 0 else []
+
+        missing_from_en = [
+            {"ap": ap}
+            for ap in aps_es
+        ] if len(aps_en) == 0 else []
+
+        return {
+            "similarity_matrix": [],
+
+            "en_to_es": {
+                "omission": (
+                    len(missing_from_es) / len(aps_en)
+                    if len(aps_en) > 0
+                    else 0
+                ),
+                "n_missing": len(missing_from_es),
+                "n_total": len(aps_en),
+                "missing": missing_from_es,
+                "matches": []
+            },
+
+            "es_to_en": {
+                "omission": (
+                    len(missing_from_en) / len(aps_es)
+                    if len(aps_es) > 0
+                    else 0
+                ),
+                "n_missing": len(missing_from_en),
+                "n_total": len(aps_es),
+                "missing": missing_from_en,
+                "matches": []
+            }
+        }
+
+    texts_en = [ap_to_text(ap) for ap in aps_en]
+    texts_es = [ap_to_text(ap) for ap in aps_es]
+
+    embeddings_en = get_embeddings(
         texts_en,
         tokenizer,
         model,
         device
     )
 
-    embeddings_es=get_embeddings(
+    embeddings_es = get_embeddings(
         texts_es,
         tokenizer,
         model,
         device
     )
 
-    similarity_matrix=(
+    similarity_matrix = (
         embeddings_en @ embeddings_es.T
     ).cpu().numpy()
 
-    missing_from_es=[]
-    matches_en_to_es=[]
+    missing_from_es = []
+    matches_en_to_es = []
 
-    for i,ap_en in enumerate(aps_en):
+    for i, ap_en in enumerate(aps_en):
 
-        matched_indices=np.where(
-            similarity_matrix[i]>=threshold
+        matched_indices = np.where(
+            similarity_matrix[i] >= threshold
         )[0]
 
-        matches=[
+        matches = [
             {
-                "ap":aps_es[j],
-                "similarity":float(similarity_matrix[i,j])
+                "ap": aps_es[j],
+                "similarity": float(similarity_matrix[i, j])
             }
             for j in matched_indices
         ]
 
         matches.sort(
-            key=lambda x:x["similarity"],
+            key=lambda x: x["similarity"],
             reverse=True
         )
 
-        if len(matches)==0:
+        if len(matches) == 0:
             missing_from_es.append({
-                "ap":ap_en
+                "ap": ap_en
             })
         else:
             matches_en_to_es.append({
-                "ap":ap_en,
-                "matches":matches
+                "ap": ap_en,
+                "matches": matches
             })
 
-    omission_en_to_es=(
-        len(missing_from_es)/len(aps_en)
-        if len(aps_en)>0
+    omission_en_to_es = (
+        len(missing_from_es) / len(aps_en)
+        if len(aps_en) > 0
         else 0
     )
 
-    missing_from_en=[]
-    matches_es_to_en=[]
+    missing_from_en = []
+    matches_es_to_en = []
 
-    for j,ap_es in enumerate(aps_es):
+    for j, ap_es in enumerate(aps_es):
 
-        matched_indices=np.where(
-            similarity_matrix[:,j]>=threshold
+        matched_indices = np.where(
+            similarity_matrix[:, j] >= threshold
         )[0]
 
-        matches=[
+        matches = [
             {
-                "ap":aps_en[i],
-                "similarity":float(similarity_matrix[i,j])
+                "ap": aps_en[i],
+                "similarity": float(similarity_matrix[i, j])
             }
             for i in matched_indices
         ]
 
         matches.sort(
-            key=lambda x:x["similarity"],
+            key=lambda x: x["similarity"],
             reverse=True
         )
 
-        if len(matches)==0:
+        if len(matches) == 0:
             missing_from_en.append({
-                "ap":ap_es
+                "ap": ap_es
             })
         else:
             matches_es_to_en.append({
-                "ap":ap_es,
-                "matches":matches
+                "ap": ap_es,
+                "matches": matches
             })
 
-    omission_es_to_en=(
-        len(missing_from_en)/len(aps_es)
-        if len(aps_es)>0
+    omission_es_to_en = (
+        len(missing_from_en) / len(aps_es)
+        if len(aps_es) > 0
         else 0
     )
 
     return {
-        "similarity_matrix":similarity_matrix.tolist(),
+        "similarity_matrix": similarity_matrix.tolist(),
 
-        "en_to_es":{
-            "omission":omission_en_to_es,
-            "n_missing":len(missing_from_es),
-            "n_total":len(aps_en),
-            "missing":missing_from_es,
-            "matches":matches_en_to_es
+        "en_to_es": {
+            "omission": omission_en_to_es,
+            "n_missing": len(missing_from_es),
+            "n_total": len(aps_en),
+            "missing": missing_from_es,
+            "matches": matches_en_to_es
         },
 
-        "es_to_en":{
-            "omission":omission_es_to_en,
-            "n_missing":len(missing_from_en),
-            "n_total":len(aps_es),
-            "missing":missing_from_en,
-            "matches":matches_es_to_en
+        "es_to_en": {
+            "omission": omission_es_to_en,
+            "n_missing": len(missing_from_en),
+            "n_total": len(aps_es),
+            "missing": missing_from_en,
+            "matches": matches_es_to_en
         }
     }
-
 
 if __name__=="__main__":
 

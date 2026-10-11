@@ -1,0 +1,2300 @@
+{
+    "title": "San_Andrés_and_Providencia",
+    "language": "en",
+    "article_qid": "Q26855",
+    "article_id": "en:Q26855",
+    "sections": [
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:0",
+            "section_idx": 0,
+            "language": "en",
+            "heading": "Lead",
+            "level": 0,
+            "text": "San Andrés and Providencia ( Spanish : San Andrés y Providencia , pronounced [aɾtʃiˈpjelaɣo ðe ˌsan anˈdɾes pɾoβiˈðensja i ˌsanta kataˈlina] ) is one of the departments of Colombia . It consists of two island groups in the Caribbean Sea about 775 km (418 nmi; 482 mi) northwest of mainland Colombia, and eight outlying banks and reefs. The largest island of the archipelago and Colombia is called San Andrés and its capital is San Andrés . The other large islands are Providencia and Santa Catalina Islands which lie to the north-east of San Andrés; their capital is Santa Isabel. ",
+            "text_with_qids": "San Andrés and Providencia (Q26855) ( Spanish (Q1321) : San Andrés y Providencia (Q26855) , pronounced [aɾtʃiˈpjelaɣo ðe ˌsan anˈdɾes pɾoβiˈðensja i ˌsanta kataˈlina] ) is one of the departments of Colombia (Q215655) . It consists of two island groups in the Caribbean Sea (Q1247) about 775 km (418 nmi; 482 mi) northwest of mainland Colombia (Q739), and eight outlying banks and reefs. The largest island of the archipelago and Colombia (Q739) is called San Andrés (Q131051) and its capital is San Andrés (Q134678) . The other large islands are Providencia (Q1138756) and Santa Catalina Islands which lie to the north-east of San Andrés; their capital is Santa Isabel. ",
+            "spans": [
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés and Providencia",
+                    "start": 0,
+                    "end": 26,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 29,
+                    "end": 36,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 39,
+                    "end": 63,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q215655",
+                    "surface": "departments of Colombia",
+                    "start": 157,
+                    "end": 180,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1247",
+                    "surface": "Caribbean Sea",
+                    "start": 223,
+                    "end": 236,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 290,
+                    "end": 298,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 378,
+                    "end": 386,
+                    "section": "Lead",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andrés",
+                    "start": 397,
+                    "end": 407,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q134678",
+                    "surface": "San Andrés",
+                    "start": 427,
+                    "end": 437,
+                    "section": "Lead",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 468,
+                    "end": 479,
+                    "section": "Lead",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:1",
+            "section_idx": 1,
+            "language": "en",
+            "heading": "Name",
+            "level": 2,
+            "text": "The name is sometimes abbreviated to \"Archip. de San Andres\". The official website abbreviates it as San Andrés (\"Gobernación de San Andrés\"). ISO 3166-2:CO lists it as \"San Andrés, Providencia y Santa Catalina\". Statoids lists it as \"San Andrés y Providencia\". ",
+            "text_with_qids": "The name is sometimes abbreviated to \"Archip. de San Andres (Q131051)\". The official website abbreviates it as San Andrés (\"Gobernación de San Andrés\"). ISO 3166 (Q106487)-2:CO lists it as \"San Andrés, Providencia (Q1138756) y Santa Catalina\". Statoids lists it as \"San Andrés y Providencia (Q26855)\". ",
+            "spans": [
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andres",
+                    "start": 49,
+                    "end": 59,
+                    "section": "Name",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q106487",
+                    "surface": "ISO 3166",
+                    "start": 143,
+                    "end": 151,
+                    "section": "Name",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 182,
+                    "end": 193,
+                    "section": "Name",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés y Providencia",
+                    "start": 235,
+                    "end": 259,
+                    "section": "Name",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:2",
+            "section_idx": 2,
+            "language": "en",
+            "heading": "History",
+            "level": 2,
+            "text": "Spain formally claimed the archipelago of San Andres and Providencia in 1510, a few years after the voyages of Christopher Columbus . In 1544, the territory was placed under the administration of the Captaincy General of Guatemala . During the early years, Spain concentrated on exploring and colonizing the mainland and hardly settled the islands. [ citation needed ] In 1630, English Puritans arrived in Providence Island, under the aegis of the Providence Island Company . The Puritans decided to settle the tropical islands, rather than cold, rocky New England , but the Providence Island colony did not succeed in the same way as the Massachusetts Bay Colony . They established slave -worked plantations and engaged in privateering , which led to the Spanish and Portuguese conquering the colony in May, 1641. In 1670, English buccaneers , led by Henry Morgan , took over the islands, which he used as a base to attack Panama . The buccaneers abandoned the islands by 1672. There is no record of anyone inhabiting the islands from then for another century. In 1775, Lieutenant Tomás O'Neil, a Spaniard of Irish descent, was given military command of the islands and, in 1790, was named governor. He requested the transfer of the islands to the military jurisdiction of the Viceroyalty of New Granada , which was granted in 1803. That year, Spain assigned the islands, together with south-eastern part of the Mosquito Shore , from Cape Gracias a Dios to the Chagres River , to the Viceroyalty of New Granada . The territory was administered from the province of Cartagena . Soon, trade links with Cartagena were greater than those with Guatemala. [ citation needed ] On 4 July 1818, a French corsair, Louis-Michel Aury , with 400 men and 14 ships flying the Argentine flag , captured Old Providence and St. Catherine islands. The island was populated by white English-speaking Protestants and their slaves. Aury and his team used the islands as their new base from which to pursue Central American independence . However, his efforts to also support Bolivar in his fight for Venezuelan and Colombian independence were repeatedly turned down. After the Spanish colonies became independent, the inhabitants of San Andrés, Providence and St. Catherine voluntarily adhered to the Republic of Gran Colombia in 1822, which placed them under the administration of the Magdalena Department . The First Mexican Empire , which was succeeded by the United Provinces of Central America (UPCA), also claimed the islands. Gran Colombia, in turn, protested the UPCA's occupation of the south-eastern coast of the Mosquito Shore . The UPCA broke up in 1838 to 1840, but Nicaragua carried on the dispute, as did Gran Colombia's successors: New Granada and Colombia. A local administration ( intendencia ) was established in the islands in 1912 by Colombia. [ citation needed ] In 1928, Colombia and Nicaragua signed the Esguerra-Bárcenas Treaty , which gave control of the islands to Colombia. However, when the Sandinista government assumed power in the 1980s, Nicaragua repudiated the treaty. Colombia argues that the treaty's final ratification in 1930 (when the US forces were already on their way out) confirms its validity. Colombia and Honduras signed a maritime boundary treaty in 1999, which implicitly accepts Colombian sovereignty over the islands. [ citation needed ] In 2001, Nicaragua filed claims with the International Court of Justice (ICJ) over the disputed maritime boundary and claimed 50,000 km 2 (19,305 sq mi) in the Caribbean, including the San Andrés and Providencia Archipelagos. Colombia responded that the court has no jurisdiction over the matter and increased its naval and police presence in the islands. Colombia also defended its claim in the ICJ. On 13 December 2007, the ICJ ruled that the islands were Colombian territory but left the maritime border dispute unresolved. On 19 November 2012, the ICJ upheld that Colombia had sovereignty over the islands. United States claims. In the 19th century, the United States claimed several uninhabited locations in the area under the Guano Island Act , including several now claimed by Colombia. In 1981, the US ceded its claims to Serrana Bank and Roncador Bank to Colombia and abandoned its claim to Quita Sueño Bank . The US still maintains claims over Serranilla Bank and Bajo Nuevo Bank and considers them both to be unincorporated territories of the United States. Declaration of self-determination. In 1903, the local Raizal population rejected an offer from the US to separate from Colombia in the wake of Panama 's secession from Colombia . However, the island's native population soon changed its mind when the policies of successive Colombian governments tried consistently to modify the majority Raizal and British ethnic composition of the Islands by the extensive migration of Spanish-speaking mainland Colombians. The efforts at assimilation and immigration were led largely by Catholic missionaries, which angered the Protestant native population. ",
+            "text_with_qids": "Spain formally claimed the archipelago of San Andres (Q131051) and Providencia (Q1138756) in 1510, a few years after the voyages of Christopher Columbus (Q18578423) . In 1544, the territory was placed under the administration of the Captaincy General of Guatemala (Q2077243) . During the early years, Spain concentrated on exploring and colonizing the mainland and hardly settled the islands. [ citation needed ] In 1630, English (Q21) Puritans (Q137073) arrived in Providence Island, under the aegis of the Providence Island Company (Q2990065) . The Puritans (Q137073) decided to settle the tropical islands, rather than cold, rocky New England (Q18389) , but the Providence Island colony (Q7252447) did not succeed in the same way as the Massachusetts Bay Colony (Q1191350) . They established slave (Q8463) -worked plantations and engaged in privateering , which led to the Spanish (Q1321) and Portuguese conquering the colony in May, 1641. In 1670, English buccaneers (Q850220) , led by Henry Morgan (Q215502) , took over the islands, which he used as a base to attack Panama (Q3306) . The buccaneers (Q850220) abandoned the islands by 1672. There is no record of anyone inhabiting the islands from then for another century. In 1775, Lieutenant Tomás O'Neil, a Spaniard of Irish descent, was given military command of the islands and, in 1790, was named governor. He requested the transfer of the islands to the military jurisdiction of the Viceroyalty of New Granada (Q8965) , which was granted in 1803. That year, Spain assigned the islands, together with south-eastern part of the Mosquito Shore (Q1165546) , from Cape Gracias a Dios (Q1024890) to the Chagres River (Q1408661) , to the Viceroyalty of New Granada (Q8965) . The territory was administered from the province of Cartagena (Q657461) . Soon, trade links with Cartagena (Q657461) were greater than those with Guatemala. [ citation needed ] On 4 July 1818, a French corsair, Louis-Michel Aury (Q631020) , with 400 men and 14 ships flying the Argentine flag (Q130774) , captured Old Providence (Q7252447) and St. Catherine islands. The island was populated by white English-speaking Protestants and their slaves. Aury (Q631020) and his team used the islands as their new base from which to pursue Central American independence (Q5656897) . However, his efforts to also support Bolivar in his fight for Venezuelan and Colombian independence were repeatedly turned down. After the Spanish (Q1321) colonies became independent, the inhabitants of San Andrés, Providence and St. Catherine voluntarily adhered to the Republic of Gran Colombia (Q199821) in 1822, which placed them under the administration of the Magdalena Department (Q199910) . The First Mexican Empire (Q285658) , which was succeeded by the United Provinces of Central America (UPCA), also claimed the islands. Gran Colombia (Q199821), in turn, protested the UPCA's occupation of the south-eastern coast of the Mosquito Shore (Q1165546) . The UPCA broke up in 1838 to 1840, but Nicaragua carried on the dispute, as did Gran Colombia (Q199821)'s successors: New Granada (Q630882) and Colombia (Q739). A local administration ( intendencia ) was established in the islands in 1912 by Colombia (Q739). [ citation needed ] In 1928, Colombia (Q739) and Nicaragua signed the Esguerra-Bárcenas Treaty (Q3536703) , which gave control of the islands to Colombia (Q739). However, when the Sandinista (Q27389) government assumed power in the 1980s, Nicaragua repudiated the treaty. Colombia (Q739) argues that the treaty's final ratification in 1930 (when the US forces were already on their way out) confirms its validity. Colombia (Q739) and Honduras (Q783) signed a maritime boundary (Q3089219) treaty in 1999, which implicitly accepts Colombian sovereignty over the islands. [ citation needed ] In 2001, Nicaragua filed claims with the International Court of Justice (Q7801) (ICJ (Q7801)) over the disputed maritime boundary (Q3089219) and claimed 50,000 km 2 (19,305 sq mi) in the Caribbean, including the San Andrés and Providencia (Q26855) Archipelagos. Colombia (Q739) responded that the court has no jurisdiction over the matter and increased its naval and police presence in the islands. Colombia (Q739) also defended its claim in the ICJ (Q7801). On 13 December 2007, the ICJ (Q7801) ruled that the islands were Colombian territory but left the maritime border dispute unresolved. On 19 November 2012, the ICJ (Q7801) upheld that Colombia (Q739) had sovereignty over the islands. United States claims. In the 19th century, the United States claimed several uninhabited locations in the area under the Guano Island Act (Q513470) , including several now claimed by Colombia (Q739). In 1981, the US ceded its claims to Serrana Bank (Q1814365) and Roncador Bank (Q1999017) to Colombia (Q739) and abandoned its claim to Quita Sueño Bank (Q559484) . The US still maintains claims over Serranilla Bank (Q1169008) and Bajo Nuevo Bank (Q1257783) and considers them both to be unincorporated territories of the United States. Declaration of self-determination. In 1903, the local Raizal (Q7285231) population rejected an offer from the US to separate from Colombia (Q739) in the wake of Panama (Q804) 's secession from Colombia (Q3089201) . However, the island's native population soon changed its mind when the policies of successive Colombian governments tried consistently to modify the majority Raizal (Q7285231) and British ethnic composition of the Islands by the extensive migration of Spanish (Q1321)-speaking mainland Colombians (Q2997267). The efforts at assimilation and immigration were led largely by Catholic (Q9592) missionaries, which angered the Protestant (Q23540) native population. ",
+            "spans": [
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andres",
+                    "start": 42,
+                    "end": 52,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 57,
+                    "end": 68,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q18578423",
+                    "surface": "voyages of Christopher Columbus",
+                    "start": 100,
+                    "end": 131,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2077243",
+                    "surface": "Captaincy General of Guatemala",
+                    "start": 200,
+                    "end": 230,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q21",
+                    "surface": "English",
+                    "start": 378,
+                    "end": 385,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q137073",
+                    "surface": "Puritans",
+                    "start": 386,
+                    "end": 394,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2990065",
+                    "surface": "Providence Island Company",
+                    "start": 448,
+                    "end": 473,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q137073",
+                    "surface": "Puritans",
+                    "start": 480,
+                    "end": 488,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q18389",
+                    "surface": "New England",
+                    "start": 553,
+                    "end": 564,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7252447",
+                    "surface": "Providence Island colony",
+                    "start": 575,
+                    "end": 599,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1191350",
+                    "surface": "Massachusetts Bay Colony",
+                    "start": 639,
+                    "end": 663,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8463",
+                    "surface": "slave",
+                    "start": 683,
+                    "end": 688,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 756,
+                    "end": 763,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q850220",
+                    "surface": "buccaneers",
+                    "start": 832,
+                    "end": 842,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q215502",
+                    "surface": "Henry Morgan",
+                    "start": 852,
+                    "end": 864,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3306",
+                    "surface": "Panama",
+                    "start": 924,
+                    "end": 930,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q850220",
+                    "surface": "buccaneers",
+                    "start": 937,
+                    "end": 947,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q8965",
+                    "surface": "Viceroyalty of New Granada",
+                    "start": 1278,
+                    "end": 1304,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Mosquito Shore",
+                    "start": 1413,
+                    "end": 1427,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1024890",
+                    "surface": "Cape Gracias a Dios",
+                    "start": 1435,
+                    "end": 1454,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1408661",
+                    "surface": "Chagres River",
+                    "start": 1462,
+                    "end": 1475,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q8965",
+                    "surface": "Viceroyalty of New Granada",
+                    "start": 1485,
+                    "end": 1511,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q657461",
+                    "surface": "Cartagena",
+                    "start": 1566,
+                    "end": 1575,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q657461",
+                    "surface": "Cartagena",
+                    "start": 1601,
+                    "end": 1610,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q631020",
+                    "surface": "Louis-Michel Aury",
+                    "start": 1705,
+                    "end": 1722,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q130774",
+                    "surface": "Argentine flag",
+                    "start": 1762,
+                    "end": 1776,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7252447",
+                    "surface": "Old Providence",
+                    "start": 1788,
+                    "end": 1802,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q631020",
+                    "surface": "Aury",
+                    "start": 1911,
+                    "end": 1915,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q5656897",
+                    "surface": "Central American independence",
+                    "start": 1985,
+                    "end": 2014,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 2156,
+                    "end": 2163,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q199821",
+                    "surface": "Gran Colombia",
+                    "start": 2292,
+                    "end": 2305,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q199910",
+                    "surface": "Magdalena Department",
+                    "start": 2365,
+                    "end": 2385,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q285658",
+                    "surface": "First Mexican Empire",
+                    "start": 2392,
+                    "end": 2412,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q199821",
+                    "surface": "Gran Colombia",
+                    "start": 2512,
+                    "end": 2525,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1165546",
+                    "surface": "Mosquito Shore",
+                    "start": 2602,
+                    "end": 2616,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q199821",
+                    "surface": "Gran Colombia",
+                    "start": 2699,
+                    "end": 2712,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q630882",
+                    "surface": "New Granada",
+                    "start": 2727,
+                    "end": 2738,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 2743,
+                    "end": 2751,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 2834,
+                    "end": 2842,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 2873,
+                    "end": 2881,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3536703",
+                    "surface": "Esguerra-Bárcenas Treaty",
+                    "start": 2907,
+                    "end": 2931,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 2971,
+                    "end": 2979,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q27389",
+                    "surface": "Sandinista",
+                    "start": 2999,
+                    "end": 3009,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 3082,
+                    "end": 3090,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 3217,
+                    "end": 3225,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q783",
+                    "surface": "Honduras",
+                    "start": 3230,
+                    "end": 3238,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3089219",
+                    "surface": "maritime boundary",
+                    "start": 3248,
+                    "end": 3265,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "International Court of Justice",
+                    "start": 3408,
+                    "end": 3438,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "ICJ",
+                    "start": 3440,
+                    "end": 3443,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3089219",
+                    "surface": "maritime boundary",
+                    "start": 3463,
+                    "end": 3480,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q26855",
+                    "surface": "San Andrés and Providencia",
+                    "start": 3552,
+                    "end": 3578,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 3593,
+                    "end": 3601,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 3723,
+                    "end": 3731,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "ICJ",
+                    "start": 3763,
+                    "end": 3766,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "ICJ",
+                    "start": 3793,
+                    "end": 3796,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7801",
+                    "surface": "ICJ",
+                    "start": 3919,
+                    "end": 3922,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 3935,
+                    "end": 3943,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q513470",
+                    "surface": "Guano Island Act",
+                    "start": 4099,
+                    "end": 4115,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 4151,
+                    "end": 4159,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1814365",
+                    "surface": "Serrana Bank",
+                    "start": 4197,
+                    "end": 4209,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1999017",
+                    "surface": "Roncador Bank",
+                    "start": 4214,
+                    "end": 4227,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 4231,
+                    "end": 4239,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q559484",
+                    "surface": "Quita Sueño Bank",
+                    "start": 4267,
+                    "end": 4283,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1169008",
+                    "surface": "Serranilla Bank",
+                    "start": 4321,
+                    "end": 4336,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo Bank",
+                    "start": 4341,
+                    "end": 4356,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizal",
+                    "start": 4490,
+                    "end": 4496,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 4555,
+                    "end": 4563,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q804",
+                    "surface": "Panama",
+                    "start": 4579,
+                    "end": 4585,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3089201",
+                    "surface": "secession from Colombia",
+                    "start": 4589,
+                    "end": 4612,
+                    "section": "History",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizal",
+                    "start": 4773,
+                    "end": 4779,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 4856,
+                    "end": 4863,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2997267",
+                    "surface": "Colombians",
+                    "start": 4882,
+                    "end": 4892,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q9592",
+                    "surface": "Catholic",
+                    "start": 4958,
+                    "end": 4966,
+                    "section": "History",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q23540",
+                    "surface": "Protestant",
+                    "start": 4999,
+                    "end": 5009,
+                    "section": "History",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:3",
+            "section_idx": 3,
+            "language": "en",
+            "heading": "Local government and representation",
+            "level": 2,
+            "text": "2007 elections. A member of the departmental assembly for 15 years, Pedro Gallardo Forbes, of the Regional Integration Movement (MIR), won the 28 October 2007 gubernatorial election , with support from the Colombian Conservative Party and the Radical Change party. He succeeded a governor from the Colombian Liberal Party . He got 8,187 votes (38.93%), Aury Guerrero Bowie (Liberal Party, with support from the Democratic Colombia Party ) 8,160 votes (38.8%), and Jack Housni Jaller ( Social National Unity Party ) 4,063 votes (19.3%). Only 21,991 out of 41,197 potential electors voted in the gubernatorial election. At the departmental assembly, elected the same day, the 9 seats were distributed among 6 parties: three Liberals (Arlington Howard, Qwincy Bowie Gordon, and Leroy Carol Bent Archbold), two MIR (Jorge Méndez and Freddy Herazo) two Democratic Colombia Party (former MP María Teresa Uribe Bent and former Interior Secretary Rafael Gómez Redondo), two SNUP (Fernando Cañon Florez and María Said Darwich), one Radical Change (Heber Esquivel Benitez), and one Conservative (Julio César Gallardo Martínez). The new mayor of Providence, Janeth Archbold ( Team Colombia party), a political ally of the new governor, was elected with 1,013 votes against Liberal Mark Taylor (515 votes), SNUP Arturo Robinson (514 votes) and Conservative Peter Bent. ",
+            "text_with_qids": "2007 elections. A member of the departmental assembly for 15 years, Pedro Gallardo Forbes, of the Regional Integration Movement (Q3326556) (MIR), won the 28 October 2007 gubernatorial election , with support from the Colombian Conservative Party (Q747333) and the Radical Change (Q429642) party. He succeeded a governor from the Colombian Liberal Party (Q939021) . He got 8,187 votes (38.93%), Aury Guerrero Bowie (Liberal Party, with support from the Democratic Colombia Party (Q3366306) ) 8,160 votes (38.8%), and Jack Housni Jaller ( Social National Unity Party (Q973542) ) 4,063 votes (19.3%). Only 21,991 out of 41,197 potential electors voted in the gubernatorial election. At the departmental assembly, elected the same day, the 9 seats were distributed among 6 parties: three Liberals (Arlington Howard, Qwincy Bowie Gordon, and Leroy Carol Bent Archbold), two MIR (Jorge Méndez and Freddy Herazo) two Democratic Colombia Party (Q3366306) (former MP María Teresa Uribe Bent and former Interior Secretary Rafael Gómez Redondo), two SNUP (Fernando Cañon Florez and María Said Darwich), one Radical Change (Q429642) (Heber Esquivel Benitez), and one Conservative (Julio César Gallardo Martínez). The new mayor of Providence, Janeth Archbold ( Team Colombia (Q21001260) party), a political ally of the new governor, was elected with 1,013 votes against Liberal Mark Taylor (515 votes), SNUP Arturo Robinson (514 votes) and Conservative Peter Bent. ",
+            "spans": [
+                {
+                    "qid": "Q3326556",
+                    "surface": "Regional Integration Movement",
+                    "start": 98,
+                    "end": 127,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q747333",
+                    "surface": "Colombian Conservative Party",
+                    "start": 206,
+                    "end": 234,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q429642",
+                    "surface": "Radical Change",
+                    "start": 243,
+                    "end": 257,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q939021",
+                    "surface": "Colombian Liberal Party",
+                    "start": 298,
+                    "end": 321,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3366306",
+                    "surface": "Democratic Colombia Party",
+                    "start": 411,
+                    "end": 436,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q973542",
+                    "surface": "Social National Unity Party",
+                    "start": 485,
+                    "end": 512,
+                    "section": "Local government and representation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3366306",
+                    "surface": "Democratic Colombia Party",
+                    "start": 848,
+                    "end": 873,
+                    "section": "Local government and representation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q429642",
+                    "surface": "Radical Change",
+                    "start": 1023,
+                    "end": 1037,
+                    "section": "Local government and representation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q21001260",
+                    "surface": "Team Colombia",
+                    "start": 1165,
+                    "end": 1178,
+                    "section": "Local government and representation",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:4",
+            "section_idx": 4,
+            "language": "en",
+            "heading": "Geography",
+            "level": 2,
+            "text": "Besides the San Andrés and Providencia island groups, there are eight atolls that belong to the department, including submerged Alice Shoal . Island of San Andrés. San Andrés Island. This is the main island of the San Andrés group, and the largest of the department. It is located at 12°33′N 81°43′W ﻿ / ﻿ 12.550°N 81.717°W ﻿ / 12.550; -81.717 ﻿ ( San Andrés Island ) . It measures 12 km (7.5 mi) in length with a width of 3 km (1.9 mi) and covers an area of 26 km 2 (10 sq mi). There is a tiny lagoon in the centre of the island called Big Pond. The principal town is San Andrés in the north of the island. Another town is San Luis on the east coast. Cayo Johnny (Johnny Caye) lies 1.5 km (0.9 mi) ENE of German Point (Punta Norte), the island's northern tip, and Haynes Cay about the same distance east of the island. Cotton Cay is less than 1 km (0.6 mi) south of San Andrés town, on the northeastern coast. [ citation needed ] Cayos de Albuquerque (Cayos de S.W., Southwest Cays). This atoll is southwest of San Andrés at 12°10′N 81°51′W ﻿ / ﻿ 12.167°N 81.850°W ﻿ / 12.167; -81.850 ﻿ ( Cayos de Albuquerque ) . It is the westernmost point of Colombia. The reef is about 7 km (4.5 mi) across. In the southern part are Cayo del Norte and Cayo del Sur. Cayo del Norte, the larger of the two, is up to 2 m (7 ft) high and overgrown with palm trees and bushes. Cayo del Sur, a few hundred metres further South, reaches a height of a little more than 1 m (3 ft) and is vegetated with a few bushes, and in the South with mangroves. There is a lighthouse on Cayo del Norte, at 12°10′N 81°50′W ﻿ / ﻿ 12.167°N 81.833°W ﻿ / 12.167; -81.833 ﻿ ( Cayo del Norte ) , operating since 1980. It is maintained by the Colombian Navy. [ citation needed ] Cayos del Este Sudeste (Courtown Cays, Cayos de E.S.E.). This atoll is 22 km (14 mi) east-south-east of San Andrés Island and 35 km (22 mi) northeast of Cayos de Alburquerque, at 12°24′N 81°28′W ﻿ / ﻿ 12.400°N 81.467°W ﻿ / 12.400; -81.467 ﻿ ( Cayos del Este Sudeste ) . It is 14 km (8.7 mi) long and 4 km (2.5 mi) wide. There are a few sand cays in the southeast. The largest ones are Cayo del Este, Cayo Bolivar, West Cay, and Cayo Arena, none of which are higher than 2 metres (7 ft). All cays are overgrown with palm trees and bushes, and surrounded by mangroves . There is a Colombian Navy lighthouse on Cayo Bolivar. The cays are regularly visited by fishermen from the Colombian mainland and San Andrés. There are two concrete buildings on Cayo Bolivar, and a few wooden huts on the other cays. [ citation needed ] Banks and shoals. Colombia claims sovereignty over six additional outlying banks and shoals: Alice Shoal , Bajo Nuevo Bank , Serranilla Bank , Quita Sueño Bank , Serrana Bank , and Roncador Bank . [ citation needed ] ",
+            "text_with_qids": "Besides the San Andrés and Providencia (Q1138756) island groups, there are eight atolls (Q42523) that belong to the department, including submerged Alice Shoal (Q3563518) . Island of San Andrés. San Andrés Island (Q131051). This is the main island of the San Andrés group, and the largest of the department. It is located at 12°33′N 81°43′W ﻿ / ﻿ 12.550°N 81.717°W ﻿ / 12.550; -81.717 ﻿ ( San Andrés Island (Q131051) ) . It measures 12 km (7.5 mi) in length with a width of 3 km (1.9 mi) and covers an area of 26 km 2 (10 sq mi). There is a tiny lagoon (Q187223) in the centre of the island called Big Pond. The principal town is San Andrés in the north of the island. Another town is San Luis on the east coast. Cayo Johnny (Q5922534) (Johnny Caye) lies 1.5 km (0.9 mi) ENE of German Point (Punta Norte), the island's northern tip, and Haynes Cay about the same distance east of the island. Cotton Cay (Q1136756) is less than 1 km (0.6 mi) south of San Andrés town, on the northeastern coast. [ citation needed ] Cayos de Albuquerque (Cayos de S.W., Southwest Cays (Q503481)). This atoll is southwest of San Andrés at 12°10′N 81°51′W ﻿ / ﻿ 12.167°N 81.850°W ﻿ / 12.167; -81.850 ﻿ ( Cayos de Albuquerque ) . It is the westernmost point of Colombia (Q739). The reef is about 7 km (4.5 mi) across. In the southern part are Cayo del Norte and Cayo del Sur. Cayo del Norte, the larger of the two, is up to 2 m (7 ft) high and overgrown with palm trees (Q14080) and bushes. Cayo del Sur, a few hundred metres further South, reaches a height of a little more than 1 m (3 ft) and is vegetated with a few bushes, and in the South with mangroves (Q19756). There is a lighthouse (Q39715) on Cayo del Norte, at 12°10′N 81°50′W ﻿ / ﻿ 12.167°N 81.833°W ﻿ / 12.167; -81.833 ﻿ ( Cayo del Norte ) , operating since 1980. It is maintained by the Colombian Navy. [ citation needed ] Cayos del Este Sudeste (Courtown Cays (Q503481), Cayos de E.S.E.). This atoll is 22 km (14 mi) east-south-east of San Andrés Island (Q131051) and 35 km (22 mi) northeast of Cayos de Alburquerque, at 12°24′N 81°28′W ﻿ / ﻿ 12.400°N 81.467°W ﻿ / 12.400; -81.467 ﻿ ( Cayos del Este Sudeste ) . It is 14 km (8.7 mi) long and 4 km (2.5 mi) wide. There are a few sand cays (Q503481) in the southeast. The largest ones are Cayo del Este, Cayo Bolivar, West Cay, and Cayo Arena, none of which are higher than 2 metres (7 ft). All cays (Q503481) are overgrown with palm trees (Q14080) and bushes, and surrounded by mangroves (Q19756) . There is a Colombian Navy lighthouse (Q39715) on Cayo Bolivar. The cays (Q503481) are regularly visited by fishermen from the Colombian mainland and San Andrés. There are two concrete buildings on Cayo Bolivar, and a few wooden huts on the other cays (Q503481). [ citation needed ] Banks and shoals. Colombia (Q739) claims sovereignty over six additional outlying banks and shoals: Alice Shoal (Q3563518) , Bajo Nuevo Bank (Q1257783) , Serranilla Bank (Q1169008) , Quita Sueño Bank (Q559484) , Serrana Bank (Q1814365) , and Roncador Bank (Q1999017) . [ citation needed ] ",
+            "spans": [
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 27,
+                    "end": 38,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q42523",
+                    "surface": "atolls",
+                    "start": 70,
+                    "end": 76,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q3563518",
+                    "surface": "Alice Shoal",
+                    "start": 128,
+                    "end": 139,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andrés Island",
+                    "start": 164,
+                    "end": 181,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andrés Island",
+                    "start": 348,
+                    "end": 365,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q187223",
+                    "surface": "lagoon",
+                    "start": 495,
+                    "end": 501,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q5922534",
+                    "surface": "Cayo Johnny",
+                    "start": 652,
+                    "end": 663,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1136756",
+                    "surface": "Cotton Cay",
+                    "start": 820,
+                    "end": 830,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "Cays",
+                    "start": 978,
+                    "end": 982,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 1146,
+                    "end": 1154,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14080",
+                    "surface": "palm trees",
+                    "start": 1337,
+                    "end": 1347,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q19756",
+                    "surface": "mangroves",
+                    "start": 1518,
+                    "end": 1527,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q39715",
+                    "surface": "lighthouse",
+                    "start": 1540,
+                    "end": 1550,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "Cays",
+                    "start": 1771,
+                    "end": 1775,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q131051",
+                    "surface": "San Andrés Island",
+                    "start": 1842,
+                    "end": 1859,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "cays",
+                    "start": 2079,
+                    "end": 2083,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "cays",
+                    "start": 2229,
+                    "end": 2233,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q14080",
+                    "surface": "palm trees",
+                    "start": 2253,
+                    "end": 2263,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q19756",
+                    "surface": "mangroves",
+                    "start": 2294,
+                    "end": 2303,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q39715",
+                    "surface": "lighthouse",
+                    "start": 2332,
+                    "end": 2342,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "cays",
+                    "start": 2364,
+                    "end": 2368,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q503481",
+                    "surface": "cays",
+                    "start": 2533,
+                    "end": 2537,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 2577,
+                    "end": 2585,
+                    "section": "Geography",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q3563518",
+                    "surface": "Alice Shoal",
+                    "start": 2652,
+                    "end": 2663,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1257783",
+                    "surface": "Bajo Nuevo Bank",
+                    "start": 2666,
+                    "end": 2681,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1169008",
+                    "surface": "Serranilla Bank",
+                    "start": 2684,
+                    "end": 2699,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q559484",
+                    "surface": "Quita Sueño Bank",
+                    "start": 2702,
+                    "end": 2718,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1814365",
+                    "surface": "Serrana Bank",
+                    "start": 2721,
+                    "end": 2733,
+                    "section": "Geography",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1999017",
+                    "surface": "Roncador Bank",
+                    "start": 2740,
+                    "end": 2753,
+                    "section": "Geography",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:5",
+            "section_idx": 5,
+            "language": "en",
+            "heading": "Demographics",
+            "level": 2,
+            "text": "The Departamento de San Andrés, Providencia y Santa Catalina covers a land area of 44 km 2 (17 sq mi). The latest official population estimate for 2018 is 61,280. [ citation needed ] Before 1960, the population of the islands was almost entirely Raizals , who are an Afro-Caribbean group, Protestant in religion, speaking San Andrés–Providencia Creole . There is a minority of white English-speaking Protestants of British descent. Colombia has promoted the migration of Spanish-speaking mainlanders, with Catholic missions participating since 1947. This policy seems to be an answer to growing discontent within the Raizal community that could strengthen separatist movements; a Raizal majority would in this case win a pro-independence referendum but this could be neutralized by outnumbering them with mainland Colombians. [ citation needed ] By 2005, Raizals were only 30% of the 60,000 or more inhabitants of the islands, with the rest being mainland Colombians and English-speaking whites of British descent. Most Raizals are multilingual and can speak Spanish , Creole , and English . [ citation needed ] ",
+            "text_with_qids": "The Departamento de San Andrés, Providencia (Q1138756) y Santa Catalina covers a land area of 44 km 2 (17 sq mi). The latest official population estimate for 2018 is 61,280. [ citation needed ] Before 1960, the population of the islands was almost entirely Raizals (Q7285231) , who are an Afro-Caribbean group, Protestant (Q23540) in religion, speaking San Andrés–Providencia Creole . There is a minority of white English-speaking Protestants of British descent. Colombia (Q739) has promoted the migration of Spanish (Q1321)-speaking mainlanders, with Catholic (Q9592) missions participating since 1947. This policy seems to be an answer to growing discontent within the Raizal (Q7285231) community that could strengthen separatist movements; a Raizal (Q7285231) majority would in this case win a pro-independence referendum but this could be neutralized by outnumbering them with mainland Colombians (Q2997267). [ citation needed ] By 2005, Raizals (Q7285231) were only 30% of the 60,000 or more inhabitants of the islands, with the rest being mainland Colombians (Q2997267) and English-speaking whites of British descent. Most Raizals (Q7285231) are multilingual and can speak Spanish (Q1321) , Creole (Q33289) , and English (Q1860) . [ citation needed ] ",
+            "spans": [
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia",
+                    "start": 32,
+                    "end": 43,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizals",
+                    "start": 246,
+                    "end": 253,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q23540",
+                    "surface": "Protestant",
+                    "start": 289,
+                    "end": 299,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 432,
+                    "end": 440,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 471,
+                    "end": 478,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q9592",
+                    "surface": "Catholic",
+                    "start": 506,
+                    "end": 514,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizal",
+                    "start": 617,
+                    "end": 623,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizal",
+                    "start": 680,
+                    "end": 686,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2997267",
+                    "surface": "Colombians",
+                    "start": 814,
+                    "end": 824,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizals",
+                    "start": 855,
+                    "end": 862,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q2997267",
+                    "surface": "Colombians",
+                    "start": 956,
+                    "end": 966,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q7285231",
+                    "surface": "Raizals",
+                    "start": 1020,
+                    "end": 1027,
+                    "section": "Demographics",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q1321",
+                    "surface": "Spanish",
+                    "start": 1059,
+                    "end": 1066,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q33289",
+                    "surface": "Creole",
+                    "start": 1069,
+                    "end": 1075,
+                    "section": "Demographics",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1860",
+                    "surface": "English",
+                    "start": 1082,
+                    "end": 1089,
+                    "section": "Demographics",
+                    "source": "link"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:6",
+            "section_idx": 6,
+            "language": "en",
+            "heading": "Transportation",
+            "level": 2,
+            "text": "Airports. Gustavo Rojas Pinilla International Airport ( IATA : ADZ ) serves the towns of San Andrés and San Luis , but also commercially serves the nearby island of Providencia Island through feeder flights from El Embrujo Airport .\nGustavo Rojas Pinilla International Airport was initially called Sesquicentenario International Airport. It is the 6th busiest airport in Colombia, handling 836,234 passengers in 2006. Most of these passengers come from the continental part of the country, due to poor international direct service to the island. Many international tourists have to fly to one of Colombia's largest airports to be able to reach the islands. Copa Airlines maintains a passenger service between San Andrés and Panama City . In 2021, American Airlines began serving San Andrés nonstop from Miami . In recent years, San Andrés has also received seasonal charter flights, mainly from Canada and a few Central American countries. [ citation needed ] The airport is one of Colombia's fastest growing airports with a 13.4% increase in the number of passengers between 2005 and 2006. [ citation needed ] ",
+            "text_with_qids": "Airports. Gustavo Rojas Pinilla International (Q2732053) Airport ( IATA (Q19755) : ADZ ) serves the towns of San Andrés and San Luis , but also commercially serves the nearby island of Providencia Island (Q1138756) through feeder flights from El Embrujo Airport (Q1322429) .\nGustavo Rojas Pinilla International (Q2732053) Airport was initially called Sesquicentenario International Airport. It is the 6th busiest airport in Colombia (Q739), handling 836,234 passengers in 2006. Most of these passengers come from the continental part of the country, due to poor international direct service to the island. Many international tourists have to fly to one of Colombia (Q739)'s largest airports to be able to reach the islands. Copa Airlines (Q849404) maintains a passenger service between San Andrés and Panama City (Q1420178) . In 2021, American Airlines (Q32396) began serving San Andrés nonstop from Miami (Q127530) . In recent years, San Andrés has also received seasonal charter flights, mainly from Canada and a few Central American countries. [ citation needed ] The airport is one of Colombia (Q739)'s fastest growing airports with a 13.4% increase in the number of passengers between 2005 and 2006. [ citation needed ] ",
+            "spans": [
+                {
+                    "qid": "Q2732053",
+                    "surface": "Gustavo Rojas Pinilla International",
+                    "start": 10,
+                    "end": 45,
+                    "section": "Transportation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q19755",
+                    "surface": "IATA",
+                    "start": 56,
+                    "end": 60,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1138756",
+                    "surface": "Providencia Island",
+                    "start": 165,
+                    "end": 183,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1322429",
+                    "surface": "El Embrujo Airport",
+                    "start": 212,
+                    "end": 230,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q2732053",
+                    "surface": "Gustavo Rojas Pinilla International",
+                    "start": 233,
+                    "end": 268,
+                    "section": "Transportation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 371,
+                    "end": 379,
+                    "section": "Transportation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 596,
+                    "end": 604,
+                    "section": "Transportation",
+                    "source": "alias"
+                },
+                {
+                    "qid": "Q849404",
+                    "surface": "Copa Airlines",
+                    "start": 657,
+                    "end": 670,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q1420178",
+                    "surface": "Panama City",
+                    "start": 724,
+                    "end": 735,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q32396",
+                    "surface": "American Airlines",
+                    "start": 747,
+                    "end": 764,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q127530",
+                    "surface": "Miami",
+                    "start": 803,
+                    "end": 808,
+                    "section": "Transportation",
+                    "source": "link"
+                },
+                {
+                    "qid": "Q739",
+                    "surface": "Colombia",
+                    "start": 982,
+                    "end": 990,
+                    "section": "Transportation",
+                    "source": "alias"
+                }
+            ]
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:7",
+            "section_idx": 7,
+            "language": "en",
+            "heading": "See also",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:8",
+            "section_idx": 8,
+            "language": "en",
+            "heading": "References",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:9",
+            "section_idx": 9,
+            "language": "en",
+            "heading": "Sources",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        },
+        {
+            "article_id": "en:Q26855",
+            "section_id": "en:Q26855:10",
+            "section_idx": 10,
+            "language": "en",
+            "heading": "External links",
+            "level": 2,
+            "text": "",
+            "text_with_qids": "",
+            "spans": []
+        }
+    ],
+    "qid_to_aliases": {
+        "Q1321": [
+            "African Spanish",
+            "Castilian language",
+            "Castillian language",
+            "Espanol language",
+            "Español language",
+            "ISO 639-1:es",
+            "ISO 639:es",
+            "ISO 639:spa",
+            "Idioma castellano",
+            "Idioma español",
+            "Lengua castellana",
+            "Lengua española",
+            "Modern Spanish",
+            "Spanish",
+            "Spanish (language)",
+            "Spanish Language",
+            "Spanish in Africa",
+            "Spanish language",
+            "Spanish language etymology",
+            "Spanish language in Africa",
+            "Spanish language in Asia",
+            "Spanish language morphology",
+            "Spanish language vocabulary",
+            "Spanish langugae",
+            "Spanish-language",
+            "Spanishlanguage"
+        ],
+        "Q215655": [
+            "Colombian departments",
+            "Colombian divisions",
+            "Department",
+            "Department (Colombia)",
+            "Department of Colombia",
+            "Departments of Colombia",
+            "Departments of colombia",
+            "departments of Colombia"
+        ],
+        "Q1247": [
+            "Caraïbische Zee",
+            "Caribbean Ocean",
+            "Caribbean Sea",
+            "Caribbean ocean",
+            "Caribbean sea",
+            "Caribean Sea",
+            "Carribbean Sea",
+            "Carribean Sea",
+            "Mar Caribe",
+            "Mer des Caraïbes",
+            "Sea of Caribbea",
+            "Sea of the Antilles",
+            "The Caribbean Sea"
+        ],
+        "Q739": [
+            "Agrado",
+            "Colombia",
+            "Colombia (country)",
+            "Colombiá",
+            "Columbia (country)",
+            "Country of Columbia",
+            "El Agrado",
+            "Ethnic groups in Colombia",
+            "Etymology of Colombia",
+            "ISO 3166-1:CO",
+            "Name of Colombia",
+            "Republic of Colombia",
+            "Republic of Columbia",
+            "Republica de Colombia",
+            "República de Colombia",
+            "The Republic of Colombia"
+        ],
+        "Q131051": [
+            "Isla de san andres",
+            "Piscinita",
+            "San Andres",
+            "San Andres Island",
+            "San Andrés Island"
+        ],
+        "Q134678": [
+            "San Andrés City"
+        ],
+        "Q1138756": [
+            "Colombia's Providence Island",
+            "Isla de Providencia",
+            "Isla providencia",
+            "Old Providence Island",
+            "Providence, Colombia",
+            "Providencia",
+            "Providencia (Colombia)",
+            "Providencia (island)",
+            "Providencia Island",
+            "Providencia Island, Colombia"
+        ],
+        "Q18578423": [
+            "Christopher Columbus 1st Voyage",
+            "Christopher Columbus's voyages",
+            "Columbian voyage",
+            "Columbus voyages",
+            "Columbus' First Voyage",
+            "Columbus' first voyage",
+            "Columbus' voyage",
+            "Columbus's Voyages",
+            "Columbus's first voyage",
+            "Columbus's second voyage",
+            "Columbus's third voyage",
+            "Columbus's voyage",
+            "Expedition of Christopher Columbus",
+            "Expeditions of Christopher Columbus",
+            "Expeditions of Columbus",
+            "First Voyage of Columbus",
+            "First voyage of Columbus",
+            "First voyage to America",
+            "Second Voyage of Columbus",
+            "Third voyage of Columbus",
+            "Voyages of Christopher Columbus",
+            "Voyages of Columbus",
+            "voyages of Christopher Columbus"
+        ],
+        "Q2077243": [
+            "Captain General of Guatemala",
+            "Captaincy General of Guatemala",
+            "Captaincy general of Guatemala",
+            "Captaincy general of guatemala",
+            "Colonial Guatemala",
+            "Kingdom of Guatemala",
+            "Reino de Guatemala",
+            "Spanish Guatemala"
+        ],
+        "Q21": [
+            "Aenglaland",
+            "Aengland",
+            "Angland",
+            "Anglica",
+            "ENGLAND",
+            "Engalnd",
+            "Engelond",
+            "Engla land",
+            "Engla londe",
+            "Engla rice",
+            "Englaland",
+            "England",
+            "England (country)",
+            "England's",
+            "England, U.K.",
+            "England, UK",
+            "England, United Kingdom",
+            "Englnad",
+            "Etymology of England",
+            "Ingland",
+            "Inglaterra",
+            "Land of Englishmen",
+            "Land of the Angles",
+            "Land of the English",
+            "Land of the Englishmen",
+            "Languages of England",
+            "Languages of cornwall",
+            "Languages of england",
+            "Lloegr",
+            "Name of England",
+            "Pow Sows",
+            "Sasainn",
+            "Ængla land",
+            "Ænglaland",
+            "Ængland"
+        ],
+        "Q137073": [
+            "English Puritans",
+            "Puritain",
+            "Puritan",
+            "Puritan movement",
+            "Puritan party",
+            "Puritanic",
+            "Puritanical",
+            "Puritanically",
+            "Puritanism",
+            "Puritanism in England",
+            "Puritanisms",
+            "Puritanist",
+            "Puritanistic",
+            "Puritanistical",
+            "Puritanistically",
+            "Puritanists",
+            "Puritans",
+            "Puritians",
+            "Separatist Puritans",
+            "Visible saints"
+        ],
+        "Q2990065": [
+            "Providence Company",
+            "Providence Island Company",
+            "The Providence Company"
+        ],
+        "Q18389": [
+            "American New England",
+            "Boston States",
+            "Boston states",
+            "Coastal New England",
+            "Education in New England",
+            "Geography of New England",
+            "Modern New England",
+            "New England",
+            "New England Education",
+            "New England Population",
+            "New England states",
+            "New England's",
+            "New england",
+            "New-England",
+            "North Atlantic States",
+            "Northern New England",
+            "Nueva Inglaterra",
+            "Regions of New England",
+            "Religion in New England",
+            "Southeastern New England",
+            "Southern New England",
+            "Urban New England"
+        ],
+        "Q7252447": [
+            "Old Providence",
+            "Providence Island colony"
+        ],
+        "Q1191350": [
+            "Colony of Massachusetts",
+            "Colony of Massachusetts Bay",
+            "Dorchester Company Colony",
+            "Massachusetts Bay Colony",
+            "Massachusetts Bay Company",
+            "Massachusetts Bay colony",
+            "Massachusetts colony",
+            "Massachussetts Bay Colony",
+            "Newe-England Colony",
+            "The Massachusetts Bay Company"
+        ],
+        "Q8463": [
+            "Slavery",
+            "slave"
+        ],
+        "Q201559": [
+            "Privateer"
+        ],
+        "Q850220": [
+            "Buccaneer",
+            "buccaneers"
+        ],
+        "Q215502": [
+            "Admiral Sir Henry Morgan",
+            "Captain Henry Morgan",
+            "Hari morgan",
+            "Henry Morgan",
+            "Henry morgan",
+            "Morgan The Pirate",
+            "Morgan the Pirate",
+            "Morgan the pirate",
+            "Morgan, Henry",
+            "Sir Harri Morgan",
+            "Sir Henry Morgan"
+        ],
+        "Q3306": [
+            "Architecture of Panama City",
+            "Bellavista, Panama City",
+            "Capital of Panama",
+            "Ciudad de Panama",
+            "Ciudad de Panamá",
+            "Demographics of Panama City",
+            "Economy of Panama City",
+            "Education in Panama City",
+            "Healthcare in Panama City",
+            "History of Panama City",
+            "Marbella, Panama City",
+            "Panama (city)",
+            "Panama City",
+            "Panama City, Panama",
+            "Panama City, Panamá",
+            "Panama city",
+            "Panama, Panama",
+            "Panamá (city)",
+            "Panamá City, Panamá",
+            "Transport in Panama City"
+        ],
+        "Q804": [
+            "Biodiversity of Panama",
+            "Etymology of Panama",
+            "ISO 3166-1:PA",
+            "Name of Panama",
+            "Panama",
+            "Panama (country)",
+            "Panamà",
+            "Panamá",
+            "Political culture of Panama",
+            "Republic of Panama",
+            "Republic of Panamá",
+            "República de Panamá",
+            "Sport in Panama",
+            "Subdivisions of Panama",
+            "The Republic of Panama",
+            "Wildlife of Panama"
+        ],
+        "Q8965": [
+            "Viceroyalty of New Granada",
+            "Viceroyalty of Nueva Granada"
+        ],
+        "Q1165546": [
+            "Costa Mosquitia",
+            "Draft:Mosquitia",
+            "English Immigration in Nicaragua",
+            "English settlement in Nicaragua",
+            "Kingdom of Mosquitia",
+            "La Moskitia",
+            "La Mosquita",
+            "La Mosquitia",
+            "Miskitia",
+            "Miskito Coast",
+            "Miskito Kingdom",
+            "Miskito coast",
+            "Misquito Coast",
+            "Mosquitia",
+            "Mosquito Coast",
+            "Mosquito Coast Protectorate",
+            "Mosquito Coast and Reserve",
+            "Mosquito Kingdom",
+            "Mosquito Shore",
+            "Mosquito Territory",
+            "Mosquito coast",
+            "Second British protectorate"
+        ],
+        "Q1024890": [
+            "Cabo Gracias a Dios",
+            "Cape Gracias",
+            "Cape Gracias a Dios",
+            "Cape Gratia de Dios"
+        ],
+        "Q1408661": [
+            "Chagres River",
+            "Chagres river",
+            "Rio Chagres",
+            "Río Chagres"
+        ],
+        "Q657461": [
+            "Cartagena",
+            "Cartagena (Colombia)",
+            "Cartagena Colombia",
+            "Cartagena de Indias",
+            "Cartagena de indias",
+            "Cartagena of Indies",
+            "Cartagena of the Indies",
+            "Cartagena, Bolivar",
+            "Cartagena, Bolívar",
+            "Cartagena, Colombia",
+            "Cartagena, Columbia",
+            "Cartajena de Indias",
+            "Carthagena, Colombia"
+        ],
+        "Q631020": [
+            "Aury",
+            "Louis Aury",
+            "Louis Michel Aury",
+            "Louis de Aury",
+            "Louis-Michel Aury",
+            "Luís Aury"
+        ],
+        "Q130774": [
+            "Argentine flag",
+            "Flag of Argentina"
+        ],
+        "Q5656897": [
+            "Central America Independence",
+            "Central American independence",
+            "Independence of Central America"
+        ],
+        "Q199821": [
+            "1819 Republic of Colombia",
+            "Confederation of Gran Colombia",
+            "Gran Colombia",
+            "Gran Colombian",
+            "Gran Columbians",
+            "Gran columbia",
+            "Grand Colombia",
+            "Grand colombia",
+            "Great Colombia",
+            "Greater Colombia",
+            "Republic of Gran Colombia"
+        ],
+        "Q199910": [
+            "Departamento del Magdalena",
+            "Department of Magdalena",
+            "Flag of Magdalena Department",
+            "Magdalena Department",
+            "Magdalena department",
+            "🏴󠁣󠁯󠁭󠁡󠁧󠁿"
+        ],
+        "Q285658": [
+            "1st Mexican Empire",
+            "1st Mexican empire",
+            "America Mexicana",
+            "First Mexican Empire",
+            "Gran Mexico",
+            "Great Mexico",
+            "Mexican America"
+        ],
+        "Q630882": [
+            "New Granada",
+            "New Grenada",
+            "Republic of New Granada",
+            "Republica de Nueva Granada",
+            "República de Nueva Granada"
+        ],
+        "Q3536703": [
+            "Esguerra-Barcenas Treaty",
+            "Esguerra-Bárcenas Treaty"
+        ],
+        "Q27389": [
+            "Sandinista",
+            "Sandinista National Liberation Front"
+        ],
+        "Q783": [
+            "Administrative divisions of Honduras",
+            "Ecology of Honduras",
+            "Economic inequality in Honduras",
+            "Etymology of Honduras",
+            "Folklore of Honduras",
+            "Hondoras",
+            "Honduran Republic",
+            "Honduras",
+            "Honduras (country)",
+            "Hondurras",
+            "ISO 3166-1:HN",
+            "Income inequality in Honduras",
+            "Name of Honduras",
+            "National symbols of Honduras",
+            "Political culture of Honduras",
+            "Poverty in Honduras",
+            "Republic of Honduras",
+            "República de Honduras",
+            "Spanish Honduras",
+            "Subdivisions of Honduras",
+            "The Honduras"
+        ],
+        "Q3089219": [
+            "International maritime norm",
+            "Marine border",
+            "Maritime border",
+            "Maritime boundaries",
+            "Maritime boundary",
+            "Naval border",
+            "Political boundaries in water",
+            "Water border",
+            "Water boundaries",
+            "Water boundary",
+            "maritime boundary"
+        ],
+        "Q7801": [
+            "Cour internationale de justice",
+            "Federal World Court",
+            "Hague Court of Justice",
+            "Hague International Court",
+            "ICJ",
+            "ICOJ",
+            "Icj-cij.org",
+            "International Court of Justice",
+            "International court of Hague",
+            "International court of Justice",
+            "International court of justice",
+            "International court of law",
+            "The World Court",
+            "UN Court",
+            "United Nations Supreme Court",
+            "World Court",
+            "World court"
+        ],
+        "Q513470": [
+            "Guano Island Act",
+            "Guano Islands Act"
+        ],
+        "Q1814365": [
+            "Serrana Bank"
+        ],
+        "Q1999017": [
+            "Roncador",
+            "Roncador Bank"
+        ],
+        "Q559484": [
+            "Banco Quitasueño",
+            "Cayo Quitasueño",
+            "Quita Sueno Bank",
+            "Quita Sueño Bank",
+            "Quitasueño"
+        ],
+        "Q1169008": [
+            "Banco Serranilla",
+            "Beacon Cay",
+            "East Cay",
+            "History of Serranilla Bank",
+            "Middle Cay",
+            "Placer de la Serranilla",
+            "Serranilla Bank",
+            "West Breaker"
+        ],
+        "Q1257783": [
+            "Bajo Nuevo",
+            "Bajo Nuevo Bank",
+            "Bajo Nuevo bank",
+            "Petrel Islands"
+        ],
+        "Q3089201": [
+            "secession from Colombia"
+        ],
+        "Q3326556": [
+            "Regional Integration Movement"
+        ],
+        "Q5147975": [
+            "2007 Colombian regional election",
+            "2007 Colombian regional elections",
+            "Colombian election, 2007",
+            "Colombian elections, 2007"
+        ],
+        "Q747333": [
+            "Colombia Conservative Party",
+            "Colombian Conservative Party",
+            "Partido Conservador Colombiano",
+            "Partido conservador colombiano"
+        ],
+        "Q429642": [
+            "Cambio Radical",
+            "Partido Cambio Radical",
+            "Radical Change",
+            "Radical Change Party"
+        ],
+        "Q939021": [
+            "Colombian Liberal Party",
+            "Liberal Party of Colombia",
+            "Partido Liberal Colombiano",
+            "The Colombian Liberal Party"
+        ],
+        "Q3366306": [
+            "Colombia Democrática",
+            "Democratic Colombia Party"
+        ],
+        "Q973542": [
+            "Social National Unity Party"
+        ],
+        "Q21001260": [
+            "Equipo Colombia",
+            "Team Colombia"
+        ],
+        "Q42523": [
+            "Atholhu",
+            "Atoll",
+            "Atoll reef",
+            "Atolls",
+            "Coral atoll",
+            "Darwin Point",
+            "Darwin point",
+            "Largest atolls",
+            "List of largest atolls",
+            "atolls"
+        ],
+        "Q3563518": [
+            "Alice Shoal",
+            "Banco Alicia"
+        ],
+        "Q187223": [
+            "Atoll lagoon",
+            "Atoll lagoons",
+            "Barrier lagoon",
+            "Coastal lagoon",
+            "Coastal lagoons",
+            "Lagoon",
+            "Lagoonal",
+            "Lagoons",
+            "Largest lagoon",
+            "Largest lagoons",
+            "List of largest lagoons",
+            "lagoon"
+        ],
+        "Q5922534": [
+            "Cayo Johnny",
+            "Islote Sucre"
+        ],
+        "Q1136756": [
+            "Cotton Cay"
+        ],
+        "Q14080": [
+            "Arecaceae",
+            "palm trees"
+        ],
+        "Q39715": [
+            "Beaconhouse",
+            "Coastal lighthouse",
+            "LIGHTHOUSE",
+            "Land lighthouse",
+            "Light house",
+            "Light houses",
+            "Light-house",
+            "Lighthouse",
+            "Lighthouse Center",
+            "Lighthouse Technology",
+            "Lighthouse lantern",
+            "Lighthouse range",
+            "Lighthouse technology",
+            "Lighthouses",
+            "Offshore lighthouse",
+            "lighthouse"
+        ],
+        "Q503481": [
+            "Cay",
+            "Caye",
+            "Cayes",
+            "Cays",
+            "Key (island)",
+            "Sand cay",
+            "cays"
+        ],
+        "Q19756": [
+            "Mangrove",
+            "Mangrove Swamp",
+            "Mangrove Tree",
+            "Mangrove conservation",
+            "Mangrove microbiome",
+            "Mangrove microbiomes",
+            "Mangrove root microbiome",
+            "Mangrove swamps",
+            "Mangrove tree",
+            "Mangrove trees",
+            "Mangrove virome",
+            "Mangroves",
+            "Manguezal",
+            "True mangrove",
+            "True mangroves",
+            "mangroves"
+        ],
+        "Q7285231": [
+            "Raizal",
+            "Raizals"
+        ],
+        "Q23540": [
+            "Protestant",
+            "Protestantism"
+        ],
+        "Q2044587": [
+            "Criollo sanandresano",
+            "ISO 639:icr",
+            "Islander Creole English",
+            "Islander Creole English language",
+            "Raizal language",
+            "San Andres Creole English",
+            "San Andres Creole language",
+            "San Andres-Providencia Creole",
+            "San Andrés Creole",
+            "San Andrés English",
+            "San Andrés-Providencia Creole",
+            "San Andrés-Providencia English"
+        ],
+        "Q9592": [
+            "Catholic",
+            "Catholic Church"
+        ],
+        "Q2997267": [
+            "Colombians"
+        ],
+        "Q33289": [
+            "Creole",
+            "Creole (language)",
+            "Creole (linguistics)",
+            "Creole Languages",
+            "Creole genesis",
+            "Creole language",
+            "Creole languages",
+            "Creole linguistics",
+            "Creole superstrate theories",
+            "Creoles and Patois",
+            "Creoles and pidgins language",
+            "Creoles languages",
+            "Creolist",
+            "Creolistics",
+            "Creology",
+            "Créole language",
+            "Foreigner talk theory",
+            "ISO 639:crp",
+            "Linguistic Creole"
+        ],
+        "Q1860": [
+            "Anglesc",
+            "En (language)",
+            "English (language)",
+            "English Language",
+            "English Language Word Count",
+            "English Vernacular",
+            "English language",
+            "English languge",
+            "English lexicon",
+            "English medium",
+            "English speakers",
+            "English speaking",
+            "English vernacular",
+            "English vocabulary",
+            "English-language",
+            "English-language debut",
+            "English-speaker",
+            "Englishlanguage",
+            "Geographic distribution of English",
+            "Geographic distribution of english",
+            "Geographical distribution of English",
+            "Geographical distribution of english",
+            "ISO 639-1:en",
+            "ISO 639:en",
+            "ISO 639:eng",
+            "Non-English",
+            "Number of English words",
+            "Saozneg",
+            "The English Language",
+            "The English language",
+            "Vernacular English",
+            "Vernacular english"
+        ],
+        "Q2732053": [
+            "ADZ Airport",
+            "Aeropuerto SKSP",
+            "Gustavo Rojas Pinilla Airport",
+            "Gustavo Rojas Pinilla International",
+            "SKSP",
+            "Sesquicentenario Airport"
+        ],
+        "Q19755": [
+            "IATA",
+            "International Air Transport Association"
+        ],
+        "Q1322429": [
+            "El Embrujo Airport",
+            "SKPV"
+        ],
+        "Q849404": [
+            "CM fleet",
+            "COPA Airlines",
+            "COPA Cargo",
+            "Compania Panamena de Aviacion",
+            "Companla PanameOa de AviaciOn",
+            "Companla PanameÒa de AviaciÒn",
+            "Compañía Panameña de Aviación",
+            "Copa (airline)",
+            "Copa Airlines",
+            "Copa Airlines fleet",
+            "Copa Club",
+            "Copa airlines",
+            "Copa de Panama",
+            "Cup Airlines"
+        ],
+        "Q1420178": [
+            "Aeropuerto Internacional de Tocumen",
+            "MPTO",
+            "Omar Torrijos International Airport",
+            "PTY Airport",
+            "Patilla Point Army Airfield",
+            "Tocumen (airport)",
+            "Tocumen Airport",
+            "Tocumen International",
+            "Tocumen International Airport",
+            "Tocumen international airport"
+        ],
+        "Q32396": [
+            "@AmericanAir",
+            "AA Cargo",
+            "AA.com",
+            "AAirwaves",
+            "Aa com",
+            "Aa.com",
+            "Admiral's Club",
+            "Admirals Club",
+            "American (airline)",
+            "American Air",
+            "American Air Lines",
+            "American Airline",
+            "American Airlines",
+            "American Airlines Cargo",
+            "American Airlines Cargo Division",
+            "American Airlines Freight",
+            "American Airlines Inc.",
+            "American Airlines System",
+            "American Airlines Vacations",
+            "American Airlines, Inc",
+            "American Airways",
+            "American Airways Inc.",
+            "American airlines",
+            "AmericanAirlines",
+            "AmericanAirlines Vacations",
+            "Americanairlines.com",
+            "Americna Airlines",
+            "Yankeeflot"
+        ],
+        "Q127530": [
+            "36th Street Airport",
+            "Airport (Miami)",
+            "America West Airlines 556",
+            "Coral Gables Airport",
+            "Coral Gables Army Airfield",
+            "MIA Central Terminal",
+            "MIA airport",
+            "Miami",
+            "Miami (airport)",
+            "Miami Airport",
+            "Miami Airport, FL",
+            "Miami Airport, Florida",
+            "Miami Army Air Field",
+            "Miami Int'l Airport",
+            "Miami International",
+            "Miami International Airport",
+            "Miami International Arprt",
+            "Miami Intnl Airport",
+            "Miami airport",
+            "Miami international Airport",
+            "Pan American Field",
+            "Wilcox Field"
+        ],
+        "Q3321721": [
+            "Natural Regions of Colombia",
+            "Natural regions of Colombia",
+            "Natural regions of colombia",
+            "Orinoco region",
+            "Region",
+            "Regions of Colombia"
+        ],
+        "Q3312322": [
+            "Insular Region",
+            "Insular region of Colombia",
+            "Región insular de Colombia"
+        ],
+        "Q5119": [
+            "Administrative Capital",
+            "Administrative capital",
+            "Capital",
+            "Capital (city)",
+            "Capital (government)",
+            "Capital (political)",
+            "Capital (politics)",
+            "Capital cities",
+            "Capital city",
+            "Capital town",
+            "Capital-city",
+            "Forward capital",
+            "Nation's capital",
+            "National Capital",
+            "National capital",
+            "Oldest capital",
+            "Provincial Capital",
+            "Provincial capital",
+            "Provincial capitals"
+        ],
+        "Q9647999": [
+            "33rd"
+        ],
+        "Q6567521": [
+            "29th"
+        ],
+        "Q244819": [
+            "COP",
+            "COP$",
+            "Colombian Peso",
+            "Colombian peso",
+            "Colombian pesos",
+            "ISO 4217:COP",
+            "ISO 4217:COU",
+            "Peso colombiano",
+            "Unidad de Valor Real"
+        ],
+        "Q4917": [
+            "United States dollar"
+        ],
+        "Q12143": [
+            "Day of two noons",
+            "Local Time",
+            "Standard time zone",
+            "Time Zone",
+            "Time Zones",
+            "Time difference",
+            "Time in space",
+            "Time zone",
+            "Time zones",
+            "Time-zone",
+            "TimeZone",
+            "Timezone",
+            "Timezones",
+            "Time zone",
+            "World time",
+            "Zone time",
+            "Zonetime"
+        ],
+        "Q106487": [
+            "3166 ISO",
+            "Country abbreviations",
+            "Geographic code",
+            "Geographic codes",
+            "ISO 3166",
+            "ISO 3166 code",
+            "ISO 3166 codes",
+            "ISO 3166 standard",
+            "ISO 3166/MA",
+            "ISO country code",
+            "ISO geographic code",
+            "ISO geographic codes",
+            "ISO-3166",
+            "ISO3166",
+            "Iso 3166",
+            "Iso country code"
+        ],
+        "Q38994": [
+            "2007 Human Development Report",
+            "2010 Human Development Report",
+            "Adult Literacy Index",
+            "HDI",
+            "HDI index",
+            "HDIs",
+            "HDR 2007",
+            "Hdi",
+            "Hdr 2007",
+            "High human development",
+            "Human Development Index",
+            "Human Development Indicators",
+            "Human Developpment Index",
+            "Human development index",
+            "Life Expectancy Index",
+            "Most economically developed countries",
+            "Sustainable Human Development Index",
+            "The Human Development Index",
+            "UN HDI",
+            "UN HDI index",
+            "UN Human Development Index",
+            "UNHDI"
+        ],
+        "Q56875696": [
+            "3rd of 33"
+        ],
+        "Q26855": [
+            "San Andres Y Providencia",
+            "San Andres and Providencia",
+            "San Andres department",
+            "San Andres y Providencia",
+            "San Andrés Y Providencia",
+            "San Andrés and Providencia",
+            "San Andrés y Providencia"
+        ]
+    }
+}

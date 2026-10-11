@@ -1,0 +1,58 @@
+[
+    {
+        "section_id_a": "en:Q169896:0",
+        "section_id_b": "es:Q169896:0",
+        "pair_id": "en:Q169896:0+es:Q169896:0+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8935
+    },
+    {
+        "section_id_a": "en:Q169896:1",
+        "section_id_b": "es:Q169896:1",
+        "pair_id": "en:Q169896:1+es:Q169896:1+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8734
+    },
+    {
+        "section_id_a": "en:Q169896:2",
+        "section_id_b": "es:Q169896:2",
+        "pair_id": "en:Q169896:2+es:Q169896:2+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.885
+    },
+    {
+        "section_id_a": "en:Q169896:3",
+        "section_id_b": "es:Q169896:7",
+        "pair_id": "en:Q169896:3+es:Q169896:7+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8669
+    },
+    {
+        "section_id_a": "en:Q169896:4",
+        "section_id_b": "es:Q169896:3",
+        "pair_id": "en:Q169896:4+es:Q169896:3+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8661
+    },
+    {
+        "section_id_a": "en:Q169896:5",
+        "section_id_b": "es:Q169896:5",
+        "pair_id": "en:Q169896:5+es:Q169896:5+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8776
+    },
+    {
+        "section_id_a": "en:Q169896:6",
+        "section_id_b": "es:Q169896:6",
+        "pair_id": "en:Q169896:6+es:Q169896:6+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.8678
+    },
+    {
+        "section_id_a": "en:Q169896:8",
+        "section_id_b": "es:Q169896:10",
+        "pair_id": "en:Q169896:8+es:Q169896:10+Best Sentence Median",
+        "alignment_score": "Best Sentence Median",
+        "numeric_alignment_score": 0.9268
+    }
+]

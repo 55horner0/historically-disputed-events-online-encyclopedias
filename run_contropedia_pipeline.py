@@ -108,7 +108,7 @@ def resolve_titles(arts: list[Article], cache_file: Path) -> None:
     for a in arts:
         if a.url not in cache:
             if api is None:
-                from extract_qids import api_get, wiki_api_url  # needs network, imported lazily
+                from utilities.extract_qids import api_get, wiki_api_url  # needs network, imported lazily
                 api = (api_get, wiki_api_url)
             _, raw = url_parts(a.url)
             d = api[0](api[1](a.lang), {"action": "query", "titles": raw.replace("_", " "),
@@ -132,7 +132,7 @@ def resolve_titles(arts: list[Article], cache_file: Path) -> None:
 # Steps
 # --------------------------------------------------------------------------- #
 def step_extract(arts: list[Article], force: bool) -> None:
-    from extract_qids import extract_qids  # lazy: pulls in requests / bs4 / nltk
+    from utilities.extract_qids import extract_qids  # lazy: pulls in requests / bs4 / nltk
     for a in arts:
         if a.json_path.exists() and not force:
             print(f"[extract] skip (exists): {a.json_path.name}")
@@ -216,7 +216,7 @@ def main() -> None:
 
     if a.user_agent is None:
         sys.path.insert(0, str(HERE))
-        from extract_qids import HEADERS
+        from utilities.extract_qids import HEADERS
         a.user_agent = HEADERS["User-Agent"]
 
     arts = build_articles(a.only)

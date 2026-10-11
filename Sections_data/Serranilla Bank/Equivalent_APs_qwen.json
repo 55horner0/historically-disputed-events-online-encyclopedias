@@ -1,0 +1,562 @@
+[
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:2",
+        "ap_en_text": "Serranilla Bank is located in the western Caribbean Sea.",
+        "ap_es_id": "es:Q1169008:0:ap:0",
+        "ap_es_text": "La isla Serranilla es un placer del mar Caribe.",
+        "similarity": 0.7957127094268799
+    },
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:3",
+        "ap_en_text": "Serranilla Bank is known as Isla Serranilla.",
+        "ap_es_id": "es:Q1169008:0:ap:0",
+        "ap_es_text": "La isla Serranilla es un placer del mar Caribe.",
+        "similarity": 0.7432413101196289
+    },
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:3",
+        "ap_en_text": "Serranilla Bank is known as Isla Serranilla.",
+        "ap_es_id": "es:Q1169008:0:ap:2",
+        "ap_es_text": "La isla Serranilla se localiza a 15.833, -79.833 .",
+        "similarity": 0.700950562953949
+    },
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:13",
+        "ap_en_text": "It is part of the department of San Andrés and Providencia.",
+        "ap_es_id": "es:Q1169008:0:ap:3",
+        "ap_es_text": "Este territorio forma parte oficial del departamento colombiano del Archipiélago de San Andrés, Providencia y Santa Catalina.",
+        "similarity": 0.8375284671783447
+    },
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:23",
+        "ap_en_text": "The International Court of Justice (ICJ) upheld Colombia's sovereignty over the bank on 19 November 2012.",
+        "ap_es_id": "es:Q1169008:0:ap:5",
+        "ap_es_text": "El fallo de la Corte Internacional de Justicia de La Haya del 19 de noviembre de 2012 ratificó la soberanía de Colombia sobre Serranilla.",
+        "similarity": 0.8629216551780701
+    },
+    {
+        "section_pair_id": "en:Q1169008:0+es:Q1169008:0+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:0:ap:23",
+        "ap_en_text": "The International Court of Justice (ICJ) upheld Colombia's sovereignty over the bank on 19 November 2012.",
+        "ap_es_id": "es:Q1169008:0:ap:4",
+        "ap_es_text": "La Corte Internacional de Justicia de La Haya emitió un fallo el 19 de noviembre de 2012.",
+        "similarity": 0.7282117605209351
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:0",
+        "ap_en_text": "Serranilla Bank is a former atoll.",
+        "ap_es_id": "es:Q1169008:1:ap:0",
+        "ap_es_text": "El Banco Serranilla es un antiguo atolón.",
+        "similarity": 0.8768075108528137
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:1",
+        "ap_en_text": "Serranilla Bank is now a mostly submerged carbonate platform.",
+        "ap_es_id": "es:Q1169008:1:ap:0",
+        "ap_es_text": "El Banco Serranilla es un antiguo atolón.",
+        "similarity": 0.7348752617835999
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:3",
+        "ap_en_text": "It is about 40 kilometres (25 mi) in length.",
+        "ap_es_id": "es:Q1169008:1:ap:1",
+        "ap_es_text": "Tiene cerca de 40 km de largo.",
+        "similarity": 0.8986237645149231
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:4",
+        "ap_en_text": "It is 32 kilometres (20 mi) in width.",
+        "ap_es_id": "es:Q1169008:1:ap:2",
+        "ap_es_text": "Tiene 32 km de ancho.",
+        "similarity": 0.8940610289573669
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:4",
+        "ap_en_text": "It is 32 kilometres (20 mi) in width.",
+        "ap_es_id": "es:Q1169008:1:ap:1",
+        "ap_es_text": "Tiene cerca de 40 km de largo.",
+        "similarity": 0.7186721563339233
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:5",
+        "ap_en_text": "It covers an area of over 1,200 square kilometres (460 sq mi).",
+        "ap_es_id": "es:Q1169008:1:ap:3",
+        "ap_es_text": "Tiene un área de 1200 km².",
+        "similarity": 0.7643830180168152
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:6",
+        "ap_en_text": "It is almost entirely under water.",
+        "ap_es_id": "es:Q1169008:1:ap:4",
+        "ap_es_text": "Casi enteramente de agua.",
+        "similarity": 0.7948513031005859
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:7",
+        "ap_en_text": "Three small cays emerge above the water.",
+        "ap_es_id": "es:Q1169008:1:ap:5",
+        "ap_es_text": "Varios cayos muy pequeños emergen de las aguas.",
+        "similarity": 0.7266508340835571
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:8",
+        "ap_en_text": "Two rocks emerge above the water.",
+        "ap_es_id": "es:Q1169008:1:ap:5",
+        "ap_es_text": "Varios cayos muy pequeños emergen de las aguas.",
+        "similarity": 0.7126424312591553
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:9",
+        "ap_en_text": "The bank's islands are formed by the cays and rocks.",
+        "ap_es_id": "es:Q1169008:1:ap:6",
+        "ap_es_text": "Los cayos forman las islas del banco.",
+        "similarity": 0.7846755385398865
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:10",
+        "ap_en_text": "West Breaker is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:7",
+        "ap_es_text": "Ellas son West Breaker",
+        "similarity": 0.8799862861633301
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:11",
+        "ap_en_text": "Middle Cay is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:8",
+        "ap_es_text": "Ellas son Cayo Medio (Middle Cay)",
+        "similarity": 0.86162930727005
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:11",
+        "ap_en_text": "Middle Cay is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:9",
+        "ap_es_text": "Ellas son Cayo Este (East Cay)",
+        "similarity": 0.7331759929656982
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:12",
+        "ap_en_text": "East Cay is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:9",
+        "ap_es_text": "Ellas son Cayo Este (East Cay)",
+        "similarity": 0.8687356114387512
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:13",
+        "ap_en_text": "Beacon Cay is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:10",
+        "ap_es_text": "Ellas son Cayo Beacon (Beacon Cay)",
+        "similarity": 0.8392950892448425
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:14",
+        "ap_en_text": "Northeast Breaker is a location.",
+        "ap_es_id": "es:Q1169008:1:ap:7",
+        "ap_es_text": "Ellas son West Breaker",
+        "similarity": 0.7219056487083435
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:16",
+        "ap_en_text": "They have sparse vegetation of bushes and some trees.",
+        "ap_es_id": "es:Q1169008:1:ap:11",
+        "ap_es_text": "La vegetación está dispersa.",
+        "similarity": 0.8175479769706726
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:16",
+        "ap_en_text": "They have sparse vegetation of bushes and some trees.",
+        "ap_es_id": "es:Q1169008:1:ap:13",
+        "ap_es_text": "La vegetación incluye algunos árboles.",
+        "similarity": 0.7971985340118408
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:16",
+        "ap_en_text": "They have sparse vegetation of bushes and some trees.",
+        "ap_es_id": "es:Q1169008:1:ap:12",
+        "ap_es_text": "La vegetación incluye arbustos.",
+        "similarity": 0.788020670413971
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:23",
+        "ap_en_text": "Beacon Cay is the largest islet in the Bank.",
+        "ap_es_id": "es:Q1169008:1:ap:14",
+        "ap_es_text": "El Cayo Beacon es la isleta más grande en el banco.",
+        "similarity": 0.8733760714530945
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:23",
+        "ap_en_text": "Beacon Cay is the largest islet in the Bank.",
+        "ap_es_id": "es:Q1169008:1:ap:10",
+        "ap_es_text": "Ellas son Cayo Beacon (Beacon Cay)",
+        "similarity": 0.7342098951339722
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:24",
+        "ap_en_text": "It is overbuilt with small military facilities.",
+        "ap_es_id": "es:Q1169008:1:ap:16",
+        "ap_es_text": "Tiene algunas instalaciones militares.",
+        "similarity": 0.8053164482116699
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:25",
+        "ap_en_text": "Small military facilities house a small rotating garrison of Colombian naval personnel.",
+        "ap_es_id": "es:Q1169008:1:ap:18",
+        "ap_es_text": "La base está actualmente habitada por infantes de marina de la Armada Nacional de Colombia.",
+        "similarity": 0.7152210474014282
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:26",
+        "ap_en_text": "There is a lighthouse on a coral ledge.",
+        "ap_es_id": "es:Q1169008:1:ap:20",
+        "ap_es_text": "El faro se encuentra deshabitado.",
+        "similarity": 0.7911945581436157
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:26",
+        "ap_en_text": "There is a lighthouse on a coral ledge.",
+        "ap_es_id": "es:Q1169008:1:ap:19",
+        "ap_es_text": "Hay un faro que tiene 33 m de alto.",
+        "similarity": 0.7445135116577148
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:28",
+        "ap_en_text": "It is a 33-metre tall skeletal tower.",
+        "ap_es_id": "es:Q1169008:1:ap:19",
+        "ap_es_text": "Hay un faro que tiene 33 m de alto.",
+        "similarity": 0.7351036071777344
+    },
+    {
+        "section_pair_id": "en:Q1169008:1+es:Q1169008:1+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:1:ap:35",
+        "ap_en_text": "The Colombian National Navy maintains it currently.",
+        "ap_es_id": "es:Q1169008:1:ap:18",
+        "ap_es_text": "La base está actualmente habitada por infantes de marina de la Armada Nacional de Colombia.",
+        "similarity": 0.7317031621932983
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:0",
+        "ap_en_text": "The Serranilla Bank was first identified by the Spanish name Placer de la Serranilla.",
+        "ap_es_id": "es:Q1169008:2:ap:0",
+        "ap_es_text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla.",
+        "similarity": 0.7757376432418823
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:11",
+        "ap_en_text": "Isla Serrana was originally called La Serranna.",
+        "ap_es_id": "es:Q1169008:2:ap:0",
+        "ap_es_text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla.",
+        "similarity": 0.74806147813797
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:20",
+        "ap_en_text": "Aury mentioned the bank in a naval log or report.",
+        "ap_es_id": "es:Q1169008:2:ap:1",
+        "ap_es_text": "Louis-Michel Aury mencionó el banco Serranilla.",
+        "similarity": 0.7522497177124023
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:23",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.9272420406341553
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:23",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:5",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8503385782241821
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:23",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:4",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.7670860290527344
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:23",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:6",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.7352617383003235
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:24",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:4",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.9282675385475159
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:24",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:6",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8720727562904358
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:24",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be separated from the Captaincy General of Guatemala.",
+        "ap_es_id": "es:Q1169008:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.77272629737854
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:25",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés and the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1169008:2:ap:5",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8770023584365845
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:25",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés and the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1169008:2:ap:3",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.8484556078910828
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:25",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés and the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1169008:2:ap:6",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "similarity": 0.8465015888214111
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:25",
+        "ap_en_text": "The Royal Decree of November 20, 1803, resolved that the Archipelago of San Andrés and the part of Mosquitia between Cabo Gracias a Dios and the Chagres River be placed under the jurisdiction of the Viceroyalty of New Granada.",
+        "ap_es_id": "es:Q1169008:2:ap:4",
+        "ap_es_text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "similarity": 0.780529260635376
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:26",
+        "ap_en_text": "Colombia secured sovereignty over the islands.",
+        "ap_es_id": "es:Q1169008:2:ap:7",
+        "ap_es_text": "Colombia aseguró la soberanía de las islas.",
+        "similarity": 0.9484045505523682
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:26",
+        "ap_en_text": "Colombia secured sovereignty over the islands.",
+        "ap_es_id": "es:Q1169008:2:ap:31",
+        "ap_es_text": "El Tratado Esguerra-Bárcenas reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés.",
+        "similarity": 0.7485010623931885
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:26",
+        "ap_en_text": "Colombia secured sovereignty over the islands.",
+        "ap_es_id": "es:Q1169008:2:ap:50",
+        "ap_es_text": "La corte de La Haya encontró unánimemente que la República de Colombia tiene soberanía sobre Serranilla.",
+        "similarity": 0.7286940813064575
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:26",
+        "ap_en_text": "Colombia secured sovereignty over the islands.",
+        "ap_es_id": "es:Q1169008:2:ap:18",
+        "ap_es_text": "El Tratado Sanín-Robertson de Delimitación Marítima reconoce la soberanía colombiana sobre los cayos del banco Serranilla.",
+        "similarity": 0.7272833585739136
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:27",
+        "ap_en_text": "The islands subscribed to the Constitution of Cúcuta in June 1822.",
+        "ap_es_id": "es:Q1169008:2:ap:8",
+        "ap_es_text": "Las islas se suscribieron a la Constitución de Cúcuta en junio de 1822.",
+        "similarity": 0.9998961687088013
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:36",
+        "ap_en_text": "The treaty established a 'Joint Regime Area' to cooperatively manage and exploit living and non-living resources in designated waters between the two banks.",
+        "ap_es_id": "es:Q1169008:2:ap:20",
+        "ap_es_text": "Este tratado estableció una zona marítima de administración conjunta más allá de este entorno.",
+        "similarity": 0.7545432448387146
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:36",
+        "ap_en_text": "The treaty established a 'Joint Regime Area' to cooperatively manage and exploit living and non-living resources in designated waters between the two banks.",
+        "ap_es_id": "es:Q1169008:2:ap:22",
+        "ap_es_text": "La zona marítima de administración conjunta incluye control, exploración y explotación de los recursos vivos y no vivos.",
+        "similarity": 0.7528489232063293
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:36",
+        "ap_en_text": "The treaty established a 'Joint Regime Area' to cooperatively manage and exploit living and non-living resources in designated waters between the two banks.",
+        "ap_es_id": "es:Q1169008:2:ap:21",
+        "ap_es_text": "La zona marítima de administración conjunta se denomina Área de Régimen Conjunto.",
+        "similarity": 0.7206102013587952
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:40",
+        "ap_en_text": "Nicaragua formerly claimed all the islands on its continental shelf.",
+        "ap_es_id": "es:Q1169008:2:ap:38",
+        "ap_es_text": "Nicaragua reclamó la soberanía sobre el archipiélago de San Andrés.",
+        "similarity": 0.8248251676559448
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:42",
+        "ap_en_text": "The islands included in Nicaragua's claim were the Serranilla Bank and all islands associated with the San Andrés and Providencia archipelagoes.",
+        "ap_es_id": "es:Q1169008:2:ap:38",
+        "ap_es_text": "Nicaragua reclamó la soberanía sobre el archipiélago de San Andrés.",
+        "similarity": 0.8027923703193665
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:43",
+        "ap_en_text": "It pursued this claim against Colombia in the International Court of Justice (ICJ).",
+        "ap_es_id": "es:Q1169008:2:ap:43",
+        "ap_es_text": "El 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya.",
+        "similarity": 0.7388923764228821
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:44",
+        "ap_en_text": "It filed a case in 2001 against Colombia in the International Court of Justice (ICJ).",
+        "ap_es_id": "es:Q1169008:2:ap:43",
+        "ap_es_text": "El 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya.",
+        "similarity": 0.810058057308197
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:45",
+        "ap_en_text": "It filed a case in 2007 against Colombia in the International Court of Justice (ICJ).",
+        "ap_es_id": "es:Q1169008:2:ap:43",
+        "ap_es_text": "El 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya.",
+        "similarity": 0.7705197930335999
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:46",
+        "ap_en_text": "Nicaragua accepted the ICJ's 2012 ruling of Colombian sovereignty.",
+        "ap_es_id": "es:Q1169008:2:ap:48",
+        "ap_es_text": "El 19 de noviembre de 2012 la corte de La Haya emitió el fallo que concedió aguas jurisdiccionales a Nicaragua.",
+        "similarity": 0.7251219749450684
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:48",
+        "ap_en_text": "The United States made a claim in 1879.",
+        "ap_es_id": "es:Q1169008:2:ap:9",
+        "ap_es_text": "Los Estados Unidos reclamó el banco el 8 de septiembre de 1879.",
+        "similarity": 0.7745762467384338
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:48",
+        "ap_en_text": "The United States made a claim in 1879.",
+        "ap_es_id": "es:Q1169008:2:ap:10",
+        "ap_es_text": "Los Estados Unidos reclamó el banco el 13 de septiembre de 1880.",
+        "similarity": 0.726054310798645
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:49",
+        "ap_en_text": "The United States made a claim in 1880.",
+        "ap_es_id": "es:Q1169008:2:ap:10",
+        "ap_es_text": "Los Estados Unidos reclamó el banco el 13 de septiembre de 1880.",
+        "similarity": 0.7701166272163391
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:49",
+        "ap_en_text": "The United States made a claim in 1880.",
+        "ap_es_id": "es:Q1169008:2:ap:9",
+        "ap_es_text": "Los Estados Unidos reclamó el banco el 8 de septiembre de 1879.",
+        "similarity": 0.7100895047187805
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:56",
+        "ap_en_text": "There is no specific mention of the feature in the treaty.",
+        "ap_es_id": "es:Q1169008:2:ap:15",
+        "ap_es_text": "Serranilla no está mencionada en el Tratado Vázquez-Saccio de 1972.",
+        "similarity": 0.7295552492141724
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:59",
+        "ap_en_text": "Honduras claimed Serranilla Bank as part of its national territory.",
+        "ap_es_id": "es:Q1169008:2:ap:29",
+        "ap_es_text": "La Constitución de Honduras menciona la soberanía del país sobre el Banco Serranilla.",
+        "similarity": 0.8281089663505554
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:61",
+        "ap_en_text": "In 1986, a maritime boundary demarcation was agreed upon with Colombia.",
+        "ap_es_id": "es:Q1169008:2:ap:24",
+        "ap_es_text": "El Tratado de Delimitación Marítima entre Colombia y Honduras fue firmado el 2 de agosto de 1986.",
+        "similarity": 0.7582439184188843
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:62",
+        "ap_en_text": "The maritime boundary demarcation excluded Honduras from any control over the bank or its surrounding waters.",
+        "ap_es_id": "es:Q1169008:2:ap:27",
+        "ap_es_text": "Ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla.",
+        "similarity": 0.7707703113555908
+    },
+    {
+        "section_pair_id": "en:Q1169008:2+es:Q1169008:2+Best Sentence Median",
+        "ap_en_id": "en:Q1169008:2:ap:65",
+        "ap_en_text": "Nicaragua disputed Honduras' legal right to hand over these areas before the ICJ.",
+        "ap_es_id": "es:Q1169008:2:ap:38",
+        "ap_es_text": "Nicaragua reclamó la soberanía sobre el archipiélago de San Andrés.",
+        "similarity": 0.7136620879173279
+    }
+]

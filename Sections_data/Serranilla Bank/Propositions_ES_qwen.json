@@ -1,0 +1,642 @@
+[
+    {
+        "proposition_id": "es:Q1169008:0:ap:0",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La isla Serranilla es un placer del mar Caribe.",
+        "source_text": "La isla Serranilla o el banco Serranilla es un placer del mar Caribe que se localiza a 15°50′N 79°50′O ﻿ / ﻿ 15.833, -79.833 ."
+    },
+    {
+        "proposition_id": "es:Q1169008:0:ap:1",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La isla Serranilla se localiza a 15°50′N 79°50′O.",
+        "source_text": "La isla Serranilla o el banco Serranilla es un placer del mar Caribe que se localiza a 15°50′N 79°50′O ﻿ / ﻿ 15.833, -79.833 ."
+    },
+    {
+        "proposition_id": "es:Q1169008:0:ap:2",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La isla Serranilla se localiza a 15.833, -79.833 .",
+        "source_text": "La isla Serranilla o el banco Serranilla es un placer del mar Caribe que se localiza a 15°50′N 79°50′O ﻿ / ﻿ 15.833, -79.833 ."
+    },
+    {
+        "proposition_id": "es:Q1169008:0:ap:3",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Este territorio forma parte oficial del departamento colombiano del Archipiélago de San Andrés, Providencia y Santa Catalina.",
+        "source_text": "Este pequeño territorio forma de manera oficial parte del departamento colombiano del Archipiélago de San Andrés, Providencia y Santa Catalina ."
+    },
+    {
+        "proposition_id": "es:Q1169008:0:ap:4",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Corte Internacional de Justicia de La Haya emitió un fallo el 19 de noviembre de 2012.",
+        "source_text": "La soberanía de Colombia sobre Serranilla fue ratificada expresamente y oficial  en el fallo del 19 de noviembre de 2012 de la Corte Internacional de Justicia de La Haya ."
+    },
+    {
+        "proposition_id": "es:Q1169008:0:ap:5",
+        "section_id": "es:Q1169008:0",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El fallo de la Corte Internacional de Justicia de La Haya del 19 de noviembre de 2012 ratificó la soberanía de Colombia sobre Serranilla.",
+        "source_text": "La soberanía de Colombia sobre Serranilla fue ratificada expresamente y oficial  en el fallo del 19 de noviembre de 2012 de la Corte Internacional de Justicia de La Haya ."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:0",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Banco Serranilla es un antiguo atolón.",
+        "source_text": "El Banco Serranilla es un antiguo atolón ."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:1",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Tiene cerca de 40 km de largo.",
+        "source_text": "Tiene cerca de 40 km de largo y 32 km de ancho, con un área de 1200 km², casi enteramente de agua."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:2",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Tiene 32 km de ancho.",
+        "source_text": "Tiene cerca de 40 km de largo y 32 km de ancho, con un área de 1200 km², casi enteramente de agua."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:3",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Tiene un área de 1200 km².",
+        "source_text": "Tiene cerca de 40 km de largo y 32 km de ancho, con un área de 1200 km², casi enteramente de agua."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:4",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Casi enteramente de agua.",
+        "source_text": "Tiene cerca de 40 km de largo y 32 km de ancho, con un área de 1200 km², casi enteramente de agua."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:5",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Varios cayos muy pequeños emergen de las aguas.",
+        "source_text": "Varios cayos muy pequeños emergen de las aguas para formar las islas del banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:6",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Los cayos forman las islas del banco.",
+        "source_text": "Varios cayos muy pequeños emergen de las aguas para formar las islas del banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:7",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Ellas son West Breaker",
+        "source_text": "Ellas son West Breaker, Cayo Medio (Middle Cay), Cayo Este (East Cay) y Cayo Beacon (Beacon Cay)."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:8",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Ellas son Cayo Medio (Middle Cay)",
+        "source_text": "Ellas son West Breaker, Cayo Medio (Middle Cay), Cayo Este (East Cay) y Cayo Beacon (Beacon Cay)."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:9",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Ellas son Cayo Este (East Cay)",
+        "source_text": "Ellas son West Breaker, Cayo Medio (Middle Cay), Cayo Este (East Cay) y Cayo Beacon (Beacon Cay)."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:10",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Ellas son Cayo Beacon (Beacon Cay)",
+        "source_text": "Ellas son West Breaker, Cayo Medio (Middle Cay), Cayo Este (East Cay) y Cayo Beacon (Beacon Cay)."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:11",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La vegetación está dispersa.",
+        "source_text": "La vegetación está dispersa con arbustos y algunos árboles."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:12",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La vegetación incluye arbustos.",
+        "source_text": "La vegetación está dispersa con arbustos y algunos árboles."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:13",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La vegetación incluye algunos árboles.",
+        "source_text": "La vegetación está dispersa con arbustos y algunos árboles."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:14",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Cayo Beacon es la isleta más grande en el banco.",
+        "source_text": "El Cayo Beacon es la isleta más grande en el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:15",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Tiene construcciones de casas.",
+        "source_text": "Tiene construcciones de casas y algunas instalaciones militares, que fueron usadas por marines estadounidenses durante la crisis de los misiles de Cuba en 1962."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:16",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Tiene algunas instalaciones militares.",
+        "source_text": "Tiene construcciones de casas y algunas instalaciones militares, que fueron usadas por marines estadounidenses durante la crisis de los misiles de Cuba en 1962."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:17",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Las instalaciones militares fueron usadas por marines estadounidenses durante la crisis de los misiles de Cuba en 1962.",
+        "source_text": "Tiene construcciones de casas y algunas instalaciones militares, que fueron usadas por marines estadounidenses durante la crisis de los misiles de Cuba en 1962."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:18",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La base está actualmente habitada por infantes de marina de la Armada Nacional de Colombia.",
+        "source_text": "La base está actualmente habitada por infantes de marina de la Armada Nacional de Colombia."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:19",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Hay un faro que tiene 33 m de alto.",
+        "source_text": "Hay un faro que tiene 33 m de alto y se encuentra deshabitado."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:20",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El faro se encuentra deshabitado.",
+        "source_text": "Hay un faro que tiene 33 m de alto y se encuentra deshabitado."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:21",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Está operativo desde 1977.",
+        "source_text": "Está operativo desde 1977."
+    },
+    {
+        "proposition_id": "es:Q1169008:1:ap:22",
+        "section_id": "es:Q1169008:1",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "En esta zona se vio el último avistamiento de la foca monje del Caribe en 1952.",
+        "source_text": "En esta zona se vio el último avistamiento de la foca monje del Caribe en 1952."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:0",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla.",
+        "source_text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla ; fue mencionado por Louis-Michel Aury , cuyo barco naufragó en él en 1820."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:1",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Louis-Michel Aury mencionó el banco Serranilla.",
+        "source_text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla ; fue mencionado por Louis-Michel Aury , cuyo barco naufragó en él en 1820."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:2",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El barco de Louis-Michel Aury naufragó en el banco Serranilla en 1820.",
+        "source_text": "El banco Serranilla fue llamado inicialmente Placer de la Serranilla ; fue mencionado por Louis-Michel Aury , cuyo barco naufragó en él en 1820."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:3",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés quedara segregada de la Capitanía general de Guatemala.",
+        "source_text": "​ La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés , así como la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala y dependiera del Virreinato de Nueva Granada ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:4",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala.",
+        "source_text": "​ La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés , así como la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala y dependiera del Virreinato de Nueva Granada ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:5",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés dependiera del Virreinato de Nueva Granada.",
+        "source_text": "​ La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés , así como la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala y dependiera del Virreinato de Nueva Granada ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:6",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Cédula Real del 20 de noviembre de 1803 resolvía que la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres dependiera del Virreinato de Nueva Granada.",
+        "source_text": "​ La Cédula Real del 20 de noviembre de 1803 resolvía que el Archipiélago de San Andrés , así como la parte de Mosquitia entre el cabo Gracias a Dios y el río Chagres quedara segregada de la Capitanía general de Guatemala y dependiera del Virreinato de Nueva Granada ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:7",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Colombia aseguró la soberanía de las islas.",
+        "source_text": "​ Con el advenimiento de las luchas de las colonias hispanoamericanas por su independencia, Colombia aseguró la soberanía de las islas cuando estas se suscribieron a la Constitución de Cúcuta en junio de 1822."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:8",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Las islas se suscribieron a la Constitución de Cúcuta en junio de 1822.",
+        "source_text": "​ Con el advenimiento de las luchas de las colonias hispanoamericanas por su independencia, Colombia aseguró la soberanía de las islas cuando estas se suscribieron a la Constitución de Cúcuta en junio de 1822."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:9",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Los Estados Unidos reclamó el banco el 8 de septiembre de 1879.",
+        "source_text": "​ Los Estados Unidos reclamó el banco el 8 de septiembre de 1879 y luego el 13 de septiembre de 1880, luego de ser aprobada el 18 de agosto de 1856 la Ley de Islas Guaneras ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:10",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Los Estados Unidos reclamó el banco el 13 de septiembre de 1880.",
+        "source_text": "​ Los Estados Unidos reclamó el banco el 8 de septiembre de 1879 y luego el 13 de septiembre de 1880, luego de ser aprobada el 18 de agosto de 1856 la Ley de Islas Guaneras ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:11",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Ley de Islas Guaneras fue aprobada el 18 de agosto de 1856.",
+        "source_text": "​ Los Estados Unidos reclamó el banco el 8 de septiembre de 1879 y luego el 13 de septiembre de 1880, luego de ser aprobada el 18 de agosto de 1856 la Ley de Islas Guaneras ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:12",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Estados Unidos no hizo reclamos expresos sobre Serranilla.",
+        "source_text": "Posteriormente Estados Unidos no hizo reclamos expresos sobre Serranilla ni sobre el ejercicio de soberanía de Colombia en el banco, pero tampoco ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla, que no está mencionada en el Tratado Vázquez-Saccio de 1972 y que figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:13",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Estados Unidos no hizo reclamos expresos sobre el ejercicio de soberanía de Colombia en el banco.",
+        "source_text": "Posteriormente Estados Unidos no hizo reclamos expresos sobre Serranilla ni sobre el ejercicio de soberanía de Colombia en el banco, pero tampoco ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla, que no está mencionada en el Tratado Vázquez-Saccio de 1972 y que figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:14",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Estados Unidos no ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla.",
+        "source_text": "Posteriormente Estados Unidos no hizo reclamos expresos sobre Serranilla ni sobre el ejercicio de soberanía de Colombia en el banco, pero tampoco ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla, que no está mencionada en el Tratado Vázquez-Saccio de 1972 y que figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:15",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Serranilla no está mencionada en el Tratado Vázquez-Saccio de 1972.",
+        "source_text": "Posteriormente Estados Unidos no hizo reclamos expresos sobre Serranilla ni sobre el ejercicio de soberanía de Colombia en el banco, pero tampoco ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla, que no está mencionada en el Tratado Vázquez-Saccio de 1972 y que figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:16",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Serranilla figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado.",
+        "source_text": "Posteriormente Estados Unidos no hizo reclamos expresos sobre Serranilla ni sobre el ejercicio de soberanía de Colombia en el banco, pero tampoco ha hecho reconocimiento expreso de la soberanía colombiana sobre Serranilla, que no está mencionada en el Tratado Vázquez-Saccio de 1972 y que figura en algunas publicaciones oficiales como un territorio no organizado y no incorporado."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:17",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El 13 de noviembre de 1993, Colombia y Jamaica firmaron el Tratado Sanín-Robertson de Delimitación Marítima.",
+        "source_text": "​ El 13 de noviembre de 1993 Colombia y Jamaica firmaron el Tratado Sanín-Robertson de Delimitación Marítima que reconoce la soberanía colombiana sobre los cayos del banco Serranilla y el área marítima comprendida dentro del arco de círculo de 12 millas náuticas alrededor."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:18",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado Sanín-Robertson de Delimitación Marítima reconoce la soberanía colombiana sobre los cayos del banco Serranilla.",
+        "source_text": "​ El 13 de noviembre de 1993 Colombia y Jamaica firmaron el Tratado Sanín-Robertson de Delimitación Marítima que reconoce la soberanía colombiana sobre los cayos del banco Serranilla y el área marítima comprendida dentro del arco de círculo de 12 millas náuticas alrededor."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:19",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado Sanín-Robertson de Delimitación Marítima reconoce la soberanía colombiana sobre el área marítma comprendida dentro del arco de círculo de 12 millas náuticas alrededor.",
+        "source_text": "​ El 13 de noviembre de 1993 Colombia y Jamaica firmaron el Tratado Sanín-Robertson de Delimitación Marítima que reconoce la soberanía colombiana sobre los cayos del banco Serranilla y el área marítima comprendida dentro del arco de círculo de 12 millas náuticas alrededor."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:20",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Este tratado estableció una zona marítima de administración conjunta más allá de este entorno.",
+        "source_text": "Este tratado estableció también más allá de este entorno una zona marítima de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos, denominada Área de Régimen Conjunto."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:21",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La zona marítima de administración conjunta se denomina Área de Régimen Conjunto.",
+        "source_text": "Este tratado estableció también más allá de este entorno una zona marítima de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos, denominada Área de Régimen Conjunto."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:22",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La zona marítima de administración conjunta incluye control, exploración y explotación de los recursos vivos y no vivos.",
+        "source_text": "Este tratado estableció también más allá de este entorno una zona marítima de administración conjunta, control, exploración y explotación de los recursos vivos y no vivos, denominada Área de Régimen Conjunto."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:23",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Constitución de Honduras promulgada el 11 de enero de 1982 mencionó explícitamente su soberanía sobre Serranilla.",
+        "source_text": "​ ​ La Constitución de Honduras promulgada el 11 de enero de 1982 hizo mención explícita de su soberanía sobre Serranilla."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:24",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado de Delimitación Marítima entre Colombia y Honduras fue firmado el 2 de agosto de 1986.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:25",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado de Delimitación Marítima entre Colombia y Honduras se conoce como Tratado Ramírez-López.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:26",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado de Delimitación Marítima entre Colombia y Honduras entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:27",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:28",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado de Delimitación Marítima entre Colombia y Honduras no excluyó a Honduras de algunos islotes situados a más de 12 millas náuticas del banco.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:29",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Constitución de Honduras menciona la soberanía del país sobre el Banco Serranilla.",
+        "source_text": "Sin embargo, desde la firma del Tratado de Delimitación Marítima entre Colombia y Honduras del 2 de agosto de 1986, conocido como Tratado Ramírez-López, que entró en vigor al ser ratificado por Honduras el 20 de diciembre de 1999, ambos países fijaron una línea limítrofe que excluyó a Honduras de todo reclamo sobre el Banco Serranilla, ​ pero no de algunos islotes situados a más de 12 millas náuticas del banco, pese a lo cual sigue existiendo en la Constitución de Honduras la mención de su soberanía sobre el banco."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:30",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:31",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El Tratado Esguerra-Bárcenas reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:32",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La acta de canje de ratificaciones fue suscrita en 1930.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:33",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La acta de canje de ratificaciones fue suscrita por Esguerra e Irías.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:34",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Las islas, islotes y cayos del archipiélago de San Andrés están al oriente del meridiano 82ºW.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:35",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El archipiélago de San Andrés está compuesto por Serranila.",
+        "source_text": "El 24 de marzo de 1928 Colombia y Nicaragua firmaron el Tratado Esguerra-Bárcenas , que reconoció la soberanía colombiana sobre las islas, islotes y cayos del archipiélago de San Andrés que, según el acta de canje de ratificaciones suscrita en 1930 (suscrita por Esguerra e Irías), están al oriente del meridiano 82ºW, como en efecto está Serranila."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:36",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El presidente de Nicaragua Daniel Ortega declaró ante el cuerpo diplomático en Managua el 4 de febrero de 1980 que el tratado era nulo.",
+        "source_text": "​ El presidente de Nicaragua Daniel Ortega declaró ante el cuerpo diplomático en Managua el 4 de febrero de 1980 que el tratado era nulo sobre la base de que Nicaragua estaba en ese tiempo ocupada militarmente por los Estados Unidos y por lo tanto reclamó la soberanía de Nicaragua sobre el archipiélago de San Andrés."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:37",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Nicaragua estaba en ese tiempo ocupada militarmente por los Estados Unidos.",
+        "source_text": "​ El presidente de Nicaragua Daniel Ortega declaró ante el cuerpo diplomático en Managua el 4 de febrero de 1980 que el tratado era nulo sobre la base de que Nicaragua estaba en ese tiempo ocupada militarmente por los Estados Unidos y por lo tanto reclamó la soberanía de Nicaragua sobre el archipiélago de San Andrés."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:38",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Nicaragua reclamó la soberanía sobre el archipiélago de San Andrés.",
+        "source_text": "​ El presidente de Nicaragua Daniel Ortega declaró ante el cuerpo diplomático en Managua el 4 de febrero de 1980 que el tratado era nulo sobre la base de que Nicaragua estaba en ese tiempo ocupada militarmente por los Estados Unidos y por lo tanto reclamó la soberanía de Nicaragua sobre el archipiélago de San Andrés."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:39",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Nicaragua anuló el tratado.",
+        "source_text": "La anulación del tratado por parte de Nicaragua fue considerado por Colombia como un acto unilateral y por ende violatorio de la legislación internacional."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:40",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Colombia consideró la anulación del tratado como un acto unilateral.",
+        "source_text": "La anulación del tratado por parte de Nicaragua fue considerado por Colombia como un acto unilateral y por ende violatorio de la legislación internacional."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:41",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "Colombia consideró la anulación del tratado como un acto violatorio de la legislación internacional.",
+        "source_text": "La anulación del tratado por parte de Nicaragua fue considerado por Colombia como un acto unilateral y por ende violatorio de la legislación internacional."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:42",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "En 1998 el presidente Arnoldo Alemán renunció a un acuerdo bilateral con Colombia.",
+        "source_text": "En 1998 el presidente Arnoldo Alemán renunció a un acuerdo bilateral con Colombia y el 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:43",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya.",
+        "source_text": "En 1998 el presidente Arnoldo Alemán renunció a un acuerdo bilateral con Colombia y el 6 de diciembre de 2001 el país centroamericano demandó el caso ante la Corte Internacional de Justicia de La Haya ."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:44",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Corte de La Haya emitió un fallo el 13 de diciembre de 2007.",
+        "source_text": "La Corte de La Haya emitió un fallo el 13 de diciembre de 2007 sobre las objeciones preliminares de Colombia, declarando válido el tratado de 1928, pero en cambio consideró que no quedó resuelta en ese tratado la delimitación de áreas marinas y submarinas entre los dos países."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:45",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El fallo de la Corte de La Haya se refiere a las objeciones preliminares de Colombia.",
+        "source_text": "La Corte de La Haya emitió un fallo el 13 de diciembre de 2007 sobre las objeciones preliminares de Colombia, declarando válido el tratado de 1928, pero en cambio consideró que no quedó resuelta en ese tratado la delimitación de áreas marinas y submarinas entre los dos países."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:46",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Corte de La Haya declaró válido el tratado de 1928.",
+        "source_text": "La Corte de La Haya emitió un fallo el 13 de diciembre de 2007 sobre las objeciones preliminares de Colombia, declarando válido el tratado de 1928, pero en cambio consideró que no quedó resuelta en ese tratado la delimitación de áreas marinas y submarinas entre los dos países."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:47",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La Corte de La Haya consideró que no quedó resuelta en el tratado de 1928 la delimitación de áreas marinas y submarinas entre los dos países.",
+        "source_text": "La Corte de La Haya emitió un fallo el 13 de diciembre de 2007 sobre las objeciones preliminares de Colombia, declarando válido el tratado de 1928, pero en cambio consideró que no quedó resuelta en ese tratado la delimitación de áreas marinas y submarinas entre los dos países."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:48",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "El 19 de noviembre de 2012 la corte de La Haya emitió el fallo que concedió aguas jurisdiccionales a Nicaragua.",
+        "source_text": "​ El 19 de noviembre de 2012 la corte de La Haya emitió el fallo que concedió aguas jurisdiccionales a Nicaragua, pero rechazó los reclamos nicaragüenses a los cayos e islas y encontró unánimemente que la República de Colombia tiene soberanía sobre Serranilla."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:49",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La corte de La Haya rechazó los reclamos nicaragüenses a los cayos e islas.",
+        "source_text": "​ El 19 de noviembre de 2012 la corte de La Haya emitió el fallo que concedió aguas jurisdiccionales a Nicaragua, pero rechazó los reclamos nicaragüenses a los cayos e islas y encontró unánimemente que la República de Colombia tiene soberanía sobre Serranilla."
+    },
+    {
+        "proposition_id": "es:Q1169008:2:ap:50",
+        "section_id": "es:Q1169008:2",
+        "article_id": "es:Q1169008",
+        "language": "es",
+        "text": "La corte de La Haya encontró unánimemente que la República de Colombia tiene soberanía sobre Serranilla.",
+        "source_text": "​ El 19 de noviembre de 2012 la corte de La Haya emitió el fallo que concedió aguas jurisdiccionales a Nicaragua, pero rechazó los reclamos nicaragüenses a los cayos e islas y encontró unánimemente que la República de Colombia tiene soberanía sobre Serranilla."
+    }
+]
