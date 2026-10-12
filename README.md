@@ -42,31 +42,23 @@ study omission, contradiction and framing, keeping these measures separate.
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python main.py --plan
-python main.py --config configs/example.json --check
+
+```
+
 We will update this repository as we continue upgrading our project.
 
 
-How to use 
+How to use:
 
-```python
+- run main.py to get the LLM-based metrics. This gives:
+    - Omission from language A -> B
+    - Omission from language B -> A
+    - Contradiction between language versions
+    - F_ag: differences in agency framing
+    - F_la: differences in langage framing
+    - F_ca: differences in causality framing
+ 
 
-from extract_qids import extract_qids
+- run run_contropedia_pipeline.py to get the controversy scores. This gives editorial-conflict controversy of articles in PAIRS variable (one per language version).
 
-# English, in memory only
-data_en = extract_qids("en", "Falkland_Islands", verbose=False)
-
-# Spanish, write to disk
-data_es = extract_qids("es", "Islas_Malvinas_(territorio_británico_de_ultramar)",
-                       output_path="islas_malvinas_annotated.json")
-
-# Loop over a list
-articles = [
-    ("en", "Falkland_Islands"),
-    ("es", "Islas_Malvinas_(territorio_británico_de_ultramar)"),
-    ("en", "Gibraltar"),
-]
-for lang, title in articles:
-    extract_qids(lang, title, output_path=f"{title.lower()}_annotated.json")
-
-```
+Now you have all the scores available from our project.
