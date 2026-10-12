@@ -10,14 +10,14 @@ D(R_i)  = sentences of R_{i-1} that have a substantive, disagreeing edit in R_i
 w(S)    = number of distinct linked entities (QIDs) in the edited sentence.
 
 Design choices (A3 B1 C1 D3 E2 F2 G1):
-  A3  fetch once from the Wikipedia API into a local cache, then everything is local
-  B1  full vandalism rules of the paper (comment, anti-vandal bots, IP revert < 60 s,
+  -  fetch once from the Wikipedia API into a local cache, then everything is local
+  -  full vandalism rules of the paper (comment, anti-vandal bots, IP revert < 60 s,
       automatic blank/replace summaries); reverts are detected by SHA1 equality
-  C1  regex sentence splitter (links, templates, refs protected/stripped)
-  D3  links of a replaced sentence = union(old, new); of a deleted sentence = old only
-  E2  word-level check on replaced pairs: pure insertions inside a sentence are discarded
-  F2  w(S) counts distinct QIDs
-  G1  titles -> QIDs through the API (redirects resolved), red links dropped
+  -  regex sentence splitter (links, templates, refs protected/stripped)
+  -  links of a replaced sentence = union(old, new); of a deleted sentence = old only
+  -  word-level check on replaced pairs: pure insertions inside a sentence are discarded
+  -  w(S) counts distinct QIDs
+  -  titles -> QIDs through the API (redirects resolved), red links dropped
 
 Interpretation note: a revision flagged as vandalism or as a vandalism revert still
 advances the baseline text (so that the next diff is against the true previous state)
@@ -26,11 +26,11 @@ but emits no events.
 Usage:
   python contropedia_qid.py fetch "en:Falkland Islands" "es:Islas Malvinas (territorio británico de ultramar)" \
          --user-agent "my-project/0.1 (me@univ.fr)"
-  python contropedia_qid.py score "en:Falkland Islands" --out-dir results --user-agent "my-project/0.1 (marina.hornero-merino@universite-paris-saclay.fr)"
+  python contropedia_qid.py score "en:Falkland Islands" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
 
 Optional last step, section-level scores for the CURRENT version (one JSON per article,
 same order as the articles, as produced by extract_qids):
-  python controversy_qid_with_sections_simple.py score "es:Islas Malvinas (territorio británico de ultramar)" --annotated "Islas_Malvinas_(territorio_británico_de_ultramar).json" --out-dir results --user-agent "my-project/0.1 (marina.hornero-merino@universite-paris-saclay.fr)"
+  python controversy_qid_with_sections_simple.py score "es:Islas Malvinas (territorio británico de ultramar)" --annotated "Islas_Malvinas_(territorio_británico_de_ultramar).json" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
   Each QID's full-history score C(q) is split over the sections of the JSON in proportion to
   how many times the QID is mentioned in each section (JSON spans). A section's score is the
   sum of its shares. QIDs that are not in the current version are not distributed: they keep
@@ -80,7 +80,7 @@ except ImportError:  # pragma: no cover
 
 
 # --------------------------------------------------------------------------- #
-# Configuration (extend freely)
+# Configuration (extend freely): here are all the vandalism bots that are normally known in Wikipedia.
 # --------------------------------------------------------------------------- #
 BOTS = {  # anti-vandalism bots, lower-case
     "cluebot ng", "cluebot", "xlinkbot", "antivandalbot", "voabot ii",
@@ -224,7 +224,7 @@ def fetch_article(spec: str, cache_dir: str, ua: str) -> str:
 
 
 # --------------------------------------------------------------------------- #
-# Pass 1: revision filtering (collapse + vandalism, B1)
+# Pass 1: revision filtering (collapse + vandalism)
 # --------------------------------------------------------------------------- #
 _SECTION_PREFIX = re.compile(r"^/\*.*?\*/\s*")
 
@@ -271,7 +271,7 @@ def flag_revisions(meta: list[dict]) -> tuple[list[bool], list[bool]]:
 
 
 # --------------------------------------------------------------------------- #
-# Wikitext processing (C1)
+# Wikitext processing
 # --------------------------------------------------------------------------- #
 _HEAD = re.compile(r"^(={2,6})[ \t]*([^=\n][^\n]*?)[ \t]*\1[ \t]*$", re.M)
 _COMMENT = re.compile(r"<!--.*?-->", re.S)
@@ -509,7 +509,7 @@ def score_article(meta_p: str, text_p: str) -> dict:
 
 
 # --------------------------------------------------------------------------- #
-# Title -> QID resolution (G1)
+# Title -> QID resolution
 # --------------------------------------------------------------------------- #
 def resolve_titles(titles: set[str], lang: str, ua: str, cache_dir: str, workers: int = 3) -> dict:
     cache_p = os.path.join(cache_dir, f"titles_{lang}.json")
