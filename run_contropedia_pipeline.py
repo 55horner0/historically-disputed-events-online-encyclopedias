@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Workflow for the 9 article pairs (en + es):
+This needs both extract_qids.py and controversy_qid_with_sections_simple.py
+The articles which we want to extract are defined in the PAIRS variable.
 
+Workflow for the 9 article pairs (en + es):
   1. extract  extract_qids.py            -> annotated/<name>.json   (sections, QIDs, aliases)
   2. fetch    controversy_qid_with_sections_simple.py fetch   -> cache/   (full histories)
   3. score    controversy_qid_with_sections_simple.py score   -> results/<name>.sections.csv
