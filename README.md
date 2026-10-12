@@ -50,7 +50,7 @@ We will update this repository as we continue upgrading our project.
 
 How to use:
 
-- run main.py to get the LLM-based metrics. This gives:
+- run main.py to get the LLM-based metrics. Modify the articles in PAIRS variable to the ones you want to measure divergence on. This gives:
     - Omission from language A -> B
     - Omission from language B -> A
     - Contradiction between language versions
@@ -59,6 +59,6 @@ How to use:
     - F_ca: differences in causality framing
  
 
-- run run_contropedia_pipeline.py to get the controversy scores. This gives editorial-conflict controversy of articles in PAIRS variable (one per language version).
+- run run_contropedia_pipeline.py to get the controversy scores. This gives editorial-conflict controversy of articles in PAIRS variable (one per language version). You may modify the links of these articles as well to the ones you wish to analyze.
 
 Now you have all the scores available from our project.
