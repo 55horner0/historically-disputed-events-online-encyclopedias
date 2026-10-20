@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This needs both extract_qids.py and controversy_qid_with_sections_simple.py
+This needs both utilities/extract_qids.py and
+scripts/controversy_qid_with_sections_simple.py.
 The articles which we want to extract are defined in the PAIRS variable.
 
 Workflow for the 9 article pairs (en + es):
@@ -11,13 +12,12 @@ Workflow for the 9 article pairs (en + es):
                                                                  results/<name>.events.csv
   4. combine  all section tables in one file                  -> results/all_sections.csv
 
-Put this file in the same folder as extract_qids.py and
-controversy_qid_with_sections_simple.py, then run:
+Run this script from the repository root:
 
-    python run_workflow.py                      # everything (fetching big histories takes a while)
-    python run_workflow.py --steps score combine   # re-run only some steps
-    python run_workflow.py --only 1 2           # only pairs 1 and 2
-    python run_workflow.py --force-extract      # rebuild the JSONs
+    python scripts/run_contropedia_pipeline.py                      # everything
+    python scripts/run_contropedia_pipeline.py --steps score combine
+    python scripts/run_contropedia_pipeline.py --only 1 2
+    python scripts/run_contropedia_pipeline.py --force-extract
 
 Every step can be re-run: JSONs are skipped if they exist, history downloads resume,
 and Wikidata lookups are cached.
@@ -34,6 +34,8 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 HERE = Path(__file__).resolve().parent
+PROJECT_ROOT = HERE.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 SCORER = "controversy_qid_with_sections_simple"      # name of your scoring file (no .py)
 
 PAIRS = [

@@ -24,13 +24,13 @@ advances the baseline text (so that the next diff is against the true previous s
 but emits no events.
 
 Usage:
-  python contropedia_qid.py fetch "en:Falkland Islands" "es:Islas Malvinas (territorio británico de ultramar)" \
+  python scripts/controversy_qid_with_sections_simple.py fetch "en:Falkland Islands" "es:Islas Malvinas (territorio británico de ultramar)" \
          --user-agent "my-project/0.1 (me@univ.fr)"
-  python contropedia_qid.py score "en:Falkland Islands" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
+  python scripts/controversy_qid_with_sections_simple.py score "en:Falkland Islands" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
 
 Optional last step, section-level scores for the CURRENT version (one JSON per article,
 same order as the articles, as produced by extract_qids):
-  python controversy_qid_with_sections_simple.py score "es:Islas Malvinas (territorio británico de ultramar)" --annotated "Islas_Malvinas_(territorio_británico_de_ultramar).json" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
+  python scripts/controversy_qid_with_sections_simple.py score "es:Islas Malvinas (territorio británico de ultramar)" --annotated "Islas_Malvinas_(territorio_británico_de_ultramar).json" --out-dir results --user-agent "my-project/0.1 (me@email.com)"
   Each QID's full-history score C(q) is split over the sections of the JSON in proportion to
   how many times the QID is mentioned in each section (JSON spans). A section's score is the
   sum of its shares. QIDs that are not in the current version are not distributed: they keep

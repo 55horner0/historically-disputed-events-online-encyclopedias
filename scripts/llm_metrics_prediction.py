@@ -17,7 +17,7 @@
 - For CUDA inference, install llama-cpp-python with CUDA support.
 
 - How to use:
-python llm_metrics_prediction.py \
+python scripts/llm_metrics_prediction.py \
   --input "equivalent_aps_qwen.json" \
   --model "/path/Qwen3-8B-Q4_K_M.gguf" \
   --output "/path/predictions.csv" \

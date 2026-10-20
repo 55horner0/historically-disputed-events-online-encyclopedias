@@ -17,9 +17,7 @@ from pathlib import Path
 from huggingface_hub import hf_hub_download
 from llama_cpp import Llama
 from IPython.display import display
-import llm_metrics_prediction as metrics_llm
-
-
+from scripts import llm_metrics_prediction as metrics_llm
 
 # download the model propositioner
 qwen_model = load_Qwen3_8B_via_llama_cpp()
